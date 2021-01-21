@@ -941,6 +941,7 @@ def main():
     # file_path = '/u/scr/xlisali/contrast_LM/data_api/dataset/temp_matching_test.txt'
 
     if args.control_dataless == 'yes' or args.task_mode == 'dataless':
+        assert False
         # when we are doing dataless training.
         device = gpt2.device
         print(device, model.device)
@@ -1012,6 +1013,7 @@ def main():
         return
 
     elif args.control_dataless == 'yes'  and args.task_mode == 'embMatch':
+        assert False
         print('should be here, ')
         # file_path = '/u/scr/xlisali/contrast_LM/data_api/dataset/matching_test_5.txt'
         file_path = '/u/scr/xlisali/contrast_LM/data_api/dataset/polysemy.txt'
@@ -1021,6 +1023,7 @@ def main():
         print(sent_cleaned_lst)
 
     elif args.task_mode == 'embMatch' and args.control_dataless != 'yes' :
+        assert False
         # file_path = '/u/scr/xlisali/contrast_LM/data_api/dataset/matching_test_5.txt'
         file_path = '/u/scr/xlisali/contrast_LM/data_api/dataset/polysemy.txt'
         prompt_text_lst, emb_match, sent_cleaned_lst = read_doc_for_embmatch(file_path, 1)
@@ -1151,7 +1154,9 @@ def main():
             if ('lowdata' in args.model_name_or_path) or (args.prefixModel_name_or_path is not None and 'lowdata' in args.prefixModel_name_or_path):
                 test_path = '/u/scr/xlisali/e2e_data/src1_valid.txt'
             else:
-                test_path = '/u/scr/xlisali/e2e_data/src1_test.txt'
+                # test_path = '/u/scr/xlisali/e2e_data/src1_valid.txt'
+                # test_path = '/u/scr/xlisali/e2e_data/src1_test.txt'
+                test_path = '/u/scr/xlisali/e2e_data/src1_valid.txt'
 
             print('using the test path ', test_path)
             # test_path = '/u/scr/xlisali/e2e_data/src1_valid.txt'
@@ -1191,10 +1196,13 @@ def main():
         QUICK_CHECK = False
         if args.task_mode == 'webnlg':
             # test_path = "/u/scr/xlisali/WebNLG/webnlg-dataset/release_v2/json/webnlg_release_v2_test.json"
-            test_path = "/u/scr/xlisali/WebNLG/webnlg-dataset/webnlg_challenge_2017/test.json"
+            test_path = "/u/scr/xlisali/WebNLG/webnlg-dataset/webnlg_challenge_2017/val.json"
+            # test_path = "/u/scr/xlisali/WebNLG/webnlg-dataset/webnlg_challenge_2017/test.json"
             prompt_text_dict = read_webnlg_files(test_path, tokenizer)
         elif args.task_mode == 'triples':
-            test_path = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-test.json"
+            # test_path = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-test.json"
+            # test_path = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-test.json"
+            test_path = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-dev.json"
             prompt_text_dict = read_triples_files(test_path, tokenizer)
 
         if QUICK_CHECK:
