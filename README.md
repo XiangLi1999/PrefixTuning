@@ -1,13 +1,13 @@
 # Prefix Tuning
 
-The training and decoding scripts are in transformer/examples/*
+The training and decoding scripts are in transformers/examples/*
 
 
-1. Table-to-text training codes are in transformer/examples/control; the main training script is run_language_modeling.py. 
+1. Table-to-text training codes are in transformers/examples/control; the main training script is run_language_modeling.py. 
 
-2. Table-to-text decoding codes are in transformer/examples/text-generation; the main script is text_generation.py. 
+2. Table-to-text decoding codes are in transformers/examples/text-generation; the main script is text_generation.py. 
 
-3. Summarization training & inference codes are in transformer/examples/seq2seq; the main script is finetuning.py
+3. Summarization training & inference codes are in transformers/examples/seq2seq; the main script is finetuning.py
 
 
 (Some of the file naming is not precise, will revise in later versions)
@@ -15,8 +15,7 @@ The training and decoding scripts are in transformer/examples/*
 The two primary scripts I used to run my codes are `` train_e2e.py`` and ``train_bart.py``.
 
 I use ``train_e2e.py`` (for table-to-text) and ``train_bart.py`` (for summarization) to submit my jobs to the SLURM queue; 
-they are set to default of good hyperparameters, and can be used to tune hyperparameter :) 
-
+they are set to default of good hyperparameters, and can be used to tune hyperparameter :) Note that the path to datasets are specified in these two files.
 To quickly setup and run the code: 
 
 (1) 
@@ -28,14 +27,14 @@ To quickly setup and run the code:
 To train via prefix-tuning:
 
 ```python
-cd transformer/examples/control;
+cd transformers/examples/control; mkdir webnlg_models;
 
 python train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode webnlg --bsz 5 --seed 101
 ```
 
 To decode: 
 ```python
-cd transformer/examples/text-generation;
+cd transformers/examples/text-generation;
 
 python gen.py {data2text/webnlg/triples} yes yes {checkpoint_path} no
 ```
