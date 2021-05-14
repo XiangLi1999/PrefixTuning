@@ -816,7 +816,6 @@ def eval(args, model=None) -> SummarizationModule:
 
     # print(model)
     dataset = Path(args.data_dir).name
-    print('the length penalty is {}'.format(args.length_penalty))
 
     with torch.no_grad():
         model.eval()
@@ -841,11 +840,8 @@ def eval(args, model=None) -> SummarizationModule:
         if k != 'preds':
             print(k, v)
 
-    if args.tuning_mode == 'finetune':
-        out_path = os.path.join(args.model_name_or_path, 'test_beam_{}'.format(args.length_penalty))
-    else:
-        out_path = os.path.join(args.prefixModel_name_or_path, 'test_beam_{}'.format(args.length_penalty))
-    # out_path = args.output_dir
+    out_1 = args.model_name_or_path if args.tuning_mode == 'finetune' else args.prefixModel_name_or_path
+    out_path = os.path.join(out_1, 'test_beam_{}'.format(args.length_penalty))
     print('writing the test results to ', out_path)
     with open(out_path, 'w') as f:
         for preds in result['preds']:
@@ -855,12 +851,6 @@ def eval(args, model=None) -> SummarizationModule:
     for k, v in result.items():
         if k != 'preds':
             print(k, v)
-
-
-    command_eval = "python /u/scr/xlisali/contrast_LM/transformers/examples/text-generation/xsum_results/eval_rouge.py " \
-                   " {}  /u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/lowdata_xsum/xsum_small_test/test.target".format(out_path)
-
-    os.system(command_eval)
     # final evaluation.
     # gold_dir = 'e2e/test_gold.target'
     # os.system("python /u/scr/xlisali/e2e-metrics/measure_scores.py "
@@ -879,19 +869,9 @@ if __name__ == "__main__":
     parser = PrefixSummarizationModule.add_model_specific_args(parser, os.getcwd())
 
     args = parser.parse_args()
-
     pl.seed_everything(args.seed)
-
     if args.do_predict:
         eval(args)
     else:
         main(args)
-        if args.tuning_mode == 'finetune':
-            args.model_name_or_path = os.path.join(args.output_dir,'checkpoint-curr_best')
-            args.eval_batch_size = 5
-        else:
-            args.prefixModel_name_or_path = os.path.join(args.output_dir,'checkpoint-curr_best')
-            args.eval_batch_size = 10
-        args.data_dir = 'lowdata_xsum/xsum_small_test'
-        args.do_train = False
-        eval(args)
+

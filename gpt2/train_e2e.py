@@ -1,5 +1,6 @@
 import os, sys
 import argparse
+from pathlib import Path
 
 # example: python train_run.py keyword temp_keyword _
 if not sys.warnoptions:
@@ -24,9 +25,15 @@ if __name__ == '__main__':
 
     parser.add_argument('--parametrize_emb', type=str, default='MLP', help='')
     parser.add_argument('--adapter_design', type=int, default=1, help='')
+    parser.add_argument('--adapter_bottleneck', type=int, default=100, help='')
+
     parser.add_argument('--top_layers', type=int, default=1, help='')
 
     parser.add_argument('--objective_mode', type=int, default=1, help='')
+
+    parser.add_argument('--init_shallow', type=str, default='no', help='')
+    parser.add_argument('--init_shallow_word', type=str, default='summarize', help='')
+
 
 
     # training parameters.
@@ -48,6 +55,20 @@ if __name__ == '__main__':
     parser.add_argument('--prefix_model_path', type=str, default=None, help='')
     parser.add_argument('--submit', type=str, default='no', help='')
 
+
+    # DISTILLATION
+    parser.add_argument('--distill', type=str, default='no', help='')
+    parser.add_argument('--finetuned_model_path', type=str,
+                        default='/u/scr/xlisali/contrast_LM/transformers/examples/full/full/webnlgfinetune_n_20_act_ca'
+                                't_b=6-e=10_d=0.0_u=no_lr=1e-05_w=0.0_s=101_r=n_m=512_earlystop', help='')
+    parser.add_argument('--matching_objective', type=str, default='kl', help='kl or logits')
+
+    # Added by MX
+    parser.add_argument('--cache_dir', type=str, default='/u/scr/xlisali/contrast_LM/transformers/examples/control', help='cache dir')
+    parser.add_argument('--use_custom_teacher_dropout', type=str, default='no', help='')
+
+
+
     args = parser.parse_args()
 
     assert args.optim_prefix in ['yes', 'no']
@@ -64,7 +85,7 @@ if __name__ == '__main__':
     assert  args.mode in ['data2text', 'triples', 'webnlg', 'writingPrompts', 'cnndm', 'xsum', 'sentiment', 'topic',
                           'classify-sentiment', 'classify-topic']
 
-    assert args.objective_mode in [0, 1]
+    assert args.objective_mode in [0, 1, 2, 3, 4]
     # 0 means the regular token level objective, which is sum / output_len
     # 1 means the sentence level objective, which is sum
     # 2 means our buggy version which is sum/max_batch(input_len +output_len)
@@ -85,12 +106,19 @@ if __name__ == '__main__':
         else:
             args.notes = args.notes + '_l={}'.format(args.top_layers)
 
+    # added by MX
+    if args.tuning_mode == 'finetune':
+        key = f'uctd={args.use_custom_teacher_dropout}'
+        if args.notes is None:
+            args.notes = key
+        else:
+            args.notes = args.notes + f'_{key}'
+
 
     if args.mode == 'data2text':
 
         TRAIN_FILE = "/u/scr/xlisali/e2e_data/src1_train.txt"
         TEST_FILE = "/u/scr/xlisali/e2e_data/src1_valid.txt"
-        # folder_name = 'save_e2e_models_infix/'
         folder_name = 'save_e2e_models_convcheck/'
 
         if args.prefix_mode == 'embedding':
@@ -110,22 +138,8 @@ if __name__ == '__main__':
             _, temp_seed, temp_size = args.notes.split('_')
             TRAIN_FILE = "/juice/u/xlisali/e2e_lowdata/lowdata_{}_{}_train.txt".format(temp_seed, temp_size)
             TEST_FILE = "/juice/u/xlisali/e2e_lowdata/lowdata_{}_{}_valid.txt".format(temp_seed, temp_size)
-            # folder_name = 'e2e_lowdata_models_new/' #100
-            # folder_name = 'e2e_lowdata_models_finetune/'
             folder_name = 'e2e_lowdata_models_prefixtune/' # 50, 200
 
-            if temp_size == '10':
-                pass
-                # args.max_steps = 100
-                # args.eval_steps = 15
-
-            if temp_size == '100':
-                pass
-                # args.max_steps = 300
-                # args.max_steps = 150
-
-                # args.max_steps = 400
-                # args.eval_steps = 50
 
 
             app_special = ' --max_steps {} --eval_steps {} --save_steps -1 ' \
@@ -139,22 +153,29 @@ if __name__ == '__main__':
                                                                       args.warmup_steps, args.lowdata_token)
 
 
-        if args.notes in ['Type', 'near', 'customer', 'food', 'area', 'price']:
-            TRAIN_FILE = "/u/scr/xlisali/e2e_data/missing_{}_cleaned_train_e2e.txt".format(args.notes[:4])
-            TEST_FILE = "/u/scr/xlisali/e2e_data/missing_{}_cleaned_dev_e2e.txt".format(args.notes[:4])
-            folder_name = "compose_control_cleaned/"
+        if args.notes is not None and 'datalevels' in args.notes:
+            # for example, notes = 'datalevels-1-10
+            _, temp_seed, temp_size = args.notes.split('_')
+            TRAIN_FILE = "/juice/u/xlisali/e2e_datalevels/datalevels_{}_{}_train.txt".format(temp_seed, temp_size)
+            TEST_FILE = "/juice/u/xlisali/e2e_datalevels/datalevels_{}_{}_valid.txt".format(temp_seed, temp_size)
+            # folder_name = 'e2e_lowdata_models_new/' #100
+            # folder_name = 'e2e_lowdata_models_finetune/'
+            folder_name = 'e2e_datalevels_models/' # 50, 200
 
-        # if args.notes == 'Type':
-        #     TRAIN_FILE = "/u/scr/xlisali/e2e_data/missing_Type_src1_train.txt"
-        #     TEST_FILE = "/u/scr/xlisali/e2e_data/missing_Type_src1_valid.txt"
-        #     folder_name = "compose_control/"
-        # elif args.notes == 'near':
-        #     TRAIN_FILE = "/u/scr/xlisali/e2e_data/missing_near_src1_train.txt"
-        #     TEST_FILE = "/u/scr/xlisali/e2e_data/missing_near_src1_valid.txt"
-        #     folder_name = "compose_control/"
 
-        print(TRAIN_FILE)
-        print(TEST_FILE)
+
+
+            app_special_levels = ' --eval_steps {} --save_steps -1 ' \
+                          '--evaluate_during_training --per_device_eval_batch_size 32 ' \
+                          '--warmup_steps {} --lowdata_token {} ' \
+                          '--use_lowdata_token {} '.format(args.eval_steps,
+                                                           args.warmup_steps, args.lowdata_token,
+                                                           args.use_lowdata_token)
+
+            args.notes = args.notes + 'ev={}_ws={}_t={}_u={}'.format(args.eval_steps,
+                                                                      args.warmup_steps, args.lowdata_token,
+                                                                      args.use_lowdata_token)
+
 
     elif args.mode == 'triples':
         TRAIN_FILE = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-train.json"
@@ -178,8 +199,6 @@ if __name__ == '__main__':
         folder_name = "wp_models/"
 
     elif args.mode == 'cnndm':
-        # TRAIN_FILE = "/juice/u/xlisali/WritingPrompts/summarization/finished_files/test.txt"
-        # TEST_FILE = "/juice/u/xlisali/WritingPrompts/summarization/finished_files/val.txt"
         TRAIN_FILE = '/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/cnn_dm/train.source'
         TEST_FILE = '/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/cnn_dm/val.source'
 
@@ -211,34 +230,30 @@ if __name__ == '__main__':
         folder_name = "xsum_models/"
         assert args.optim_prefix == 'yes'
 
-    elif args.mode == 'sentiment':
-        TRAIN_FILE = "/u/scr/xlisali/IMDB/train.txt"
-        TEST_FILE = "/u/scr/xlisali/IMDB/dev.txt"
-        folder_name = "sentiment_models/"
-
-    elif args.mode == 'topic':
-        TRAIN_FILE = "/u/scr/xlisali/contrast_LM/transformers/examples/text-classification/glue_data/AG-news/train1.tsv"
-        TEST_FILE = "/u/scr/xlisali/contrast_LM/transformers/examples/text-classification/glue_data/AG-news/dev1.tsv"
-        folder_name = "topic_models/"
-
-    elif args.mode == 'classify-sentiment':
-        TRAIN_FILE = "/u/scr/xlisali/IMDB/train.txt"
-        TEST_FILE = "/u/scr/xlisali/IMDB/dev.txt"
-        folder_name = "classification_models/"
-        assert args.optim_prefix == 'yes'
-
-    elif args.mode == 'classify-topic':
-        TRAIN_FILE = "/u/scr/xlisali/contrast_LM/transformers/examples/text-classification/glue_data/AG-news/train1.tsv"
-        TEST_FILE = "/u/scr/xlisali/contrast_LM/transformers/examples/text-classification/glue_data/AG-news/dev1.tsv"
-        folder_name = "classification_models/"
-        assert args.optim_prefix == 'yes'
-
+    if not os.path.isdir(folder_name):
+        os.mkdir(folder_name)
 
 
 
     batch_size = args.gradient_accumulation_steps * args.bsz
-    # print(args.mode + args.tuning_mode + '_' + args.optim_prefix[:1] + '_' + args.preseqlen)
-    # print('_' + args.prefix_mode[:2] + '_' + args.format_mode[:2] + '_')
+
+    if args.init_shallow == 'yes':
+        if args.notes is not None:
+            args.notes = args.notes + '_s={}_w={}'.format(args.init_shallow, args.init_shallow_word)
+        else:
+            args.notes ='s={}_w={}'.format(args.init_shallow, args.init_shallow_word)
+
+    if args.notes is not None:
+        args.notes = args.notes + '_o={}'.format(args.objective_mode)
+    else:
+        args.notes = 'o={}'.format(args.objective_mode)
+
+
+    if args.distill == 'yes':
+        if args.notes is not None:
+            args.notes = args.notes + f'_distill_o={args.matching_objective}'
+        else:
+            args.notes =f'distill_o={args.matching_objective}'
 
     if args.notes is not None:
         args.notes = args.notes + '_o={}'.format(args.objective_mode)
@@ -281,16 +296,21 @@ if __name__ == '__main__':
         app += ' --parametrize_emb {} '.format(args.parametrize_emb)
 
     if args.tuning_mode == 'adaptertune':
-        app += ' --adapter_design {} '.format(args.adapter_design)
+        app += ' --adapter_design {} --adapter_bottleneck {} '.format(args.adapter_design, args.adapter_bottleneck)
 
     # temp for logging of the evals.
     if args.notes is not None and 'lowdata' in args.notes:
         app += app_special
+    elif args.notes is not None and 'datalevels' in args.notes:
+        app += app_special_levels
     else:
         app += '--evaluate_during_training --eval_steps 5000 '
 
     if OLD_MODEL == 'gpt2-large':
-        app += ' --cache_dir /u/scr/xlisali/contrast_LM/transformers/examples/control/gpt2-large-s3 '
+        app += f' --cache_dir {Path(args.cache_dir) / "gpt2-large-s3"} '
+
+    elif OLD_MODEL == 'gpt2-medium':
+        app += f' --cache_dir {Path(args.cache_dir) / "gpt2-medium-s3"} '
 
     if args.tuning_mode == 'finetune-top':
         app += ' --top_layers {} '.format(args.top_layers)
@@ -302,25 +322,16 @@ if __name__ == '__main__':
     if args.mode == 'cnndm':
         app += cnndm_app
 
+    if args.init_shallow == 'yes':
+        app += ' --init_shallow {} --init_shallow_word {} '.format(args.init_shallow, args.init_shallow_word)
 
 
-    # when we have input-based AND activation level AND infix.
-    # app = "--optim_prefix {} --preseqlen {} --prefix_mode {} --format_mode {} " \
-    #       "--gradient_accumulation_steps 1 ".format('no', 15, 'activation', 'infix')
-    # Try to replicate the best performing version of cat.
-    # app = "--optim_prefix {} --preseqlen {} --prefix_mode {} --format_mode {} " \
-    #       "--gradient_accumulation_steps 1 ".format('no', 15, 'activation', 'cat')
+    if args.distill == 'yes':
+        app += f' --distill {args.distill} --finetuned_model_path {args.finetuned_model_path}  --matching_objective {args.matching_objective}'
 
-    # app = "--optim_prefix {} --preseqlen {} --prefix_mode {} --format_mode {} " \
-    #       "--gradient_accumulation_steps 1 ".format('peek', 15, 'activation', 'cat')
-
-    # We have instruction based AND embedding AND peek.
-    # app = "--optim_prefix {} --preseqlen {} --prefix_mode {} --format_mode {}".format('yes', 20, 'embedding', 'peek')
-
-    # We have instruction based AND activation AND peek.
-    # app = "--optim_prefix {} --preseqlen {} --prefix_mode {} --format_mode {}".format('yes', 15, 'activation', 'peek')
-
-
+    if args.use_custom_teacher_dropout == 'yes':
+        app += f' --use_custom_teacher_dropout {args.use_custom_teacher_dropout}'
+        app += f' --teacher_dropout {args.dropout}'
 
     controlprefix = ('yes' if args.tuning_mode == 'prefixtune' else 'no')
 
@@ -341,7 +352,7 @@ if __name__ == '__main__':
         --overwrite_output_dir \
         --task_mode {} \
         --eval_data_file={}  \
-        --dataless no --tuning_mode {} --logging_dir {} \
+        --tuning_mode {} --logging_dir {} \
         --train_embs no ".format(Model_FILE, OLD_MODEL, OLD_MODEL, args.bsz, args.bsz, args.epoch, TRAIN_FILE, args.mode, TEST_FILE,
                                  args.tuning_mode, logging_dir)
 
@@ -350,6 +361,9 @@ if __name__ == '__main__':
     if load_prefix_model:
         LOAD_TRAIN_PREFIX = '/u/scr/xlisali/contrast_LM/transformers/examples/control/med_topic_gen'
         COMMANDLINE += '--prefixModel_name_or_path {} '.format(LOAD_TRAIN_PREFIX)
+
+
+
 
 
 
@@ -363,7 +377,7 @@ if __name__ == '__main__':
     # #
     elif args.submit == 'yes':
         if args.use_big == 'no':
-            full_command = "nlprun -a lisa-base-torch -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8,jagupard14 \'{}\'".format(Model_FILE, COMMANDLINE)
+            full_command = "nlprun -a lisa-base-torch -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8,jagupard28,jagupard29,jagupard11,jagupard12,jagupard10 \'{}\'".format(Model_FILE, COMMANDLINE)
             if args.mode == 'cnndm':
                 full_command ="nlprun -a lisa-base-torch -r 20GB -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8 \'{}\'".format(Model_FILE, COMMANDLINE)
         elif True:
@@ -377,106 +391,3 @@ if __name__ == '__main__':
         os.system(full_command)
 
 
-
-
-#
-#nlprun -a lisa-base-torch -g 1 --p high -n 5top-finetune -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8,jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard16,jagupard17,jagupard18,jagupard19,jagupard20,jagupard21,jagupard22,jagupard23,jagupard24,jagupard25 '$COMMANDLINE'
-
-#nlprun -a lisa-base-torch -g 1 -n topk-medium-finetune -m jagupard26 '$COMMANDLINE'
-
-
-
-
-
-
-
-
-
-
-################
-# python train_run.py generate topichaha _ 10 no no _
-##############
-# keyword training.
-# python train_run.py keyword keywordhaha _ 10 no no _
-##############
-# Embedding training.
-# python train_run.py embMatch embMatchhaha _ 10 no no _
-##############
-# Selective Classifier training.
-# python train_run.py gen_data topichaha_s _ 10 no no no
-
-##############
-# Finetune keyword training.
-# python train_run.py keyword keywordfinetune _ 1 no no yes
-# python train_run.py embMatch embMatchfinetune _ 10 no no no
-
-
-
-###########
-# FINETUNE Data2Text
-# python train_run.py data2text data2textfinetune _ 10 no no finetune no
-
-# python train_run.py data2text data2textprefixtune10 _ 10 no no prefixtune no
-
-# python train_run.py dataless dataless2 _ 10 yes no prefixtune no
-
-
-###############
-# python train_run.py topic topicprefixtune _ 3 no no prefixtune no
-# python train_run.py topic topicfinetune _ 2 no no finetune no
-
-# python train_run.py keyword keywordfinetune _ 4 no no finetune no
-# python train_run.py keyword keywordprefixtune _ 4 no no prefixtune no
-
-
-###########################
-
-## python train_run.py data2text data2textfinetune-top _ 10 no no finetune-top no
-
-## python train_run.py data2text data2textprefixtune-emb _ 10 no no prefixtune no (cat)
-
-## python train_run.py data2text data2textprefixtune-emb-peek _ 10 no no prefixtune no (peek)
-
-# ## python train_run.py data2text data2textprefixtune-emb-nopeek _ 10 no no prefixtune no (nopeek)
-
-# ## python train_run.py data2text data2textprefixtune-emb-para _ 10 no no prefixtune no (instruction)
-
-## python train_run.py data2text data2textprefixtune15 _ 10 no no prefixtune no (instruction based activation)
-
-# python train_run.py data2text data2textprefixtune-infix-emb-cat2 _ 10 no no prefixtune no (peek)
-# python train_run.py data2text data2textprefixtune-infix-latent-cat2 _ 10 no no prefixtune no
-
-
-###########################
-# python train_run.py data2text data2textprefixtune-no-act-cat-rep _ 10 no no prefixtune no (cat, epoch=6)
-# python train_run.py data2text data2textprefixtune-no-act-cat-rep2 _ 10 no no prefixtune no (cat, epoch=5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #
-    #
-    # if False:
-    #     COMMANDLINE += '--dataless_sample_size {} ' \
-    #                    '--dataless_sample_length {} ' \
-    #                    '--dataless_usebaseline {} ' \
-    #                    '--dataless_control_type {} ' \
-    #                    '--gradient_accumulation_steps 20 ' \
-    #                    '--gumbel {} ' \
-    #                    '--replay_buffer {} ' \
-    #                    '--training_obj {} ' \
-    #                    '--dataless_discri_model_path {}'.format(8, 60, 'yes', 2, 'no', 'yes', 0, 'textattack/roberta-base-imdb') # 2 for sentiment;; 3 for length.
-    #                    # '--dataless_discri_model_path {}'.format(4, 60, 'yes', 2, 'no', 'yes', 0, 'textattack/roberta-base-ag-news')  # 2 for sentiment;; 3 for length.

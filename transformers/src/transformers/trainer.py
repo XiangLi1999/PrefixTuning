@@ -1139,6 +1139,10 @@ class Trainer:
             # print(loss)
             loss.backward()
 
+        # print('max allocated_memory:', torch.cuda.max_memory_allocated(0), 'total_memory:',
+        #       torch.cuda.get_device_properties(0).total_memory,
+        #       'percentage', torch.cuda.max_memory_allocated(0) / torch.cuda.get_device_properties(0).total_memory)
+
         return loss.detach()
 
     def compute_loss(self, model, inputs):
@@ -1394,6 +1398,8 @@ class Trainer:
         eval_losses: List[float] = []
         preds: torch.Tensor = None
         label_ids: torch.Tensor = None
+        entropy_losses: List[float] = []
+        entropy_losses2: List[float] = []
         model.eval()
 
         if is_torch_tpu_available():
@@ -1402,16 +1408,30 @@ class Trainer:
         if self.args.past_index >= 0:
             self._past = None
 
+        prediction_loss_only = False
+
         disable_tqdm = not self.is_local_process_zero() or self.args.disable_tqdm
         for inputs in tqdm(dataloader, desc=description, disable=disable_tqdm):
             loss, logits, labels = self.prediction_step(model, inputs, prediction_loss_only)
             batch_size = inputs[list(inputs.keys())[0]].shape[0]
+            # print(logits, prediction_loss_only)
             if loss is not None:
                 eval_losses.extend([loss] * batch_size)
             if logits is not None:
-                preds = logits if preds is None else nested_concat(preds, logits, dim=0)
+                # preds = logits if preds is None else nested_concat(preds, logits, dim=0)
+                temp_logits = torch.log_softmax(logits, dim=-1)
+                # print(temp_logits.shape)
+                temp_ = (temp_logits.exp() * temp_logits).sum(dim=-1)#.view(-1)
+                entropy_losses.extend(temp_.view(-1).tolist())
+                print(temp_.shape)
+                label_mask = inputs['labels'] != -100
+                temp_ = temp_[label_mask]
+                print(temp_.shape)
+                entropy_losses2.extend(temp_.tolist())
+
             if labels is not None:
-                label_ids = labels if label_ids is None else nested_concat(label_ids, labels, dim=0)
+                pass
+                # label_ids = labels if label_ids is None else nested_concat(label_ids, labels, dim=0)
 
         if self.args.past_index and hasattr(self, "_past"):
             # Clean the state at the end of the evaluation loop
@@ -1456,6 +1476,11 @@ class Trainer:
         for key in list(metrics.keys()):
             if not key.startswith("eval_"):
                 metrics[f"eval_{key}"] = metrics.pop(key)
+
+        if len(entropy_losses) > 0:
+            metrics['entropy'] = np.mean(entropy_losses)
+            metrics['entropy2'] = np.mean(entropy_losses2)
+            print('entropy', metrics['entropy'],  metrics['entropy2'] )
 
         return PredictionOutput(predictions=preds, label_ids=label_ids, metrics=metrics)
 
@@ -1510,9 +1535,10 @@ class Trainer:
         if prediction_loss_only:
             return (loss, None, None)
 
-        logits = tuple(logit.detach() for logit in logits)
-        if len(logits) == 1:
-            logits = logits[0]
+        # logits = tuple(logit.detach() for logit in logits)
+        # if len(logits) == 1:
+        #     logits = logits[0]
+        logits = logits[0]
 
         if has_labels:
             labels = tuple(inputs.get(name).detach() for name in self.args.label_names)

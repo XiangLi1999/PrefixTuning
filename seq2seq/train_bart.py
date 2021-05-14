@@ -29,7 +29,6 @@ if __name__ == '__main__':
     parser.add_argument('--do_train', type=str, default='yes', help='')
 
     parser.add_argument('--fp16', type=str, default='no', help='')
-    parser.add_argument('--length_pen', type=float, default=1.2, help='')
 
 
     # training parameters.
@@ -45,8 +44,12 @@ if __name__ == '__main__':
     parser.add_argument('--learning_rate', type=float, default=5e-05, help='')
     parser.add_argument('--weight_decay', type=float, default=0.0, help='')
     parser.add_argument('--dropout', type=float, default=0.0, help='')
+
+
+    parser.add_argument('--label_smoothing', type=float, default=0.0, help='')
+    parser.add_argument('--length_pen', type=float, default=1.0, help='')
     parser.add_argument('--mid_dim', type=int, default=512, help='')
-    parser.add_argument('--init_random', type=str, default='no', help='')
+    parser.add_argument('--use_deep', type=str, default='no', help='')
 
     parser.add_argument('--prefix_model_path', type=str, default=None, help='')
     parser.add_argument('--finetune_model_path', type=str, default=None, help='')
@@ -65,7 +68,7 @@ if __name__ == '__main__':
     else:
         load_prefix_model = False
 
-    assert  args.mode in ['e2e', 'cnn_dm', 'webnlg', 'triples', 'xsum']
+    assert  args.mode in ['e2e', 'cnn_dm', 'webnlg', 'triples', 'xsum', 'xsum_news', 'xsum_news_sport']
 
 
 
@@ -113,47 +116,23 @@ if __name__ == '__main__':
     elif args.mode == 'xsum':
         data_dir = 'xsum'
         folder_name = "xsum_models/"
+        max_source_length = 1024
+        max_target_length = 60
+        val_max_target_length = 60
+        test_max_target_length = 100
 
-        if args.notes is not None and 'lowdata' in args.notes:
-            _, temp_seed, temp_size = args.notes.split('_')
-            data_dir = 'lowdata_xsum/xsum_{}_{}'.format(temp_size, temp_seed)
-            folder_name = 'xsum_lowdata_prefixtune/'  # 50, 200
+        xsum_app = ' --max_source_length {} --max_target_length {} --val_max_target_length {} ' \
+                    '--test_max_target_length {} '.format(max_source_length, max_target_length,
+                                                         val_max_target_length, test_max_target_length)
 
-            if temp_size == '10':
-                pass
-                # args.max_steps = 100
-                # args.eval_steps = 15
+        if args.fp16 == 'yes':
+            xsum_app += ' --fp16 --fp16_opt_level O1 '
 
-            if temp_size == '100':
-                pass
-                # args.max_steps = 300
-                # args.max_steps = 150
+        assert args.optim_prefix == 'yes'
 
-                # args.max_steps = 400
-                # args.eval_steps = 50
-
-            # app_special = ' --max_steps {} --eval_steps {} --save_steps -1 ' \
-            #               '--evaluate_during_training --per_device_eval_batch_size 32 ' \
-            #               '--warmup_steps {} --lowdata_token {} ' \
-            #               '--use_lowdata_token {} '.format(args.max_steps, args.eval_steps,
-            #                                                args.warmup_steps, args.lowdata_token,
-            #                                                args.use_lowdata_token)
-
-            app_special = '--warmup_steps {} --lowdata_token {} ' \
-                          '--use_lowdata_token {} '.format(args.warmup_steps, args.lowdata_token,
-                                                           args.use_lowdata_token)
-
-            # app_special += '--max_steps {} '.format(args.max_steps)
-
-
-
-            args.notes = args.notes + 'st={}_ev={}_ws={}_t={}'.format(args.max_steps, args.eval_steps,
-                                                                      args.warmup_steps, args.lowdata_token)
-
-
-
-
-
+    elif args.mode == 'xsum_news':
+        data_dir = '/data/xsum_news'
+        folder_name = "/data/xsum_news_models/"
         max_source_length = 512
         max_target_length = 60
         val_max_target_length = 60
@@ -163,13 +142,23 @@ if __name__ == '__main__':
                     '--test_max_target_length {} '.format(max_source_length, max_target_length,
                                                          val_max_target_length, test_max_target_length)
 
-        if args.notes is not None and 'lowdata' in args.notes:
-            xsum_app += app_special
-
         if args.fp16 == 'yes':
             xsum_app += ' --fp16 --fp16_opt_level O1 '
 
-        assert args.optim_prefix == 'yes'
+    elif args.mode == 'xsum_news_sport':
+        data_dir = '/data/xsum_topic-news-sports'
+        folder_name = "/data/xsum_news_sport_models/"
+        max_source_length = 512
+        max_target_length = 60
+        val_max_target_length = 60
+        test_max_target_length = 100
+    
+        xsum_app = ' --max_source_length {} --max_target_length {} --val_max_target_length {} ' \
+                    '--test_max_target_length {} '.format(max_source_length, max_target_length,
+                                                         val_max_target_length, test_max_target_length)
+
+        if args.fp16 == 'yes':
+            xsum_app += ' --fp16 --fp16_opt_level O1 '
 
     elif args.mode == 'sentiment':
         TRAIN_FILE = "/u/scr/xlisali/IMDB/train.txt"
@@ -194,6 +183,10 @@ if __name__ == '__main__':
         assert args.optim_prefix == 'yes'
 
 
+    if not os.path.isdir(folder_name):
+        os.mkdir(folder_name)
+
+
 
 
     batch_size = args.gradient_accumulation_steps * args.bsz
@@ -203,8 +196,8 @@ if __name__ == '__main__':
         Model_FILE = args.mode + args.tuning_mode + '_' + args.optim_prefix[:1] + '_' + str(args.preseqlen) + \
                      '_' + args.prefix_mode[:3] + '_' + args.format_mode[:3] + '_' + \
                      'b={}-'.format(batch_size) + 'e={}_'.format(args.epoch) + 'd={}_'.format(args.dropout) + \
-                     'u={}_'.format(args.use_dropout) + 'lr={}_'.format(args.learning_rate) \
-                     + 'w={}_'.format(args.weight_decay) + 's={}'.format(args.seed) + '_r={}'.format(args.init_random[:1]) +\
+                     'l={}_'.format(args.label_smoothing) + 'lr={}_'.format(args.learning_rate) \
+                     + 'w={}_'.format(args.weight_decay) + 's={}'.format(args.seed) + '_d={}'.format(args.use_deep[:1]) +\
                      '_m={}'.format(args.mid_dim)
     else:
         Model_FILE = dir_name
@@ -237,7 +230,7 @@ if __name__ == '__main__':
     if args.mode == 'cnn_dm':
         app += cnndm_app
 
-    if args.mode == 'xsum':
+    if args.mode == 'xsum' or args.mode == 'xsum_news' or args.mode == 'xsum_news_sport': 
         app += xsum_app
 
 
@@ -261,11 +254,13 @@ if __name__ == '__main__':
                       '--tuning_mode {} ' \
                       '--preseqlen {} ' \
                       '--do_train ' \
+                      '--label_smoothing {} ' \
+                      '--use_deep {} ' \
                       '--gpus 1 ' \
                       '--learning_rate {} ' \
                       '--train_batch_size {} ' \
                       '--eval_batch_size {} ' \
-                      '--num_train_epochs {} '.format(OLD_MODEL, Model_FILE, data_dir, args.tuning_mode, args.preseqlen,
+                      '--num_train_epochs {} '.format(OLD_MODEL, Model_FILE, data_dir, args.tuning_mode, args.preseqlen, args.label_smoothing, args.use_deep,
                                                       args.learning_rate, args.bsz, args.bsz, args.epoch)
     else:
         if args.tuning_mode == 'finetune':
@@ -280,12 +275,14 @@ if __name__ == '__main__':
                           '--tuning_mode {} ' \
                           '--preseqlen {} ' \
                           '--do_predict ' \
+                          '--use_deep {} ' \
                           '--gpus 1 ' \
                           '--train_batch_size {} ' \
                           '--eval_batch_size {} ' \
-                          '--num_train_epochs {} --length_penalty {} '.format(args.finetune_model_path, Model_FILE, data_dir,
-                                                          args.tuning_mode, args.preseqlen,
-                                                          args.bsz, args.bsz, args.epoch, args.length_pen)
+                          '--length_penalty {} ' \
+                          '--num_train_epochs {} '.format(args.finetune_model_path, Model_FILE, data_dir,
+                                                          args.tuning_mode, args.preseqlen,  args.use_deep,
+                                                          10, 10, args.length_pen, args.epoch)
         else:
             assert args.prefix_model_path is not None
             print('loading from the prefix model {}'.format(args.prefix_model_path))
@@ -300,13 +297,15 @@ if __name__ == '__main__':
                           '--tuning_mode {} ' \
                           '--preseqlen {} ' \
                           '--do_predict ' \
+                          '--use_deep {} ' \
                           '--gpus 1 ' \
                           '--train_batch_size {} ' \
                           '--eval_batch_size {} ' \
                           '--seed {} ' \
-                          '--num_train_epochs {} --length_penalty {} '.format(OLD_MODEL, args.prefix_model_path, Model_FILE, data_dir,
-                                                          args.tuning_mode, args.preseqlen,
-                                                          args.bsz, args.bsz, args.seed, args.epoch, args.length_pen)
+                          '--length_penalty {} ' \
+                          '--num_train_epochs {} '.format(OLD_MODEL, args.prefix_model_path, Model_FILE, data_dir,
+                                                          args.tuning_mode, args.preseqlen, args.use_deep,
+                                                          8, 8, args.seed, args.length_pen, args.epoch)
 
 
     # COMMANDLINE="python run_language_modeling.py \
@@ -344,14 +343,20 @@ if __name__ == '__main__':
     # #
     elif args.submit == 'yes':
         if args.use_big == 'no':
-            full_command = "nlprun -a lisa-base-torch -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8 \'{}\'".format(Model_FILE, COMMANDLINE)
-        elif True:
-            full_command = "nlprun -p high -a lisa-base-torch -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8," \
+            full_command = "nlprun -a lisa_apex_latest -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8 \'{}\'".format(Model_FILE, COMMANDLINE)
+        elif args.use_big == 'yes':
+            full_command = "nlprun -p high -a lisa_apex_latest -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8," \
                            "jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard16,jagupard17,jagupard18," \
                            "jagupard19,jagupard20,jagupard21,jagupard22,jagupard23," \
-                           "jagupard24,jagupard25 \'{}\'".format(Model_FILE, COMMANDLINE)
+                           "jagupard24,jagupard25,jagupard28,jagupard29 \'{}\'".format(Model_FILE, COMMANDLINE)
+
+        elif args.use_big == 'yes2':
+            full_command = "nlprun -p high -a lisa_apex_latest2 -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8," \
+                           "jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard16,jagupard17,jagupard18," \
+                           "jagupard19,jagupard20,jagupard21,jagupard22,jagupard23," \
+                           "jagupard24,jagupard25,jagupard26,jagupard27 \'{}\'".format(Model_FILE, COMMANDLINE)
         else:
-            full_command = "nlprun -a lisa-base-torch -m jagupard26 -p high -g 1 -n {} \'{}\'".format(Model_FILE, COMMANDLINE)
+            full_command = "nlprun -a lisa_apex_latest -m jagupard26 -p high -g 1 -n {} \'{}\'".format(Model_FILE, COMMANDLINE)
         print(full_command)
         os.system(full_command)
 

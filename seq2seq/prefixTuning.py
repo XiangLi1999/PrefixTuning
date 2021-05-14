@@ -2,7 +2,6 @@
 import torch
 from transformers import PreTrainedModel, GPT2PreTrainedModel, GPT2Tokenizer, PretrainedBartModel
 from torch import  nn
-from transformers.modeling_bart import shift_tokens_right
 
 
 class PrefixTuning(PretrainedBartModel):
@@ -40,7 +39,7 @@ class PrefixTuning(PretrainedBartModel):
 
         deep_param = self.use_deep
 
-
+        
         if hasattr(config, '_my_arg_tune_mode'):
             self.tuning_mode = config._my_arg_tune_mode
         else:
@@ -188,34 +187,13 @@ class PrefixTuning(PretrainedBartModel):
                     self.preseqlen = len(self.lowdata_token[0])
                     print('IN THE LOW DATA SETTING, UNDER PARAMETRIZATION 1, low_data_init=3, '
                           'preseqlen = {} Unifying with FINETUNE'.format(self.preseqlen))
-
                     self.input_tokens = torch.arange(self.preseqlen).long()
-                    self.wte = nn.Embedding(self.preseqlen, self.n_embd)
+                    self.wte = nn.Embedding(self.preseqlen, config.n_embd)
                     self.control_trans = nn.Sequential(
-                        nn.Linear(self.n_embd, self.mid_dim),
+                        nn.Linear(config.n_embd, self.mid_dim),
                         nn.Tanh(),
-                        nn.Linear(self.mid_dim, self.match_n_layer * 2 * self.n_embd))
-                    if self.use_infix:
-                        self.get_prompt = self.get_prompt_p5_infix
-                    else:
-                        self.get_prompt = self.get_prompt_p5
-
-                    self.use_encoder_prefix = True
-                    self.use_cross_prefix = True
-
-                    if self.use_encoder_prefix:
-                        self.wte_enc = nn.Embedding(self.preseqlen, self.n_embd)
-                        self.control_trans_enc = nn.Sequential(
-                            nn.Linear(self.n_embd, self.mid_dim),
-                            nn.Tanh(),
-                            nn.Linear(self.mid_dim, self.match_n_layer * 2 * self.n_embd))
-
-                    if self.use_cross_prefix:
-                        self.wte2 = nn.Embedding(self.preseqlen, self.n_embd)
-                        self.control_trans2 = nn.Sequential(
-                            nn.Linear(self.n_embd, self.mid_dim),
-                            nn.Tanh(),
-                            nn.Linear(self.mid_dim, self.match_n_layer * 2 * self.n_embd))
+                        nn.Linear(self.mid_dim, config.n_layer * 2 * config.n_embd))
+                    self.get_prompt = self.get_prompt_p5
 
 
 
@@ -358,95 +336,22 @@ class PrefixTuning(PretrainedBartModel):
         return
 
 
-    def get_encoder_output(self, gpt2, temp_input):
-        return gpt2.model.encoder.forward_with_encoder_past(temp_input).past_key_values
-
-
-
-    def lowdata_init_train3(self, gpt2, sample_input, epochs=200): # prev=500
+    def lowdata_init_train3(self, gpt2, sample_input, epochs=500): # prev=500
         self = self.cuda()
         gpt2 = gpt2.cuda()
-        use_encoder_init = True
-        print("NOTE THAT we are USE_ENCODER_INIT={}".format(use_encoder_init))
         with torch.no_grad():
-            pad_token_id = 1
-            src_ids = sample_input.to(gpt2.device)
-            tgt_ids = sample_input.to(gpt2.device)
-            decoder_input_ids = shift_tokens_right(tgt_ids, pad_token_id)
-            print(decoder_input_ids.shape, decoder_input_ids)
+            output = gpt2(sample_input.to(gpt2.device), return_dict=True, use_cache=True)
+            output = output.past_key_values
+            print(len(output), output[0].shape)
+            output = torch.cat(output, dim=0)
 
-            output_self_lst = []
-            for i in range(decoder_input_ids.size(-1)):
-                output = gpt2(src_ids, decoder_input_ids=decoder_input_ids[:, :i+1], use_cache=True,
-                               use_prefix=False, return_dict=True)
-                output = output.past_key_values
-                self_full_val = torch.cat([ll['self']['prev_value'] for ll in output])
-                self_full_key = torch.cat([ll['self']['prev_key'] for ll in output])
-                self_full = torch.cat([self_full_val, self_full_key])
-                output_self_lst.append(self_full)
-
-            self_full = torch.cat(output_self_lst, dim=2)
-            print(self_full.shape)
-
-
-            # output = gpt2(src_ids, decoder_input_ids=decoder_input_ids, use_cache=True,
-            #               use_prefix=False, return_dict=True)
-
-
-            # output = output.past_key_values
-            # self_full_val = torch.cat([ll['self']['prev_value'] for ll in output])
-            # self_full_key = torch.cat([ll['self']['prev_key'] for ll in output])
-            # self_full = torch.cat([self_full_val, self_full_key])
-            print('gold self', self_full.shape)
-
-
-            encdec_full_val = torch.cat([ll['encoder_decoder']['prev_value'] for ll in output])
-            encdec_full_key = torch.cat([ll['encoder_decoder']['prev_key'] for ll in output])
-            encdec_full = torch.cat([encdec_full_val, encdec_full_key])
-            print('gold_encdec', encdec_full.shape)
-
-            if use_encoder_init:
-                encoder_full_past = self.get_encoder_output(gpt2, src_ids)
-                encoder_full_val = torch.cat([ll['encoder']['prev_value'] for ll in encoder_full_past])
-                encoder_full_key = torch.cat([ll['encoder']['prev_key'] for ll in encoder_full_past])
-                encoder_full = torch.cat([encoder_full_val, encoder_full_key])
-                print('gold_encoder', encdec_full.shape)
-
-            # output = torch.cat(output, dim=0)
-
-        # optimizer_temp = torch.optim.Adam(self.control_trans.parameters(), lr=0.0001)
-        # list_param = list(self.control_trans.parameters()) + list(self.wte_enc.parameters()) + list(self.wte.parameters()) + list(self.wte2.parameters()) + list(self.control_trans2.parameters()) + list(self.control_trans_enc.patameters())
-        # optimizer_temp = torch.optim.Adam(self.control_trans.parameters(), lr=0.00005)
-        list_param = self.parameters()
-        # print(list_param)
-        optimizer_temp = torch.optim.Adam(list_param, lr=0.00003)
+        optimizer_temp = torch.optim.Adam(self.control_trans.parameters(), lr=0.0001)
 
         for e in range(epochs):
             our_prompt = self.get_prompt_p5(bsz=1)
-            self_our_val = torch.cat([ll['self']['prev_value'] for ll in our_prompt])
-            self_our_key = torch.cat([ll['self']['prev_key'] for ll in our_prompt])
-            self_our = torch.cat([self_our_val, self_our_key])
-            # print('our_self', self_our.shape)
-
-
-            encdec_our_val = torch.cat([ll['encoder_decoder']['prev_value'] for ll in our_prompt])
-            encdec_our_key = torch.cat([ll['encoder_decoder']['prev_key'] for ll in our_prompt])
-            encdec_our = torch.cat([encdec_our_val, encdec_our_key])
-            # print(encdec_full.shape, encdec_our.shape)
-            # print('our_encdec', encdec_our.shape)
-
-            if use_encoder_init:
-                encoder_our_val = torch.cat([ll['encoder']['prev_value'] for ll in our_prompt])
-                encoder_our_key = torch.cat([ll['encoder']['prev_key'] for ll in our_prompt])
-                encoder_our = torch.cat([encoder_our_val, encoder_our_key])
-                # print('our_encoder', encoder_our.shape)
-
-            # our_prompt = torch.cat(our_prompt, dim=0)
+            our_prompt = torch.cat(our_prompt, dim=0)
             loss_metrics = nn.MSELoss()
-            loss = loss_metrics(encdec_our.to(gpt2.device), encdec_full)
-            loss += loss_metrics(self_our.to(gpt2.device), self_full)
-            if use_encoder_init:
-                loss += loss_metrics(encoder_our.to(gpt2.device), encoder_full )
+            loss = loss_metrics(our_prompt.to(gpt2.device), output)
             print(loss)
             loss.backward()
             optimizer_temp.step()
@@ -1191,6 +1096,7 @@ class PrefixEmbTuning(GPT2PreTrainedModel):
                            return_dict=return_dict, **kwargs)
 
         return output
+
 
 
 

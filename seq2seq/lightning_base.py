@@ -79,7 +79,9 @@ class OurModelCheckPoint(pl.callbacks.ModelCheckpoint):
 
     def save_checkpoint(self, trainer, pl_module):
         print('saving checkpoint now')
-        10/0
+        print('saving models now/22..')
+        print('try calling the pl_module save')
+        #pl_module.on_save_checkpoint(None, filepath)
         return
 
     def _save_model(self, filepath: str, trainer, pl_module):
@@ -170,20 +172,12 @@ class PrefixTransformer(pl.LightningModule):
         config_prefix._my_arg_control = True
         config_prefix.train_weights = False
         config_prefix.optim_prefix = optim_prefix_bool
+        config_prefix.use_deep = self.hparams.use_deep 
         config_prefix.preseqlen = self.hparams.preseqlen
         config_prefix.use_infix = (self.hparams.format_mode == 'infix')
         config_prefix.format_mode = self.hparams.format_mode
         config_prefix.prefix_dropout = self.hparams.prefix_dropout
         config_prefix.vocab_size = len(self.tokenizer)
-
-        config_prefix.lowdata = ('lowdata' in self.hparams.output_dir)
-        if config_prefix.lowdata and self.hparams.use_lowdata_token == 'yes':
-            config_prefix.lowdata_token = self.tokenizer([self.hparams.lowdata_token],
-                                                    add_prefix_space=True)['input_ids']  # return_tensors='np',
-            print(self.hparams.lowdata_token)
-            print(config_prefix.lowdata_token)
-            print(self.tokenizer.pad_token_id)
-
         # some extra stuff.
         config_prefix.mid_dim = self.hparams.mid_dim
 
@@ -192,7 +186,6 @@ class PrefixTransformer(pl.LightningModule):
         if self.hparams.prefixModel_name_or_path is not None:
             print('loading from {}'.format(hparams.prefixModel_name_or_path))
             self.model = PrefixTuning.from_pretrained(self.hparams.prefixModel_name_or_path,
-                        from_tf=bool(".ckpt" in self.hparams.prefixModel_name_or_path),
                         cache_dir=cache_dir,
                         config=config_prefix,
                         model_gpt2=self.seq2seq_model)
@@ -293,8 +286,8 @@ class PrefixTransformer(pl.LightningModule):
         #     save_path = filepath[:-5]
         # else:
         #     save_path = self.output_dir.joinpath("checkpoint-hello")
-        save_path = self.output_dir.joinpath("checkpoint-curr_best")
-        print('the suggested save_path is {}, saving to {}'.format(filepath[:-5], save_path))
+        save_path = filepath #self.output_dir.joinpath("checkpoint-curr_best")
+        print('the suggested save_path is {}, saving to {}'.format(filepath, save_path))
 
         self.model.config.save_step = self.step_count
         self.model.save_pretrained(save_path)
@@ -330,6 +323,13 @@ class PrefixTransformer(pl.LightningModule):
             default=1,
             type=int,
             help="the length of the prefix.",
+        )
+
+        parser.add_argument(
+            "--use_deep",
+            default='no',
+            type=str,
+            help="use the deep optimization of the prefix.",
         )
 
         parser.add_argument(
@@ -381,20 +381,6 @@ class PrefixTransformer(pl.LightningModule):
             help="whether to look at the input again, including [infix, cat, peek, nopeek]",
         )
 
-        parser.add_argument(
-            "--use_lowdata_token",
-            default='yes',
-            type=str,
-            help="whether or not to use the lowdata token, ",
-        )
-
-        parser.add_argument(
-            "--lowdata_token",
-            default='summarize',
-            type=str,
-            help="the low data token to use. ",
-        )
-
 
         parser.add_argument(
             "--config_name", default="", type=str, help="Pretrained config name or path if not the same as model_name"
@@ -407,7 +393,7 @@ class PrefixTransformer(pl.LightningModule):
         )
         parser.add_argument(
             "--cache_dir",
-            default="/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/bart_s3",
+            default=None,
             type=str,
             help="Where do you want to store the pre-trained models downloaded from s3",
         )
@@ -503,7 +489,6 @@ class BaseTransformer(pl.LightningModule):
         if model is None:
             self.model = self.model_type.from_pretrained(
                 self.hparams.model_name_or_path,
-                from_tf=bool(".ckpt" in self.hparams.model_name_or_path),
                 config=self.config,
                 cache_dir=cache_dir,
             )
@@ -594,7 +579,7 @@ class BaseTransformer(pl.LightningModule):
     @pl.utilities.rank_zero_only
     def on_save_checkpoint(self, checkpoint: Dict[str, Any], filepath=None) -> None:
 
-        save_path = self.output_dir.joinpath("checkpoint-curr_best")
+        save_path = filepath #self.output_dir.joinpath("checkpoint-curr_best")
         print('the suggested save_path is {}, saving to {}'.format(filepath[:-5], save_path))
         # save_path = self.output_dir.joinpath("best_tfmr")
         self.model.config.save_step = self.step_count
@@ -621,7 +606,7 @@ class BaseTransformer(pl.LightningModule):
         )
         parser.add_argument(
             "--cache_dir",
-            default="/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/bart_s3",
+            default=None,
             type=str,
             help="Where do you want to store the pre-trained models downloaded from s3",
         )
@@ -749,17 +734,19 @@ def generic_train(
     odir = Path(model.hparams.output_dir)
     odir.mkdir(exist_ok=True)
 
+    if checkpoint_callback is None:
+        checkpoint_callback = pl.callbacks.ModelCheckpoint(
+            filepath=args.output_dir, prefix="checkpoint", monitor="val_loss", mode="min", save_top_k=1
+        )
     # add custom checkpoints
+    # LISA
     # if checkpoint_callback is None:
     #     checkpoint_callback = pl.callbacks.ModelCheckpoint(
     #         filepath=args.output_dir, prefix="checkpoint", monitor="val_loss", mode="min", save_top_k=1
     #     )
 
     #get_checkpoint_callback(args.output_dir, model.val_metric, args.save_top_k, lower_is_better)
-    # OLD VERSION
-    # checkpoint_callback = OurModelCheckPoint(filepath=args.output_dir, prefix="checkpoint", monitor="val_loss", mode="min", save_top_k=1)
-    # monitor_var = args.monitor_var
-    checkpoint_callback = OurModelCheckPoint(filepath=args.output_dir, prefix="checkpoint", monitor="val_rouge2", mode="max", save_top_k=1)
+    checkpoint_callback = OurModelCheckPoint(filepath=args.output_dir, prefix="checkpoint", monitor="rouge2", mode="max", save_top_k=-1)
 
     # checkpoint_callback = OurModelCheckPoint(
     #     filepath=os.path.join(args.output_dir, exp),
@@ -787,8 +774,6 @@ def generic_train(
     train_params["accumulate_grad_batches"] = args.accumulate_grad_batches
     # train_params['progress_bar_refresh_rate'] = 0
 
-    check_every_n_epochs =  1 #int (50*args.train_batch_size / 100) # want to check every 50 steps.
-
     print('the max number of epochs is {}'.format(args.max_epochs))
     print('early stopping', early_stopping_callback)
     print('checkpoint_callback', checkpoint_callback)
@@ -799,9 +784,8 @@ def generic_train(
         weights_summary=None,
         callbacks=[logging_callback] + extra_callbacks,
         logger=logger,
-        # check_val_every_n_epoch=check_every_n_epochs,
         checkpoint_callback=checkpoint_callback,
-        early_stop_callback=early_stopping_callback,
+        #early_stop_callback=early_stopping_callback,
         **train_params,
     )
 

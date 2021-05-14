@@ -712,7 +712,8 @@ class GPT2LMHeadModel(GPT2PreTrainedModel):
         #TODAYFIX
         assert hasattr(config, '_my_arg_task_mode')
         assert hasattr(config, '_my_arg_tune_mode')
-        assert hasattr(config, '_objective_mode')
+        if not hasattr(config, '_objective_mode'):
+            config._objective_mode = 0
         self.task_mode = config._my_arg_task_mode
         if config._my_arg_tune_mode == 'finetune':
             self.finetune_mode = True
@@ -727,9 +728,12 @@ class GPT2LMHeadModel(GPT2PreTrainedModel):
         self.emb_match = False
 
         self._objective_mode = config._objective_mode
-        assert self._objective_mode in [0, 1]
+        assert self._objective_mode in [0, 1, 2, 3, 4]
         # 0 means the regular token level objective, which is sum / output_len
         # 1 means the sentence level objective, which is sum
+        # 2 means our buggy version which is sum/max_batch(input_len +output_len)
+        # 3 means our buggy version which is sum/max_batch(output_len)
+        # 4 means our buggy version which is sum/(input_len +output_len)
 
         # TODAYFIX.
         # if hasattr(config, '_my_arg_task_mode') and config._my_arg_task_mode == 'embMatch':
@@ -985,6 +989,9 @@ class GPT2LMHeadModel(GPT2PreTrainedModel):
 
             # 0 means the regular token level objective, which is sum / output_len
             # 1 means the sentence level objective, which is sum
+            # 2 means our buggy version which is sum/max_batch(input_len +output_len)
+            # 3 means our buggy version which is sum/max_batch(output_len)
+            # 4 means our buggy version which is sum/(input_len +output_len)
 
             if self._objective_mode == 0:
                 # print('0 is the objective...')
@@ -1002,6 +1009,27 @@ class GPT2LMHeadModel(GPT2PreTrainedModel):
                 bsz, seqlen, vocab_size = shift_logits.shape
                 loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
                 loss = loss.view(bsz, seqlen).sum(dim=-1)
+            elif self._objective_mode == 2:
+                # print('2 is the objective...')
+                loss_fct = CrossEntropyLoss(reduction='none')
+                bsz, seqlen, vocab_size = shift_logits.shape
+                loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
+                loss = loss.view(bsz, seqlen).mean(dim=-1)
+            elif self._objective_mode == 3:
+                # print('3 is the objective...')
+                loss_fct = CrossEntropyLoss(reduction='none')
+                bsz, seqlen, vocab_size = shift_logits.shape
+                loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
+                seqlen_dim = max((shift_labels != -100).sum(dim=-1))
+                loss = loss.view(bsz, seqlen).sum(dim=-1) / seqlen_dim
+            elif self._objective_mode == 4:
+                # print('4 is the objective...')
+                loss_fct = CrossEntropyLoss(reduction='none')
+                bsz, seqlen, vocab_size = shift_logits.shape
+                loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
+                seqlen_dim = (input_ids != 50256).sum(dim=-1)
+                loss = loss.view(bsz, seqlen).sum(dim=-1) / seqlen_dim
+                # assert False, "not implemented error, self._objective_mode == 4 "
 
 
 

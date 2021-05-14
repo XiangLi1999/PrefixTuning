@@ -425,6 +425,10 @@ class LineByLineData2TextTextDataset(Dataset):
 
         self.src_sent = []
         self.tgt_sent = []
+
+        temp_src_len = 0
+        temp_tgt_len = 0
+        temp_count = 0
         if True:
             separator = tokenizer(bos_tok, add_special_tokens=False)['input_ids'][0]
             for i, elem in enumerate(self.labels):
@@ -432,6 +436,15 @@ class LineByLineData2TextTextDataset(Dataset):
                 self.src_sent.append(self.examples[i][:sep_idx-1])
                 self.tgt_sent.append(self.examples[i][sep_idx-1:])
                 self.labels[i][:sep_idx] = [-100] * sep_idx
+                temp_src_len += sep_idx-1
+                temp_tgt_len += len(elem) - (sep_idx-1)
+                temp_count += 1
+
+        print('tgt_avg: ', temp_tgt_len / temp_count)
+        print('src_avg: ', temp_src_len / temp_count)
+        print('ratios: ', temp_src_len/temp_tgt_len)
+
+
 
 
         print(self.labels[0])
@@ -828,6 +841,10 @@ class LineByLineWebNLGTextDataset(Dataset):
 
         self.src_sent = []
         self.tgt_sent = []
+        temp_src_len = 0
+        temp_tgt_len = 0
+        temp_count = 0
+
         if True:
             separator = tokenizer(bos_tok, add_special_tokens=False)['input_ids'][0]
             for i, elem in enumerate(self.labels):
@@ -835,6 +852,15 @@ class LineByLineWebNLGTextDataset(Dataset):
                 self.src_sent.append(self.examples[i][:sep_idx-1]) # does not contain the BOS separator
                 self.tgt_sent.append(self.examples[i][sep_idx-1:]) # contains the BOS separator.
                 self.labels[i][:sep_idx] = [-100] * sep_idx
+                temp_src_len += sep_idx - 1
+                temp_tgt_len += len(elem) - (sep_idx - 1)
+                temp_count += 1
+
+        print('tgt_avg: ', temp_tgt_len / temp_count)
+        print('src_avg: ', temp_src_len / temp_count)
+        print('ratios: ', temp_src_len / temp_tgt_len)
+
+
 
 
         print(self.labels[0])
@@ -928,6 +954,9 @@ class LineByLineTriplesTextDataset(Dataset):
 
         self.src_sent = []
         self.tgt_sent = []
+        temp_src_len = 0
+        temp_tgt_len = 0
+        temp_count = 0
         if True:
             separator = tokenizer(bos_tok, add_special_tokens=False)['input_ids'][0]
             for i, elem in enumerate(self.labels):
@@ -935,6 +964,14 @@ class LineByLineTriplesTextDataset(Dataset):
                 self.src_sent.append(self.examples[i][:sep_idx-1]) # does not contain the BOS separator
                 self.tgt_sent.append(self.examples[i][sep_idx-1:]) # contains the BOS separator.
                 self.labels[i][:sep_idx] = [-100] * sep_idx
+
+                temp_src_len += sep_idx - 1
+                temp_tgt_len += len(elem) - (sep_idx - 1)
+                temp_count += 1
+
+        print('tgt_avg: ', temp_tgt_len / temp_count)
+        print('src_avg: ', temp_src_len / temp_count)
+        print('ratios: ', temp_src_len / temp_tgt_len)
 
 
         print(self.labels[0])

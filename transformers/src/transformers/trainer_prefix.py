@@ -275,6 +275,9 @@ class Trainer_Prefix:
         task_mode: Optional[str] = None,
         use_dropout: Optional[bool] = False,
         both_tune: Optional[bool] = False,
+        distill: Optional[bool] = False,
+        matching_objective:Optional[str]= None,
+        finetuned_gpt2: Optional[PreTrainedModel] = None,
         **kwargs,
     ):
         if args is None:
@@ -302,6 +305,11 @@ class Trainer_Prefix:
 
         self.curr_best_eval = 10000000.
         self.both_tune = both_tune
+
+        self.distill = distill
+        if self.distill:
+            self.matching_objective = matching_objective
+            self.finetuned_gpt2 = finetuned_gpt2
 
         # for dataless.
         if dataless_control_type is not None:
@@ -2082,9 +2090,15 @@ class Trainer_Prefix:
 
         if self.args.fp16 and _use_native_amp:
             with autocast():
-                loss = self.compute_loss(model, inputs, gpt2_model=self.gpt2)
+                if self.distill:
+                    loss = self.compute_loss_distill(model, inputs, gpt2_model=self.gpt2, )
+                else:
+                    loss = self.compute_loss(model, inputs, gpt2_model=self.gpt2)
         else:
-            loss = self.compute_loss(model, inputs, gpt2_model=self.gpt2)
+            if self.distill:
+                loss = self.compute_loss_distill(model, inputs, gpt2_model=self.gpt2)
+            else:
+                loss = self.compute_loss(model, inputs, gpt2_model=self.gpt2)
 
         if self.args.n_gpu > 1:
             loss = loss.mean()  # mean() to average on multi-gpu parallel training
@@ -2100,6 +2114,10 @@ class Trainer_Prefix:
         else:
             # print(loss)
             loss.backward()
+
+        # print('max allocated_memory:', torch.cuda.max_memory_allocated(0), 'total_memory:', torch.cuda.get_device_properties(0).total_memory,
+        #       'percentage', torch.cuda.max_memory_allocated(0)/torch.cuda.get_device_properties(0).total_memory)
+
 
         return loss.detach()
 
@@ -2533,6 +2551,40 @@ class Trainer_Prefix:
         # print('compute_loss', outputs[0])
         return outputs[0].mean()
 
+    def compute_loss_distill(self, model, inputs, gpt2_model=None):
+        """
+        How the loss is computed by Trainer. By default, all models return the loss in the first element.
+
+        Subclass and override for custom behavior.
+        """
+        # outputs = model.forward_weighted(**inputs)
+
+        with torch.no_grad():
+            output_finetuned = self.finetuned_gpt2(**inputs)
+
+        outputs = model(**inputs, gpt2_model=gpt2_model)
+        # Save past state if it exists
+        if self.args.past_index >= 0:
+            self._past = outputs[self.args.past_index]
+
+        if self.matching_objective == 'kl':
+            # distrib_finetuned=torch.log_softmax(output_finetuned.logits[:,:,:-2], dim=-1)  #bsz, seqlen, vocab
+            distrib_finetuned=torch.log_softmax(output_finetuned.logits, dim=-1)  #bsz, seqlen, vocab
+            distrib_prefix = torch.log_softmax(outputs.logits, dim=-1)  # bsz, seqlen, vocab
+            loss = torch.sum(distrib_finetuned.exp() * (distrib_finetuned - distrib_prefix), dim=-1) #bsz, seqlen
+
+        elif self.matching_objective == 'logits':
+            loss = torch.norm(output_finetuned.logits - outputs.logits, dim=-1)  #bsz, seqlen
+            # loss = torch.norm(output_finetuned.logits[:,:,:-2] - outputs.logits, dim=-1)  #bsz, seqlen
+
+        elif self.matching_objective == 'last_layer':
+            activation_diff = output_finetuned.last_hidden_state - outputs.last_hidden_state
+            loss = torch.norm(activation_diff, dim=-1)  # bsz, seqlen
+        else:
+            assert False, "invalid matching_objective"
+
+        return  loss.sum(dim=-1).mean()
+
     def is_local_master(self) -> bool:
         """
         Whether or not this process is the local (e.g., on one machine if training in a distributed fashion on
@@ -2702,6 +2754,8 @@ class Trainer_Prefix:
 
         return output.metrics
 
+
+
     def predict(self, test_dataset: Dataset) -> PredictionOutput:
         """
         Run prediction and returns predictions and potential metrics.
@@ -2769,6 +2823,7 @@ class Trainer_Prefix:
         eval_losses: List[float] = []
         preds: torch.Tensor = None
         label_ids: torch.Tensor = None
+        entropy_losses: List[float] = []
         model.eval()
         if self.gpt2 is not None:
             self.gpt2.eval()
@@ -2790,6 +2845,8 @@ class Trainer_Prefix:
                 eval_losses.extend([loss] * batch_size)
             if logits is not None:
                 preds = logits if preds is None else nested_concat(preds, logits, dim=0)
+                temp_logits = [torch.log_softmax(x) for x in logits]
+                entropy_losses.extend([(x.exp() * x).sum() for x in temp_logits])
             if labels is not None:
                 label_ids = labels if label_ids is None else nested_concat(label_ids, labels, dim=0)
 
@@ -2836,6 +2893,9 @@ class Trainer_Prefix:
         for key in list(metrics.keys()):
             if not key.startswith("eval_"):
                 metrics[f"eval_{key}"] = metrics.pop(key)
+        if len(entropy_losses) > 0:
+            metrics['entropy'] = np.mean(entropy_losses)
+            print('entropy', metrics['entropy'] )
 
         return PredictionOutput(predictions=preds, label_ids=label_ids, metrics=metrics)
 
