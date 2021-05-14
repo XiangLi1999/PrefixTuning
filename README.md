@@ -29,10 +29,6 @@ they are set to default of good hyperparameters, and can be used to tune hyperpa
 -----------------------------------------------------
 ## Setup:
 
-(1) 
-``conda env create -f environment.yml``
-
-(2)
 ``cd transformer; pip install -e .``
 
 -----------------------------------------------------
