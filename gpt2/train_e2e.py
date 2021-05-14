@@ -117,8 +117,8 @@ if __name__ == '__main__':
 
     if args.mode == 'data2text':
 
-        TRAIN_FILE = "/u/scr/xlisali/e2e_data/src1_train.txt"
-        TEST_FILE = "/u/scr/xlisali/e2e_data/src1_valid.txt"
+        TRAIN_FILE = "../data/e2e_data/src1_train.txt"
+        TEST_FILE = "../data/e2e_data/src1_valid.txt"
         folder_name = 'save_e2e_models_convcheck/'
 
         if args.prefix_mode == 'embedding':
