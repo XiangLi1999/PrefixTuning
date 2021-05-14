@@ -59,6 +59,29 @@ cd gpt2;
 
 python train_e2e.py --tuning_mode {finetune/adaptertune} --epoch 5 --learning_rate 0.00005 --mode webnlg --bsz 5 --seed 101
 ```
+
+```
+cd seq2seq;
+
+python train_e2e.py --tuning_mode finetune --epoch 5 --learning_rate 0.00005 --mode webnlg --bsz 5 --seed 101
+```
+-----------------------------------------------------
+
+## Decode:
+
+```python
+cd gpt2;
+
+python gen.py {data2text/webnlg/...} yes test {checkpoint_path} no
+```
+
+
+```python
+cd seq2seq; 
+
+python train_bart.py --mode xsum --do_train no --prefix_model_path {checkpoint_path} --preseqlen {same as training} --mid_dim {same as training}
+```
+
 -----------------------------------------------------
 
 For details of the methods and results, please refer to our paper. 
