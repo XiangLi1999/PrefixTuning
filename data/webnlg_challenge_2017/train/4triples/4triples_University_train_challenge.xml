@@ -1,0 +1,1305 @@
+<benchmark>
+  <entries>
+    <entry category="University" eid="Id1" size="4">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | nickname | Uab</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | city | Alba_Iulia</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | latinName | "Universitas Apulensis"@en</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | state | Alba</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | nickname | Uab</mtriple>
+        <mtriple>1_Decembrie_1918_University | city | Alba_Iulia</mtriple>
+        <mtriple>1_Decembrie_1918_University | latinName | "Universitas Apulensis"</mtriple>
+        <mtriple>1_Decembrie_1918_University | state | Alba</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University is located in Alba lulia, Alba. Its Latin name is "Universitas Apulensis" and its nickname is "Uab".</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University's latin name is "Universitas Apulensis". It's nickname is Uab and is located in Alba lulia, Alba.</lex>
+      <lex comment="good" lid="Id3">The 1 Decembrie 1918 University (of the city of Alba Iulia in the state of Alba), has the nickname Uab and the Latin name Universitas Apulensis.</lex>
+    </entry>
+    <entry category="University" eid="Id2" size="4">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | nickname | Uab</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | rector | "Breaz Valer Daniel"@en</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | city | Alba_Iulia</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | nickname | Uab</mtriple>
+        <mtriple>1_Decembrie_1918_University | rector | "Breaz Valer Daniel"</mtriple>
+        <mtriple>1_Decembrie_1918_University | city | Alba_Iulia</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Breaz Valer Daniel is rector of the 1 Decembrie 1918 University, which has the nickname of Uab, and is located in the city of Alba Iulia, Romania.</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University, also known as Uab, is located in Alba Iulia, Romania. It's rector is Breaz Valer Daniel.</lex>
+      <lex comment="good" lid="Id3">The 1 Decembrie 1918 University of Alba Iulia, Romania has the nickname Uab and the rector is called Breaz Valer Daniel.</lex>
+    </entry>
+    <entry category="University" eid="Id3" size="4">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | rector | "Breaz Valer Daniel"@en</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | latinName | "Universitas Apulensis"@en</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | state | Alba</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | rector | "Breaz Valer Daniel"</mtriple>
+        <mtriple>1_Decembrie_1918_University | latinName | "Universitas Apulensis"</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+        <mtriple>1_Decembrie_1918_University | state | Alba</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The rector of the 1 Decembrie 1918 University in the state of Alba, Romania is Breaz Valer Daniel. The latin name of the university is "Universitas Apulensis".</lex>
+      <lex comment="good" lid="Id2">The Decembrie 1918 University in Alba Romania has the latin name of Universitas Apulensis. It's rector is Breaz Valer Daniel.</lex>
+      <lex comment="good" lid="Id3">The 1 Decembrie 1918 University (Latin name - Universitas Apulensis) is located in Alba, Romania. Its rector is Breaz Valer Daniel.</lex>
+    </entry>
+    <entry category="University" eid="Id4" size="4">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | facultySize | "250"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>Kerala | northwest | Mahé,_India</otriple>
+        <otriple>AWH_Engineering_College | city | "Kuttikkattoor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | academicStaffSize | 250</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>Kerala | has to its northwest | Mahé,_India</mtriple>
+        <mtriple>AWH_Engineering_College | city | "Kuttikkattoor"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AWH Engineering College is located in Kuttikkattoor, Kerala and it has 250 academic staff. Kerala has Mahe, India to its northwest.</lex>
+      <lex comment="good" lid="Id2">Mahe, India is northwest of Kerala state where the AWH Engineering College with an academic staff of 250 is situated in the city of Kuttikkattoor.</lex>
+      <lex comment="good" lid="Id3">AWH Engineering College is located in Kuttikkattoor city, Kerala state. This state has to its northwest Mahe India. The staff size of the AWH Engineering College is 250.</lex>
+    </entry>
+    <entry category="University" eid="Id5" size="4">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | facultySize | "250"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AWH_Engineering_College | city | "Kuttikkattoor"@en</otriple>
+        <otriple>India | river | Ganges</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | academicStaffSize | 250</mtriple>
+        <mtriple>AWH_Engineering_College | city | "Kuttikkattoor"</mtriple>
+        <mtriple>India | river | Ganges</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AWH Engineering College is to be found in the Indian city of Kuttikkattoor and has 250 academic staff. Also to be found in India is the river Ganges.</lex>
+      <lex comment="good" lid="Id2">The AWH Engineering College in Kuttikkattoor, India has 250 academic staff. The Ganges is a river in India.</lex>
+    </entry>
+    <entry category="University" eid="Id6" size="4">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | established | 2001</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>AWH_Engineering_College | city | "Kuttikkattoor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | established | 2001</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>AWH_Engineering_College | city | "Kuttikkattoor"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College of Kuttikkattoor, Kerala, India was established in the year 2001.</lex>
+      <lex comment="good" lid="Id2">AWH Engineering College in the city of Kuttikkattoor, India is in the state of Kerala. It was established in 2001.</lex>
+      <lex comment="good" lid="Id3">AWH Engineering College was established in 2001 in Kuttikkattoor, India in the state of Kerala.</lex>
+    </entry>
+    <entry category="University" eid="Id7" size="4">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | established | 2001</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>Kerala | northwest | Mahé,_India</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | established | 2001</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>Kerala | has to its northwest | Mahé,_India</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Northwest of Mahe, India is the state of Kerala which is the location of the AWH Engineering College which was established in 2001.</lex>
+      <lex comment="good" lid="Id2">The AWH Engineering College in Kerala, India was established in 2001, it is located southeast of Mahe.</lex>
+      <lex comment="good" lid="Id3">AWH Engineering College is located in Kerala, India. It was established in 2001. It has Mahe, India to its northwest.</lex>
+    </entry>
+    <entry category="University" eid="Id8" size="4">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>Kerala | leaderName | Kochi</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>India | river | Ganges</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>Kerala | leaderName | Kochi</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>India | river | Ganges</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College is in Kerala, India. The leader of Kerala is Kochi. The Ganges is a river in India.</lex>
+      <lex comment="good" lid="Id2">AWH Engineering College (India) is in the state of Kerala who has as its leader Kochi. The Ganges is one of India's rivers.</lex>
+    </entry>
+    <entry category="University" eid="Id9" size="4">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | established | 2001</otriple>
+        <otriple>Kerala | leaderName | Kochi</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>AWH_Engineering_College | city | "Kuttikkattoor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | established | 2001</mtriple>
+        <mtriple>Kerala | leaderName | Kochi</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>AWH_Engineering_College | city | "Kuttikkattoor"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AWH Engineering College in Kuttikkattoor, Kerala was established in 2001. The leader of Kerala is Kochi.</lex>
+      <lex comment="good" lid="Id2">The AWH Engineering College is located in the state of Kuttikkattoor, Kerala. It was established in 2001. Kerala has a leader called Kochi.</lex>
+      <lex comment="good" lid="Id3">AWH Engineering College (established 2001) is located in the city of Kuttikattoor. This city is in the state of Kerala which has as its leader Kochi.</lex>
+    </entry>
+    <entry category="University" eid="Id10" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | facultySize | "100"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+        <mtriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio has an academic staff of 100 and is located in the country of Switzerland, whose leader is Johann Schneider-Ammann. His title is Federal Chancellor of Switzerland.</lex>
+      <lex comment="good" lid="Id2">Accademia di Architettura di Mendrisio in Switzerland has a staff size of 100. The country is led by Johann Schneider-Ammann who is the Federal Chancellor.</lex>
+      <lex comment="good" lid="Id3">With an academic staff of 100, the Accademia di Architettura di Mendrisio is located in Switzerland, a country led by Federal Chancellor Johann Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id11" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | "600"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | faculty | 100</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | faculty | 100</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio, located in the city of Mendrisio, Switzerland, has 600 students and an academic staff of 100.</lex>
+      <lex comment="good" lid="Id2">Accademia di Architettura di Mendrisio in Mendrisio, Switzerland has 600 students and 100 staff.</lex>
+      <lex comment="good" lid="Id3">Accademia di Architettura di Mendrisio in Mendrisio, Switzerland has an academic staff of 100 providing educational services to 600 students.</lex>
+    </entry>
+    <entry category="University" eid="Id12" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio is located in Mendrisio, Switzerland and its dean is Mario Botta. The leader of Switzerland is titled the Federal Chancellor.</lex>
+      <lex comment="good" lid="Id2">The Federal Chancellor of Switzerland leads the country but it is Mario Botta who is Dean of the Accademia di Architettura di Mendrisio based in the city of Mendrisio.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio is in Switzerland, it's dean is Mario Botta. Switzerland's leader is the Federal Chancellor.</lex>
+    </entry>
+    <entry category="University" eid="Id13" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | "600"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio was established in Switzerland in 1996. Mario Botta is Dean and there are 600 students.</lex>
+      <lex comment="good" lid="Id2">The dean of the Accademia di Architettura di Mendrisio is Mario Botta. The academy was established in 1996 in Switzerland and currently has 600 students.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio was established in 1996 and is located in the country of Switzerland. The dean is called Mario Botta and it has 600 students.</lex>
+    </entry>
+    <entry category="University" eid="Id14" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | "600"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Switzerland, whose leader is Johann Schneider-Ammann, is the location of the Accademia di Architettura di Mendrisio which has Mario Botta as the Dean and where there are 600 students.</lex>
+      <lex comment="good" lid="Id2">The dean of the Accademia di Architettura di Mendrisio in Switzerland is Mario Botta, it has a student population of 600. The country's leader is Johann Schneider-Ammann.</lex>
+      </entry>
+    <entry category="University" eid="Id15" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Johann Schneider-Ammann is the leader of Switzerland where the Accademia di Architettura di Mendrisio was established in 1996 in the city of Mendrisio.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio in Switzerland was established in 1996. The leader of the country is Johann Schneider-Ammann.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio in Mendrisio, Switzerland was established in 1996. The leader of Switzerland is Johann Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id16" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio is located in Mendrisio, Switzerland. It was established in 1996 and it has 600 students.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio, established in 1996, is located in the city of Mendrisio in Switzerland. It houses 600 students.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio in Switzerland has 600 students and was established in 1996.</lex>
+    </entry>
+    <entry category="University" eid="Id17" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | canton | Ticino</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | location | Ticino</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Switzerland is the location of the Accademia di Architettura which has 600 students and is based in the city of Mendrisio, Ticino.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio is located in Ticino, Mendrisio, Switzerland. It has 600 students.</lex>
+    </entry>
+    <entry category="University" eid="Id18" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+        <otriple>Switzerland | leader | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Johann Schneider-Ammann is the leader of Switzerland where the Accademia di Architettura di Mendrisio which was established in 1996 is located. The Accademia has 600 students.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio in Switzerland was established in 1996 and currently has 600 students. The country's leader is Johann Schneider-Ammann.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio was established in Switzerland in 1996. It has 600 students. The Swiss leader is Johann Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id19" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+        <mtriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio has 600 students and is located in the country of Switzerland, which has as its leader Johann Schneider-Ammann. His title is the Federal Chancellor of Switzerland.</lex>
+      <lex comment="good" lid="Id2">Accademia di Architettura di Mendrisio in Switzerland has a student population of 600. The country is led by Federal Chancellor Johann Schneider-Ammann.</lex>
+      <lex comment="good" lid="Id3">With 600 students, the Accademia di Architettura di Mendrisio is located in Switzerland, a country led by Federal Chancellor Johann Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id20" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+        <otriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+        <mtriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio has 600 students and has a leader call Johann Schneider-Ammann. Switzerland has a Federal Assembly as its legislative body.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio of Switzerland has 600 students. Johann Schneider-Ammann is the leader of the country and the legislature comes under the Federal Assembly (Switzerland).</lex>
+      </entry>
+    <entry category="University" eid="Id21" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Mendrisio | neighboringMunicipality | Meride</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Mendrisio | neighboringMunicipalities | Meride</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Switzerland | leader | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Mendrisio | neighboringMunicipality | Meride</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio neighbours Meride in Switzerland. The country's leader is Johann Schneider-Ammann.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio is located in Mendrisio, Switzerland and its neighbouring municipality is Meride. Switzerland's leader is called Johann Schneider-Ammann.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio is in the country of Switzerland in the city of Mendrisio with a neighboring municipality of Meride. The leader of Switzerland is Johann Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id22" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Switzerland | anthem | Swiss_Psalm</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Switzerland | leader | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Switzerland | anthem | Swiss_Psalm</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architetttura di Mendrisio is located in Mendrisio, Switzerland. The Swiss leader is Johann Schneider-Ammann and its anthem is the Swiss Psalm.</lex>
+      <lex comment="good" lid="Id2">The leader of Switzerland, which has the Swiss Psalm as its national anthem, is Johan Schneider-Ammann. The country is the location of the Accademia di Architettura di Mendrisio in the city of Mendrisio.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio is located in the Swiss city of Mendrisio. Switzerland's leader is Johann Schneider-Ammann and their national anthem is the Swiss Psalm.</lex>
+    </entry>
+    <entry category="University" eid="Id23" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Switzerland | anthem | Swiss_Psalm</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+        <otriple>Switzerland | leader | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Switzerland | anthem | Swiss_Psalm</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Switzerland | anthem | Swiss_Psalm</mtriple>
+        <mtriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Swiss Psalm is the national anthem of Switzerland which is lead by Federal Chancellor Johann Schneider-Ammann. The country is the location of the Accademia di Architettura di Mendrisio.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio is located in Switzerland. The country's anthem is the Swiss Psalm and the leader, Johann Schneider-Ammann has the official title of the Federal Chancellor of Switzerland.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio is in Switzerland. The Swiss anthem is the Swiss Psalm and its leader is Federal Chancellor of Switzerland, Johann Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id24" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+        <otriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+        <otriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</otriple>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+        <otriple>Switzerland | leader | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+        <mtriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</mtriple>
+        <mtriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio is located in Switzerland, whose legislature is the Federal Assembly (Switzerland). The country's leader is called Johann Schneider-Ammann and his title is the Federal Chancellor of Switzerland.</lex>
+      <lex comment="good" lid="Id2">Accademia di Architettura di Mendrisio is in Switzerland which is led by Johann Schneider-Ammann who has the title Federal Chancellor of Switzerland. The country is governed through a Federal Assembly.</lex>
+    </entry>
+    <entry category="University" eid="Id25" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | facultySize | "100"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio in the city of Mendrisio was established in 1996 and has 600 students along with an academic staff of 100.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio established in 1996 currently has 100 staff and 600 students.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio is located in Mendrisio and it was established in 1996. It has 100 academic staff and 600 students.</lex>
+    </entry>
+    <entry category="University" eid="Id26" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | faculty | 100</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architetturia di Mendrisio is located in Mendrisio. It has 100 academic staff and 600 students. Its dean is Mario Botta.</lex>
+      <lex comment="good" lid="Id2">The city of Mendrisio is the location of the Accademia di Architettura di Mendrisio which is led by Dean Mario Botta. There are 600 students and an academic staff of 100.</lex>
+      <lex comment="good" lid="Id3">The dean of the Accademia di Architettura di Mendrisio is Mario Botta, it has a staff compliment of 100 and 600 students.</lex>
+    </entry>
+    <entry category="University" eid="Id27" size="4">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | facultySize | "100"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio was established in 1996. Its dean is Mario Botta. It has 600 students and 100 academic staff.</lex>
+      <lex comment="good" lid="Id2">The Dean of the Accademia di Architettura di Mendrisio is Mario Botta. The Accademia was established in 1996 and has 600 students and 100 academic staff.</lex>
+      <lex comment="good" lid="Id3">The dean of the Accademia di Architettura di Mendrisio is Mario Botta. The academy was established in 1996 and has a staff compliment of 100 and 600 students.</lex>
+    </entry>
+    <entry category="University" eid="Id28" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</otriple>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is located in the city of Bangalore, Karnataka state, India. It is affiliated with the Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id2">Affiliated with Visvesvaraya Technological University, the Acharya Institute of Technology is located in Bangalore, Karnataka in India.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology is located in the city of Bangalore in the state of Karnataka, India. It is affiliated with Visvesvaraya Technological University.</lex>
+    </entry>
+    <entry category="University" eid="Id29" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | campus | "Urban, ,\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | campus | "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology campus in India, which is affiliated with the Visvesvaraya Technological University is situated at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology in Bangalore, India is affiliated with the Visvesvaraya Technological University and it's campus can be found in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology has its campus in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090, India. It is affiliated with the Visvesvaraya Technological University.</lex>
+    </entry>
+    <entry category="University" eid="Id30" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | postgrad | "~700"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | "700"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology, Bangalore, India, has 700 postgraduate students and is affiliated with Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology in Bangalore, India has 700 post graduate students. The Institute is affiliated with Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id3">An affiliate of Visvesvaraya Technology University, Acharya Institute of Technology in Bangalore, India has 700 postgraduate students.</lex>
+    </entry>
+    <entry category="University" eid="Id31" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | campus | "Urban, ,\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | campus | "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acharya Institute of Technology (Director Dr. G. P. Prabhukumar) is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090 and is affiliated with Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology is in Bangalore and its director is Dr. G. P. Prabhukumar. The school is affiliated with Visvesvaraya Technological University and its exact address is In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+      <lex comment="good" lid="Id3">Led by Dr. G. P. Prabhukumar and an affiliate of Visvesvaraya Technological University, Acharya Institute of Technology is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.</lex>
+    </entry>
+    <entry category="University" eid="Id32" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Director of the Acharya Institute of Technology in Bangalore, Karnataka, India is Dr G P Prabhukumar.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology is located in Bangalore, Karnataka, India. The director of the institute is Dr. G. P. Prabhukumar.</lex>
+      </entry>
+    <entry category="University" eid="Id33" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | established | 2000</otriple>
+        <otriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | "700"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | established | 2000</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology, Bangalore, has 700 postgraduate students, is affiliated with Visvesvaraya Technological University and was established in the year 2000.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology in Bangalore was established in 2000 and has 700 students. It is affiliated with Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id3">An affiliate of Visvesvaraya Technological University, Acharya Institute of Technology in Bangalore was established in 2000 and currently has 700 postgraduate students enrolled.</lex>
+    </entry>
+    <entry category="University" eid="Id34" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | established | 2000</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | established | 2000</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology (established 2000) of Bangalore, Karnataka is affiliated with Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology is in Bangalore which is in the state of Karnataka. It is affiliated with Visvesvaraya Technological University and was established in 2000.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology was established in 2000 in Bangalore, Karnataka and is affiliated with Visvesvaraya Technological University.</lex>
+    </entry>
+    <entry category="University" eid="Id35" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | "700"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Acharya_Institute_of_Technology | campus | "Urban, ,\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | campus | "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090. It has 700 postgraduate students and it is affiliated with the Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology in Bangalore is affiliated to the Visvesvaraya Technological University. The Institute has 700 postgraduate students and the campus is located at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+      <lex comment="good" lid="Id3">Affiliated with Visvesvaraya Technological University, the The Acharya Institute of Technology in Bangalore has 700 post-graduate students and is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+    </entry>
+    <entry category="University" eid="Id36" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | sport | Tennis</otriple>
+        <otriple>Tennis | sportGoverningBody | International_Tennis_Federation</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</otriple>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | sport | Tennis</otriple>
+        <otriple>Tennis | union | International_Tennis_Federation</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | sportsOffered | Tennis</mtriple>
+        <mtriple>Tennis | sportsGoverningBody | International_Tennis_Federation</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology, Bangalore is affiliated with the Visvesvaraya Technological University and one of the sports offered at the Institute is tennis (whose governing body is the International Tennis Federation.</lex>
+    </entry>
+    <entry category="University" eid="Id37" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Karnataka | west | Arabian_Sea</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Karnataka | has to its west | Arabian_Sea</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology which is affiliated with the Visesvaraya Technological Univerrsity is located in the city of Bangalore in Karnataka state. This state has the Arabian Sea to the west.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology in Bangalore, Karnataka is located east of the Arabian Sea and is affiliated with the Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology is located in the city of Bangalore in the state of Karnataka and is affiliated with Visvesvaraya Technological University. Karnataka has to its west the Arabian Sea.</lex>
+    </entry>
+    <entry category="University" eid="Id38" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | established | 2000</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+        <otriple>Acharya_Institute_of_Technology | campus | "Urban, ,\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | established | 2000</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | campus | "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acharya Institute of Technology was established in 2000 and is located in the state of Karnataka. The complete address is In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore India 560090.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology was founded in the year 2000. The campus address is Radhakrishnan Road, Hessarghatta Main Road, Bangalore 560090. The city of Bangalore is in the state of Karnataka in India.</lex>
+    </entry>
+    <entry category="University" eid="Id39" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | president | "B.M. Reddy"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | established | 2000</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | president | "B.M. Reddy"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | established | 2000</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is located in Bangalore, India. Its president is B.M. Reddy and it was established in 2000.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology was established in 2000 in the city of Bangalore, India. The president of the institute is B.M. Reddy.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology, Bangalore, India was established in 2000 and has as its president B. M. Reddy.</lex>
+    </entry>
+    <entry category="University" eid="Id40" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | free | All_India_Council_for_Technical_Education</otriple>
+        <otriple>All_India_Council_for_Technical_Education | location | Mumbai</otriple>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</mtriple>
+        <mtriple>All_India_Council_for_Technical_Education | location | Mumbai</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Archarya Institute of Technology is located in Mumbai, Bangalore. It is affiliated to the Visvesvaraya Technological University and it was given the "Technical Campus" status by the All India Council for Technical Education.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology in Bangalore was awarded Technical Campus status by the All India Council for Technical Education based in Mumbai. The Institute is affiliated to the Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology is located in Bangalore and is affiliated with the Visvesvaraya Technological University. It has been given the 'Technical Campus' status by the All India Council for Technical Education which is based in Mumbai.</lex>
+    </entry>
+    <entry category="University" eid="Id41" size="4">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | free | All_India_Council_for_Technical_Education</otriple>
+        <otriple>All_India_Council_for_Technical_Education | location | Mumbai</otriple>
+        <otriple>Karnataka | west | Arabian_Sea</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</mtriple>
+        <mtriple>All_India_Council_for_Technical_Education | location | Mumbai</mtriple>
+        <mtriple>Karnataka | has to its west | Arabian_Sea</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The state of Karnataka has the Arabian Sea to the west and is the location of the Acharya Institute of Technology. The Institute was given Technical campus status by the All India Council for Technical Education in Mumbai.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology in Karnataka, east of the Arabian Sea was given the 'Technical Campus' status by the All India Council for Technical Education, located in Mumbai.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology was given Technical Campus status by the All India Council for Technical Education which is based in Mumbai. The Acharya Institute is located in the state of Karanataka which has to its west the Arabian Sea.</lex>
+    </entry>
+    <entry category="University" eid="Id42" size="4">
+      <originaltripleset>
+        <otriple>Denmark | leaderName | Lars_Løkke_Rasmussen</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliation | European_University_Association</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Denmark | leader | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lars Lokke Rasmussen is the leader of Denmark where the School of Business and Social Sciences at the Aarhus University is located. The School is affiliated with the European University Association which has its headquarters in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University in Denmark is affiliated with the European University Association, headquartered in Brussels. The country's leader is Lars Løkke Rasmussen.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at Aarhus University (in Denmark) is affiliated to the European University Association (HQ in Brussels). Denmark's leader is Lars Lokke Rasmussen.</lex>
+    </entry>
+    <entry category="University" eid="Id43" size="4">
+      <originaltripleset>
+        <otriple>Denmark | leaderName | Lars_Løkke_Rasmussen</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | established | 1928</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University, (established 1928) is located in the city of Aarhus, Denmark. The leader of Denmark is Lars Løkke Rasmussen.</lex>
+      <lex comment="good" lid="Id2">Established in 1928, the School of Business and Social Sciences at the Aarhus University in Aarhus is located in the country of Denmark whose current leader is Lars Lokke Rasmussen.</lex>
+    </entry>
+    <entry category="University" eid="Id44" size="4">
+      <originaltripleset>
+        <otriple>Denmark | leaderName | Lars_Løkke_Rasmussen</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Denmark | leaderTitle | Monarchy_of_Denmark</otriple>
+        <otriple>Denmark | religion | Church_of_Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+        <mtriple>Denmark | leaderTitle | Monarchy_of_Denmark</mtriple>
+        <mtriple>Denmark | religion | Church_of_Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University is in Denmark, the country whose leaders name is Lars Løkke Rasmussen (he has the title Monarchy of Denmark). The Church of Denmark is the main religion of the country.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University is in Denmark. The country is led by its Monarch, Lars Løkke Rasmussen and residents follow the Church of Denmark.</lex>
+      </entry>
+    <entry category="University" eid="Id45" size="4">
+      <originaltripleset>
+        <otriple>India | largestCity | Mumbai</otriple>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | faculty | 250</otriple>
+        <otriple>India | river | Ganges</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | largestCity | Mumbai</mtriple>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | academicStaffSize | 250</mtriple>
+        <mtriple>India | river | Ganges</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College (India) has an academic staff of 250. The largest city in India is Mumbai and one of the country's rivers is the Ganges.</lex>
+      <lex comment="toFix" lid="Id2">AWH Engineering College in Mumbai, India has a staff size of 250 people. The Ganges River is also found in India.</lex>
+      </entry>
+    <entry category="University" eid="Id46" size="4">
+      <originaltripleset>
+        <otriple>India | largestCity | Mumbai</otriple>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | established | 2001</otriple>
+        <otriple>AWH_Engineering_College | facultySize | "250"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | largestCity | Mumbai</mtriple>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | established | 2001</mtriple>
+        <mtriple>AWH_Engineering_College | academicStaffSize | 250</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College (India) has 250 academic staff and was established in 2001. India's largest city is Mumbai.</lex>
+      <lex comment="toFix" lid="Id2">Established in 2001 in Mumbai, India, AWH Engineering College has an academic staff of 250 employees.</lex>
+    </entry>
+    <entry category="University" eid="Id47" size="4">
+      <originaltripleset>
+        <otriple>India | largestCity | Mumbai</otriple>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>AWH_Engineering_College | city | "Kuttikkattoor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | largestCity | Mumbai</mtriple>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>AWH_Engineering_College | city | "Kuttikkattoor"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AWH Engineering College is located in Kuttikkattoor, Kerala, India. Mumbai is the largest city in India.</lex>
+      <lex comment="good" lid="Id2">The AWH Engineering College is located in the city of Kuttikkattoor in the the state of Kerala, India. The largest city in India is Mumbai.</lex>
+      </entry>
+    <entry category="University" eid="Id48" size="4">
+      <originaltripleset>
+        <otriple>India | largestCity | Mumbai</otriple>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+        <otriple>Kerala | northwest | Mahé,_India</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | largestCity | Mumbai</mtriple>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+        <mtriple>Kerala | has to its northwest | Mahé,_India</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College is in the state of Kerala which has to its northwest Mahé, India. The largest city in India is Mumbai.</lex>
+      <lex comment="good" lid="Id2">AWH Engineering College is in Mumbai, India in the state of Kerala. Mumbai is the largest city in the country and to the northeast of Kerala is Mahe.</lex>
+      </entry>
+    <entry category="University" eid="Id49" size="4">
+      <originaltripleset>
+        <otriple>Karnataka | northeast | Telangana</otriple>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Karnataka | has to its northeast | Telangana</mtriple>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is located in the state of Karnataka which has Telangana to its northeast. The Institute is affiliated to Visvesvaraya Technological University of Belgaum.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology is in Karnataka. It is affiliated with the Visvesvaraya Technological University in Belgaum. Telangana is to the northeast of Karnataka.</lex>
+    </entry>
+    <entry category="University" eid="Id50" size="4">
+      <originaltripleset>
+        <otriple>Romania | ethnicGroups | Germans_of_Romania</otriple>
+        <otriple>Romania | leader | Klaus_Iohannis</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+        <otriple>Romania | anthem | Deșteaptă-te,_române!</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | ethnicGroup | Germans_of_Romania</mtriple>
+        <mtriple>Romania | leaderName | Klaus_Iohannis</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+        <mtriple>Romania | anthem | Deșteaptă-te,_române!</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University is located in Romania. The country's leader is Klaus Johannis and the national anthem is Deșteaptă-te, române!. It's ethnic group is German.</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University is located in Romania. Romania's ethic group is the Germans of Romania; its leader is Klaus Iohannis and its anthem is Desteapta-te, romane!</lex>
+    </entry>
+    <entry category="University" eid="Id51" size="4">
+      <originaltripleset>
+        <otriple>Romania | leaderName | Klaus_Iohannis</otriple>
+        <otriple>Romania | capital | Bucharest</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+        <otriple>Romania | anthem | Deșteaptă-te,_române!</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Romania | leader | Klaus_Iohannis</otriple>
+        <otriple>Romania | capital | Bucharest</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+        <otriple>Romania | anthem | Deșteaptă-te,_române!</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderName | Klaus_Iohannis</mtriple>
+        <mtriple>Romania | capital | Bucharest</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+        <mtriple>Romania | anthem | Deșteaptă-te,_române!</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Romania's leader is Klaus Iohannis, its capital is Bucharest and its anthem is Desteapta-te, Romane. 1 Decembrie 1918 University is in Romania.</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University is located in the country of Romania, whose capital city is Bucharest. The leader of Romania is Klaus Iohannis and the national anthem is Deșteaptă-te, române!</lex>
+    </entry>
+    <entry category="University" eid="Id52" size="4">
+      <originaltripleset>
+        <otriple>Romania | leader | Klaus_Iohannis</otriple>
+        <otriple>Romania | leaderTitle | Prime_Minister_of_Romania</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+        <otriple>Romania | anthem | Deșteaptă-te,_române!</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderName | Klaus_Iohannis</mtriple>
+        <mtriple>Romania | leaderTitle | Prime_Minister_of_Romania</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+        <mtriple>Romania | anthem | Deșteaptă-te,_române!</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Prime Minister Klaus Iohannis leads the country of Romania which has "Desteapta-te, romane!" as its national anthem and is the location of the 1 Decembrie 1918 University.</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University is located in Romania. The Prime Minister is named Klaus Johannis and the national anthem is Deșteaptă-te, române!.</lex>
+      <lex comment="good" lid="Id3">The Romania Prime Minister is Klaus lohannis and he attended 1 Decembrie 1918 University in Romania. It's anthem is called Deșteaptă-te române.</lex>
+    </entry>
+    <entry category="University" eid="Id53" size="4">
+      <originaltripleset>
+        <otriple>Romania | leaderTitle | Prime_Minister_of_Romania</otriple>
+        <otriple>Romania | capital | Bucharest</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+        <otriple>Romania | anthem | Deșteaptă-te,_române!</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderTitle | Prime_Minister_of_Romania</mtriple>
+        <mtriple>Romania | capital | Bucharest</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+        <mtriple>Romania | anthem | Deșteaptă-te,_române!</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University is located in Romania. Romania's capital is Bucharest, its anthem is Desteapta-te romane! and its leader is the Prime Minister.</lex>
+      <lex comment="good" lid="Id2">The Prime Minister of Romania leads the country which has Bucharest as it's capital city. The Romanian anthem is "Desteapta-te romane!" and the country is the location of the 1 Decembrie 1918 University.</lex>
+      <lex comment="good" lid="Id3">1 Decembrie 1918 University is located in Romania. The capital of the country is Buharest, it's leader is the Prime Minister and the national anthem is Deșteaptă-te, române!.</lex>
+    </entry>
+    <entry category="University" eid="Id54" size="4">
+      <originaltripleset>
+        <otriple>Romania | leaderTitle | Prime_Minister_of_Romania</otriple>
+        <otriple>Romania | ethnicGroup | Germans_of_Romania</otriple>
+        <otriple>Romania | capital | Bucharest</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderTitle | Prime_Minister_of_Romania</mtriple>
+        <mtriple>Romania | ethnicGroup | Germans_of_Romania</mtriple>
+        <mtriple>Romania | capital | Bucharest</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University is located in Romania, which has as its capital city Bucharest. The title of the leader of the country is The Prime Minister of Romania and one of the ethnic groups in the country is the Germans of Romania.</lex>
+    </entry>
+    <entry category="University" eid="Id55" size="4">
+      <originaltripleset>
+        <otriple>Romania | leaderTitle | Prime_Minister_of_Romania</otriple>
+        <otriple>Romania | ethnicGroup | Germans_of_Romania</otriple>
+        <otriple>Romania | leaderName | Klaus_Iohannis</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderTitle | Prime_Minister_of_Romania</mtriple>
+        <mtriple>Romania | ethnicGroup | Germans_of_Romania</mtriple>
+        <mtriple>Romania | leaderName | Klaus_Iohannis</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University is located in Romania which is lead by Prime Minister Klaus Iohannis and where the Germans of Romania is one of the ethnic groups.</lex>
+      <lex comment="good" lid="Id2">Romania's leader is Prime Minister Klaus Iohannis. Its ethnic group is Germans of Romania. The 1 Decembrie 1918 University is in Romania.</lex>
+    </entry>
+    <entry category="University" eid="Id56" size="4">
+      <originaltripleset>
+        <otriple>Romania | leaderTitle | Prime_Minister_of_Romania</otriple>
+        <otriple>Romania | leaderName | Klaus_Iohannis</otriple>
+        <otriple>Romania | capital | Bucharest</otriple>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderTitle | Prime_Minister_of_Romania</mtriple>
+        <mtriple>Romania | leaderName | Klaus_Iohannis</mtriple>
+        <mtriple>Romania | capital | Bucharest</mtriple>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Romania is Prime Minister Klaus Iohannis . The capital city is Bucharest and the 1 Decembrie 1918 University is located in the country.</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University is located in Romania. The capital of the country is Bucharest, it's Prime Minister is Klaus Johannis.</lex>
+      </entry>
+    <entry category="University" eid="Id57" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | established | 1928</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University was established in 1928 and has an academic staff of 737. It is affiliated with the European University Association based in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University has a staff compliment of 737 and was established in 1928. It is affilaited with the European University Association, located in Brussels.</lex>
+      </entry>
+    <entry category="University" eid="Id58" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University has an academic staff of 737 and is located in the city of Aarhus. It has an affiliation with European University Association which has its headquarters in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University in the city of Aarhus has a staff size of 737 people. The university is affiliated with the European University Association which is headquartered in Brussels.</lex>
+      </entry>
+    <entry category="University" eid="Id59" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | numberOfStudents | "16000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | facultySize | "737"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | numberOfStudents | 16000</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | established | 1928</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University (established 1928) has 16000 students, 737 academic staff and is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University has 16,000 students and 737 staff members. It was established in 1928 and is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id3">School of Business and Social Sciences was established in 1928 and is affiliated with the European University Association. Thr school has 16,000 students and an academic staff of 737.</lex>
+    </entry>
+    <entry category="University" eid="Id60" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | numberOfStudents | "16000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | facultySize | "737"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | facultySize | "737"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | numberOfStudents | 16000</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University, Denmark, has 16000 students, 737 academic staff and is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University in Denamrk has 16,000 students and 737 employees among its academic staff. It's affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id3">An affiliate of the European University Association, the School of Business and Social Sciences at the Aarhus University in Denmark currently provides educational services to 16000 students with an academic staff of 737.</lex>
+    </entry>
+    <entry category="University" eid="Id61" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliation | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus | northeast | Mols</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>Aarhus | has to its northeast | Mols</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University in the city of Aarhus is affiliated with the European University Association which has its headquarters in Brussels. Aarhus is located southwest of Mols.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University is based in the city of Aarhus, which has to its northeast Mols. The School is affiliated with the European University Association which had its headquarters in Brussels.</lex>
+    </entry>
+    <entry category="University" eid="Id62" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliation | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University in the city of Aarhus, Denmark is affiliated with the European University Association which has its headquarters in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences (Aarhus, Denmark) is affiliated with the European University Association, which has its headquarters in Brussels.</lex>
+    </entry>
+    <entry category="University" eid="Id63" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliation | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | established | 1928</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University in the city of Aarhus was established in 1928 and is affiliated with The European University Association whose headquarters are in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University was established in 1928 and is affiliated with the European University Associated headquartered in Brussels.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University (established 1928 in the city of Aarhus) is affiliated with the European University Association which has its headquarters in Brussels.</lex>
+    </entry>
+    <entry category="University" eid="Id64" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+        <otriple>Aarhus | governmentType | Magistrate</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>Aarhus | governmentType | Magistrate</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aarhus, which has a magistrate type of government is the location of the School of Business and Social Sciences at the Aarhus University. The School is affiliated with the European University Association which has its headquarters in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University, Aarhus which has a Magistrate government. It is affiliated with the European University Association in Brussels.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University in Aarhus is affiliated with the European University Association, which has its headquarters in Brussels. Aarhus has a magistrate government.</lex>
+    </entry>
+    <entry category="University" eid="Id65" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | numberOfStudents | "16000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | facultySize | "737"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | numberOfStudents | 16000</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University is located in Aarhus, Denmark. There are 737 academic staff and 16000 students.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University in Denmark has a staff compliment of 737 and 16000 students.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at theAarhus University in Aarhus, Denmark has 737 academic staff and 16,000 students.</lex>
+    </entry>
+    <entry category="University" eid="Id66" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliation | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | numberOfStudents | 16000</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University, Aarhus, Denmark, has 16000 students and is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University in Aarhus, Denmark has 16,000 students and is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id3">An affiliate of the European University Association, the School of Business and Social Sciences at the Aarhus University in Aarhus, Denmark has 16,000 students enrolled.</lex>
+    </entry>
+    <entry category="University" eid="Id67" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus | northeast | Mols</otriple>
+        <otriple>Denmark | leader | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+        <mtriple>Aarhus | has to its northeast | Mols</mtriple>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aarhus in Denmark, which lies southwest of Mols is the location of the School of Business and Social Sciences at the Aarhus University. The leader of Denmark is Lars Lokke Rasmussen.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University is located in Denmark, southwest of Mols. The country's leader is Lars Løkke Rasmussen.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aaarhus University is located in Aarhus, Denmark. Aarhus has Mols to its northeast. Denmark's leader is Lars Lokke Rasmussen.</lex>
+    </entry>
+    <entry category="University" eid="Id68" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | established | 1928</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University, Aarhus, Denmark was established in 1928 and is affiliated to the European University Association.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University in Aarhus, Denmark was established in 1928. It is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id3">In 1928 a School of Business and Social Sciences was established at the Aarhus University in Aarhus, Denmark. This school is affiliated with the European University Association.</lex>
+    </entry>
+    <entry category="University" eid="Id69" size="4">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | students | 16000</otriple>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | facultySize | "737"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | numberOfStudents | 16000</mtriple>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at the Aarhus University is affiliated to the European University Association. It has 737 academic staff and 16,000 students. The European University Association has headquarters in Brussels.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University is affiliated to the European Universiity Association based in Brussels. The School has 16000 students and 737 academic staff.</lex>
+      </entry>
+    <entry category="University" eid="Id70" size="4">
+      <originaltripleset>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | postgrad | "~700"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | "700"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is located in India and it has 700 postgraduate students. It is affiliated with the Visvesvaraya Technological University in Belgaum.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology in India which has 700 postgraduate students is affiliated to the Visvesvaraya Technological University in Belgaum.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology in India has 700 post-graduate students and is affiliated with the Visvesvaraya Technological University in Belgaum.</lex>
+    </entry>
+    <entry category="University" eid="Id71" size="4">
+      <originaltripleset>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology in Karnataka is affiliated with the Visvesvaraya Technological University in Belgaum. It's director is Dr. G. P. Prabhukumar.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology is located in Karnatka. It is affiliated with the Visvesvaraya Technological University in Belgaum and its director is Dr. G. P. Prabhukumar.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology based in the state of Karnataka has the director Dr. G. P. Prabhukumar. The Institute is affiliated with Visvesvaraya Technological University which is located in the city of Belgaum.</lex>
+    </entry>
+    <entry category="University" eid="Id72" size="4">
+      <originaltripleset>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | "700"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Acharya_Institute_of_Technology | campus | "Urban, ,\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."@en</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | campus | "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology campus has 700 postgraduate students and is affiliated with the Visvesvaraya Technological University in the city of Belgaum. The campus is located at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology has its campus in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090. It has 700 postgraduate students and it is affiliated with the Visvesvaraya Technological University in Belgaum.</lex>
+    </entry>
+    <entry category="University" eid="Id73" size="4">
+      <originaltripleset>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | sport | Tennis</otriple>
+        <otriple>Tennis | union | International_Tennis_Federation</otriple>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</otriple>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | sport | Tennis</otriple>
+        <otriple>Tennis | sportGoverningBody | International_Tennis_Federation</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | sportsOffered | Tennis</mtriple>
+        <mtriple>Tennis | sportsGoverningBody | International_Tennis_Federation</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology offers tennis as its sport. It is affiliated with the Visvesvaraya Technological University in Belgaum. The governing tennis body is the International Tennis Federation.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology is affiliated to the Visvesvaraya Technological University in the city of Belgaum. The Institute offers tennis, a sport governed by the International Tennis Federation.</lex>
+      </entry>
+  </entries>
+</benchmark>

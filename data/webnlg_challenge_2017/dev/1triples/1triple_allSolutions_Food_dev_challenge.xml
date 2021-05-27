@@ -1,0 +1,359 @@
+<benchmark>
+  <entries>
+    <entry category="Food" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Ajoblanco | alias | "Ajo blanco"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ajoblanco | alternativeName | "Ajo blanco"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The alternative name for Ajoblanco is "Ajo blanco".</lex>
+      <lex comment="good" lid="Id2">Ajo blanco is an alternative name to Ajoblanco.</lex>
+      <lex comment="good" lid="Id3">Ajo blanco is an alternative name of Ajoblanco.</lex>
+    </entry>
+    <entry category="Food" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Ajoblanco | mainIngredient | "Bread, almonds, garlic, water, olive oil"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ajoblanco | mainIngredients | "Bread, almonds, garlic, water, olive oil"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The main ingredients in ajoblanco are bread, almonds, garlic, water and olive oil.</lex>
+      <lex comment="good" lid="Id2">Bread, almonds, garlic, water, and olive oil are the main ingredients in Ajoblanco.</lex>
+      <lex comment="good" lid="Id3">The main ingredients of Ajoblanco are bread, almonds, garlic, water, olive oil.</lex>
+    </entry>
+    <entry category="Food" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Arem-arem | region | "Nationwide in Indonesia, but more specific to Java"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arem-arem | region | "Nationwide in Indonesia, but more specific to Java"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arem-arem is found nationwide in Indonesia, but is more specific to Java.</lex>
+      <lex comment="good" lid="Id2">Arem-arem is nationwide in Indonesia, but more specific to Java.</lex>
+    </entry>
+    <entry category="Food" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Arem-arem | region | Indonesia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arem-arem | region | Indonesia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arem arem comes from Indonesia.</lex>
+    </entry>
+    <entry category="Food" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | ingredientName | "Tomatoes,red chili,garlic,olive oil"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | mainIngredient | "Tomatoes, red chili, garlic, olive oil"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arrabbiata_sauce | mainIngredients | "Tomatoes, red chili, garlic, olive oil"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arrabbiata sauce is made with tomatoes, red chili, garlic and olive oil.</lex>
+      <lex comment="good" lid="Id2">the main ingredients in Arrabbiata sauce are Tomatoes, red chili, garlic and olive oil.</lex>
+    </entry>
+    <entry category="Food" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Arròs_negre | ingredient | Cuttlefish</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arròs_negre | ingredient | Cuttlefish</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cuttlefish is an ingredient in Arros negre.</lex>
+      <lex comment="good" lid="Id2">Cuttlefish is an ingredient of the dish Arròs negre.</lex>
+    </entry>
+    <entry category="Food" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Arròs_negre | ingredient | Squid</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arròs_negre | ingredient | Squid</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Squid is an ingredient of Arros negre.</lex>
+    </entry>
+    <entry category="Food" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Asam_pedas | country | Malaysia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asam_pedas | country | Malaysia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asam pedas is a food found in Malaysia.</lex>
+    </entry>
+    <entry category="Food" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Avocado | genus | Persea</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Avocado | genus | Persea</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The genus of the avocado is persea.</lex>
+      <lex comment="good" lid="Id2">The genus of Avocado is Persea.</lex>
+    </entry>
+    <entry category="Food" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Ayam_penyet | servingTemperature | "Hot"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ayam_penyet | servingTemperature | "Hot"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ayam penyet should be served hot.</lex>
+      <lex comment="good" lid="Id2">Ayam penyet is a dish that should be served hot.</lex>
+      <lex comment="good" lid="Id3">ayam penyet is served hot.</lex>
+    </entry>
+    <entry category="Food" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Baked_Alaska | course | Dessert</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baked_Alaska | course | Dessert</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baked Alaska is a dessert.</lex>
+    </entry>
+    <entry category="Food" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Bakewell_tart | ingredient | Frangipane</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakewell_tart | ingredient | Frangipane</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">An ingredient of bakewell tart is frangipane.</lex>
+      <lex comment="good" lid="Id2">Frangipane is an ingredient in a Bakewell tart.</lex>
+      <lex comment="good" lid="Id3">Frangipane is an ingredient of Bakewell tart.</lex>
+    </entry>
+    <entry category="Food" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Bakso | ingredient | Noodle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakso | ingredient | Noodle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The dish Bakso contains noodles.</lex>
+      <lex comment="good" lid="Id2">Noodle is an ingredient in Bakso.</lex>
+      <lex comment="good" lid="Id3">bakso contains noodles.</lex>
+    </entry>
+    <entry category="Food" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Bakso | ingredient | Vermicelli</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakso | ingredient | Vermicelli</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vermicelli is an ingredient in Bakso.</lex>
+      <lex comment="good" lid="Id2">Vermicelli is an ingredient of the dish Bakso.</lex>
+      <lex comment="good" lid="Id3">Vermicelli is included in bakso.</lex>
+    </entry>
+    <entry category="Food" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Bandeja_paisa | ingredient | Chorizo</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bandeja_paisa | ingredient | Chorizo</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chorizo is an ingredient in the dish Bandeja paisa.</lex>
+      <lex comment="good" lid="Id2">Chorizo is an ingredient in Bandeja paisa.</lex>
+    </entry>
+    <entry category="Food" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Barny_Cakes | creator | Mondelez_International</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Barny_Cakes | creator | Mondelez_International</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mondelez International is the creator of Barny cakes.</lex>
+      <lex comment="good" lid="Id2">Barny cakes were created by Mondelez International.</lex>
+      <lex comment="good" lid="Id3">Barny cakes is created by Mondelez International.</lex>
+    </entry>
+    <entry category="Food" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Barny_Cakes | hasVariant | Chocolate</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Barny_Cakes | dishVariation | Chocolate</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Barny Cakes can be chocolate flavoured.</lex>
+      <lex comment="good" lid="Id2">Chocolate is one variation of the Barny Cakes dish.</lex>
+    </entry>
+    <entry category="Food" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Barny_Cakes | protein | "1.8"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Barny_Cakes | protein | 1.8 g</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Barny cakes contain 1.8 g of protein.</lex>
+      <lex comment="good" lid="Id2">Barny cakes contain 1.8g of protein.</lex>
+    </entry>
+    <entry category="Food" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Batchoy | country | Philippines</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | country | Philippines</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Batchoy is eaten in the Philippines.</lex>
+      <lex comment="good" lid="Id2">Philippines is the country Batchoy comes from.</lex>
+    </entry>
+    <entry category="Food" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Batchoy | ingredient | Chicken</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | ingredient | Chicken</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chicken is an ingredient in Batchoy.</lex>
+      <lex comment="good" lid="Id2">Batchoy includes chicken.</lex>
+    </entry>
+    <entry category="Food" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Batchoy | ingredient | Vegetable</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | ingredient | Vegetable</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vegetable are used in the preparation of Batchoy.</lex>
+      <lex comment="good" lid="Id2">Vegetables are an ingredient in Batchoy.</lex>
+    </entry>
+    <entry category="Food" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Binignit | region | Visayas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Binignit | region | Visayas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Binignit is a dish from the region of Visayas.</lex>
+    </entry>
+    <entry category="Food" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Derbyshire_Dales | leaderName | Patrick_McLoughlin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Derbyshire_Dales | leaderName | Patrick_McLoughlin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Patrick McLoughlin is a leader in the Derbyshire Dales.</lex>
+      <lex comment="good" lid="Id2">Patrick McLoughlin is a leader in Derbyshire Dales.</lex>
+      <lex comment="good" lid="Id3">Patrick McLoughlin is the leader of Derbyshire Dales.</lex>
+    </entry>
+    <entry category="Food" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Dessert | hasVariant | Cake</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dessert | dishVariation | Cake</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A variation on dessert is cake.</lex>
+    </entry>
+    <entry category="Food" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Dessert | hasVariant | Ice_cream</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dessert | dishVariation | Ice_cream</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ice cream is a type of dessert.</lex>
+      <lex comment="good" lid="Id2">A type of dessert is an ice cream.</lex>
+      <lex comment="good" lid="Id3">Ice cream is a dessert.</lex>
+    </entry>
+    <entry category="Food" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Indonesia | leaderName | Jusuf_Kalla</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Indonesia | leader | Jusuf_Kalla</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Indonesia | leaderName | Jusuf_Kalla</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jusuf Kalla is a leader in Indonesia.</lex>
+      <lex comment="good" lid="Id2">Jusuf Kalla is the leader of Indonesia.</lex>
+    </entry>
+    <entry category="Food" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Italy | demonym | Italians</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | demonym | Italians</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Italians are from Italy.</lex>
+      <lex comment="good" lid="Id2">Italians is the name given to people from Italy.</lex>
+    </entry>
+    <entry category="Food" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Java | ethnicGroup | Baduy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Java | ethnicGroup | Baduy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baduy is the ethnic group of Java.</lex>
+      <lex comment="good" lid="Id2">The Baduy is an ethnic group in Java.</lex>
+      <lex comment="good" lid="Id3">Baduy is an ethnic group of Java.</lex>
+    </entry>
+    <entry category="Food" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Lemon | order | Rosids</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lemon | order | Rosids</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lemon is under the order of Rosids.</lex>
+      <lex comment="good" lid="Id2">the order of lemons is Rosids.</lex>
+    </entry>
+    <entry category="Food" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Mexico | demonym | Mexicans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mexico | demonym | Mexicans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mexico is inhabited by Mexicans.</lex>
+      <lex comment="good" lid="Id2">Mexicans are people from Mexico.</lex>
+    </entry>
+    <entry category="Food" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Mexico | language | Spanish_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mexico | language | Spanish_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Mexico, the spoken language is Spanish.</lex>
+      <lex comment="good" lid="Id2">Spanish is the language spoken in Mexico.</lex>
+      <lex comment="good" lid="Id3">The language of Mexico is Spanish.</lex>
+    </entry>
+    <entry category="Food" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Philippines | language | Arabic</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | language | Arabic</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">One of the languages used in the Philippines is Arabic.</lex>
+      <lex comment="good" lid="Id2">Arabic is a language spoken in the Philippines.</lex>
+      <lex comment="good" lid="Id3">One of the languages in Philippines is Arabic.</lex>
+      <lex comment="good" lid="Id4">Arabic is one of the languages spoken in the Philippines.</lex>
+    </entry>
+    <entry category="Food" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Siomay | hasVariant | Shumai</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Siomay | variations | Shumai</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Siomay | dishVariation | Shumai</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Shumai is a variation of the dish Siomay.</lex>
+      <lex comment="good" lid="Id2">Siomay and Shumai are variations of the same dish.</lex>
+    </entry>
+    <entry category="Food" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Native Americans in the United States are one of the ethnic groups of the country.</lex>
+    </entry>
+    </entries>
+</benchmark>

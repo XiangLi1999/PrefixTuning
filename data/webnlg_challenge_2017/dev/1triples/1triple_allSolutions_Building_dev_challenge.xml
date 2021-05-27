@@ -1,0 +1,329 @@
+<benchmark>
+  <entries>
+    <entry category="Building" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>103_Colmore_Row | architect | John_Madin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>103_Colmore_Row | architect | John_Madin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">103 Colmore Row was designed by the architect, John Madin.</lex>
+      <lex comment="good" lid="Id2">103 Colmore Row was designed by the architect John Madin.</lex>
+    </entry>
+    <entry category="Building" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>103_Colmore_Row | location | Colmore_Row</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>103_Colmore_Row | location | Colmore_Row</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">103 Colmore Row is located at Colmore Row.</lex>
+      <lex comment="good" lid="Id2">103 Colmore Row is located in Colmore Row.</lex>
+    </entry>
+    <entry category="Building" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | buildingEndDate | "1983"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | completionDate | 1983</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | completionDate | 1983</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11 Diagonal Street was completed in 1983.</lex>
+    </entry>
+    <entry category="Building" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>200_Public_Square | buildingEndDate | "1985"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>200_Public_Square | completionDate | 1985</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>200_Public_Square | completionDate | 1985</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 200 Public Square was completed in 1985.</lex>
+      <lex comment="good" lid="Id2">200 Public Square was completed in 1985.</lex>
+    </entry>
+    <entry category="Building" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | buildingStartDate | "January 2009"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | startDate | "January 2009"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>20_Fenchurch_Street | buildingStartDate | "January 2009"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The building at 20 Fenchurch Street was started in January 2009.</lex>
+      <lex comment="good" lid="Id2">The construction of 20 Fenchurch Street began in January 2009.</lex>
+    </entry>
+    <entry category="Building" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | location | United_Kingdom</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>20_Fenchurch_Street | location | United_Kingdom</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">20 Fenchurch Street is located in the United Kingdom.</lex>
+      <lex comment="good" lid="Id2">20 Fenchurch Street is located within the United Kingdom.</lex>
+    </entry>
+    <entry category="Building" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>300_North_LaSalle | floorCount | "60"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>300_North_LaSalle | floorCount | 60</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 60 floors at 300 North LaSalle.</lex>
+      <lex comment="good" lid="Id2">300 North LaSalle has 60 floors.</lex>
+    </entry>
+    <entry category="Building" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>3Arena | architect | "HOK SVE"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | architect | "HOK SVE"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">HOK SVE was the architect of 3Arena.</lex>
+      <lex comment="good" lid="Id2">HOK SVE was the architect of the 3Arena.</lex>
+    </entry>
+    <entry category="Building" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>3Arena | location | "East Link Bridge"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | location | "East Link Bridge"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 3Arena is located at East Link Bridge.</lex>
+      <lex comment="good" lid="Id2">The 3Arena is located on the East Link Bridge.</lex>
+      <lex comment="good" lid="Id3">3 Arena is located at East Link Bridge.</lex>
+    </entry>
+    <entry category="Building" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Adare_Manor | buildingStartDate | "(original structure); 1832 (current structure)"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adare_Manor | buildingStartDate | "1700"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adare Manor's building start was in 1700.</lex>
+      <lex comment="good" lid="Id2">The building of the Adare Manor was started in 1700.</lex>
+    </entry>
+    <entry category="Building" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Adare_Manor | locationCountry | Republic_of_Ireland</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adare_Manor | country | Republic_of_Ireland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adare_Manor | country | Republic_of_Ireland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adare Manor is located in the Republic of Ireland.</lex>
+      <lex comment="good" lid="Id2">The Adare Manor is in the Republic of Ireland.</lex>
+    </entry>
+    <entry category="Building" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akita_Museum_of_Art | inaugurationDate | "2013-09-28"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Akita Museum of Art was inaugurated on 28th September 2013.</lex>
+    </entry>
+    <entry category="Building" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Mason School of Business are the current tenants of Alan B Miller Hall.</lex>
+    </entry>
+    <entry category="Building" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | architect | B._V._Doshi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amdavad_ni_Gufa | architect | B._V._Doshi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The architecct B V Doshi designed Amdavad Ni Gufa.</lex>
+      <lex comment="good" lid="Id2">B V Doshi is the architect who designed Amdavad ni Gufa.</lex>
+    </entry>
+    <entry category="Building" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ampara Hospital is located in Sri Lanka.</lex>
+      <lex comment="good" lid="Id2">Ampara Hospital is in Sri Lanka.</lex>
+    </entry>
+    <entry category="Building" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | added | "1988-11-22"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | added to the National Register of Historic Places | "1988-11-22"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places on "1988-11-22".</lex>
+      <lex comment="good" lid="Id2">The Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places, on 22nd November 1988.</lex>
+    </entry>
+    <entry category="Building" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | built | 1904</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | yearOfConstruction | "1904"^^xsd:gYear</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asser_Levy_Public_Baths | yearOfConstruction | 1904</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asser Levy Public Baths was built in 1904.</lex>
+      <lex comment="good" lid="Id2">Asser Levy Public Baths were constructed in 1904.</lex>
+    </entry>
+    <entry category="Building" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Birmingham | postalCode | B_postcode_area</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Birmingham | postalCode | B_postcode_area</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Birmingham has the postcode area 'B'.</lex>
+      <lex comment="good" lid="Id2">The B postcode area is the postal code of Birmingham.</lex>
+    </entry>
+    <entry category="Building" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Chicago | isPartOf | DuPage_County,_Illinois</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chicago | isPartOf | DuPage_County,_Illinois</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chicago is part of DuPage County in Illinois.</lex>
+      <lex comment="good" lid="Id2">Chicago is part of DuPage County Illinois.</lex>
+    </entry>
+    <entry category="Building" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Dublin | country | Republic_of_Ireland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dublin | country | Republic_of_Ireland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dublin is in the Republic of Ireland.</lex>
+    </entry>
+    <entry category="Building" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Dublin | isPartOf | Leinster</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Dublin | subdivisionName | Leinster</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dublin | isPartOf | Leinster</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dublin is part of Leinster.</lex>
+    </entry>
+    <entry category="Building" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>India | leader | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>India | leaderName | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | leaderName | Sumitra_Mahajan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Sumitra Mahajan is an Indian leader.</lex>
+      <lex comment="good" lid="Id2">The name of the leader in India is Sumitra Mahajan.</lex>
+    </entry>
+    <entry category="Building" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Japan | ethnicGroup | Brazilians_in_Japan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Japan | ethnicGroup | Brazilians_in_Japan</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">One of the ethnic groups in Japan in the Brazilians.</lex>
+      <lex comment="toFix" lid="Id2">The Brazilians in Japan are an ethnic group found in Japan.</lex>
+    </entry>
+    <entry category="Building" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Japan | leader | Tarō_Asō</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Japan | leaderName | Tarō_Asō</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Japan is Tarō Asō.</lex>
+    </entry>
+    <entry category="Building" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Marriott_International | keyPeople | Bill_Marriott</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Marriott_International | keyPerson | Bill_Marriott</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Marriott_International | keyPerson | Bill_Marriott</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bill Marriott is the key person at Marriott International.</lex>
+      <lex comment="good" lid="Id2">One of the key people in Marriott International is Bill Marriott.</lex>
+    </entry>
+    <entry category="Building" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Republic_of_Ireland | languages | English_language</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Republic_of_Ireland | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Republic_of_Ireland | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ireland official language is Irish English.</lex>
+      <lex comment="toFix" lid="Id2">English language is the main language of the Republic of Ireland.</lex>
+      <lex comment="good" lid="Id3">One language used in the Republic of Ireland is English.</lex>
+    </entry>
+    <entry category="Building" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>South_Africa | capital | Cape_Town</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>South_Africa | capital | Cape_Town</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cape Town is the capital of South Africa.</lex>
+      <lex comment="good" lid="Id2">The capital of South Africa is Cape Town.</lex>
+    </entry>
+    <entry category="Building" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>United_Kingdom | capital | London</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_Kingdom | capital | London</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The capital of the United Kingdom is London.</lex>
+      <lex comment="good" lid="Id2">London is the capital of the United Kingdom.</lex>
+    </entry>
+    <entry category="Building" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Native Americans are an ethnic group in the United States.</lex>
+    </entry>
+    <entry category="Building" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>United_States | leader | Paul_Ryan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>United_States | leaderName | Paul_Ryan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderName | Paul_Ryan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paul Ryan is the leader of the United States.</lex>
+      <lex comment="good" lid="Id2">The leader of the United States is Paul Ryan.</lex>
+    </entry>
+    </entries>
+</benchmark>

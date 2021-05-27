@@ -1,0 +1,681 @@
+<benchmark>
+  <entries>
+    <entry category="University" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | city | Alba_Iulia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | city | Alba_Iulia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The "1 Decembrie 1918 University" is in the city Alba Iulia.</lex>
+      <lex comment="good" lid="Id2">The city of Alba Iulia has a University called "1 Decembrie 1918 University".</lex>
+      <lex comment="good" lid="Id3">The 1 Decembrie 1918 University is located in the city of Alba Iulia.</lex>
+    </entry>
+    <entry category="University" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | country | Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | country | Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University is located in the country of Romania.</lex>
+      <lex comment="good" lid="Id2">The 1 Decembrie 1918 University is located in Romania.</lex>
+    </entry>
+    <entry category="University" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | latinName | "Universitas Apulensis"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | latinName | "Universitas Apulensis"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Latin name of the 1 Decembrie 1918 University is "Universitas Apulensis".</lex>
+      <lex comment="good" lid="Id2">The Latin name of 1 Decembrie 1918 University is Universitas Apulensis.</lex>
+      <lex comment="good" lid="Id3">The latin name for 1 Decembrie 1918 University is Universitas Apulensis.</lex>
+    </entry>
+    <entry category="University" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | nickname | Uab</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | nickname | Uab</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 1 Decembrie 1918 University has the nickname Uab.</lex>
+    </entry>
+    <entry category="University" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>1_Decembrie_1918_University,_Alba_Iulia | rector | "Breaz Valer Daniel"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1_Decembrie_1918_University | rector | "Breaz Valer Daniel"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Breaz Valer Daniel is rector of the 1 Decembrie 1918 University.</lex>
+      <lex comment="good" lid="Id2">The rector of the 1 Decembrie 1918 University is Breaz Valer Daniel.</lex>
+    </entry>
+    <entry category="University" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | facultySize | "250"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | faculty | 250</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | academicStaffSize | 250</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The academic staff at the AWH Engineering College number 250.</lex>
+      <lex comment="good" lid="Id2">The AWH Engineering College has academic staff size of 250.</lex>
+      <lex comment="good" lid="Id3">AWH Engineering College has an academic staff of 250.</lex>
+    </entry>
+    <entry category="University" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | city | "Kuttikkattoor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | city | "Kuttikkattoor"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AWH Engineering College is located in Kuttikkattoor.</lex>
+      <lex comment="good" lid="Id2">AWH Engineering College is in the city of Kuttikkattoor.</lex>
+      <lex comment="good" lid="Id3">AWH Engineering College is located in Kuttikkattoor.</lex>
+    </entry>
+    <entry category="University" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | country | India</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | country | India</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College is located in India.</lex>
+    </entry>
+    <entry category="University" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | established | 2001</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | established | 2001</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AWH Engineering College was established in 2001.</lex>
+    </entry>
+    <entry category="University" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>AWH_Engineering_College | state | Kerala</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AWH_Engineering_College | state | Kerala</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AWH Engineering College is located in Kerala state.</lex>
+      <lex comment="good" lid="Id2">The AWH Engineering College is in the State of Kerala.</lex>
+    </entry>
+    <entry category="University" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Aarhus | governmentType | Magistrate</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aarhus | governmentType | Magistrate</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The type of government of Aarhus is magistrate.</lex>
+      <lex comment="toFix" lid="Id2">The city of Aarhus is governed by Magistrates.</lex>
+    </entry>
+    <entry category="University" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Aarhus | northeast | Mols</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aarhus | has to its northeast | Mols</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mols is to the northeast of Aarhus.</lex>
+      <lex comment="good" lid="Id2">Aarhus has to its northeast Mols.</lex>
+      <lex comment="good" lid="Id3">Mols is the area to the northeast of Aarhus.</lex>
+    </entry>
+    <entry category="University" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | city | Mendrisio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Accademia di Architettura di Mendrisio is located in the city of Mendrisio.</lex>
+      <lex comment="good" lid="Id2">The Accademia di Architettura di Mendrisio is located in the city of Mendrisio.</lex>
+    </entry>
+    <entry category="University" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | country | Switzerland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio is located in Switzerland.</lex>
+      <lex comment="good" lid="Id2">Accademia di Architettura di Mendrisio is located in Switzerland.</lex>
+      <lex comment="good" lid="Id3">Accademia di Architettura di Mendrisio is in Switzerland.</lex>
+    </entry>
+    <entry category="University" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The dean of the Accademia di Architettura di Mendrisio is Mario Botta.</lex>
+      <lex comment="good" lid="Id2">Accademia di Architettura di Mendrisio's dean is Mario Botta.</lex>
+    </entry>
+    <entry category="University" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | established | 1996</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio was established in 1996.</lex>
+    </entry>
+    <entry category="University" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | canton | Ticino</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | location | Ticino</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Accademia di Architettura di Mendrisio is located in Ticino.</lex>
+      <lex comment="good" lid="Id2">Ticino is the location of the Accademia di Architettura di Mendrisio.</lex>
+    </entry>
+    <entry category="University" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | "600"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | students | 600</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 600 students at the Accademia di Architettura di Mendrisio.</lex>
+      <lex comment="good" lid="Id2">Six hundred students attend the Accademia di Architettura di Mendriso.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio has 600 students.</lex>
+      <lex comment="good" lid="Id4">Accademia di Architettura di Mendrisio has 600 students enrolled.</lex>
+      <lex comment="good" lid="Id5">There are 600 students attending the Accademia di Architettura di Mendrisio.</lex>
+    </entry>
+    <entry category="University" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | academicStaff | "~500"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | academicStaffSize | "~500"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acharya Institute of Technology's academic staff total is ~500.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology employs about 500 academic staff.</lex>
+      <lex comment="good" lid="Id3">Approximately 500 employees make up the academic staff at Acharya Institute of Technology.</lex>
+    </entry>
+    <entry category="University" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is affiliated with Visvesvaraya Technologial University.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology is affiliated to Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology is affiliated with the Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id4">Acharya Institute of Technology is affiliated to the Visvesvaraya Technological University.</lex>
+      <lex comment="good" lid="Id5">Acharya Institute of Technology is affilaited with Visvesvaraya Technological University.</lex>
+    </entry>
+    <entry category="University" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | city | Bangalore</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | city | Bangalore</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is located in the city of Bangalore.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology is located in Bangalore.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology is in Bangalore.</lex>
+    </entry>
+    <entry category="University" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acharya Institute of Technology can be found in India.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology is located in India.</lex>
+      <lex comment="good" lid="Id3">The Acharya Institute of Technology is located in India.</lex>
+    </entry>
+    <entry category="University" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | director | "Dr. G. P. Prabhukumar"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dr. G. P. Prabhukumar is the director of the Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id2">The director of Acharya Institute of Technology is Dr. G. P. Prabhukumar.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology's director is Dr. G. P. Prabhukumar.</lex>
+    </entry>
+    <entry category="University" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | established | 2000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | established | 2000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology was established in the year 2000.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology was established in 2000.</lex>
+    </entry>
+    <entry category="University" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | motto | "Nurturing Excellence"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | motto | "Nurturing Excellence"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acharya Institute of Technology's motto is Nurturing Excellence.</lex>
+      <lex comment="good" lid="Id2">The motto of the Acharya Institute of Technology is 'Nurturing Excellence.'.</lex>
+      <lex comment="good" lid="Id3">The motto of the Acharya Institute of Technology is "Nurturing Excellence".</lex>
+    </entry>
+    <entry category="University" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | nickname | "AIT"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | nickname | "AIT"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AIT is the nickname for the Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id2">The nickname of the Acharya Institute of Technology is AIT.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology is known as AIT.</lex>
+    </entry>
+    <entry category="University" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | "700"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | postgrad | "~700"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The number of post graduate students at the Acharya Institute of Technology is about 700.</lex>
+      <lex comment="good" lid="Id2">The number of postgraduate students in Acharya Institute of Technology is ~700.</lex>
+      <lex comment="good" lid="Id3">There are around 700 postgraduate students at the Acharya Institute of Technology.</lex>
+      <lex comment="toFix" lid="Id4">There are about 700 post graduate students at the Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id5">Acharya Institute of Technology has 700 postgraduate students.</lex>
+      <lex comment="good" lid="Id6">700 students are enrolled in a post-graduate program at Acharya Institute of Technology.</lex>
+    </entry>
+    <entry category="University" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | undergrad | "~10000"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | numberOfUndergraduateStudents | "10000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | numberOfUndergraduateStudents | 10000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The number of undergraduates attending the Acharya Institute of Technology is roughly 10000 students.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology's number of Undergraduate students total to ~10000.</lex>
+      <lex comment="good" lid="Id3">There are around 10000 undergraduate students at the Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id4">The Acharya Institude of Technology has 10000 undergraduate students.</lex>
+      <lex comment="good" lid="Id5">The Acharya Institute of Technology has 10000 undergraduate students.</lex>
+      <lex comment="good" lid="Id6">Acharya Institute of Technology has 10,000 undergraduate students.</lex>
+    </entry>
+    <entry category="University" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | colours | "Blue, White and Orange"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | officialSchoolColour | "Blue, White and Orange"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | officialSchoolColour | "Blue, White and Orange"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Blue, white and orange are the colours adopted by Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id2">Blue, white and orange are the colours of Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology's official colors are Blue, White and Orange.</lex>
+      <lex comment="good" lid="Id4">The official school colours of the Archarya Institute of Technology are blue, white and orange.</lex>
+      <lex comment="good" lid="Id5">Acharya Institute of Technology official school colors are Blue White and Orange.</lex>
+      <lex comment="good" lid="Id6">Acharya Institue of Technology official school colours are blue, white and orange.</lex>
+    </entry>
+    <entry category="University" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | outlook | 63</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | outlookRanking | 63</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The outlook ranking for the Acharya Institute of Technology is 63.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology's outlook ranking is 63.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology has an outlook ranking of 63.</lex>
+    </entry>
+    <entry category="University" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | sport | Tennis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | sportsOffered | Tennis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Tennis is one of the sports offered at the Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology offers Tennis as a sport.</lex>
+      <lex comment="good" lid="Id3">One of the sports offered at the Acharya Institute of Technology is tennis.</lex>
+      <lex comment="good" lid="Id4">The Acharya Institute of Technology offers sports including tennis.</lex>
+    </entry>
+    <entry category="University" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | state | Karnataka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | state | Karnataka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acharya Institute of Technology is in the state of Karnataka.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology is located in the state of Karnataka.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology is in Karnataka state.</lex>
+    </entry>
+    <entry category="University" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | free | All_India_Council_for_Technical_Education</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The All India Council for Technical Education was proud to give the Technical Campus status to the Acharya Institute of Technology.</lex>
+      <lex comment="good" lid="Id2">Acharya Institute of Technology was given the Technical Campus status by the All India Council for Technical Education.</lex>
+      <lex comment="good" lid="Id3">Acharya Institute of Technology was given the 'Technical Campus' status by All India Council for Technical Education.</lex>
+    </entry>
+    <entry category="University" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>All_India_Council_for_Technical_Education | location | Mumbai</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>All_India_Council_for_Technical_Education | location | Mumbai</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">All India Council for Technical Education is located in Mumbai.</lex>
+      <lex comment="good" lid="Id2">The All India Council for Technical Education is located in Mumbai.</lex>
+    </entry>
+    <entry category="University" eid="Id35" size="1">
+      <originaltripleset>
+        <otriple>Bangalore | founder | Kempe_Gowda_I</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bangalore | founder | Kempe_Gowda_I</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Kempe Gowda I founded Bangalore.</lex>
+      <lex comment="good" lid="Id2">The founder of Bangalore was Kempe Gowda.</lex>
+      <lex comment="good" lid="Id3">Kempe Gowda I was the founder of Bangalore.</lex>
+    </entry>
+    <entry category="University" eid="Id36" size="1">
+      <originaltripleset>
+        <otriple>Denmark | leaderName | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Denmark | leader | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lars Lokke Rasmussen is the leader of Denmark.</lex>
+      <lex comment="good" lid="Id2">One of Denmark's leaders is Lars Lokke Rasmussen.</lex>
+      <lex comment="good" lid="Id3">Denmark's leader is Lars L??kke Rasmussen.</lex>
+      <lex comment="good" lid="Id4">The leader of Denmark is Lars Lokke Rasmussen.</lex>
+      <lex comment="good" lid="Id5">The Leader of Denmark is Lars L??kke Rasmussen.</lex>
+      <lex comment="good" lid="Id6">Lars L??kke Rasmussen is the leader of Denmark.</lex>
+    </entry>
+    <entry category="University" eid="Id37" size="1">
+      <originaltripleset>
+        <otriple>Denmark | leaderTitle | Monarchy_of_Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderTitle | Monarchy_of_Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Denmark is led by a Monarch.</lex>
+      <lex comment="good" lid="Id2">The Monarch of Denmark is the country's leader.</lex>
+    </entry>
+    <entry category="University" eid="Id38" size="1">
+      <originaltripleset>
+        <otriple>Denmark | religion | Church_of_Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | religion | Church_of_Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The official religion of Denmark is the Church of Denmark.</lex>
+      <lex comment="good" lid="Id2">Denmark's religion is led by Church of Denmark.</lex>
+      <lex comment="good" lid="Id3">Church of Denmark is the religion of Denmark.</lex>
+    </entry>
+    <entry category="University" eid="Id39" size="1">
+      <originaltripleset>
+        <otriple>European_University_Association | headquarters | Brussels</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>European_University_Association | headquarters | Brussels</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The headquarters of the European University Association is in Brussels.</lex>
+      <lex comment="good" lid="Id2">The European University Associatian headquarter is in Brussels.</lex>
+    </entry>
+    <entry category="University" eid="Id40" size="1">
+      <originaltripleset>
+        <otriple>India | largestCity | Mumbai</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | largestCity | Mumbai</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The largest city in India is Mumbai.</lex>
+      <lex comment="good" lid="Id2">Mumbai is India's largest city.</lex>
+    </entry>
+    <entry category="University" eid="Id41" size="1">
+      <originaltripleset>
+        <otriple>India | river | Ganges</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | river | Ganges</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Ganges is a river in India.</lex>
+      <lex comment="good" lid="Id2">The Ganges is India's most well known river.</lex>
+    </entry>
+    <entry category="University" eid="Id42" size="1">
+      <originaltripleset>
+        <otriple>Karnataka | northeast | Telangana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Karnataka | has to its northeast | Telangana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Karnataka neighbors Telangana to its northeast.</lex>
+      <lex comment="good" lid="Id2">Karnataka has to its northeast Telangana.</lex>
+      <lex comment="good" lid="Id3">To the northeast of Karnataka is Telagana.</lex>
+    </entry>
+    <entry category="University" eid="Id43" size="1">
+      <originaltripleset>
+        <otriple>Karnataka | west | Arabian_Sea</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Karnataka | has to its west | Arabian_Sea</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Arabian Sea is west of Karnataka.</lex>
+      <lex comment="good" lid="Id2">The west of Karnataka is the Arabian Sea.</lex>
+      <lex comment="good" lid="Id3">To the west Karnataka borders on the Arabian Sea.</lex>
+    </entry>
+    <entry category="University" eid="Id44" size="1">
+      <originaltripleset>
+        <otriple>Kerala | leaderName | Kochi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Kerala | leaderName | Kochi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Kochi is the leader of Kerala.</lex>
+      <lex comment="good" lid="Id2">The leader of Kerala is Kochi.</lex>
+      <lex comment="good" lid="Id3">The Kerala leader is in Kochi.</lex>
+    </entry>
+    <entry category="University" eid="Id45" size="1">
+      <originaltripleset>
+        <otriple>Romania | anthem | Deșteaptă-te,_române!</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | anthem | Deșteaptă-te,_române!</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The anthem of Romania is called Desteapta te romane.</lex>
+      <lex comment="good" lid="Id2">Desteapta te, romane is the Romanan anthem.</lex>
+      <lex comment="good" lid="Id3">The national anthem of Romania is Desteapta-te, romane!</lex>
+    </entry>
+    <entry category="University" eid="Id46" size="1">
+      <originaltripleset>
+        <otriple>Romania | ethnicGroup | Germans_of_Romania</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Romania | ethnicGroups | Germans_of_Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | ethnicGroup | Germans_of_Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">One of the ethnic groups in Romania are the Germans of Romania.</lex>
+      <lex comment="good" lid="Id2">Germans of Romania is an ethnic group in Romania.</lex>
+      <lex comment="good" lid="Id3">The Germans of Romania are an ethnic group in Romania.</lex>
+      <lex comment="good" lid="Id4">Romania has many ethnic groups one of which are Germans.</lex>
+    </entry>
+    <entry category="University" eid="Id47" size="1">
+      <originaltripleset>
+        <otriple>Romania | leaderName | Klaus_Iohannis</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Romania | leader | Klaus_Iohannis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderName | Klaus_Iohannis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Romania is Klaus Iohannis.</lex>
+      <lex comment="good" lid="Id2">Romania's leader is Klaus Iohannis.</lex>
+    </entry>
+    <entry category="University" eid="Id48" size="1">
+      <originaltripleset>
+        <otriple>Romania | leaderTitle | Prime_Minister_of_Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | leaderTitle | Prime_Minister_of_Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Romania is known as the Prime Minister.</lex>
+      <lex comment="toFix" lid="Id2">Romania's leader is call the Prime Minister of Romania.</lex>
+      <lex comment="toFix" lid="Id3">The title of the leader of Romania is "Prime Minister".</lex>
+    </entry>
+    <entry category="University" eid="Id49" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliation | European_University_Association</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | affiliations | European_University_Association</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Aarhus University School of Business and Social Sciences is affiliated with the European University Association.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University is affiliated to European University Association.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at Aarhus University is affiliated to the European University Association.</lex>
+      <lex comment="good" lid="Id4">The School of Business and Social Sciences at the Aarhus University is affiliated with the European University Association.</lex>
+    </entry>
+    <entry category="University" eid="Id50" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | city | Aarhus</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | city | Aarhus</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Aarhus University School of Business and Social Sciences is in the city of Aarhus.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at Aarhus University is situated in the city of Aarhus.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University is located in the city of Aarhus.</lex>
+    </entry>
+    <entry category="University" eid="Id51" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | established | 1928</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | established | 1928</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The School of Business and Social Sciences at Aarhus University was established in 1928.</lex>
+      <lex comment="good" lid="Id2">Aarhus University School of Business and Social Sciences was established in 1928.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University was established in 1928.</lex>
+      <lex comment="good" lid="Id4">The School of Business and Social Sciences at the Aarhus University is established in 1928.</lex>
+    </entry>
+    <entry category="University" eid="Id52" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | latinName | "Universitas Aarhusiensis"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | latinName | "Universitas Aarhusiensis"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The latin name of School of Business and Social Sciences at the Aarhus University is "Universitas Aarhusiensis".</lex>
+      <lex comment="good" lid="Id2">The latin name of the School of Business and Social Sciences at Aarhus University is "universitas Aarhusiensis".</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University has the latin name Universitas Aarhusiensis.</lex>
+    </entry>
+    <entry category="University" eid="Id53" size="1">
+      <originaltripleset>
+        <otriple>Switzerland | anthem | Swiss_Psalm</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Switzerland | anthem | Swiss_Psalm</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Swiss Psalm is the anthem of Switzerland.</lex>
+      <lex comment="good" lid="Id2">The anthem of Switzerland is called the Swiss Psalm.</lex>
+    </entry>
+    <entry category="University" eid="Id54" size="1">
+      <originaltripleset>
+        <otriple>Switzerland | leaderName | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Switzerland | leader | Johann_Schneider-Ammann</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Switzerland | leaderName | Johann_Schneider-Ammann</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Johann Schneider Ammann is the leader of Switzerland.</lex>
+      <lex comment="good" lid="Id2">Johann Schneider-Ammann is the leader of Switzerland.</lex>
+      <lex comment="good" lid="Id3">The leader of Switzerland is Johann Schneider-Ammann.</lex>
+      <lex comment="good" lid="Id4">Switzerland has a leader called Johann Schneider Ammann.</lex>
+      <lex comment="good" lid="Id5">Johann Schneider Ammann is the name of the leader of Switzerland.</lex>
+      <lex comment="good" lid="Id6">The leader of Switzerland is Johann 'Schneider-Ammann.</lex>
+    </entry>
+    <entry category="University" eid="Id55" size="1">
+      <originaltripleset>
+        <otriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Federal Chancellor of Switzerland helps to lead the country.</lex>
+      <lex comment="good" lid="Id2">The Federal Chancellor of Switzerland is the title of the leader of Switzerland.</lex>
+      <lex comment="good" lid="Id3">The leader of Switzerland is titled the Federal Chancellor of Switzerland.</lex>
+    </entry>
+    <entry category="University" eid="Id56" size="1">
+      <originaltripleset>
+        <otriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Switzerland | legislature | Federal_Assembly_(Switzerland)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Switzerland's legislature is formed in the Federal Assembly.</lex>
+      <lex comment="good" lid="Id2">Switzerland's legislature is known as the Federal Assembly.</lex>
+      <lex comment="good" lid="Id3">The Federal Assembly legislates in Switzerland.</lex>
+    </entry>
+    <entry category="University" eid="Id57" size="1">
+      <originaltripleset>
+        <otriple>Tennis | union | International_Tennis_Federation</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Tennis | sportGoverningBody | International_Tennis_Federation</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Tennis | sportsGoverningBody | International_Tennis_Federation</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The sport Tennis has a Governing Body called the International Tennis Federation.</lex>
+      <lex comment="good" lid="Id2">The International Tennis Federation is the Governing Body for the tennis sport.</lex>
+      <lex comment="good" lid="Id3">The tennis sport is governed by the International Tennis Federation.</lex>
+      <lex comment="good" lid="Id4">The International Tennis Federation is the Governing Body of the sport of tennis.</lex>
+      <lex comment="good" lid="Id5">The International Tennis Federation is the governing body of tennis.</lex>
+      <lex comment="good" lid="Id6">The sports governing body of tennis is the International Tennis Federation.</lex>
+    </entry>
+    <entry category="University" eid="Id58" size="1">
+      <originaltripleset>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">The Visvesvaraya Technologiccal University is in the city of Belgaum.</lex>
+      <lex comment="good" lid="Id2">Visvesvaraya Technological University is in the city of Belgaum.</lex>
+      <lex comment="good" lid="Id3">Visvesvaraya Technological University is located in Belgaum.</lex>
+    </entry>
+  </entries>
+</benchmark>

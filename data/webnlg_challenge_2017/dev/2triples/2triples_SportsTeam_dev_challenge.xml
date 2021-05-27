@@ -1,0 +1,310 @@
+<benchmark>
+  <entries>
+    <entry category="SportsTeam" eid="Id1" size="2">
+      <originaltripleset>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>Serie_B | champions | Carpi_F.C._1909</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | league | Serie_B</mtriple>
+        <mtriple>Serie_B | champions | Carpi_F.C._1909</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AC Cesena are in the Serie B league, the previous champions of which are Carpi FC 1909.</lex>
+      <lex comment="good" lid="Id2">A.C. Cesana play in Serie B, in which Carpi FC 1909 are the champions.</lex>
+      <lex comment="good" lid="Id3">AC Cesena are in the Serie B league, previously won by Carpi F.C. 1909.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id2" size="2">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</otriple>
+        <otriple>A.C._Chievo_Verona | league | Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</mtriple>
+        <mtriple>A.C._Chievo_Verona | league | Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AC Chievo Verona play in the Serie A league and their home ground is Stadio Marc Antonio Bentegodi.</lex>
+      <lex comment="good" lid="Id2">The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi and the club is in the league, Serie A.</lex>
+      <lex comment="good" lid="Id3">The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi, he played in Serie A.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id3" size="2">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | ground | Italy</otriple>
+        <otriple>Italy | leader | Pietro_Grasso</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | ground | Italy</mtriple>
+        <mtriple>Italy | leader | Pietro_Grasso</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.C. Lumezzane's ground is in Italy where the leader is Pietro Grasso.</lex>
+      <lex comment="good" lid="Id2">A.C. Lumezzane play in italy where the leader is Pietro Grasso.</lex>
+      <lex comment="good" lid="Id3">A.C. Lumezzane play in Italy, where the leader is Pietro Grasso.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id4" size="2">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | manager | Jorge_Humberto_Rodríguez</otriple>
+        <otriple>Jorge_Humberto_Rodríguez | team | C.D._FAS</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | manager | Jorge_Humberto_Rodríguez</mtriple>
+        <mtriple>Jorge_Humberto_Rodríguez | club | C.D._FAS</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jorge Humberto Rodríguez manages the A.D. Isidro Metapan, he played for the C.D. FAS.</lex>
+      <lex comment="good" lid="Id2">Jorge Humberto Rodriguez manages A.D. Isidro Metapan. He is in the C.D. FAS.</lex>
+      <lex comment="good" lid="Id3">Jorge Humberto Rodríguez manages the A.D. Isidro Metapan and plays for C.D. FAS.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id5" size="2">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | league | A_EPSTH_2nd_GROUP</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | 1500</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | league | A_EPSTH_2nd_GROUP</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | numberOfMembers | 1500</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | league | A_EPSTH_2nd_GROUP</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.E. Dimitra Efeinoupolis has 1500 members and is in the EPSTH 2nd GROUP league.</lex>
+      <lex comment="good" lid="Id2">With 1500 members, A.E Dimitra Efxeinoupolis, play in the A EPSTH 2nd GROUP.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id6" size="2">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Runcorn_F.C._Halton</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer) who plays for Runcorn F.C. Halton.</lex>
+      <lex comment="good" lid="Id2">AFC Blackpool have had Stuart Parker as their manager who was a football player for Runcorn FC Halton.</lex>
+      <lex comment="good" lid="Id3">The manager of A.F.C. Blackpool is Stuart Parker (footballer), he played for Runcorn FC Halton.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id7" size="2">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Sparta_Rotterdam</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Sparta_Rotterdam</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer), who plays at the Sparta Rotterdam club.</lex>
+      <lex comment="good" lid="Id2">Stuart Parker, who plays at the Sparta Rotterdam Club, has also managed AFC Blackpool.</lex>
+      <lex comment="good" lid="Id3">AFC Blackpool have had the manager Stuart Parker who currently plays for Sparta Rotterdam.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id8" size="2">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | The_Fylde</otriple>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | ground | The_Fylde</mtriple>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Fylde has the home ground called The Fylde and has 3180 members.</lex>
+      <lex comment="good" lid="Id2">AFC Fylde has the home ground called The Fylde, which holds 3180 fans.</lex>
+      <lex comment="good" lid="Id3">The Fylde, (capacity 3180) is the home ground of AFC Fylde.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id9" size="2">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Fylde | ground | "Bryning Lane"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+        <mtriple>A.F.C._Fylde | ground | "Bryning Lane"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.F.C. Fylde has 3180 members and are based at Bryning Lane.</lex>
+      <lex comment="good" lid="Id2">AFC Fylde has 3180 members and are based at Bryning Lane.</lex>
+      <lex comment="good" lid="Id3">A.F.C. Fylde are based at Bryning Lane and they have 3180 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id10" size="2">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | team | Italy_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | Italy_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio is managed by Christian Panucci who plays for the Italy national football team.</lex>
+      <lex comment="good" lid="Id2">A.S. Livorno Calcio are managed by Christian Panucci who played for the Italy national football team.</lex>
+      <lex comment="good" lid="Id3">A.S. Livorno Calcio is managed by Christian Panucci who previously played for the Italian national football team.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id11" size="2">
+      <originaltripleset>
+        <otriple>A.S._Roma | ground | "Rome, Italy"@en</otriple>
+        <otriple>A.S._Roma | league | Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Roma | ground | "Rome, Italy"</mtriple>
+        <mtriple>A.S._Roma | league | Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Grounds being in Rome, Italy, A.S. Roma to play in Serie A.</lex>
+      <lex comment="good" lid="Id2">A.S. Roma play in the Serie A league and their ground is in Rome, Italy.</lex>
+      <lex comment="good" lid="Id3">A.S. Roma's ground is in Rome, Italy and they play in Serie A.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id12" size="2">
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | league | Serie_A</otriple>
+        <otriple>Serie_A | country | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACF_Fiorentina | league | Serie_A</mtriple>
+        <mtriple>Serie_A | country | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">ACF Fiorentina play in Serie A which is based in Italy.</lex>
+      <lex comment="good" lid="Id2">ACF Fiorentina play in Serie A based in Italy.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id13" size="2">
+      <originaltripleset>
+        <otriple>AFC_Ajax | manager | Frank_de_Boer</otriple>
+        <otriple>Frank_de_Boer | team | Ajax_Youth_Academy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax | manager | Frank_de_Boer</mtriple>
+        <mtriple>Frank_de_Boer | club | Ajax_Youth_Academy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of AFC Ajax is Frank de Boer who is in the Ajax Youth Academy.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax's manager is Frank de Boer, who played for the Ajax Youth Academy.</lex>
+      <lex comment="good" lid="Id3">Frank de Boer is in the Ajax Youth Academy and manages AFC Ajax.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id14" size="2">
+      <originaltripleset>
+        <otriple>AFC_Ajax | owner | "AFC Ajax NV"@en</otriple>
+        <otriple>AFC_Ajax | capacity | "53502"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax | owner | AFC_Ajax_N.V.</otriple>
+        <otriple>AFC_Ajax | capacity | 53502</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax | owner | AFC_Ajax_N.V.</otriple>
+        <otriple>AFC_Ajax | capacity | "53502"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax | owner | AFC_Ajax_N.V.</mtriple>
+        <mtriple>AFC_Ajax | numberOfMembers | 53502</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax has 53502 members and is the owner of AFC Ajax NV.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax has 53502 members and is owned by AFC Ajax NV.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax has 53502 members and is owned by AFC Ajax N.V..</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id15" size="2">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Amsterdam</otriple>
+        <otriple>Amsterdam | leaderName | Eberhard_van_der_Laan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | ground | Amsterdam</mtriple>
+        <mtriple>Amsterdam | leader | Eberhard_van_der_Laan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax is based in Amsterdam where the leader is Eberhard van der Laan.</lex>
+      <lex comment="good" lid="Id2">The ground of AFC Ajax (amateurs) can be found in Amsterdam where Eberhard van der Laan is a leader.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax is based in Amsterdam where Eberhard van der Laan is a leader.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id16" size="2">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | capacity | "5000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AFC_Ajax_(amateurs) | season | 2014–15_Topklasse</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | season | 2014–15_Topklasse</otriple>
+        <otriple>AFC_Ajax_(amateurs) | capacity | 5000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | season | 2014–15_Topklasse</mtriple>
+        <mtriple>AFC_Ajax_(amateurs) | numberOfMembers | 5000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax (amateurs), who have 5000 members, played in the Topklasse in the 2014-2015 season.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateurs) have 5000 members and played in the Topklasse in the 2014-2015 season.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax (amateurs) played in the 2014-15 Topklasse season and their home ground has a capacity for 5000 fans.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id17" size="2">
+      <originaltripleset>
+        <otriple>AZAL_Arena | location | Shuvalan</otriple>
+        <otriple>AZAL_PFK | ground | AZAL_Arena</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZAL_Arena | location | Shuvalan</mtriple>
+        <mtriple>AZAL_PFK | ground | AZAL_Arena</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AZAL PFK play their home matches at the AZAL Arena in Shuvulan.</lex>
+      <lex comment="good" lid="Id2">The AZAL Arena is located in Shuvulan and is the ground of AZAL PFK.</lex>
+      <lex comment="good" lid="Id3">The AZAL Arena in Shuvalan is the ground of AZAL PFK.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id18" size="2">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | fullname | "Alkmaar Zaanstreek"@en</otriple>
+        <otriple>AZ_Alkmaar | capacity | "17023"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | fullname | "Alkmaar Zaanstreek"@en</otriple>
+        <otriple>AZ_Alkmaar | capacity | 17023</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | fullname | "Alkmaar Zaanstreek"</mtriple>
+        <mtriple>AZ_Alkmaar | numberOfMembers | 17023</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AZ Alkmaar's fullname is Alkmaar Zaanstreek, it has 17023 members.</lex>
+      <lex comment="good" lid="Id2">AZ Alkmaar has 17023 member and their full name is "Alkmaar Zaanstreek".</lex>
+      <lex comment="good" lid="Id3">Alkmaar Zaanstreek is the full name of AZ Alkmaar which has 17023 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id19" size="2">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca</otriple>
+        <otriple>Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Brazil</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca</mtriple>
+        <mtriple>Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Brazil</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiacao Sportiva Arapiraquense's ground is the Estadio Minicipal Coaracy da Mata Fonseca, its located in Brazil.</lex>
+      <lex comment="good" lid="Id2">Estádio Municipal Coaracy da Mata Fonseca is located in Brazil and is the ground of Agremiação Sportiva Arapiraquense.</lex>
+      <lex comment="good" lid="Id3">Estádio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremiação Sportiva Arapiraquense which is in Brazil.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id20" size="2">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense (which is his full name) has a club with 17000 members.</lex>
+      <lex comment="good" lid="Id2">Agremiação Sportiva Arapiraquense's full name is "Agremiação Sportiva Arapiraquense" and they have 17000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id21" size="2">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | Akron,_Ohio</otriple>
+        <otriple>Akron,_Ohio | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | Akron,_Ohio</mtriple>
+        <mtriple>Akron,_Ohio | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The team Akron Summit Assault are based in Akron, Ohio, USA.</lex>
+      <lex comment="good" lid="Id2">The Akron Summit Assault team is based in Akron, Ohio which is in the U.S.</lex>
+      <lex comment="good" lid="Id3">The Akron Summit Assault team is based in Akron, Ohio in the U.S.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id22" size="2">
+      <originaltripleset>
+        <otriple>Massimo_Drago | team | S.S._Chieti_Calcio</otriple>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | S.S._Chieti_Calcio</mtriple>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago's club is the S.S. Chieti Calcio and he manages A.C. Cesena.</lex>
+      <lex comment="good" lid="Id2">Massimo Drago manages A.C. Cesena and plays for S.S. Chieti Calcio.</lex>
+      </entry>
+    </entries>
+</benchmark>

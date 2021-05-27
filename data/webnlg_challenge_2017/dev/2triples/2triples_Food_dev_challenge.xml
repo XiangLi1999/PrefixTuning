@@ -1,0 +1,457 @@
+<benchmark>
+  <entries>
+    <entry category="Food" eid="Id1" size="2">
+      <originaltripleset>
+        <otriple>Ajoblanco | country | Spain</otriple>
+        <otriple>Ajoblanco | ingredient | Bread</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ajoblanco | country | Spain</mtriple>
+        <mtriple>Ajoblanco | ingredient | Bread</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bread is an ingredient of Ajoblanco which originates from Spain.</lex>
+      <lex comment="good" lid="Id2">One of the ingredients of Ajoblanco is bread and it originates from Spain.</lex>
+      <lex comment="good" lid="Id3">Bread is an ingredient of Ajoblanco which comes from Spain.</lex>
+    </entry>
+    <entry category="Food" eid="Id2" size="2">
+      <originaltripleset>
+        <otriple>Ajoblanco | ingredient | Almond</otriple>
+        <otriple>Ajoblanco | region | Andalusia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ajoblanco | ingredient | Almond</mtriple>
+        <mtriple>Ajoblanco | region | Andalusia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ajoblanco, from Andalusia, has almond as one of its ingredients.</lex>
+      <lex comment="good" lid="Id2">Almond is an ingredient in ajoblanco, from Andalusia.</lex>
+      <lex comment="good" lid="Id3">Ajoblanco is from the Andalusia region and has almond as one of its ingredients.</lex>
+    </entry>
+    <entry category="Food" eid="Id3" size="2">
+      <originaltripleset>
+        <otriple>Amatriciana_sauce | region | Lazio</otriple>
+        <otriple>Amatriciana_sauce | ingredient | Tomato</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amatriciana_sauce | region | Lazio</mtriple>
+        <mtriple>Amatriciana_sauce | ingredient | Tomato</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Tomato is an ingredient in Amatriciana sauce which comes from Lazio.</lex>
+      <lex comment="good" lid="Id2">Amatriciana sauce is from the Lazio region and tomato is one of the ingredients.</lex>
+      <lex comment="good" lid="Id3">Tomato is an ingredient in Amatriciana sauce which comes from the region of Lazio.</lex>
+    </entry>
+    <entry category="Food" eid="Id4" size="2">
+      <originaltripleset>
+        <otriple>Antioquia_Department | country | Colombia</otriple>
+        <otriple>Bandeja_paisa | region | Antioquia_Department</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioquia_Department | country | Colombia</mtriple>
+        <mtriple>Bandeja_paisa | region | Antioquia_Department</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bandeja paisa comes from the Antioquia Department of Colombia.</lex>
+      <lex comment="good" lid="Id2">Bandeja paisa is a dish found in the Antioquia Department of Colombia.</lex>
+    </entry>
+    <entry category="Food" eid="Id5" size="2">
+      <originaltripleset>
+        <otriple>Arem-arem | region | Indonesia</otriple>
+        <otriple>Arem-arem | ingredient | Banana_leaf</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arem-arem | region | Indonesia</mtriple>
+        <mtriple>Arem-arem | ingredient | Banana_leaf</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arem-arem uses the ingredient banana leaf, it is a common dish in Indonesia.</lex>
+      <lex comment="good" lid="Id2">Banana leaf is an ingredient in arem arem, which comes from Indonesia.</lex>
+      <lex comment="good" lid="Id3">Arem arem which includes banana leaf, comes from Indonesia.</lex>
+    </entry>
+    <entry category="Food" eid="Id6" size="2">
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | country | Italy</otriple>
+        <otriple>Arrabbiata_sauce | ingredient | Olive_oil</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arrabbiata_sauce | country | Italy</mtriple>
+        <mtriple>Arrabbiata_sauce | ingredient | Olive_oil</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Olive oil is an ingredient used in the preparation of Arrabbiata sauce, found in Italy.</lex>
+      <lex comment="good" lid="Id2">Olive Oil is used to create Italian Arrabbiata sauce.</lex>
+      <lex comment="good" lid="Id3">Olive oil is an ingredient in Arrabbiata sauce, which can be found in Italy.</lex>
+    </entry>
+    <entry category="Food" eid="Id7" size="2">
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | country | Italy</otriple>
+        <otriple>Italy | capital | Rome</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arrabbiata_sauce | country | Italy</mtriple>
+        <mtriple>Italy | capital | Rome</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arrabbiata sauce is found in Italy where the capital city is Rome.</lex>
+      <lex comment="good" lid="Id2">Rome is the capital of Italy which is where Arrabbiata sauce comes from.</lex>
+      <lex comment="good" lid="Id3">Arrabbiata sauce is from Italy which has the capital city of Rome.</lex>
+    </entry>
+    <entry category="Food" eid="Id8" size="2">
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | ingredient | Tomato</otriple>
+        <otriple>Arrabbiata_sauce | country | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arrabbiata_sauce | ingredient | Tomato</mtriple>
+        <mtriple>Arrabbiata_sauce | country | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Tomatoes are found in Arrabbiata sauce which comes from Italy.</lex>
+      <lex comment="good" lid="Id2">Tomatoes are an ingredient of Arrabbiata sauce from Italy.</lex>
+      <lex comment="good" lid="Id3">Tomatoes are found in Arrabbiata sauce, which originated in Italy.</lex>
+    </entry>
+    <entry category="Food" eid="Id9" size="2">
+      <originaltripleset>
+        <otriple>Arròs_negre | country | Spain</otriple>
+        <otriple>Arròs_negre | ingredient | Squid</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arròs_negre | country | Spain</mtriple>
+        <mtriple>Arròs_negre | ingredient | Squid</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arròs negre is from Spain, it includes squid.</lex>
+      <lex comment="good" lid="Id2">Arròs negre is a traditional dish from Spain, it includes squid.</lex>
+      </entry>
+    <entry category="Food" eid="Id10" size="2">
+      <originaltripleset>
+        <otriple>Arròs_negre | region | Valencian_Community</otriple>
+        <otriple>Arròs_negre | ingredient | Cuttlefish</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arròs_negre | region | Valencian_Community</mtriple>
+        <mtriple>Arròs_negre | ingredient | Cuttlefish</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cuttlefish is an ingredient in Arros negre which comes from the region of Valencian Community.</lex>
+      <lex comment="good" lid="Id2">An ingredient of arros negre is cuttlefish, the dish comes from the Valencian community region.</lex>
+      </entry>
+    <entry category="Food" eid="Id11" size="2">
+      <originaltripleset>
+        <otriple>Ayam_penyet | country | Java</otriple>
+        <otriple>Ayam_penyet | ingredientName | "\"Squeezed\" or \"smashed\"fried chickenserved withsambal"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ayam_penyet | country | Java</mtriple>
+        <mtriple>Ayam_penyet | mainIngredients | "Squeezed" or "smashed" fried chicken served with sambal</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ayam penyet is a food found in Java and the main ingredients are "squeezed" or "smashed" chicken served with sambal.</lex>
+      <lex comment="good" lid="Id2">Ayam penyet (Javanese) includes squeezed/smashed fried chicken and is served with sambal.</lex>
+      </entry>
+    <entry category="Food" eid="Id12" size="2">
+      <originaltripleset>
+        <otriple>Bacon_Explosion | country | United_States</otriple>
+        <otriple>Bacon_Explosion | ingredient | Sausage</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bacon_Explosion | country | United_States</mtriple>
+        <mtriple>Bacon_Explosion | ingredient | Sausage</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A sausage is used when making a Bacon Explosion which has The United states to thank for inventing it.</lex>
+      <lex comment="good" lid="Id2">Bacon Explosion is a dish from the United States that contains sausage.</lex>
+      <lex comment="good" lid="Id3">Bacon Explosion comes from the United States and includes sausage among its ingredients.</lex>
+    </entry>
+    <entry category="Food" eid="Id13" size="2">
+      <originaltripleset>
+        <otriple>Bacon_Explosion | country | United_States</otriple>
+        <otriple>United_States | leader | John_Roberts</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bacon_Explosion | country | United_States</mtriple>
+        <mtriple>United_States | leaderName | John_Roberts</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States, where John Roberts is a leader, is the country of the Bacon Explosion.</lex>
+      <lex comment="good" lid="Id2">The Bacon Explosion comes from the United States where John Roberts is a leader.</lex>
+      <lex comment="good" lid="Id3">The United States (with a leader, John Roberts) boasts the Bacon Explosion.</lex>
+    </entry>
+    <entry category="Food" eid="Id14" size="2">
+      <originaltripleset>
+        <otriple>Bacon_Explosion | ingredient | Bacon</otriple>
+        <otriple>Bacon_Explosion | course | "Main course"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bacon_Explosion | ingredient | Bacon</mtriple>
+        <mtriple>Bacon_Explosion | course | "Main course"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bacon is an ingredient in the main course dish 'Bacon Explosion'.</lex>
+      <lex comment="good" lid="Id2">Bacon is an ingredient in a main course called Bacon Explosion.</lex>
+      <lex comment="good" lid="Id3">Bacon Explosion is an entree that includes bacon, the main ingredient.</lex>
+    </entry>
+    <entry category="Food" eid="Id15" size="2">
+      <originaltripleset>
+        <otriple>Bacon_sandwich | alias | "Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin"@en</otriple>
+        <otriple>Bacon_sandwich | ingredient | Bread</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bacon_sandwich | alternativeName | "Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin"</mtriple>
+        <mtriple>Bacon_sandwich | ingredient | Bread</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A bacon sandwich on bread is also known as bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, or bacon muffin.</lex>
+      <lex comment="good" lid="Id2">The bacon sandwich, which one of two ingedients is bread, has different names including: Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm and bacon muffin.</lex>
+    </entry>
+    <entry category="Food" eid="Id16" size="2">
+      <originaltripleset>
+        <otriple>Baked_Alaska | country | "France, United States or China"@en</otriple>
+        <otriple>Baked_Alaska | ingredient | Christmas_pudding</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baked_Alaska | country | "France, United States or China"</mtriple>
+        <mtriple>Baked_Alaska | ingredient | Christmas_pudding</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baked Alaska is thought to have originated in the United States, France or China, and contains Christmas pudding as an ingredient.</lex>
+      <lex comment="good" lid="Id2">France, United States and China all claim to have invented Baked Alaska which can have Christmas pudding as an ingredient.</lex>
+      <lex comment="good" lid="Id3">Christmas pudding is an ingredient in Baked Alaska which is from France, the United States and China.</lex>
+    </entry>
+    <entry category="Food" eid="Id17" size="2">
+      <originaltripleset>
+        <otriple>Baked_Alaska | country | China</otriple>
+        <otriple>China | language | Standard_Chinese</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baked_Alaska | country | China</mtriple>
+        <mtriple>China | language | Standard_Chinese</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baked Alaska comes from China, where Standard Chinese is spoken.</lex>
+      <lex comment="good" lid="Id2">Standard Chinese is spoken in China where baked Alaska is a dish.</lex>
+      </entry>
+    <entry category="Food" eid="Id18" size="2">
+      <originaltripleset>
+        <otriple>Baked_Alaska | course | Dessert</otriple>
+        <otriple>Dessert | hasVariant | Cookie</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baked_Alaska | course | Dessert</mtriple>
+        <mtriple>Dessert | dishVariation | Cookie</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baked Alaska and cookies are types of dessert.</lex>
+      <lex comment="good" lid="Id2">Baked Alaska and a cookie are both desserts.</lex>
+      <lex comment="good" lid="Id3">A Baked Alaska is a dessert along with cookies which you can also eat as a dessert.</lex>
+    </entry>
+    <entry category="Food" eid="Id19" size="2">
+      <originaltripleset>
+        <otriple>Bakewell_pudding | creator | "Rutland Arms, Bakewell, in 1820"@en</otriple>
+        <otriple>Bakewell_pudding | mainIngredient | "Ground almond, jam, butter, eggs"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Bakewell_pudding | ingredientName | "Ground almond, jam, butter, eggs"</otriple>
+        <otriple>Bakewell_pudding | creator | "Rutland Arms, Bakewell, in 1820"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakewell_pudding | creator | "Rutland Arms, Bakewell, in 1820"</mtriple>
+        <mtriple>Bakewell_pudding | mainIngredients | "Ground almond, jam, butter, eggs"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bakewell pudding was created in 1820 at the Rutland Arms, Bakewell and has ground almond, jam, butter and eggs as main ingredients.</lex>
+      <lex comment="good" lid="Id2">The main ingredients of Bakewell pudding, which was invented in Rutland Arms, Bakewell, in 1820, are ground almond, jam, butter and eggs.</lex>
+      </entry>
+    <entry category="Food" eid="Id20" size="2">
+      <originaltripleset>
+        <otriple>Bakewell_pudding | hasVariant | Bakewell_tart</otriple>
+        <otriple>Bakewell_tart | ingredient | Shortcrust_pastry</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakewell_pudding | dishVariation | Bakewell_tart</mtriple>
+        <mtriple>Bakewell_tart | ingredient | Shortcrust_pastry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bakewell tart, made with shortcrust pastry, is a variation of Bakewell pudding.</lex>
+      <lex comment="good" lid="Id2">A variant of bakewell pudding is bakewell tart, made with shortcrust pastry.</lex>
+      <lex comment="good" lid="Id3">A variant of bakewell pudding is bakewell tart which uses shortcrust pastry.</lex>
+    </entry>
+    <entry category="Food" eid="Id21" size="2">
+      <originaltripleset>
+        <otriple>Bandeja_paisa | ingredient | Lemon</otriple>
+        <otriple>Lemon | genus | Citrus</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bandeja_paisa | ingredient | Lemon</mtriple>
+        <mtriple>Lemon | genus | Citrus</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lemon (part of genus Citrus) is an ingredient in Bandeja paisa.</lex>
+      <lex comment="good" lid="Id2">Lemon, from the genus citrus, is an ingredient in Bandeja paisa.</lex>
+      <lex comment="good" lid="Id3">Lemon (genus; citrus) is an ingredient found in Bandeja paisa.</lex>
+    </entry>
+    <entry category="Food" eid="Id22" size="2">
+      <originaltripleset>
+        <otriple>Batchoy | country | Philippines</otriple>
+        <otriple>Batchoy | ingredient | Shrimp</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | country | Philippines</mtriple>
+        <mtriple>Batchoy | ingredient | Shrimp</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Batchoy is a food in the Philippines and one of its ingredient is shrimp.</lex>
+      <lex comment="good" lid="Id2">The Philippines is the country of origin for the dish Batchoy, of which shrimp is one of the main ingredients.</lex>
+      <lex comment="good" lid="Id3">The Philippines is the country that Batchoy, a dish containing shrimp, comes from.</lex>
+    </entry>
+    <entry category="Food" eid="Id23" size="2">
+      <originaltripleset>
+        <otriple>Batchoy | country | Philippines</otriple>
+        <otriple>Philippines | ethnicGroup | Chinese_Filipino</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | country | Philippines</mtriple>
+        <mtriple>Philippines | ethnicGroup | Chinese_Filipino</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Chinese Filipino is an ethnic group in the Philippines, where batchoy is a traditional dish.</lex>
+      <lex comment="good" lid="Id2">Chinese Filipino are from the Philippines, where batchoy is eaten.</lex>
+      <lex comment="good" lid="Id3">Batchoy is a food from the Philippines, the country where there is an ethnic group called the Chinese Filipino.</lex>
+    </entry>
+    <entry category="Food" eid="Id24" size="2">
+      <originaltripleset>
+        <otriple>Beef_kway_teow | region | Singapore</otriple>
+        <otriple>Singapore | language | Standard_Chinese</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Beef_kway_teow | region | Singapore</mtriple>
+        <mtriple>Singapore | language | Standard_Chinese</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Beef kway teow originates from Singapore, where Chinese is spoken.</lex>
+      <lex comment="good" lid="Id2">Standard chinese speaking Singapore is the origin of beef kway teow.</lex>
+    </entry>
+    <entry category="Food" eid="Id25" size="2">
+      <originaltripleset>
+        <otriple>Beef_kway_teow | region | Singapore</otriple>
+        <otriple>Singapore | leaderName | Tony_Tan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Beef_kway_teow | region | Singapore</mtriple>
+        <mtriple>Singapore | leaderName | Tony_Tan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Beef kway teow is a dish of Singapore where Tony Tan is a leader.</lex>
+      <lex comment="good" lid="Id2">Tony Tan is the leader of Singapore, from where Beef kway teow originates.</lex>
+      <lex comment="good" lid="Id3">Beef kway teow originates from Singapore and it's leader is Tony Tan.</lex>
+    </entry>
+    <entry category="Food" eid="Id26" size="2">
+      <originaltripleset>
+        <otriple>Bhajji | country | India</otriple>
+        <otriple>India | leader | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Bhajji | country | India</otriple>
+        <otriple>India | leaderName | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bhajji | country | India</mtriple>
+        <mtriple>India | leaderName | Sumitra_Mahajan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bhajji originates from India and Sumitra Mahajan is it's leader.</lex>
+      <lex comment="good" lid="Id2">Bhajji comes from India where the leader is Sumitra Mahajan.</lex>
+      <lex comment="good" lid="Id3">Bhajji originates from India where the leader is Sumitra Mahajan.</lex>
+    </entry>
+    <entry category="Food" eid="Id27" size="2">
+      <originaltripleset>
+        <otriple>Bhajji | similarDish | "Pakora and other fritters made from wheat or corn flour"@en</otriple>
+        <otriple>Bhajji | ingredient | Gram_flour</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bhajji | similarDish | "Pakora and other fritters made from wheat or corn flour"</mtriple>
+        <mtriple>Bhajji | ingredient | Gram_flour</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bhajji, which uses gram flour, is a dish similar to pakora and other fritters made from wheat or corn flour.</lex>
+      <lex comment="good" lid="Id2">Gram flour is an ingredient of a Bhajji, which is a similar dish to pakora and other fritters made from wheat or corn flour.</lex>
+    </entry>
+    <entry category="Food" eid="Id28" size="2">
+      <originaltripleset>
+        <otriple>Binignit | ingredient | Sweet_potato</otriple>
+        <otriple>Binignit | mainIngredient | Banana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Binignit | ingredient | Sweet_potato</mtriple>
+        <mtriple>Binignit | mainIngredients | Banana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">An ingredient of Binignit is sweet potato, and one of the main ingredients is the banana.</lex>
+      <lex comment="good" lid="Id2">Banana is a main ingredient of Binignit and sweet potato is also an ingredient.</lex>
+      <lex comment="good" lid="Id3">The main ingredient of Binignit is banana, and also important is the inclusion of sweet potatoes.</lex>
+    </entry>
+    <entry category="Food" eid="Id29" size="2">
+      <originaltripleset>
+        <otriple>Binignit | ingredient | Sweet_potato</otriple>
+        <otriple>Binignit | mainIngredient | Sago</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Binignit | ingredient | Sweet_potato</mtriple>
+        <mtriple>Binignit | mainIngredients | Sago</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Sago is the main ingredient in binignit but sweet potatoes are also used in it.</lex>
+      <lex comment="good" lid="Id2">Binignit has the ingredients sweet potato and sago.</lex>
+      <lex comment="good" lid="Id3">Sweet potato and sago are main ingredients in Binignit.</lex>
+    </entry>
+    <entry category="Food" eid="Id30" size="2">
+      <originaltripleset>
+        <otriple>Binignit | ingredient | Sweet_potato</otriple>
+        <otriple>Sweet_potato | division | Flowering_plant</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Binignit | ingredient | Sweet_potato</mtriple>
+        <mtriple>Sweet_potato | division | Flowering_plant</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Sweet potatoes (a kind of flowering plant) are used in binignit recipes.</lex>
+      <lex comment="good" lid="Id2">Sweet potato belongs to flowering plants and is an ingredient of Binignit.</lex>
+    </entry>
+    <entry category="Food" eid="Id31" size="2">
+      <originaltripleset>
+        <otriple>Binignit | mainIngredient | Sweet_potato</otriple>
+        <otriple>Sweet_potato | order | Solanales</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Binignit | mainIngredients | Sweet_potato</mtriple>
+        <mtriple>Sweet_potato | order | Solanales</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Sweet potatoes are the main ingredient of binignit and the potatoes are part of the order of Solanales.</lex>
+      <lex comment="good" lid="Id2">Sweet potatoes are members of the Solanales order of plants. They are the main ingredient of binignit.</lex>
+      <lex comment="good" lid="Id3">Sweet potato is of the order Solanales and are a main ingredient of binignit.</lex>
+    </entry>
+    <entry category="Food" eid="Id32" size="2">
+      <originaltripleset>
+        <otriple>Bionico | course | Dessert</otriple>
+        <otriple>Bionico | ingredient | Granola</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bionico | course | Dessert</mtriple>
+        <mtriple>Bionico | ingredient | Granola</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bionico is a dessert and it requires granola as one of it's ingredients.</lex>
+      <lex comment="good" lid="Id2">Bionico is a dessert, requiring granola as one of its ingredients.</lex>
+      <lex comment="good" lid="Id3">Bionico is a dessert that includes the ingredient granola.</lex>
+    </entry>
+    <entry category="Food" eid="Id33" size="2">
+      <originaltripleset>
+        <otriple>Bionico | hasVariant | Honey</otriple>
+        <otriple>Bionico | course | Dessert</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bionico | dishVariation | Honey</mtriple>
+        <mtriple>Bionico | course | Dessert</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A popular dessert is Bionico and a variation of this dish can be honey.</lex>
+      <lex comment="good" lid="Id2">Honey can be used as a variaton in Bionico which is a dessert.</lex>
+      <lex comment="good" lid="Id3">Honey can be added to bionico, a dessert dish.</lex>
+    </entry>
+    <entry category="Food" eid="Id34" size="2">
+      <originaltripleset>
+        <otriple>Dessert | hasVariant | Ice_cream</otriple>
+        <otriple>Bionico | course | Dessert</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dessert | dishVariation | Ice_cream</mtriple>
+        <mtriple>Bionico | course | Dessert</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bionico and ice cream are both served as a dessert course.</lex>
+      <lex comment="good" lid="Id2">Bionico and ice cream are types of dessert.</lex>
+      <lex comment="good" lid="Id3">Bionico and Ice Cream are served at the dessert course.</lex>
+    </entry>
+    <entry category="Food" eid="Id35" size="2">
+      <originaltripleset>
+        <otriple>Siomay | ingredient | Peanut_sauce</otriple>
+        <otriple>Batagor | variations | Siomay</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Siomay | ingredient | Peanut_sauce</mtriple>
+        <mtriple>Batagor | dishVariation | Siomay</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Batagor and Siomay (which has peanut sauce as an ingredient) are variations of the same dish.</lex>
+      <lex comment="good" lid="Id2">Peanut sauce is an ingredient in Siomay and Batagor is a variation of this dish.</lex>
+      <lex comment="good" lid="Id3">Batagor is a variation of the dish Siomay, of which peanut sauce is an ingredient.</lex>
+    </entry>
+    </entries>
+</benchmark>

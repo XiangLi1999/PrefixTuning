@@ -1,0 +1,552 @@
+<benchmark>
+  <entries>
+    <entry category="WrittenWork" eid="Id1" size="3">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | isbn | "978-1-4165-4253-7"</otriple>
+        <otriple>1634:_The_Bavarian_Crisis | author | "Virginia DeMarce and"@en</otriple>
+        <otriple>1634:_The_Bavarian_Crisis | mediaType | "Print"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | ISBN_number | "978-1-4165-4253-7"</mtriple>
+        <mtriple>1634:_The_Bavarian_Crisis | author | "Virginia DeMarce and Eric Flint"</mtriple>
+        <mtriple>1634:_The_Bavarian_Crisis | mediaType | "Print"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Bavarian Crisis can be located by it's ISBN number "978-1-4165-4253-7". It is written by Virginia DeMarce and Eric Flint and was put in print.</lex>
+      <lex comment="good" lid="Id2">1634: The Bavarian Crisis was authored by Virginia DeMarce and Eric Flint and has a ISBN number of 978-1-4165-4253-7.</lex>
+      <lex comment="good" lid="Id3">The ISBN number of 1634: The Bavarian Crisis is 978-1-4165-4253-7, it is written by Virginia DeMarce and Eric Flint and is available in print form.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id2" size="3">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | author | Eric_Flint</otriple>
+        <otriple>1634:_The_Bavarian_Crisis | previousWork | 1634:_The_Baltic_War</otriple>
+        <otriple>Eric_Flint | birthPlace | Burbank,_California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | author | Eric_Flint</mtriple>
+        <mtriple>1634:_The_Bavarian_Crisis | precededBy | 1634:_The_Baltic_War</mtriple>
+        <mtriple>Eric_Flint | birthPlace | Burbank,_California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Born in Burbank, California, Eric Flint wrote 1634: The Bavarian Crisis which was preceded by 1634: The Baltic War.</lex>
+      <lex comment="good" lid="Id2">1634: The Bavarian Crisis and it's predecessor, 1634: The Baltic War, was written by Eric Flint who was born in Burbank California.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id3" size="3">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | author | Eric_Flint</otriple>
+        <otriple>1634:_The_Ram_Rebellion | mediaType | E-book</otriple>
+        <otriple>1634:_The_Ram_Rebellion | numberOfPages | "512"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | author | Eric_Flint</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | mediaType | E-book</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | numberOfPages | "512"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Eric Flint is the author of 1634: The Ram Rebellion which has 512 pages and is available as an E-Book.</lex>
+      <lex comment="good" lid="Id2">During 1634, Eric Flint wrote the RAM Rebellion which is 512 pages long and is of the media type E book.</lex>
+      </entry>
+    <entry category="WrittenWork" eid="Id4" size="3">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | author | Eric_Flint</otriple>
+        <otriple>1634:_The_Ram_Rebellion | mediaType | Hardcover</otriple>
+        <otriple>1634:_The_Ram_Rebellion | isbn | "1-4165-2060-0"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | author | Eric_Flint</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | mediaType | Hardcover</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | ISBN_number | "1-4165-2060-0"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The hardcover book 1634: The Ram Rebellion was written by Eric Flint and has the ISBN number 1-4165-2060-0.</lex>
+      <lex comment="good" lid="Id2">1634: The Ram Rebellion, ISBN number 1-4165-2060-0, was written by Eric Flint and is available in hardcover.</lex>
+      <lex comment="good" lid="Id3">Eric Flint wrote 1634: The Ram Rebellion found in hardcover with an ISBN of 1-4165-2060-0.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id5" size="3">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | mediaType | E-book</otriple>
+        <otriple>1634:_The_Ram_Rebellion | numberOfPages | "512"^^xsd:positiveInteger</otriple>
+        <otriple>1634:_The_Ram_Rebellion | author | "Eric Flint, Virginia DeMarce, et al."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | mediaType | E-book</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | numberOfPages | "512"</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | author | "Eric Flint, Virginia DeMarce, et al."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Ram Rebellion, written by Eric Flint, Virginia DeMarce. et al., is 512 pages long and can be found as an E book.</lex>
+      <lex comment="good" lid="Id2">1634: The Ram Rebellion was written by Eric Flint, Virginia DeMarce, et al. It has 512 pages and is available as an E-Book.</lex>
+      <lex comment="good" lid="Id3">1634: The Ram Rebellion has 512 pages and was written by Eric Flint, Virginia DeMarce, et al. . It can be found as an E book.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id6" size="3">
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."@en</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | discipline | Computer_science</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | issn | "1046-8188"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | discipline | Computer_science</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | issn | "1046-8188"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</mtriple>
+        <mtriple>ACM_Transactions_on_Information_Systems | academicDiscipline | Computer_science</mtriple>
+        <mtriple>ACM_Transactions_on_Information_Systems | ISSN_number | "1046-8188"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">ACM Transactions on Information Systems, or ACM Trans. Inf. Syst., is part of the academic Discipline of Computer Science and has an ISSN number of 1046-8188.</lex>
+      <lex comment="good" lid="Id2">ACM Transactions on Information Systems is part of the academic Discipline of Computer Science and has the abbreviation of ACM Trans. Inf. Syst. it has the ISSN number 1046-8188.</lex>
+      <lex comment="good" lid="Id3">The abbreviation "ACM Trans. Inf. Syst." is for ACM Transactions on Information Systems which is part of the academic Discipline of Computer Science and has an ISSN number of 1046-8188.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id7" size="3">
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."@en</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | discipline | Computer_science</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | issn | "1558-2868"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | discipline | Computer_science</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | issn | "1558-2868"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACM_Transactions_on_Information_Systems | academicDiscipline | Computer_science</mtriple>
+        <mtriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</mtriple>
+        <mtriple>ACM_Transactions_on_Information_Systems | ISSN_number | "1558-2868"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ACM Transactions on Information Systems ISSN number is 1558-2868. It is part of the academic Discipline of Computer Science and abbreviated to ACM Trans. Inf. Syst.</lex>
+      <lex comment="good" lid="Id2">ACM Transactions on Information Systems is part of the academic Discipline of Computer Science and has the abbreviation "ACM Trans. Inf. Syst." and the ISSN number 1558-2868.</lex>
+      <lex comment="good" lid="Id3">ACM Transactions on Information Systems, or ACM Trans. Inf. Syst., is part of the academic Discipline of Computer Science and has a ISSN number of 1558-2868.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id8" size="3">
+      <originaltripleset>
+        <otriple>United_Kingdom | leaderName | Elizabeth_II</otriple>
+        <otriple>AIDS_(journal) | country | United_Kingdom</otriple>
+        <otriple>AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AIDS_(journal) | country | United_Kingdom</otriple>
+        <otriple>AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</otriple>
+        <otriple>United_Kingdom | leader | Elizabeth_II</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AIDS_(journal) | country | United_Kingdom</mtriple>
+        <mtriple>AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</mtriple>
+        <mtriple>United_Kingdom | leaderName | Elizabeth_II</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AIDS journal was published by Lippincott Williams &amp; Wilkins in the United Kingdom where Elizabeth II is the leader.</lex>
+      <lex comment="good" lid="Id2">The AIDS journal is published by Lippincot Williams &amp; Wilkins and comes from the United Kingdom where Elizabeth II is the leader.</lex>
+      <lex comment="good" lid="Id3">The AIDS journal, which came from the United Kingdom in the reign of Elizabeth II, was published by Lippincott Williams and Wilkins.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id9" size="3">
+      <originaltripleset>
+        <otriple>AIP_Advances | editor | A.T._Charlie_Johnson</otriple>
+        <otriple>A.T._Charlie_Johnson | residence | United_States</otriple>
+        <otriple>AIP_Advances | publisher | American_Institute_of_Physics</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AIP_Advances | editor | A.T._Charlie_Johnson</mtriple>
+        <mtriple>A.T._Charlie_Johnson | residence | United_States</mtriple>
+        <mtriple>AIP_Advances | publisher | American_Institute_of_Physics</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.T. Charlie Johnson, who lives in the US, is the editor of AIP Advances which is published by the American Institute of Physics.</lex>
+      <lex comment="good" lid="Id2">A T Charlie Johnson resides in the United States and is the editor of AIP Advances which is published by the American Institute of Physics.</lex>
+      <lex comment="good" lid="Id3">A T Charlie Johnson lives in the US and is the editor of AIP Advances which was published by the American Institute of Physics.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id10" size="3">
+      <originaltripleset>
+        <otriple>AIP_Advances | editor | A.T._Charlie_Johnson</otriple>
+        <otriple>AIP_Advances | abbreviation | "AIP Adv."@en</otriple>
+        <otriple>AIP_Advances | coden | "AAIDBI"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AIP_Advances | editor | A.T._Charlie_Johnson</otriple>
+        <otriple>AIP_Advances | abbreviation | "AIP Adv."</otriple>
+        <otriple>AIP_Advances | coden | "AAIDBI"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AIP_Advances | editor | A.T._Charlie_Johnson</otriple>
+        <otriple>AIP_Advances | coden | "AAIDBI"@en</otriple>
+        <otriple>AIP_Advances | abbreviation | "AIP Adv."</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AIP_Advances | editor | A.T._Charlie_Johnson</otriple>
+        <otriple>AIP_Advances | abbreviation | "AIP Adv."@en</otriple>
+        <otriple>AIP_Advances | coden | "AAIDBI"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AIP_Advances | editor | A.T._Charlie_Johnson</mtriple>
+        <mtriple>AIP_Advances | abbreviation | "AIP Adv."</mtriple>
+        <mtriple>AIP_Advances | CODEN_code | "AAIDBI"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AIP Advances, or AIP Adv., has a CODEN of AAIDBI and is edited by A. T. Charlie Johnson.</lex>
+      <lex comment="good" lid="Id2">A T Charlie Johnson is the editor of AIP Advances which is abbreviated to AIP Adv and has a CODEN code of AAIDBI.</lex>
+      <lex comment="good" lid="Id3">"AIP Adv." is the abbreviation of AIP Advances which is edited by A T Charlie Johnson and has the CODEN code AAIDBI.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id11" size="3">
+      <originaltripleset>
+        <otriple>A_Glastonbury_Romance | mediaType | Hardcover</otriple>
+        <otriple>A_Glastonbury_Romance | oclc | 76798317</otriple>
+        <otriple>A_Glastonbury_Romance | isbn | "0-7156-3648-0"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A_Glastonbury_Romance | mediaType | Hardcover</otriple>
+        <otriple>A_Glastonbury_Romance | oclc | "76798317"</otriple>
+        <otriple>A_Glastonbury_Romance | isbn | "0-7156-3648-0"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Glastonbury_Romance | mediaType | Hardcover</mtriple>
+        <mtriple>A_Glastonbury_Romance | OCLC_number | 76798317</mtriple>
+        <mtriple>A_Glastonbury_Romance | ISBN_number | "0-7156-3648-0"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Glastonbury Romance, which can be found in hardcover, has the ISBN number 0-7156-3648-0 as well as the OCLC number 76798317.</lex>
+      <lex comment="good" lid="Id2">A Glastonbury Romance is available in hardcover and has the OCLC number of 76798317. and the ISBN number of 0-7156-3648-0.</lex>
+      <lex comment="good" lid="Id3">A Glastonbury Romance is available in hardcover and has the OCLC number 76798317 and the ISBN number 0-7156-3648-0.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id12" size="3">
+      <originaltripleset>
+        <otriple>A_Long_Long_Way | language | English_language</otriple>
+        <otriple>English_language | spokenIn | Great_Britain</otriple>
+        <otriple>A_Long_Long_Way | subsequentWork | The_Secret_Scripture</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Long_Long_Way | language | English_language</mtriple>
+        <mtriple>English_language | spokenIn | Great_Britain</mtriple>
+        <mtriple>A_Long_Long_Way | followedBy | The_Secret_Scripture</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Long Long Way (followed by the book The Secret Scripture) is written in the English language, which is spoken in Great Britain.</lex>
+      <lex comment="good" lid="Id2">Followed by The Secret Scripture, the book A Long Long Way is written in English, the language spoken in Great Britain.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id13" size="3">
+      <originaltripleset>
+        <otriple>A_Loyal_Character_Dancer | publisher | Soho_Press</otriple>
+        <otriple>A_Loyal_Character_Dancer | country | United_States</otriple>
+        <otriple>United_States | ethnicGroup | African_Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Loyal_Character_Dancer | publisher | Soho_Press</mtriple>
+        <mtriple>A_Loyal_Character_Dancer | country | United_States</mtriple>
+        <mtriple>United_States | ethnicGroup | African_Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Loyal Character Dancer was published by Soho Press in the United States, which counts African Americans among its ethnic groups.</lex>
+      <lex comment="good" lid="Id2">A Loyal Character Dancer was published in the United States by Soho Press. One of the ethnic groups in the US are African Americans.</lex>
+      <lex comment="good" lid="Id3">A Loyal Character Dancer is published by Soho Press in the United States where the African Americans are an ethnic group.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id14" size="3">
+      <originaltripleset>
+        <otriple>A_Loyal_Character_Dancer | publisher | Soho_Press</otriple>
+        <otriple>Soho_Press | country | United_States</otriple>
+        <otriple>United_States | leader | Barack_Obama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Loyal_Character_Dancer | publisher | Soho_Press</mtriple>
+        <mtriple>Soho_Press | country | United_States</mtriple>
+        <mtriple>United_States | leaderName | Barack_Obama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Loyal Character Dancer was published by Soho Press in the United States where Barack Obama is the leader.</lex>
+      <lex comment="good" lid="Id2">A Loyal Character Dancer is published by Soho Press in the United States where Barack Obama is the president.</lex>
+      </entry>
+    <entry category="WrittenWork" eid="Id15" size="3">
+      <originaltripleset>
+        <otriple>A_Severed_Wasp | oclc | "8805735"</otriple>
+        <otriple>A_Severed_Wasp | congress | "PS3523.E55 S4 1982"@en</otriple>
+        <otriple>A_Severed_Wasp | mediaType | "Print"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Severed_Wasp | OCLC_number | 8805735</mtriple>
+        <mtriple>A_Severed_Wasp | LibraryofCongressClassification | "PS3523.E55 S4 1982"</mtriple>
+        <mtriple>A_Severed_Wasp | mediaType | "Print"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Severed Wasp can be found in print with the OCLC number 8805735 and the Library of Congress Classification of PS3523.E55 S4 1982.</lex>
+      <lex comment="good" lid="Id2">A severed wasp can be found in print and has the OCLC number 8805735 and the Library of Congress Classification is PS3523.E55 S4 1982.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id16" size="3">
+      <originaltripleset>
+        <otriple>A_Severed_Wasp | numberOfPages | "388"^^xsd:positiveInteger</otriple>
+        <otriple>A_Severed_Wasp | mediaType | "Print"@en</otriple>
+        <otriple>A_Severed_Wasp | isbn | "0-374-26131-8"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Severed_Wasp | numberOfPages | "388"</mtriple>
+        <mtriple>A_Severed_Wasp | mediaType | "Print"</mtriple>
+        <mtriple>A_Severed_Wasp | ISBN_number | "0-374-26131-8"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Severed Wasp has an ISBN number of "0-374-26131-8" , 388 pages and can be found in print.</lex>
+      <lex comment="good" lid="Id2">"A Severed Wasp" is in print, has 388 pages and has an ISBN number of "0-374-26131-8".</lex>
+      <lex comment="good" lid="Id3">A Severed Wasp (ISBN number 0-374-26131-8) has 388 pages altogether and is available in print.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id17" size="3">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | mediaType | Hardcover</otriple>
+        <otriple>A_Wizard_of_Mars | author | Diane_Duane</otriple>
+        <otriple>A_Wizard_of_Mars | oclc | 318875313</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | mediaType | Hardcover</otriple>
+        <otriple>A_Wizard_of_Mars | oclc | "318875313"</otriple>
+        <otriple>A_Wizard_of_Mars | author | Diane_Duane</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | mediaType | Hardcover</mtriple>
+        <mtriple>A_Wizard_of_Mars | OCLC_number | 318875313</mtriple>
+        <mtriple>A_Wizard_of_Mars | author | Diane_Duane</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Diane Duane wrote A Wizard of Mars which was published in hardback and has the OCLC number 318875313.</lex>
+      <lex comment="good" lid="Id2">A Wizard of Mars was written by Diane Duane and is published in Hardcover. The OCLC number of A Wizard of Mars is 318875313.</lex>
+      <lex comment="good" lid="Id3">A Wizard of Mars, written by Diane Duane, has a OCLC number of 318875313.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id18" size="3">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | mediaType | Hardcover</otriple>
+        <otriple>A_Wizard_of_Mars | author | Diane_Duane</otriple>
+        <otriple>A_Wizard_of_Mars | isbn | "978-0-15-204770-2"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | mediaType | Hardcover</mtriple>
+        <mtriple>A_Wizard_of_Mars | author | Diane_Duane</mtriple>
+        <mtriple>A_Wizard_of_Mars | ISBN_number | "978-0-15-204770-2"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Diane Duane wrote A Wizard of Mars which is published in hardcover and has the ISBN number 978-0-15-204770-2.</lex>
+      <lex comment="good" lid="Id2">The hardcover book. A wizard of Mars, was written by Diane Duane and has the ISBN number 978-0-15-204770-2.</lex>
+      <lex comment="good" lid="Id3">A Wizard of Mars by Diane Duane is published in Hardcover ISBN 978-0-15-204770-2.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id19" size="3">
+      <originaltripleset>
+        <otriple>Above_the_Veil | country | Australians</otriple>
+        <otriple>Above_the_Veil | precededBy | Aenir</otriple>
+        <otriple>Aenir | previousWork | Castle_(novel)</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Above_the_Veil | country | Australians</otriple>
+        <otriple>Above_the_Veil | previousWork | Aenir</otriple>
+        <otriple>Aenir | precededBy | Castle_(novel)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Above_the_Veil | country | Australians</mtriple>
+        <mtriple>Above_the_Veil | precededBy | Aenir</mtriple>
+        <mtriple>Aenir | precededBy | Castle_(novel)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Above the Veil, from Australia, is the third book in a series after Aenir and Castle.</lex>
+      <lex comment="good" lid="Id2">Above the Veil, from Australia, is the sequel to Aenir, which followed the novel Castle.</lex>
+      <lex comment="good" lid="Id3">Above the Veil is from Australia and was preceded by Aenir and Castle.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id20" size="3">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | issn | "1588-2632"</otriple>
+        <otriple>Acta_Mathematica_Hungarica | lccn | "83646315"</otriple>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | issn | "1588-2632"</otriple>
+        <otriple>Acta_Mathematica_Hungarica | lccn | 83646315</otriple>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | issn | "1588-2632"</otriple>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."@en</otriple>
+        <otriple>Acta_Mathematica_Hungarica | lccn | 83646315</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | lccn | "83646315"</otriple>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</otriple>
+        <otriple>Acta_Mathematica_Hungarica | issn | "1588-2632"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | LCCN_number | 83646315</mtriple>
+        <mtriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</mtriple>
+        <mtriple>Acta_Mathematica_Hungarica | ISSN_number | "1588-2632"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Mathematica Hungarica, or Acta Math. Hungar., has a LCCN number of 83646315 and a ISSN number of 1588-2632.</lex>
+      <lex comment="good" lid="Id2">Acta Mathematica Hungarica (abbreviated to Acta Math. Hungar.) has the LCCN number 83646315 and ISSN number 1588-2632.</lex>
+      <lex comment="good" lid="Id3">Acta Mathematica Hungarica, abbreviated to Acta Math.Hungar, has LCCN No. 83646315 and ISSN No. 1588-2632.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id21" size="3">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | discipline | Mathematics</otriple>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</otriple>
+        <otriple>Acta_Mathematica_Hungarica | issn | "0236-5294"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."@en</otriple>
+        <otriple>Acta_Mathematica_Hungarica | discipline | Mathematics</otriple>
+        <otriple>Acta_Mathematica_Hungarica | issn | "0236-5294"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</mtriple>
+        <mtriple>Acta_Mathematica_Hungarica | academicDiscipline | Mathematics</mtriple>
+        <mtriple>Acta_Mathematica_Hungarica | ISSN_number | "0236-5294"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acta Mathematica Hungarica ISSN number is "0236-5294" and the abbreviation is Acta Math. Hungar. It comes under the academic discipline of Math.</lex>
+      <lex comment="good" lid="Id2">The Acta Mathematica Hungarica has the ISSN number 0236-5294. It is also known as Acta Math. Hungar and it covers the academic discipline of Mathematics.</lex>
+      <lex comment="good" lid="Id3">Acta Mathematica Hungarica (also known as Acta Math. Hungar), covers the academic discipline of Mathematics and has the ISSN number 0236-5294.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id22" size="3">
+      <originaltripleset>
+        <otriple>Acta_Palaeontologica_Polonica | issn | "1732-2421"</otriple>
+        <otriple>Acta_Palaeontologica_Polonica | lccn | "60040714"</otriple>
+        <otriple>Acta_Palaeontologica_Polonica | abbreviation | "Acta Palaeontol. Pol."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Palaeontologica_Polonica | ISSN_number | "1732-2421"</mtriple>
+        <mtriple>Acta_Palaeontologica_Polonica | LCCN_number | 60040714</mtriple>
+        <mtriple>Acta_Palaeontologica_Polonica | abbreviation | "Acta Palaeontol. Pol."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Palaeontologica Polonica has the ISSN number 1732-2421 and an LCCN number of 60040714. The abbreviated name is Acta Palaeontol. Pol.</lex>
+      <lex comment="good" lid="Id2">Acta Palaeontologica Polonica (abbreviated to Acta Palaeontol. Pol) has the ISSN number 1732-2421 and the LCCN number 60040714.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id23" size="3">
+      <originaltripleset>
+        <otriple>Addiction_(journal) | discipline | Addiction</otriple>
+        <otriple>Addiction_(journal) | abbreviation | "Addiction"</otriple>
+        <otriple>Addiction_(journal) | issn | "0965-2140"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Addiction_(journal) | abbreviation | "Addiction"@en</otriple>
+        <otriple>Addiction_(journal) | discipline | Addiction</otriple>
+        <otriple>Addiction_(journal) | issn | "0965-2140"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addiction_(journal) | academicDiscipline | Addiction</mtriple>
+        <mtriple>Addiction_(journal) | abbreviation | "Addiction"</mtriple>
+        <mtriple>Addiction_(journal) | ISSN_number | "0965-2140"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Addiction is the abbreviated version of the "Addiction Journal" which has the ISSN number 0965-2140.</lex>
+      <lex comment="good" lid="Id2">Addiction journal (abbreviated to Addiction) is about addiction. It has the ISSN number 0965-2140.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id24" size="3">
+      <originaltripleset>
+        <otriple>Aenir | oclc | "45644811"</otriple>
+        <otriple>Aenir | author | Garth_Nix</otriple>
+        <otriple>Aenir | mediaType | "Print"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aenir | author | Garth_Nix</otriple>
+        <otriple>Aenir | mediaType | "Print"@en</otriple>
+        <otriple>Aenir | oclc | 45644811</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aenir | OCLC_number | 45644811</mtriple>
+        <mtriple>Aenir | author | Garth_Nix</mtriple>
+        <mtriple>Aenir | mediaType | "Print"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aenir, written by Garth Nix, was produced in print and has the OCLC number 45644811.</lex>
+      <lex comment="good" lid="Id2">Aenir was written by Garth Nix and produced in print. It has an OCLC number of 45644811.</lex>
+      <lex comment="good" lid="Id3">Aenir, OCLC number 45644811, by author Garth Nix is available in print.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id25" size="3">
+      <originaltripleset>
+        <otriple>Aenir | author | Garth_Nix</otriple>
+        <otriple>Aenir | mediaType | "Print"@en</otriple>
+        <otriple>Aenir | isbn | "0-439-17684-0"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aenir | author | Garth_Nix</mtriple>
+        <mtriple>Aenir | mediaType | "Print"</mtriple>
+        <mtriple>Aenir | ISBN_number | "0-439-17684-0"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aenir has the ISBN number of "0-439-17684-0", it was written by Garth Nix and was produced in print.</lex>
+      <lex comment="good" lid="Id2">Garth Nix is the author of Aenir. It can be found by ISBN number 0-439-17684-0.</lex>
+      <lex comment="good" lid="Id3">Aenir was written by Garth Nix and has a ISBN number of 0-439-17684-0.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id26" size="3">
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | discipline | Mathematics</otriple>
+        <otriple>American_Journal_of_Mathematics | abbreviation | "Am. J. Math."</otriple>
+        <otriple>American_Journal_of_Mathematics | issn | "1080-6377"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | abbreviation | "Am. J. Math."@en</otriple>
+        <otriple>American_Journal_of_Mathematics | discipline | Mathematics</otriple>
+        <otriple>American_Journal_of_Mathematics | issn | "1080-6377"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>American_Journal_of_Mathematics | abbreviation | "Am. J. Math."</mtriple>
+        <mtriple>American_Journal_of_Mathematics | academicDiscipline | Mathematics</mtriple>
+        <mtriple>American_Journal_of_Mathematics | ISSN_number | "1080-6377"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The American Journal of Mathematics, abbreviated to Am.J.Math, whose academic discipline is Mathematics has ISSN No. 1080-6377.</lex>
+      <lex comment="good" lid="Id2">Am. J. Math is the abbreviation for the American Journal of Mathematics with the ISSN number of 1080-6377 in the discipline of Math.</lex>
+      <lex comment="good" lid="Id3">The American Journal of Mathematics (discipline Mathematics) is also known by the abbreviated title of Am. J. Math and has the ISSN number 1080-6377.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id27" size="3">
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | abbreviation | "Am. J. Math."@en</otriple>
+        <otriple>American_Journal_of_Mathematics | history | 1878</otriple>
+        <otriple>American_Journal_of_Mathematics | issn | "1080-6377"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>American_Journal_of_Mathematics | abbreviation | "Am. J. Math."</mtriple>
+        <mtriple>American_Journal_of_Mathematics | firstPublicationYear | 1878</mtriple>
+        <mtriple>American_Journal_of_Mathematics | ISSN_number | "1080-6377"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The American Journal of Mathematics was first published in 1878 and is also known by the abbreviated title of Am. J. Math. It has an ISSN number of 1080-6377.</lex>
+      <lex comment="good" lid="Id2">The American Journal of Mathematics was first published in 1878 and has the abbreviation Am. J. Math.. The ISSN number for the journal is 1080-6377.</lex>
+      <lex comment="good" lid="Id3">Also known by the abbreviated title of Am. J. Math, the American Journal of Mathematics was first published in 1878 and has the ISSN number 1080-6377.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id28" size="3">
+      <originaltripleset>
+        <otriple>SAGE_Publications | founder | Sara_Miller_McCune</otriple>
+        <otriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."@en</otriple>
+        <otriple>Administrative_Science_Quarterly | publisher | SAGE_Publications</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>SAGE_Publications | founder | Sara_Miller_McCune</otriple>
+        <otriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."</otriple>
+        <otriple>Administrative_Science_Quarterly | publisher | SAGE_Publications</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>SAGE_Publications | founder | Sara_Miller_McCune</mtriple>
+        <mtriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."</mtriple>
+        <mtriple>Administrative_Science_Quarterly | publisher | SAGE_Publications</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Administrative Science Quarterly (Admin. Sci. Q) is published by SAGE Publications which was founded by Sara Miller McCune.</lex>
+      <lex comment="good" lid="Id2">Administrative Science Quarterly ( Admin. Sci. Q,) is published by SAGE Publications who's founder is Sara Miller McCune.</lex>
+      <lex comment="good" lid="Id3">Sara Miller McCune is the founder of SAGE publications which publishes the Administrative Science Quarterly. The abbreviation for the Administrative Science Quarterly is Admin. Sci. Q.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id29" size="3">
+      <originaltripleset>
+        <otriple>United_Kingdom | leader | David_Cameron</otriple>
+        <otriple>AIDS_(journal) | country | United_Kingdom</otriple>
+        <otriple>AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>United_Kingdom | leaderName | David_Cameron</otriple>
+        <otriple>AIDS_(journal) | country | United_Kingdom</otriple>
+        <otriple>AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_Kingdom | leaderName | David_Cameron</mtriple>
+        <mtriple>AIDS_(journal) | country | United_Kingdom</mtriple>
+        <mtriple>AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AIDS (journal), is published by Lippincott Williams &amp; Wilkins who are based in the United Kingdom which is where David Cameron is the leader.</lex>
+      <lex comment="good" lid="Id2">The AIDS journal was published by Lippincott, Williams &amp; Wilkins in the UK. David Cameron is the leader.</lex>
+      <lex comment="good" lid="Id3">The AIDS (journal) is published by Lippincott Williams &amp; Wilkins. It was published in the United Kingdom, which leader is David Cameron.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id30" size="3">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | African_Americans</otriple>
+        <otriple>United_States | leader | Barack_Obama</otriple>
+        <otriple>A_Fortress_of_Grey_Ice | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | African_Americans</mtriple>
+        <mtriple>United_States | leaderName | Barack_Obama</mtriple>
+        <mtriple>A_Fortress_of_Grey_Ice | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Fortress of Grey Ice is from the United States where Barack Obama is the leader and the African Americans are one of the ethnic groups.</lex>
+      <lex comment="good" lid="Id2">Barack Obama is both president of the US and African American, which is an ethnic group of the United States. A Fortress of Grey Ice originates from the US.</lex>
+      <lex comment="good" lid="Id3">In the United States, one of the ethnic groups is African American, Barack Obamais President and it is where A Fortress of Grey Ice originates.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id31" size="3">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Asian_Americans</otriple>
+        <otriple>United_States | language | English_language</otriple>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Asian_Americans</mtriple>
+        <mtriple>United_States | language | English_language</mtriple>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In the United States, English is the language, Asian Americans are an ethnic group and the book Alcatraz versus the Evil Librarians was written.</lex>
+      <lex comment="good" lid="Id2">Alcatraz Versus the Evil Librarians is from The United States where English is spoken and the Asian Americans are an ethnic group.</lex>
+      <lex comment="good" lid="Id3">The book Alcatraz Versus the Evil Librarians comes from the United States where English is the primary language. Additionally, Asian Americans is one of the ethnic groups in the United States.</lex>
+    </entry>
+    </entries>
+</benchmark>

@@ -1,0 +1,336 @@
+<benchmark>
+  <entries>
+    <entry category="City" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | areaCode | 325</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | areaCode | 325</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code of Abilene, in Texas, is 325.</lex>
+      <lex comment="good" lid="Id2">325 is the area code for Abilene, Texas.</lex>
+      <lex comment="good" lid="Id3">The area code for Abilene in Texas is 325.</lex>
+    </entry>
+    <entry category="City" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | isPartOf | Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | isPartOf | Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene is a part of Texas.</lex>
+      <lex comment="good" lid="Id2">Abilene, Texas, is part of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Georgia has a Mayor as leader.</lex>
+      <lex comment="good" lid="Id2">Albany, Georgia is lead by a Mayor.</lex>
+      <lex comment="good" lid="Id3">The leader of Albany, Georgia is the Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | areaTotal | 4.59723e+07</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | areaTotal | 45.97 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Oregon has a total area of 45.97 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Albany Oregon is 45.97 Sq K.</lex>
+      <lex comment="good" lid="Id3">The total area of Albany, Oregon is 45.97 sq kms.</lex>
+    </entry>
+    <entry category="City" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Oregon is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Albany, Oregon is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderTitle | "State Senate"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leaderTitle | "State Senate"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque, New Mexico is led by the State Senate.</lex>
+    </entry>
+    <entry category="City" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderTitle | Albuquerque_City_Council</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leaderTitle | Albuquerque_City_Council</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Albuquerque City Council has a leadership role in Albuquerque, New Mexico.</lex>
+      <lex comment="good" lid="Id2">Albuquerque in New Mexico is led by the Albuquerque City Council.</lex>
+    </entry>
+    <entry category="City" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">The United States is the home country to Amarillo,Texas.</lex>
+      <lex comment="good" lid="Id3">Amarillo, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | subdivisionName | Potter_County,_Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | isPartOf | Potter_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | isPartOf | Potter_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is part of Potter County in Texas.</lex>
+      <lex comment="good" lid="Id2">Amarillo is part of Potter County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | subdivisionName | "United States"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">Amarillo, Texas is part of the United States.</lex>
+      <lex comment="good" lid="Id3">Amarillo, Texas, is part of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | areaCode | 657</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | areaCode | 657</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, in California, has the area code 657.</lex>
+      <lex comment="good" lid="Id2">The area code of Anaheim, California is 657.</lex>
+      <lex comment="good" lid="Id3">The area code for Anaheim, California, is 657.</lex>
+    </entry>
+    <entry category="City" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | subdivisionName | "Adams, Fall Creek, Lafayette, Richland, Union"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | "Adams, Fall Creek, Lafayette, Richland, Union"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is part of Adams Fall Creek, Lafayette, Richland, Union.</lex>
+    </entry>
+    <entry category="City" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | subdivisionName | Pleasant_Township,_Steuben_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Angola,_Indiana | isPartOf | Pleasant_Township,_Steuben_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | isPartOf | Pleasant_Township,_Steuben_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola is in Pleasant Township which is part of Steuben County, in Indiana.</lex>
+      <lex comment="good" lid="Id2">Angola, Indiana is part of Pleasant Township, which is in Steuben County.</lex>
+    </entry>
+    <entry category="City" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | leaderTitle | "City Administrator"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | leaderTitle | "City Administrator"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A City Administrator leads Ann Arbor, Michigan.</lex>
+      <lex comment="good" lid="Id2">The City Administrator leads Ann Arbor in Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mayor, is the title of the leader in Ann Arbor, Michigan.</lex>
+      <lex comment="good" lid="Id2">Ann Arbor, Michigan is led by the Mayor.</lex>
+      <lex comment="good" lid="Id3">The leader title of Ann Arbor, Michigan, is Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | populationDensity | "1580.7"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | populationDensity | 1580.7 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The city of Ann Arbor, Michigan, has a population of 1580.7 as per square kilometre.</lex>
+      <lex comment="good" lid="Id2">AnnArbor, Michigan has a population of 1580.7 peer square kilometer.</lex>
+      <lex comment="good" lid="Id3">The population density of Ann Arbor, Michigan is 1580.7 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | elevation | "13.1064"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | elevationAboveTheSeaLevel | 13.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Antioch, CA is 13 above sea level.</lex>
+      <lex comment="good" lid="Id2">Antioch, California is 13.0 metres above sea level.</lex>
+      <lex comment="good" lid="Id3">Antioch, California is located at 13.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | leaderTitle | California's_11th_State_Assembly_district</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | leaderTitle | California's_11th_State_Assembly_district</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader title of Antioch, California, is California's 11th State Assembly district.</lex>
+      <lex comment="good" lid="Id2">The leader title of Antioch California is California's 11th State Assembly district.</lex>
+    </entry>
+    <entry category="City" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | elevation | "184.099"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | elevationAboveTheSeaLevel | 184.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arlington Texas is has an elevation of 184 above sea level.</lex>
+      <lex comment="good" lid="Id2">Arlington in Texas is located at 184.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_County,_New_Jersey | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_County,_New_Jersey | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlantic County, New Jersey is located in the United States.</lex>
+      <lex comment="good" lid="Id2">Atlantic County in New Jersey is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | isPartOf | Fountain_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Attica,_Indiana | subdivisionName | Fountain_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | isPartOf | Fountain_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica is part of Fountain County Indiana.</lex>
+      <lex comment="good" lid="Id2">Attica, Indiana is in Fountain County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | subdivisionName | Alabama</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | isPartOf | Alabama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | isPartOf | Alabama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn is part of Alabama.</lex>
+      <lex comment="good" lid="Id2">Auburn is located in Alabama.</lex>
+    </entry>
+    <entry category="City" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>California | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">California is in the United States.</lex>
+      <lex comment="good" lid="Id2">California is in the U.S.</lex>
+    </entry>
+    <entry category="City" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Fulton_County,_Georgia | largestCity | Atlanta</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Fulton_County,_Georgia | largestCity | Atlanta</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta is the largest city of Fulton County, Georgia.</lex>
+      <lex comment="good" lid="Id2">Atlanta is the largest city in Fulton County, Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Georgia_(U.S._state) | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Georgia_(U.S._state) | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The state of Georgia is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Georgia is in the country of United States.</lex>
+      <lex comment="good" lid="Id3">The state of Georgia is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Indiana | capital | Indianapolis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Indiana | capital | Indianapolis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Indianapolis is the capital of Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Lee_County,_Alabama | state | Alabama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lee_County,_Alabama | state | Alabama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lee County is in Alabama.</lex>
+      <lex comment="good" lid="Id2">Lee County is in the state of Alabama.</lex>
+      <lex comment="good" lid="Id3">Lee County is situated within the state of Alabama.</lex>
+    </entry>
+    <entry category="City" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>New_Jersey | capital | Trenton,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Jersey | capital | Trenton,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trenton is the capital of New Jersey.</lex>
+      <lex comment="good" lid="Id2">The capital of the state of New Jersey is Trenton.</lex>
+    </entry>
+    <entry category="City" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Potter_County,_Texas | state | Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Potter_County,_Texas | state | Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Potter County is in Texas.</lex>
+      <lex comment="good" lid="Id2">Potter County is in the State of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Tarrant_County,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Tarrant_County,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Tarrant County, Texas is situated in the United States.</lex>
+      <lex comment="good" lid="Id2">Tarrant County in Texas is in the U.S.</lex>
+      <lex comment="good" lid="Id3">Tarrant County, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Washtenaw_County,_Michigan | largestCity | Ann_Arbor,_Michigan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Washtenaw_County,_Michigan | largestCity | Ann_Arbor,_Michigan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ann Arbor is the largest city in Washtenaw County, Michigan.</lex>
+      <lex comment="good" lid="Id2">The largest town in Washtenaw county Michigan is Ann Arbor.</lex>
+      <lex comment="good" lid="Id3">The largest city in Washtenaw County, Michigan is Ann Arbor.</lex>
+    </entry>
+    </entries>
+</benchmark>

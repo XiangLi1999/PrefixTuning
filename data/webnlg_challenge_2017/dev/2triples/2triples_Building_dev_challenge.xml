@@ -1,0 +1,312 @@
+<benchmark>
+  <entries>
+    <entry category="Building" eid="Id1" size="2">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | ethnicGroups | Coloured</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | ethnicGroup | Coloured</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | location | South_Africa</mtriple>
+        <mtriple>South_Africa | ethnicGroup | Coloured</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11 Diagonal Street is in South Africa. One South African group is the Coloured.</lex>
+      <lex comment="good" lid="Id2">The address, 11 Diagonal Street is located in South Africa which is home to some coloured people.</lex>
+    </entry>
+    <entry category="Building" eid="Id2" size="2">
+      <originaltripleset>
+        <otriple>200_Public_Square | location | Cleveland</otriple>
+        <otriple>200_Public_Square | floorCount | 45</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>200_Public_Square | location | Cleveland</otriple>
+        <otriple>200_Public_Square | floorCount | "45"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>200_Public_Square | location | Cleveland</mtriple>
+        <mtriple>200_Public_Square | floorCount | 45</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 45 floors at 200 Public Square in Cleveland.</lex>
+      <lex comment="good" lid="Id2">200 Public square, Cleveland, has a floor count of 45.</lex>
+    </entry>
+    <entry category="Building" eid="Id3" size="2">
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | location | London</otriple>
+        <otriple>London | leaderTitle | European_Parliament</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>20_Fenchurch_Street | location | London</mtriple>
+        <mtriple>London | leaderTitle | European_Parliament</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">20 Fenchurch Street is located in London, which is currently led by the European Parliament.</lex>
+      <lex comment="good" lid="Id2">20 Fenchurch Street is located in London, which is led via the European Parliament.</lex>
+      <lex comment="good" lid="Id3">20 Fenchurch Street is located in London which is lead via the European Parliament.</lex>
+    </entry>
+    <entry category="Building" eid="Id4" size="2">
+      <originaltripleset>
+        <otriple>250_Delaware_Avenue | location | United_States</otriple>
+        <otriple>United_States | leaderName | Barack_Obama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>250_Delaware_Avenue | location | United_States</mtriple>
+        <mtriple>United_States | leaderName | Barack_Obama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">250 Delaware Avenue is located in the United States, the leader of which was Barack Obama.</lex>
+      <lex comment="good" lid="Id2">250 Delaware Avenue is located in the United States - which is lead by Barack Obama.</lex>
+      </entry>
+    <entry category="Building" eid="Id5" size="2">
+      <originaltripleset>
+        <otriple>300_North_LaSalle | location | Illinois</otriple>
+        <otriple>300_North_LaSalle | floorCount | 60</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>300_North_LaSalle | location | Illinois</otriple>
+        <otriple>300_North_LaSalle | floorCount | "60"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>300_North_LaSalle | location | Illinois</mtriple>
+        <mtriple>300_North_LaSalle | floorCount | 60</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 60 floors at 300 North LaSalle in Illinois.</lex>
+      <lex comment="good" lid="Id2">300 North LaSalle in Illinois has 60 floors.</lex>
+    </entry>
+    <entry category="Building" eid="Id6" size="2">
+      <originaltripleset>
+        <otriple>3Arena | location | North_Wall,_Dublin</otriple>
+        <otriple>3Arena | architect | "HOK SVE"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | location | North_Wall,_Dublin</mtriple>
+        <mtriple>3Arena | architect | "HOK SVE"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">HOK SVE was the architect of the 3Arena at North Wall, Dublin.</lex>
+      <lex comment="good" lid="Id2">3Arena is located at North Wall, Dublin, and was built by HOK SVE.</lex>
+      <lex comment="good" lid="Id3">The 3Arena is located at North Wall, Dublin and was designed by HOK SVE.</lex>
+    </entry>
+    <entry category="Building" eid="Id7" size="2">
+      <originaltripleset>
+        <otriple>3Arena | owner | Live_Nation_Entertainment</otriple>
+        <otriple>3Arena | location | "East Link Bridge"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | owner | Live_Nation_Entertainment</mtriple>
+        <mtriple>3Arena | location | "East Link Bridge"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">3Arena at East Link Bridge is owned by Live Nation Entertainment.</lex>
+      <lex comment="good" lid="Id2">3 Arena is located at East Link Bridge and is owned by Live Nation Entertainment.</lex>
+    </entry>
+    <entry category="Building" eid="Id8" size="2">
+      <originaltripleset>
+        <otriple>3Arena | owner | Live_Nation_Entertainment</otriple>
+        <otriple>Live_Nation_Entertainment | location | Beverly_Hills,_California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | owner | Live_Nation_Entertainment</mtriple>
+        <mtriple>Live_Nation_Entertainment | location | Beverly_Hills,_California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">3Arena, owned by Live Nation Entertainment, is located in Beverly Hills, California.</lex>
+      <lex comment="good" lid="Id2">Live Nation Entertainment from Beverly Hills, California, are the owners of 3Arena.</lex>
+    </entry>
+    <entry category="Building" eid="Id9" size="2">
+      <originaltripleset>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | operator | Marriott_International</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | "23"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | "23"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | 23</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Marriott International is the tenant of AC Hotel Bella Sky Copenhagen and it has 23 floors.</lex>
+      <lex comment="good" lid="Id2">The tenant of the AC Hotel Bella Sky Copenhagen, which has 23 floors, is the Marriott International Hotel.</lex>
+    </entry>
+    <entry category="Building" eid="Id10" size="2">
+      <originaltripleset>
+        <otriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | height | "42.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | height | "42 m"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"</mtriple>
+        <mtriple>Addis_Ababa_City_Hall | height | "42 m"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Addis Ababa City Hall is 42 m high and houses the Government of Addis Ababa.</lex>
+      <lex comment="good" lid="Id2">The " Government of Addis Ababa" are the current tenants of Addis Ababa City Hall which is 42 metres high.</lex>
+      <lex comment="good" lid="Id3">Addis Ababa City Hall is 42 m high and is occupied by the Government of Addis Adaba.</lex>
+    </entry>
+    <entry category="Building" eid="Id11" size="2">
+      <originaltripleset>
+        <otriple>Adisham_Hall | architecturalStyle | "Tudor and Jacabian"@en</otriple>
+        <otriple>Adisham_Hall | location | "Haputale, Sri Lanka"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adisham_Hall | architecturalStyle | "Tudor and Jacabian"</mtriple>
+        <mtriple>Adisham_Hall | location | "Haputale, Sri Lanka"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Admisham Hall's architectural style is Tudor and Jacabian and the building is located in Haputale, Sri Lanka.</lex>
+      <lex comment="good" lid="Id2">Adisham Hall, Haputale, Sri Lanka, is Tudor and Jacabian in style.</lex>
+    </entry>
+    <entry category="Building" eid="Id12" size="2">
+      <originaltripleset>
+        <otriple>Adisham_Hall | locationCountry | Sri_Lanka</otriple>
+        <otriple>Sri_Lanka | language | Tamil_language</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adisham_Hall | country | Sri_Lanka</otriple>
+        <otriple>Sri_Lanka | language | Tamil_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adisham_Hall | country | Sri_Lanka</mtriple>
+        <mtriple>Sri_Lanka | language | Tamil_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adisham Hall is located in Sri Lanka, where they speak the Tamil language.</lex>
+      <lex comment="good" lid="Id2">Adisham Hall is located in the country of Sri Lanka where they speak Tamil.</lex>
+    </entry>
+    <entry category="Building" eid="Id13" size="2">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | startDate | "2007-03-30"^^xsd:date</otriple>
+        <otriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | buildingStartDate | "30 March 2007"</mtriple>
+        <mtriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The construction of Alan B Miller Hall, 101 Ukrop Way, began on 30th March 2007.</lex>
+      <lex comment="good" lid="Id2">Alan B. Miller Hall's building start date was in 30th March 2007 and is located at 101 Ukrop Way.</lex>
+      <lex comment="good" lid="Id3">Alan B. Miller Hall at 101 Ukrop Way opened on March 30, 2007.</lex>
+    </entry>
+    <entry category="Building" eid="Id14" size="2">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</otriple>
+        <otriple>Alan_B._Miller_Hall | location | Williamsburg,_Virginia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</mtriple>
+        <mtriple>Alan_B._Miller_Hall | location | Williamsburg,_Virginia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan B Miller Hall is owned by The College of William and Mary and located in Williamsburg, Virginia.</lex>
+      <lex comment="good" lid="Id2">Alan B. Miller Hall in Williamsburg, Virginia is owned by The College of William and Mary.</lex>
+      <lex comment="good" lid="Id3">The College of William and Mary is the owner of the Alan B. Miller Hall in Williamsburg, Virginia.</lex>
+    </entry>
+    <entry category="Building" eid="Id15" size="2">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | tenant | Mason_School_of_Business</otriple>
+        <otriple>Alan_B._Miller_Hall | architect | Robert_A._M._Stern</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | tenant | Mason_School_of_Business</mtriple>
+        <mtriple>Alan_B._Miller_Hall | architect | Robert_A._M._Stern</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Robert A. M. Stern is the architect of the Alan B. Miller Hall where the Mason School of Business is located.</lex>
+      <lex comment="good" lid="Id2">Robert A M Stern designed Alan B Miller Hall and the Mason School of Business is a tenant there.</lex>
+      <lex comment="good" lid="Id3">Mason School of Business is a tenant of the Alan B. Miller Hall, which was designed by Robert A.M. Stern.</lex>
+    </entry>
+    <entry category="Building" eid="Id16" size="2">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | region | Ampara_District</otriple>
+        <otriple>Ampara_Hospital | country | "Sri Lanka"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+        <otriple>Ampara_Hospital | region | Ampara_District</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+        <mtriple>Ampara_Hospital | region | Ampara_District</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ampara Hospital is located in the Ampara District in Sri Lanka.</lex>
+      <lex comment="good" lid="Id2">Ampara Hospital is located in the Ampara District of Sri Lanka.</lex>
+    </entry>
+    <entry category="Building" eid="Id17" size="2">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+        <otriple>Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+        <mtriple>Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Sri Jayawardenepura Kotte is the capital of Sri Lanka, where Ampara Hospital is located.</lex>
+      <lex comment="good" lid="Id2">Ampara Hospital is located in Sri Lanka whose capital is Sri Jayawardenepura Kotte.</lex>
+      <lex comment="good" lid="Id3">Ampara Hospital is located in Sri Lanka whose capital is Sri Jayawardenepura.</lex>
+    </entry>
+    <entry category="Building" eid="Id18" size="2">
+      <originaltripleset>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | location | U.S._Route_83</otriple>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | nrhpReferenceNumber | "88002539"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | location | U.S._Route_83</mtriple>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | ReferenceNumber in the National Register of Historic Places | "88002539"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asher and Mary Isabelle Richardson House is located on U.S. Route 83 and has the reference number 88002539 in the National Register of Historic Places.</lex>
+      <lex comment="good" lid="Id2">The National Register of Historic Places has the Asher and Mary Isabelle Richardson House, located at U.S. Route 83, referenced at 88002539.</lex>
+      <lex comment="good" lid="Id3">Asher and Mary Isabelle Richardson House has the reference number 88002539 in the National Register of Historic Places, and is located at U.S. Route 83.</lex>
+    </entry>
+    <entry category="Building" eid="Id19" size="2">
+      <originaltripleset>
+        <otriple>Asilomar_Conference_Grounds | location | "Asilomar Blvd., Pacific Grove, California"@en</otriple>
+        <otriple>Asilomar_Conference_Grounds | nrhpReferenceNumber | "87000823"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asilomar_Conference_Grounds | location | "Asilomar Blvd., Pacific Grove, California"</mtriple>
+        <mtriple>Asilomar_Conference_Grounds | ReferenceNumber in the National Register of Historic Places | "87000823"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asilomar Conference Grounds, Asilomar Blvd., Pacific Grove, California has a reference number in the National Register of Historic Places of: 87000823.</lex>
+      <lex comment="good" lid="Id2">Asilomar Conference Grounds is located at Asilomar Blvd., Pacific Grove, California and it's reference number is 87000823 in the National Register of Historic Places.</lex>
+      <lex comment="good" lid="Id3">"87000823" is Asilomar Conference Grounds' reference number in the National Register of Historic Places, and it is located on Asilomar Blvd, Pacific Grove, California.</lex>
+    </entry>
+    <entry category="Building" eid="Id20" size="2">
+      <originaltripleset>
+        <otriple>Asilomar_Conference_Grounds | location | Pacific_Grove,_California</otriple>
+        <otriple>Asilomar_Conference_Grounds | added | "1987-02-27"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asilomar_Conference_Grounds | location | Pacific_Grove,_California</mtriple>
+        <mtriple>Asilomar_Conference_Grounds | added to the National Register of Historic Places | "1987-02-27"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asilomar Conference Grounds at Pacific Grove, California was added to the National Register of Historic Places on February the 27nd 1987.</lex>
+      <lex comment="good" lid="Id2">Asilomar Conference Grounds are located in Pacific Grove, California and was added to the National Register of Historic Places on February the 27nd 1987.</lex>
+      <lex comment="good" lid="Id3">Asilomar Conference Grounds, Pacific Grove, California was added to the National Register of Historic Places on February 27, 1987.</lex>
+    </entry>
+    <entry category="Building" eid="Id21" size="2">
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | location | 23rd_Street_(Manhattan)</otriple>
+        <otriple>Asser_Levy_Public_Baths | built | 1904</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | location | 23rd_Street_(Manhattan)</otriple>
+        <otriple>Asser_Levy_Public_Baths | yearOfConstruction | "1904"^^xsd:gYear</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asser_Levy_Public_Baths | location | 23rd_Street_(Manhattan)</mtriple>
+        <mtriple>Asser_Levy_Public_Baths | yearOfConstruction | 1904</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asser Levy Public Baths is located on 23rd Street, Manhattan, and was constructed in 1904.</lex>
+      <lex comment="good" lid="Id2">Asser Levy Baths which was built in 1904 is located at 23rd Street in Manhattan.</lex>
+      <lex comment="good" lid="Id3">The Asser Levy Public Baths, constructed in 1904, is located at 23rd Street (Manhattan).</lex>
+    </entry>
+    <entry category="Building" eid="Id22" size="2">
+      <originaltripleset>
+        <otriple>Gujarat | leaderName | Anandiben_Patel</otriple>
+        <otriple>Amdavad_ni_Gufa | locationTown | Gujarat</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Gujarat | leaderName | Anandiben_Patel</mtriple>
+        <mtriple>Amdavad_ni_Gufa | location | Gujarat</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anandiben Patel was the leader of Gujurat where Amdavad ni Gufa is located.</lex>
+      <lex comment="good" lid="Id2">Amdavad Gufa is located in Gujarat and it's leader is Anandiben Patel.</lex>
+      <lex comment="good" lid="Id3">Amdavad ni Gufa is located in Gujarat and it's leader is Anandiben Patel.</lex>
+    </entry>
+    </entries>
+</benchmark>

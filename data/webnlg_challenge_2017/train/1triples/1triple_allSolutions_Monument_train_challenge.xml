@@ -1,0 +1,458 @@
+<benchmark>
+  <entries>
+    <entry category="Monument" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument falls under the category of Contributing property.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is categorized as a Contributing Property.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is categorised as a contributing property.</lex>
+    </entry>
+    <entry category="Monument" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located in the United States.</lex>
+      <lex comment="good" lid="Id2">11th Mississippi Infantry Monument is in the United States.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is in the United States.</lex>
+      <lex comment="good" lid="Id4">The 11th Mississippi Infantry Monument is based in the US.</lex>
+    </entry>
+    <entry category="Monument" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11th Mississippi Infantry Monument's location is Adams County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">The location of the 11th Mississippi Infantry Monument is Adams County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is located in Adams County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id4">11th Mississippi Infantry Monument is found in the Adams County in Pennsylvania.</lex>
+    </entry>
+    <entry category="Monument" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | range | Seminary_Ridge</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Seminary_Ridge</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located at Seminary Ridge.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument's location is in the Seminary Ridge.</lex>
+    </entry>
+    <entry category="Monument" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is in the municipality of Gettysburg , Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is placed in the municipality of Gettysburg in Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is in the municipality of Gettysburg, Pennsylvania.</lex>
+      <lex comment="good" lid="Id4">The 11th Mississippi Infantry Monument is located in Gettysburg, Pennsylvania.</lex>
+      <lex comment="good" lid="Id5">11th Mississippi Infantry Monument is in Gettysburg, Pennsylvania.</lex>
+      <lex comment="good" lid="Id6">The 11th Mississippi Infantry Monument is in the municipality of Gettysburg Pennsylvania.</lex>
+      <lex comment="good" lid="Id7">The municipality for the 11th Mississippi Infantry Monument is Gettysburg, Pennsylvania.</lex>
+    </entry>
+    <entry category="Monument" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is in Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is located in the state of Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument stands in the state of Pennsylvania.</lex>
+      <lex comment="good" lid="Id4">11th Mississippi Infantry Monument is in Pennsylvania.</lex>
+      <lex comment="good" lid="Id5">The 11th Mississippi Infantry Monument is found in Pennsylvania.</lex>
+      <lex comment="good" lid="Id6">The 11th Mississippi Infantry Monument is located in Pennsylvania state.</lex>
+    </entry>
+    <entry category="Monument" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument belongs to the category of Historic districts in the United States.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument is categorised as a historic district in the United States.</lex>
+    </entry>
+    <entry category="Monument" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument is located in the United States.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument is found in the United States.</lex>
+      <lex comment="good" lid="Id3">14th New Jersey Volunteer Infantry Monument located in United States.</lex>
+      <lex comment="good" lid="Id4">14th New Jersey Volunteer Infantry Memorial is in the United States.</lex>
+    </entry>
+    <entry category="Monument" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument is located in the district of the Monocacy National Battlefield.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument is located on the Monocacy National Battlefield.</lex>
+      <lex comment="good" lid="Id3">The 14th New Jersey Volunteer Infantry Monument is located in the Monocacy National Battlefield.</lex>
+      <lex comment="good" lid="Id4">The 14th New Jersey Volunteer Infantry Monument is found in the Monocacy National Battlefield.</lex>
+    </entry>
+    <entry category="Monument" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument was established in 1907-07-11.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument was established 1907-07-11.</lex>
+      <lex comment="good" lid="Id3">The 14th New Jersey Volunteer Infantry Monument was established on July 11th, 1907.</lex>
+      <lex comment="good" lid="Id4">The 14th New Jersey Volunteer Infantry Monument was established on 11th July 1907.</lex>
+    </entry>
+    <entry category="Monument" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | foundingDate | "1907-07-11"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | foundingDate | "1907-07-11"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">14th New Jersey Volunteer Infantry Monument was founded 1907-07-11.</lex>
+      <lex comment="good" lid="Id2">The memorial depicting the 14th New Jersey Volunteer Infantry was founded on July 11th, 1907.</lex>
+      <lex comment="good" lid="Id3">The 14th New Jersey Volunteer Infantry Monument was started on 11th July 1907.</lex>
+      <lex comment="good" lid="Id4">The 14th New Jersey Volunteer Infantry Monument's founding date was on 1907-07-11.</lex>
+    </entry>
+    <entry category="Monument" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | owner | National_Park_Service</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | owner | National_Park_Service</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument is owned by the National Park Service.</lex>
+      <lex comment="good" lid="Id2">The National Park Service looks after the 14th New Jersey Volunteer Infantry Monument.</lex>
+      <lex comment="good" lid="Id3">14th New Jersey Volunteer Infantry Monument is owned by the National Park Service.</lex>
+      <lex comment="good" lid="Id4">The National Park Service is the owner of the 14th New Jersey Volunteer Infantry Monument.</lex>
+    </entry>
+    <entry category="Monument" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument is owned by the National Park Service.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument has been provided by the National Park Service.</lex>
+      <lex comment="good" lid="Id3">14th New Jersey Volunteer Infantry Monument is owned by the National Park Service.</lex>
+      <lex comment="good" lid="Id4">The National Park Service has responsibility for the 14th New Jersey Volunteer Infantry Monument.</lex>
+      <lex comment="good" lid="Id5">The National Park Service owns the 14th New Jersey Volunteer Infantry Monument.</lex>
+    </entry>
+    <entry category="Monument" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | state | "Maryland"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | state | "Maryland"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monuments is located in the state of Maryland.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer infantry Monument is in the state of Maryland.</lex>
+      <lex comment="good" lid="Id3">The 14th New Jersey Volunteer Infantry Monument is located in the state of Maryland.</lex>
+    </entry>
+    <entry category="Monument" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adams County, Pennsylvania has Cumberland County, Pennsylvania to its north.</lex>
+      <lex comment="good" lid="Id2">Cumberland county, Pennsylvania is north of Adams County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">Pennsylvania's Cumberland County is to the north of the Adams County.</lex>
+      <lex comment="good" lid="Id4">Cumberland County Pennsylvania is located in the north of Adams County Pennsylvania.</lex>
+      <lex comment="good" lid="Id5">To the north of Adams County, Pennsylvania is Cumberland County, Pennsylvania.</lex>
+    </entry>
+    <entry category="Monument" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | southwest | Frederick_County,_Maryland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Frederick County, Maryland is to the southwest of Adams County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">Adams County, Pennsylvania has Frederick County, Maryland to its southwest.</lex>
+      <lex comment="good" lid="Id3">Frederick County Maryland is southwest of Adams Count Pennsylvania.</lex>
+      <lex comment="good" lid="Id4">Maryland's Frederick County is found to the southwest of Pennsylvania's Adams County.</lex>
+    </entry>
+    <entry category="Monument" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | west | Franklin_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adams County Pennsylvania is East of Franklin County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">To the west of Adams County, Pennsylvania, is Franklin County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">Pennsylvania's Franklin County is found to the west of Adams County.</lex>
+      <lex comment="good" lid="Id4">Adams County, Pennsylvania has to its west Franklin County, Pennsylvania.</lex>
+    </entry>
+    <entry category="Monument" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Ataturk Monument was inaugurated on 27th July, 1932.</lex>
+      <lex comment="good" lid="Id2">The inauguration date of the Atatürk Monument in Izmir is the 27th of July, 1932.</lex>
+      <lex comment="good" lid="Id3">The inauguration date for the Atatürk Monument (İzmir) is 1932-07-27.</lex>
+      <lex comment="good" lid="Id4">The inauguration of the Atatürk Monument was at July 27th, 1932.</lex>
+    </entry>
+    <entry category="Monument" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Atatürk Monument is located in Izmir, Turkey.</lex>
+      <lex comment="good" lid="Id2">The Ataturk Monument (Izmir) is located in Turkey.</lex>
+      <lex comment="good" lid="Id3">The Atatürk Monument is in Turkey.</lex>
+      <lex comment="good" lid="Id4">The Atatürk Monument is located in İzmir, Turkey.</lex>
+      <lex comment="good" lid="Id5">The Atatürk Monument (İzmir) can be found in Turkey.</lex>
+      <lex comment="good" lid="Id6">The Atatürk Monument (İzmir) is found in Turkey.</lex>
+      <lex comment="good" lid="Id7">Atatürk Monument is located in İzmir, Turkey.</lex>
+    </entry>
+    <entry category="Monument" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Azerbaijan | capital | Baku</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | capital | Baku</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baku is the capital of Azerbaijan.</lex>
+      <lex comment="good" lid="Id2">The capital of Azerbaijan is Baku.</lex>
+    </entry>
+    <entry category="Monument" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Azerbaijan | legislature | National_Assembly_(Azerbaijan)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | legislature | National_Assembly_(Azerbaijan)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The National Assembly dictates the legislature of Azerbaijan.</lex>
+      <lex comment="good" lid="Id2">The National Assembly (Azerbaijan) is the source of legislature in Azerbaijan.</lex>
+      <lex comment="good" lid="Id3">The Azerbaijan legislature is known as the National Assembly.</lex>
+      <lex comment="good" lid="Id4">The National Assembly is the legislative branch of government in Azerbaijan.</lex>
+      <lex comment="good" lid="Id5">the legislature in Azerbaijan is National Assembly.</lex>
+      <lex comment="good" lid="Id6">Azerbaijan has legislature of National Assembly.</lex>
+    </entry>
+    <entry category="Monument" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baku Turkish Martyrs' Memorial is dedicated to the Ottoman Army soldiers killed in the Battle of Baku.</lex>
+      <lex comment="good" lid="Id2">The Baku Turkish Martyrs' Memorial is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku.</lex>
+      <lex comment="good" lid="Id3">The Baku Turkish Martyrs Memorial has been dedicated to Ottoman Army soldiers killed in the Battle of Baku.</lex>
+      <lex comment="good" lid="Id4">The Baku Turkish Martyrs Memorial is dedicated to the Ottoman Army soldiers killed in the Battle of Baku.</lex>
+    </entry>
+    <entry category="Monument" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baku Turkish Martyrs Memorial designer was Hüseyin Bütüner and Hilmi Güner.</lex>
+      <lex comment="good" lid="Id2">The Baku Turkish Martyr's Memorial was designed by Hüseyin Bütüner and Hilmi Güner.</lex>
+      <lex comment="good" lid="Id3">The designers of the Turkish martyrs memorial are Huseyin Butuner and Hilmi Guner.</lex>
+      <lex comment="good" lid="Id4">The Baku Turkish Martyrs' Memorial was designed by Huseyin Butuner and Hilmi Guner.</lex>
+      <lex comment="good" lid="Id5">Hüseyin Bütüner and Hilmi Güner designed the Baku Turkish Martyrs' Memorial.</lex>
+      <lex comment="good" lid="Id6">Baku Turkish Martyrs' Memorial was designed by Huseyin Butuner and Hilmi Guner.</lex>
+      <lex comment="good" lid="Id7">The designers of the Baku Turkish Martyrs' Memorial are Hüseyin Bütüner and Hilmi Güner.</lex>
+      <lex comment="good" lid="Id8">Huseyin Butuner and Hilmi Guner are the designers of the Baku Turkish Martyrs' Memorial.</lex>
+    </entry>
+    <entry category="Monument" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Dead Man's Plack is dedicated to Æthelwald, Ealdorman of East Anglia.</lex>
+      <lex comment="good" lid="Id2">Dead Man's Plack is dedicated to Æthelwald, Ealdorman of East Anglia.</lex>
+    </entry>
+    <entry category="Monument" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Dead_Man's_Plack | location | England</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dead_Man's_Plack | location | England</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Dead Man's Plack is located in England.</lex>
+      <lex comment="good" lid="Id2">Dead Man's Plack is in England.</lex>
+      <lex comment="good" lid="Id3">Dead Man's Plack is found in England.</lex>
+    </entry>
+    <entry category="Monument" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Dead_Man's_Plack | material | Rock_(geology)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dead_Man's_Plack | material | Rock_(geology)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Dead Man's Plack is made from rock.</lex>
+      <lex comment="good" lid="Id2">Dad Man's Plack is made of rock.</lex>
+      <lex comment="good" lid="Id3">Dead Man's Plack is made from stone.</lex>
+      <lex comment="good" lid="Id4">The Dead Man's Plack is made with rock.</lex>
+    </entry>
+    <entry category="Monument" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>England | capital | London</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>England | capital | London</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">London is the capital of England.</lex>
+      <lex comment="good" lid="Id2">The capital of England is London.</lex>
+      <lex comment="good" lid="Id3">England's capital is London.</lex>
+    </entry>
+    <entry category="Monument" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>England | ethnicGroups | British_Arabs</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>England | ethnicGroups | British_Arabs</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">One of the ethnic groups found in England is the British Arabs.</lex>
+      <lex comment="good" lid="Id2">The British Arabs are an English ethnic group.</lex>
+    </entry>
+    <entry category="Monument" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>England | languages | Cornish_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>England | languages | Cornish_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">One of the languages spoken in England is the Cornish language.</lex>
+      <lex comment="good" lid="Id2">Cornish language is spoken in England.</lex>
+      <lex comment="good" lid="Id3">Cornish is a language spoken in the Cornwall region of England.</lex>
+    </entry>
+    <entry category="Monument" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>England | religion | Church_of_England</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>England | religion | Church_of_England</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In England the main religion is the Church of England.</lex>
+      <lex comment="good" lid="Id2">The established religion in England is The Church of England.</lex>
+      <lex comment="good" lid="Id3">the religion of England is Church of England.</lex>
+    </entry>
+    <entry category="Monument" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Monocacy_National_Battlefield | location | Frederick_County,_Maryland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monocacy_National_Battlefield | location | Frederick_County,_Maryland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Monocacy National Battlefield is located in Frederick County, Maryland.</lex>
+      <lex comment="good" lid="Id2">The Monocacy National Battlefield is located in Frederick County, Maryland.</lex>
+      <lex comment="good" lid="Id3">The Monocacy National Battlefield is in the county Frederick, Maryland.</lex>
+    </entry>
+    <entry category="Monument" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The city nearest to Monocacy National Battlefield is Frederick, Maryland.</lex>
+      <lex comment="good" lid="Id2">The nearest city to Monocacy National Battlefield is Frederick, Maryland.</lex>
+    </entry>
+    <entry category="Monument" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Turkey | capital | Ankara</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ankara is the capital of Turkey.</lex>
+      <lex comment="good" lid="Id2">The capital of Turkey is Ankara.</lex>
+      <lex comment="good" lid="Id3">Turkey's capital is Ankara.</lex>
+      <lex comment="good" lid="Id4">Ankara is the Turkish capital.</lex>
+    </entry>
+    <entry category="Monument" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The currency of Turkey is Turkish Lira.</lex>
+      <lex comment="good" lid="Id2">The currency of Turkey is the Turkish lira.</lex>
+      <lex comment="good" lid="Id3">The currency in Turkey is the Turkish Lira.</lex>
+      <lex comment="good" lid="Id4">Turkey's currency is the Turkish lira.</lex>
+      <lex comment="good" lid="Id5">the currency used in Turkey is lira.</lex>
+      <lex comment="good" lid="Id6">The Turkish currency is the Turkish lira.</lex>
+    </entry>
+    <entry category="Monument" eid="Id35" size="1">
+      <originaltripleset>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The largest city in Turkey is Istanbul.</lex>
+      <lex comment="good" lid="Id2">Istanbul is the largest city in Turkey.</lex>
+      <lex comment="good" lid="Id3">Turkey's largest City is Istanbul.</lex>
+    </entry>
+    <entry category="Monument" eid="Id36" size="1">
+      <originaltripleset>
+        <otriple>Turkey | leader | Ahmet_Davutoğlu</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leader | Ahmet_Davutoğlu</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ahmet Davutoglu is a leader of Turkey.</lex>
+      <lex comment="good" lid="Id2">Ahmet Davutoglu is the leader of Turkey.</lex>
+      <lex comment="good" lid="Id3">Leader of Turkey is Ahmet Davutoglu.</lex>
+      <lex comment="good" lid="Id4">Ahmet_Davutoğlu is Turkey's leader.</lex>
+      <lex comment="good" lid="Id5">The Leader Of Turkey is Ahmet Davutoğlu.</lex>
+      <lex comment="good" lid="Id6">Ahmet Davutoglu is the Turkish leader.</lex>
+    </entry>
+    <entry category="Monument" eid="Id37" size="1">
+      <originaltripleset>
+        <otriple>Turkey | leaderName | Ahmet_Davutoğlu</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderName | Ahmet_Davutoğlu</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Turkey's leader is Ahmet Davutoğlu.</lex>
+      <lex comment="good" lid="Id2">Turkey leader name is Ahmet Davutoğlu.</lex>
+      <lex comment="good" lid="Id3">The Turkish leader's name is Ahmet Davutoglu.</lex>
+    </entry>
+    <entry category="Monument" eid="Id38" size="1">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader's title in Turkey is the President of Turkey.</lex>
+      <lex comment="good" lid="Id2">Turkey's leader is the President of Turkey.</lex>
+      <lex comment="good" lid="Id3">President of Turkey is the official title of the Turkish leader.</lex>
+    </entry>
+  </entries>
+</benchmark>

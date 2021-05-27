@@ -1,0 +1,2840 @@
+<benchmark>
+  <entries>
+    <entry category="SportsTeam" eid="Id1" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>1._FC_Köln | season | 2014</otriple>
+        <otriple>1._FC_Köln | capacity | "50000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>1._FC_Köln | season | 2014</otriple>
+        <otriple>1._FC_Köln | capacity | 50000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>1._FC_Köln | season | 2014</mtriple>
+        <mtriple>1._FC_Köln | numberOfMembers | 50000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Peter Stöger is manager of 1. FC Köln which has 50000 members and participated in the 2014 season.</lex>
+      <lex comment="good" lid="Id2">The manager of 1. FC Koln is Peter Stoger. The team has 50000 members and played in the 2014 season.</lex>
+      <lex comment="good" lid="Id3">1. FC Koln, whose manage is peter Stoger, participated in 2014 and now have 50000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id2" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>1._FC_Köln | season | 2014–15_Bundesliga</otriple>
+        <otriple>1._FC_Köln | capacity | 50000</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>1._FC_Köln | capacity | "50000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>1._FC_Köln | season | 2014–15_Bundesliga</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>1._FC_Köln | season | 2014–15_Bundesliga</mtriple>
+        <mtriple>1._FC_Köln | numberOfMembers | 50000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Peter Stöger is manager of 1. FC Köln who were in the 2014–15 Bundesliga season and have 50000 members.</lex>
+      <lex comment="good" lid="Id2">The manager of 1. FC Koln is Peter Stoger. They have 50000 members and played the 2014-15 season in the Bundesliga.</lex>
+      <lex comment="good" lid="Id3">1. FC Köln were in the 2014–15 Bundesliga season, its manager is Peter Stoger nad have 50000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id3" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | team | Austria_national_football_team</otriple>
+        <otriple>Peter_Stöger | managerClub | FK_Austria_Wien</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | Austria_national_football_team</mtriple>
+        <mtriple>Peter_Stöger | club | FK_Austria_Wien</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of 1. FC Koln is Peter Stoger who plays for the Austria national football team and is a member of the FK Austria Wien soccer club.</lex>
+      <lex comment="good" lid="Id2">Peter Stoger is currently at FK Austria Wien and manages FC Kolin, he also plays international football for Austria.</lex>
+      <lex comment="good" lid="Id3">Peter Stoger is the manager of FC Kolin, he plays for the Austria national football team and FK Austria Wien also.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id4" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | managerClub | SC_Wiener_Neustadt</otriple>
+        <otriple>Peter_Stöger | team | Austria_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | SC_Wiener_Neustadt</mtriple>
+        <mtriple>Peter_Stöger | club | Austria_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Peter Stöger is manager of 1. FC Köln and has played for SC Wiener Neustadt and the Austria national football team.</lex>
+      <lex comment="good" lid="Id2">Peter Stoger is the manager of FC Kolin and plays for both SC Wiener Neustadt and the Austria national football team.</lex>
+      <lex comment="good" lid="Id3">The manager of 1. FC Koln is Peter Stoger who is affiliated with the SC Wiener Neustadt club and plays for the Austria national football team.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id5" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | managerClub | SC_Wiener_Neustadt</otriple>
+        <otriple>Peter_Stöger | team | FK_Austria_Wien</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | SC_Wiener_Neustadt</mtriple>
+        <mtriple>Peter_Stöger | club | FK_Austria_Wien</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Peter Stöger is manager of 1. FC Köln and is affiliated with SC Wiener Neustadt. He is currently at the FK Austria Wien club.</lex>
+      <lex comment="good" lid="Id2">The manager of 1. FC Koln is Peter Stoger who plays for SC Wiener Neustadt and is at the FK Austria Wien club.</lex>
+      <lex comment="good" lid="Id3">Peter Stoger plays for SC Wiener Neustadt and FK Austria Wien while also being a manager at 1. FC Koln.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id6" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | league | 3._Liga</otriple>
+        <otriple>1._FC_Magdeburg | season | 2014</otriple>
+        <otriple>1._FC_Magdeburg | capacity | "27250"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | league | 3._Liga</otriple>
+        <otriple>1._FC_Magdeburg | season | 2014</otriple>
+        <otriple>1._FC_Magdeburg | capacity | 27250</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | league | 3._Liga</mtriple>
+        <mtriple>1._FC_Magdeburg | season | 2014</mtriple>
+        <mtriple>1._FC_Magdeburg | numberOfMembers | 27250</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1 FC Magdeburg has 27250 members and played in the 3 Liga League in the 2014 season.</lex>
+      <lex comment="good" lid="Id2">1 FC Magdeburg is in the 3 Liga league. They played in the 2014 season and have 27250 members.</lex>
+      <lex comment="good" lid="Id3">1 FC Magdeburg is in the 3 Liga league, it played in the 2014 season and has 27250 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id7" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | league | 3._Liga</otriple>
+        <otriple>1._FC_Magdeburg | capacity | "27250"^^xsd:nonNegativeInteger</otriple>
+        <otriple>1._FC_Magdeburg | season | 2014–15_Regionalliga</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | league | 3._Liga</otriple>
+        <otriple>1._FC_Magdeburg | season | 2014–15_Regionalliga</otriple>
+        <otriple>1._FC_Magdeburg | capacity | 27250</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | league | 3._Liga</mtriple>
+        <mtriple>1._FC_Magdeburg | season | 2014–15_Regionalliga</mtriple>
+        <mtriple>1._FC_Magdeburg | numberOfMembers | 27250</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1 FC Magdeburg has 27250 members and are in the 3 Liga league. During the 2014-2015 they played in the Regionalliga.</lex>
+      <lex comment="good" lid="Id2">1 FC Magdeburg is in the 3 Liga league, they played in the Regionalliga in 2014-15 season and have 27250 members.</lex>
+      <lex comment="good" lid="Id3">1 FC Magdeburg, with 27250 members, is in the 3 Liga league and was in Regionalliga in 2014.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id8" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Lokomotive_Leipzig</otriple>
+        <otriple>Jens_Härtel | managerClub | Berliner_AK_07</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Lokomotive_Leipzig</mtriple>
+        <mtriple>Jens_Härtel | club | Berliner_AK_07</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of FC Magdeburg is Jens Härtel who used to play for Berliner AK 07 and currently plays for 1. FC Lokomotive Leipzig.</lex>
+      <lex comment="good" lid="Id2">Jens Härtel has been the manager of 1 FC Magdeburg. He first played for FC Lokomotive Leipzig and later for Berliner AK 07.</lex>
+      <lex comment="good" lid="Id3">Jens Härtel's club is Berliner AK 07; the first club he played for was FC Lokomotive Leipzig and he has been the manager of 1 FC Magdeburg.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id9" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Lokomotive_Leipzig</otriple>
+        <otriple>Jens_Härtel | managerClub | RB_Leipzig</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Lokomotive_Leipzig</mtriple>
+        <mtriple>Jens_Härtel | club | RB_Leipzig</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The first club Jens Härtel played for was FC Lokomotive Leipzig. He also played for RB Leipzig and was the manager of 1 FC Magdeburg.</lex>
+      <lex comment="good" lid="Id2">Jens Härtel has been the manager of 1 FC Magdeburg, playing for 1. FC Lokomotive Leipzig, and previously for RB Leipzig.</lex>
+      <lex comment="good" lid="Id3">Jens Härtel is in the RB Leipzig club, started with FC Lokomotive Leipzig and has managed 1 FC Magdeburg.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id10" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Lokomotive_Leipzig</otriple>
+        <otriple>Jens_Härtel | managerClub | SV_Babelsberg_03</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Lokomotive_Leipzig</mtriple>
+        <mtriple>Jens_Härtel | club | SV_Babelsberg_03</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of FC Magdeburg is Jens Härtel who also plays for 1. FC Lokomotive Leipzig and SV Babelsberg 03.</lex>
+      <lex comment="good" lid="Id2">FC Magdeburg manager Jens Hartel is a former professional who first played for FC Lokomotive Leipzig, and later, for SV Babelsberg 03.</lex>
+      <lex comment="good" lid="Id3">The first club Jens Hartel played for was F.C Lokomotive Leipzig, he is part of the SV Babelsberg 03 club and,manages FC Magdeburg.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id11" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Union_Berlin</otriple>
+        <otriple>Jens_Härtel | managerClub | SV_Germania_Schöneiche</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Union_Berlin</mtriple>
+        <mtriple>Jens_Härtel | club | SV_Germania_Schöneiche</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Hartel, who plays for SV Germania Schoneiche, is part of 1. FC Union Berlin and has been the manager of 1 FC Magdeburg.</lex>
+      <lex comment="good" lid="Id2">Jens Härtel has been the manager of 1 FC Magdeburg and is part of the club 1. FC Union Berlin. He also plays for SV Germania Schoneiche.</lex>
+      <lex comment="good" lid="Id3">The manager of FC Magdeburg is Jens Härtel who is part of the club 1. FC Union Berlin and plays for SV Germania Schoneiche.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id12" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | managerClub | Berliner_AK_07</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Union_Berlin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | Berliner_AK_07</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Union_Berlin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of FC Magdeburg is Jens Härtel who played for Berliner AK 07 and belongs to the club 1. FC Union Berlin.</lex>
+      <lex comment="good" lid="Id2">The manager of FC Magdeburg is Jens Härtel. His club is Berliner AK 07 and he is also part of the club 1. FC Union Berlin.</lex>
+      <lex comment="good" lid="Id3">Jens Härtel has been the manager of 1 FC Magdeburg and is part of the clubs Berliner AK 07 and 1. FC Union Berlin.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id13" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | managerClub | Berliner_AK_07</otriple>
+        <otriple>Jens_Härtel | team | FC_Sachsen_Leipzig</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | Berliner_AK_07</mtriple>
+        <mtriple>Jens_Härtel | club | FC_Sachsen_Leipzig</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Härtel (Berliner AK 07) played for FC Sachsen Leipzig, has been the manager of 1 FC Magdeburg.</lex>
+      <lex comment="good" lid="Id2">The manager of FC Magdeburg is Jens Härtel who has represented the club FC Sachsen Leipzig and played for Berliner AK 07.</lex>
+      <lex comment="good" lid="Id3">The manager of 1 FC Magdeburg is Jens Härtel, whose club is Berliner AK 07, and he has also represented FC Sachsen Leipzig.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id14" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | managerClub | Berliner_AK_07</otriple>
+        <otriple>Jens_Härtel | team | SV_Babelsberg_03</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | Berliner_AK_07</mtriple>
+        <mtriple>Jens_Härtel | club | SV_Babelsberg_03</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Härtel is part of the SV Babelsberg 03 club. He previously managed 1 FC Magdeburg and played for Berliner AK 07.</lex>
+      <lex comment="good" lid="Id2">Jens Härtel is part of the SV Babelsberg 03 club, played for Berliner AK 07 and manages FC Magdeburg.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id15" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | managerClub | RB_Leipzig</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Union_Berlin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | RB_Leipzig</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Union_Berlin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Härtel was previously the manager of 1 FC Magdeburg. He is in the RB Leipzig club and is part of the club 1. FC Union Berlin.</lex>
+      <lex comment="good" lid="Id2">Jens Härtel has been the manager of 1 FC Magdeburg and played for RB Leipzig. He is part of the club 1. FC Union Berlin.</lex>
+      <lex comment="good" lid="Id3">The manager of FC Magdeburg is Jens Härtel who played for RB Leipzig and is part of the club 1. FC Union Berlin.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id16" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | managerClub | SV_Babelsberg_03</otriple>
+        <otriple>Jens_Härtel | team | 1._FC_Union_Berlin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | SV_Babelsberg_03</mtriple>
+        <mtriple>Jens_Härtel | club | 1._FC_Union_Berlin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Härtel has played for SV Babelsberg 03 and 1. FC Union Berlin. He is manager of 1 FC Magdeburg.</lex>
+      <lex comment="good" lid="Id2">Jens Härtel has been the manager of 1 FC Magdeburg. He plays for SV Babelsberg 03 and is part of the club 1. FC Union Berlin.</lex>
+      <lex comment="good" lid="Id3">The manager of FC Magdeburg is Jens Härtel, who is part of the SV Babelsberg 03 and 1. FC Union Berlin clubs.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id17" size="3">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | manager | Jens_Härtel</otriple>
+        <otriple>Jens_Härtel | managerClub | SV_Babelsberg_03</otriple>
+        <otriple>Jens_Härtel | team | FC_Sachsen_Leipzig</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | manager | Jens_Härtel</mtriple>
+        <mtriple>Jens_Härtel | club | SV_Babelsberg_03</mtriple>
+        <mtriple>Jens_Härtel | club | FC_Sachsen_Leipzig</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Härtel is part of the SV Babelsberg 03 club. He has also been manager of 1 FC Magdeburg and represented FC Sachsen Leipzig.</lex>
+      <lex comment="good" lid="Id2">The manager of FC Magdeburg is Jens Härtel who plays for SV Babelsberg 03 and has represented the club FC Sachsen Leipzig.</lex>
+      <lex comment="good" lid="Id3">Jens Hartel, who played for FC Sachsen Leipzig and now plays for SV Babelsberg 03, is the manager at FC Magdeburg.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id18" size="3">
+      <originaltripleset>
+        <otriple>A.C._Cesena | ground | Cesena</otriple>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>Serie_B | champions | Carpi_F.C._1909</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | ground | Cesena</mtriple>
+        <mtriple>A.C._Cesena | league | Serie_B</mtriple>
+        <mtriple>Serie_B | champions | Carpi_F.C._1909</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AC Cesena ground is in Cesena and they play in the Serie B league whose champions are Carpi FC 1909.</lex>
+      <lex comment="good" lid="Id2">A.C. Cesena's ground is in Cesena and they play in Serie B which has a previous champion of Carpi F.C. 1909.</lex>
+      <lex comment="good" lid="Id3">A.C. Cesena is in the Serie B league (with Carpi FC 1909 as champions) and has a ground in Cesena.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id19" size="3">
+      <originaltripleset>
+        <otriple>A.C._Cesena | ground | Italy</otriple>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>A.C._Cesena | capacity | 23900</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Cesena | ground | Italy</otriple>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>A.C._Cesena | capacity | "23900"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | ground | Italy</mtriple>
+        <mtriple>A.C._Cesena | league | Serie_B</mtriple>
+        <mtriple>A.C._Cesena | numberOfMembers | 23900</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">23900 member club A.C. Cesena plays in Italy in Serie B.</lex>
+      <lex comment="good" lid="Id2">A.C. Cesena's ground is located in Italy, they have 23900 members and play in the Serie B league.</lex>
+      <lex comment="good" lid="Id3">A.C. Cesena is in the Serie B league. They have 23900 members and their ground is located in Italy.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id20" size="3">
+      <originaltripleset>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>A.C._Cesena | ground | Stadio_Dino_Manuzzi</otriple>
+        <otriple>A.C._Cesena | capacity | 23900</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>A.C._Cesena | capacity | "23900"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.C._Cesena | ground | Stadio_Dino_Manuzzi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | league | Serie_B</mtriple>
+        <mtriple>A.C._Cesena | numberOfMembers | 23900</mtriple>
+        <mtriple>A.C._Cesena | ground | Stadio_Dino_Manuzzi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.C. Cesana's ground is the Stadio Dino Manuzzi. They have 23900 members and play in the Serie B league.</lex>
+      <lex comment="good" lid="Id2">A.C. Cesana play in Serie B, they have 23900 members and their ground is Stadio Dino Manuzzi.</lex>
+      <lex comment="good" lid="Id3">A.C. Cesena, with 23900 members, is in the Serie B league and has a ground called Stadio Dino Manuzzi.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id21" size="3">
+      <originaltripleset>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>Serie_B | champions | Carpi_F.C._1909</otriple>
+        <otriple>A.C._Cesena | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | league | Serie_B</mtriple>
+        <mtriple>Serie_B | champions | Carpi_F.C._1909</mtriple>
+        <mtriple>A.C._Cesena | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AC Cesena play in the Serie B league which has been won by Carpi F.C. 1909 in the past. Their ground is located in Italy.</lex>
+      <lex comment="good" lid="Id2">A.C. Cesena's ground is located in Italy and they are part of the Serie B league which was previously won by Carpi FC 1909.</lex>
+      <lex comment="good" lid="Id3">AC Cesena, whose ground is located in Italy, are in the Serie B league. Carpi FC 1909 are previous champions of Serie B.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id22" size="3">
+      <originaltripleset>
+        <otriple>A.C._Cesena | league | Serie_B</otriple>
+        <otriple>Serie_B | champions | Carpi_F.C._1909</otriple>
+        <otriple>A.C._Cesena | ground | Stadio_Dino_Manuzzi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | league | Serie_B</mtriple>
+        <mtriple>Serie_B | champions | Carpi_F.C._1909</mtriple>
+        <mtriple>A.C._Cesena | ground | Stadio_Dino_Manuzzi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.C.Cesena plays in Stadio Dino Manuzzi and is also the in the Serie B league, and the Carpi F.C. 1909 won the championship Serie B division.</lex>
+      <lex comment="good" lid="Id2">A.C. Cesana's ground is the Stadio Dino Manuzzi and they played in Serie B but lost to Carpi FC 1909.</lex>
+      <lex comment="good" lid="Id3">With grounds at the Stadio Dino Manuzzi, A.C. Cesana play in Serie B. Carpi FC 1909 are previous champions of that league.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id23" size="3">
+      <originaltripleset>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+        <otriple>Massimo_Drago | clubs | Vigor_Lamezia</otriple>
+        <otriple>Massimo_Drago | team | Calcio_Catania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+        <mtriple>Massimo_Drago | club | Vigor_Lamezia</mtriple>
+        <mtriple>Massimo_Drago | club | Calcio_Catania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago manages A.C. Cesena and is attached to the club Vigor Lamezia although he plays for Calcio Catania.</lex>
+      <lex comment="good" lid="Id2">Massimo Drag has been the manager of A C Cesena, is attached to the club Vigor Lamexia and his club was Calcio Catania.</lex>
+      <lex comment="good" lid="Id3">Massimo Drago, manager of A.C. Cesena, is part of clubs Vigor Lamezia and Valcio Catania.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id24" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."@en</otriple>
+        <otriple>A.C._Chievo_Verona | ground | "Verona, Italy"@en</otriple>
+        <otriple>A.C._Chievo_Verona | capacity | 39371</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."@en</otriple>
+        <otriple>A.C._Chievo_Verona | ground | "Verona, Italy"@en</otriple>
+        <otriple>A.C._Chievo_Verona | capacity | "39371"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."</mtriple>
+        <mtriple>A.C._Chievo_Verona | ground | "Verona, Italy"</mtriple>
+        <mtriple>A.C._Chievo_Verona | numberOfMembers | 39371</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Verona, Italy is the home to A.C. Chievo Verona which has 39371 members and the full name of "Associazione Calcio ChievoVerona S.r.l.".</lex>
+      <lex comment="good" lid="Id2">Associazione Calcio Chievo Verona S.r.l. (abbreviated to A.C. Chievo Verona) has 39371 members and are based in Verona, Italy.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id25" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."@en</otriple>
+        <otriple>A.C._Chievo_Verona | ground | Verona</otriple>
+        <otriple>A.C._Chievo_Verona | capacity | 39371</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."@en</otriple>
+        <otriple>A.C._Chievo_Verona | ground | Verona</otriple>
+        <otriple>A.C._Chievo_Verona | capacity | "39371"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."</mtriple>
+        <mtriple>A.C._Chievo_Verona | ground | Verona</mtriple>
+        <mtriple>A.C._Chievo_Verona | numberOfMembers | 39371</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Calcio ChievoVerona S.r.l. is at the ground Verona and has 39371 members.</lex>
+      <lex comment="good" lid="Id2">The full name of AC Chievo Verona is "Associazione Calcio ChievoVerona S.r.l." and play at their ground in Verona where they have 39371 members.</lex>
+      <lex comment="good" lid="Id3">The full name of AC Chievo Verona, which has 39371 members and plays in Verona, is "Associazione Calcio ChievoVerona S.r.l.".</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id26" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</otriple>
+        <otriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."@en</otriple>
+        <otriple>A.C._Chievo_Verona | capacity | "39371"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</otriple>
+        <otriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."@en</otriple>
+        <otriple>A.C._Chievo_Verona | capacity | 39371</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</mtriple>
+        <mtriple>A.C._Chievo_Verona | fullname | "Associazione Calcio ChievoVerona S.r.l."</mtriple>
+        <mtriple>A.C._Chievo_Verona | numberOfMembers | 39371</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of A.C. Chievo Verona is Associazione Calcio ChievoVerona S.r.l. and they have 39371 members while their home ground is Stadio Marc Antonio Bentegodi.</lex>
+      <lex comment="good" lid="Id2">The full name of AC Chievo Verona is "Associazione Calcio ChievoVerona S.r.l.". Their home ground is Stadio Marc Antonio Bentegodi and they have 39371 members.</lex>
+      <lex comment="good" lid="Id3">Associazione Calcio ChievoVerona S.r.l. (abbreviated to A.C. Chievo Verona) has 39371 members and its home ground is Stadio Marc'Antonio Benregodi.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id27" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | manager | Rolando_Maran</otriple>
+        <otriple>Rolando_Maran | managerClub | Calcio_Catania</otriple>
+        <otriple>Rolando_Maran | team | Carrarese_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | manager | Rolando_Maran</mtriple>
+        <mtriple>Rolando_Maran | club | Calcio_Catania</mtriple>
+        <mtriple>Rolando_Maran | club | Carrarese_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Calcio ChievoVerona is managed by Rolando Maran, who is a member of the Calcio Cantania and plays at the Carrarese Calcio.</lex>
+      <lex comment="good" lid="Id2">Rolando Maran has managed AC Chievo Verona and is a member of the Calcio Cantania. He currently plays at the Carrarese Calcio.</lex>
+      <lex comment="good" lid="Id3">Rolando Maran is attached to the club Calcio Catania, plays at Carrarese Calcio and is manager of A.C. Chievo Verona.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id28" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | manager | Rolando_Maran</otriple>
+        <otriple>Rolando_Maran | managerClub | F.C._Bari_1908</otriple>
+        <otriple>Rolando_Maran | team | Carrarese_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | manager | Rolando_Maran</mtriple>
+        <mtriple>Rolando_Maran | club | F.C._Bari_1908</mtriple>
+        <mtriple>Rolando_Maran | club | Carrarese_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Calcio Chievo Verona is managed by Rolando Maran, who has previously worked at FC Bari 1908 and Carrarese Calcio.</lex>
+      <lex comment="good" lid="Id2">Associazione Calcio CheivoVerona manager Rolando Maran has formerly worked at FC Bari 1908, and is a member of the Carrarese Calcio club.</lex>
+      <lex comment="good" lid="Id3">Rolando Maran has managed AC Chievo Verona and plays for both F.C. Bari 1908 and Carrarese Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id29" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | manager | Rolando_Maran</otriple>
+        <otriple>Rolando_Maran | managerClub | Unione_Triestina_2012_S.S.D.</otriple>
+        <otriple>Rolando_Maran | team | Carrarese_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | manager | Rolando_Maran</mtriple>
+        <mtriple>Rolando_Maran | club | Unione_Triestina_2012_S.S.D.</mtriple>
+        <mtriple>Rolando_Maran | club | Carrarese_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Calcio ChievoVerona is managed by Rolando Maran, who plays for Unione Triestina 2012 S.S.D at the Carrarese Calcio.</lex>
+      <lex comment="good" lid="Id2">Rolando Maran plays for Unione Triestina 2012 S.S.D and Carrarese Calcio. He has also managed AC Chievo Verona.</lex>
+      <lex comment="good" lid="Id3">The manager of A.C. Chievo Verona is Rolando Maran who is in the following clubs: Unione Triestina 2012 S.S.D. and Carrarese Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id30" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | manager | Rolando_Maran</otriple>
+        <otriple>Rolando_Maran | managerClub | Varese_Calcio_S.S.D.</otriple>
+        <otriple>Rolando_Maran | team | Carrarese_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | manager | Rolando_Maran</mtriple>
+        <mtriple>Rolando_Maran | club | Varese_Calcio_S.S.D.</mtriple>
+        <mtriple>Rolando_Maran | club | Carrarese_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.C. Chievo Verona is Rolando Maran, who is in Varese Calcio S.S.D. club and plays for Carrarese Calcio.</lex>
+      <lex comment="good" lid="Id2">The manager of A.C. Chievo Verona is Rolando Maran who is in the Carrarese Calcio club and plays for Varese Calcio S.S.D.</lex>
+      <lex comment="good" lid="Id3">Rolando Maran plays for both Varese Calcio S.S.D. and Carrarese Calcio and has managed AC Chievo Verona.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id31" size="3">
+      <originaltripleset>
+        <otriple>A.C._Chievo_Verona | manager | Rolando_Maran</otriple>
+        <otriple>Rolando_Maran | placeOfBirth | Italy</otriple>
+        <otriple>Rolando_Maran | team | Carrarese_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Chievo_Verona | manager | Rolando_Maran</mtriple>
+        <mtriple>Rolando_Maran | placeOfBirth | Italy</mtriple>
+        <mtriple>Rolando_Maran | club | Carrarese_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Calcio ChievoVerona is managed by Rolando Maran, who was born in Italy and is in the Carrarese Calcio club.</lex>
+      <lex comment="good" lid="Id2">Rolando Maran (born in Italy), has managed AC Chievo Verona and played for Carrarese Calcio.</lex>
+      <lex comment="good" lid="Id3">Rolando Maran (born: Italy) plays for Carrarese Clacio and manages Associazione Calcio ChievoVerona.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id32" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | fullname | "Associazione Calcio Lumezzane SpA"@en</otriple>
+        <otriple>A.C._Lumezzane | league | Lega_Pro</otriple>
+        <otriple>A.C._Lumezzane | capacity | 4150</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | fullname | "Associazione Calcio Lumezzane SpA"@en</otriple>
+        <otriple>A.C._Lumezzane | capacity | "4150"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.C._Lumezzane | league | Lega_Pro</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | fullname | "Associazione Calcio Lumezzane SpA"</mtriple>
+        <mtriple>A.C._Lumezzane | numberOfMembers | 4150</mtriple>
+        <mtriple>A.C._Lumezzane | league | Lega_Pro</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Calcio Lumezzane SpA is abbreviated to A.C. Lumezzane, they have 4150 members and play in the Lega Pro league.</lex>
+      <lex comment="good" lid="Id2">The fullname of A.C. Lumezzane is Associazione Calcio Lumezzane SpA, they have 4150 members and play in the Lega Pro league.</lex>
+      <lex comment="good" lid="Id3">Associazione Calcio Lumezzane SpA( A.C. Lumezzane) has 4150 members and plays in the Lega Pro league.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id33" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | league | "Lega Pro/A"@en</otriple>
+        <otriple>A.C._Lumezzane | capacity | "4150"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | league | "Lega Pro/A"@en</otriple>
+        <otriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</otriple>
+        <otriple>A.C._Lumezzane | capacity | 4150</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | league | "Lega Pro/A"</mtriple>
+        <mtriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</mtriple>
+        <mtriple>A.C._Lumezzane | numberOfMembers | 4150</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.C. Lumezzane has 4150 members and has played in the Lega Pro during the 2014 season.</lex>
+      <lex comment="good" lid="Id2">A.C. Lumezzane, with 4150 members, is in the Lega Pro/A league and played during the 2014 season.</lex>
+      <lex comment="good" lid="Id3">A.C Lumezzane play in the Lega Pro/A 20-14 season. They have 4150 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id34" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | league | Lega_Pro</otriple>
+        <otriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</otriple>
+        <otriple>A.C._Lumezzane | capacity | 4150</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | capacity | "4150"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.C._Lumezzane | league | Lega_Pro</otriple>
+        <otriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | league | Lega_Pro</mtriple>
+        <mtriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</mtriple>
+        <mtriple>A.C._Lumezzane | numberOfMembers | 4150</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">Lumezzane played in the Lega Pro during the 2014 season. and has 4150 members.</lex>
+      <lex comment="good" lid="Id2">A.C. Lumezzane has 4150 members, played in the Lega Pro during the 2014 season and still play in the same league.</lex>
+      <lex comment="good" lid="Id3">A.C. Lumezzane has 4150 members and will play in Lega Pro. Lumezzane played in Lega Pro: 2014.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id35" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | A.C._Chievo_Verona</otriple>
+        <otriple>Michele_Marcolini | clubs | F.C._Bari_1908</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | clubs | A.C._Chievo_Verona</otriple>
+        <otriple>Michele_Marcolini | team | F.C._Bari_1908</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | A.C._Chievo_Verona</mtriple>
+        <mtriple>Michele_Marcolini | club | F.C._Bari_1908</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.C. Lumezzane is Michele Marcolini who was at FC Bari 1908 but currently plays for A.C. Chievo Verona.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini was at FC Bari 1908, his club is A.C. Chievo Verona and is now a manager at A.C. Lumezzane.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id36" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | Torino_F.C.</otriple>
+        <otriple>Michele_Marcolini | clubs | A.C._Chievo_Verona</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | A.C._Chievo_Verona</otriple>
+        <otriple>Michele_Marcolini | clubs | Torino_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | A.C._Chievo_Verona</mtriple>
+        <mtriple>Michele_Marcolini | club | Torino_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">The manager of A.C. Lumezzane is Michele Marcolini plays for A.C. Chievo Verona. and is at Torino F.C. club.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini manages the A.C. Lumezzane and plays for both A.C. Chievo Verona and Torino F.C.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id37" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | A.C._Chievo_Verona</otriple>
+        <otriple>Michele_Marcolini | clubs | Vicenza_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | A.C._Chievo_Verona</mtriple>
+        <mtriple>Michele_Marcolini | club | Vicenza_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Michele Marcolini has been manager of AC Lumezzane he is part of A.C&gt; Chievo Verona and plays for Vicenza Calcio.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini manages the A.C. Lumezzane, plays for A.C. Chievo Verona and previously played for Vicenza Calcio.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id38" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | Atalanta_B.C.</otriple>
+        <otriple>Michele_Marcolini | clubs | A.C._Chievo_Verona</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | A.C._Chievo_Verona</otriple>
+        <otriple>Michele_Marcolini | clubs | Atalanta_B.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | Atalanta_B.C.</mtriple>
+        <mtriple>Michele_Marcolini | club | A.C._Chievo_Verona</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Michele Marcolini has managed A.C. Lumezzane and played for Atalanta B.C. and A.C. Chievo Verona.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini has been the manager of AC Lumezzane and his club is A.C. Chievo Verona but he plays for Atalanta B.C.</lex>
+      <lex comment="good" lid="Id3">Michele Marcoli plays for both Atalanta B.C. and A.C. Chievo Verona and has been manager of AC Lumezzane.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id39" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | F.C._Bari_1908</otriple>
+        <otriple>Michele_Marcolini | clubs | Vicenza_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | F.C._Bari_1908</mtriple>
+        <mtriple>Michele_Marcolini | club | Vicenza_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Michele Marcolini manages the A.C. Lumezzane, plays for F.C. Bari 1908 and once played for Vicenza Calcio.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini has been manager of AC Lumezzane and was at FC Bari 1908. He is in the Vicenza Calcio club.</lex>
+      <lex comment="good" lid="Id3">Michele Marcolini has been manager of AC Lumezzane; he also plays for F.C. Bari 1908 and has played for Vicenza Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id40" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | team | Torino_F.C.</otriple>
+        <otriple>Michele_Marcolini | clubs | Atalanta_B.C.</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | clubs | Torino_F.C.</otriple>
+        <otriple>Michele_Marcolini | team | Atalanta_B.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | Torino_F.C.</mtriple>
+        <mtriple>Michele_Marcolini | club | Atalanta_B.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Michele Marcolini has played for Atalanta BC. He now manages the AX Lumezzane and is at the Torino FC club.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id41" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | clubs | Torino_F.C.</otriple>
+        <otriple>Michele_Marcolini | team | F.C._Bari_1908</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | Torino_F.C.</mtriple>
+        <mtriple>Michele_Marcolini | club | F.C._Bari_1908</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.C. Lumezzane is Michele Marcolini who plays for Torino F.C. and as been associated with F.C. Bari 1908.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini is at the Torino F.C. club. He has been manager of AC Lumezzane and was previously at FC Bari 1908.</lex>
+      <lex comment="good" lid="Id3">Michele Marcolini has been manager of AC Lumezzane; he also is associated with Torino F.C. and F.C. Bari 1908.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id42" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | manager | Michele_Marcolini</otriple>
+        <otriple>Michele_Marcolini | clubs | Torino_F.C.</otriple>
+        <otriple>Michele_Marcolini | team | Vicenza_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | manager | Michele_Marcolini</mtriple>
+        <mtriple>Michele_Marcolini | club | Torino_F.C.</mtriple>
+        <mtriple>Michele_Marcolini | club | Vicenza_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Michele Marcolini manages the A.C. Lumezzane but also plays for Torino F.C. and Vicenza Calcio.</lex>
+      <lex comment="good" lid="Id2">Michele Marcolini has been manager of AC Lumezzane and plays for both Torino F.C. and Vicenza Calcio.</lex>
+      <lex comment="good" lid="Id3">Michele Marcolini manages the A.C. Lumezzane and plays for Torino F.C. He is also in the Vicenza Calcio club.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id43" size="3">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | season | 2014</otriple>
+        <otriple>A.C._Lumezzane | capacity | "4150"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.C._Lumezzane | league | Lega_Pro</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | season | 2014</otriple>
+        <otriple>A.C._Lumezzane | league | Lega_Pro</otriple>
+        <otriple>A.C._Lumezzane | capacity | 4150</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | season | 2014</mtriple>
+        <mtriple>A.C._Lumezzane | league | Lega_Pro</mtriple>
+        <mtriple>A.C._Lumezzane | numberOfMembers | 4150</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.C. Lumezzane has 4150 members and play in the Lega Pro League.</lex>
+      <lex comment="good" lid="Id2">A.C. Lumezzane, with 4150 members, plays in the Lega Pro. and were active in 2014.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id44" size="3">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | fullname | "Isidro Metapán"@en</otriple>
+        <otriple>A.D._Isidro_Metapán | ground | "Metapán, El Salvador"@en</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | "10000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | fullname | "Isidro Metapán"</mtriple>
+        <mtriple>A.D._Isidro_Metapán | ground | "Metapán, El Salvador"</mtriple>
+        <mtriple>A.D._Isidro_Metapán | numberOfMembers | 10000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.D. Isidro Metapán is located in Metapán, El Salvador. It has 10000 members.</lex>
+      <lex comment="good" lid="Id2">A.D. Isidro Metapán has 10000 members and their ground is in Metapan, El Salvador. Their full name is Isidro Metapan.</lex>
+      <lex comment="good" lid="Id3">The full name of A.D. Isidro Metapan is Isidro Metapan. Their ground is located in Metapán, El Salvador and they have 10000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id45" size="3">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | fullname | "Isidro Metapán"@en</otriple>
+        <otriple>A.D._Isidro_Metapán | ground | Metapán</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | 10000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | fullname | "Isidro Metapán"</mtriple>
+        <mtriple>A.D._Isidro_Metapán | ground | Metapán</mtriple>
+        <mtriple>A.D._Isidro_Metapán | numberOfMembers | 10000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of A.D. Isidro Metapan is Isidro Metapan, their ground is in Metapán and they have 10000 members.</lex>
+      <lex comment="good" lid="Id2">The full name of A.D. Isidro Metapan which has 10000 members, is Isidro Metapan and their ground is in Metapan.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id46" size="3">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | ground | "Metapán, El Salvador"@en</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | 10000</otriple>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | ground | "Metapán, El Salvador"@en</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | "10000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | ground | "Metapán, El Salvador"</mtriple>
+        <mtriple>A.D._Isidro_Metapán | numberOfMembers | 10000</mtriple>
+        <mtriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.D. Isidro Metapan's full name is "Asociación Deportiva". They have 10000 members and their ground is in Metapan, El Salvador.</lex>
+      <lex comment="good" lid="Id2">10000 member strong club AD Isidro Metapan Deportiva - Asociacion Deportiva - plays at Metapan, El Salvador.</lex>
+      <lex comment="good" lid="Id3">Asociacion Deportiva (abbreviated to A.D. Isidro Metapan) has 10000 members and has its ground in Metapan El Salvador.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id47" size="3">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | ground | Estadio_Jorge_Calero_Suárez</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | "10000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | ground | Estadio_Jorge_Calero_Suárez</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | 10000</otriple>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | ground | Estadio_Jorge_Calero_Suárez</mtriple>
+        <mtriple>A.D._Isidro_Metapán | numberOfMembers | 10000</mtriple>
+        <mtriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.D. (Asociacion Deportiva) Isidro Metapan play at the Estadio Jorge Calero Suarez and has 10000 members.</lex>
+      <lex comment="good" lid="Id2">A.D. Isidro Metapan play at the Estadio Jorge Calero Suarez, they have 10000 members and the full name of the club is "Asociación Deportiva".</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id48" size="3">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | ground | Metapán</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | 10000</otriple>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | ground | Metapán</otriple>
+        <otriple>A.D._Isidro_Metapán | capacity | "10000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | ground | Metapán</mtriple>
+        <mtriple>A.D._Isidro_Metapán | numberOfMembers | 10000</mtriple>
+        <mtriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asociacion Deportiva is now known as A.D. Isidro Metapan and has 10000 members and plays in Metapan.</lex>
+      <lex comment="good" lid="Id2">A.D. Isidro Metapán's ground is in Metapán, they have 10000 members and the full name Asociación Deportiva.</lex>
+      <lex comment="good" lid="Id3">The fullname of A.D. Isidro Metapan is Asociacion Deportiva, they have 10000 members and play at their ground at Metapán.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id49" size="3">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | manager | Jorge_Humberto_Rodríguez</otriple>
+        <otriple>Jorge_Humberto_Rodríguez | team | FC_Dallas</otriple>
+        <otriple>Jorge_Humberto_Rodríguez | managerClub | El_Salvador_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | manager | Jorge_Humberto_Rodríguez</mtriple>
+        <mtriple>Jorge_Humberto_Rodríguez | club | FC_Dallas</mtriple>
+        <mtriple>Jorge_Humberto_Rodríguez | club | El_Salvador_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.D. Isidro Metapan's manager is Jorge Humberto Rodriguez who plays for FC Dallas and the El Salvador national football team.</lex>
+      <lex comment="good" lid="Id2">Jorge Humberto Rodríguez manages the A.D. Isidro Metapan, he plays for the El Salvador national football team and FC Dallas.</lex>
+      <lex comment="good" lid="Id3">Jorge Humberto Rodriguez has been manager of A D Isidro Metapán and is a member of the club FC Dallas, as well as of the El Salvador national football team.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id50" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | capital | Athens</otriple>
+        <otriple>Greece | leader | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | capital | Athens</otriple>
+        <otriple>Greece | leaderName | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | capital | Athens</mtriple>
+        <mtriple>Greece | leader | Nikos_Voutsis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.E Dimitra Efxeinoupolis is located in Greece where the capital is Athens and the leader is Nikos Voutsis.</lex>
+      <lex comment="good" lid="Id2">The A.E Dimitra Efxeinoupolis club is located in Greece, capital of which is Athens and the leader is Nikos Voutsis.</lex>
+      <lex comment="good" lid="Id3">Greece, led by Nikos Voutisis, who's capital is Athens, is the location of club A.E. Dimitra Efxeinoupolis.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id51" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | capital | Athens</otriple>
+        <otriple>Greece | leader | Prokopis_Pavlopoulos</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | capital | Athens</mtriple>
+        <mtriple>Greece | leader | Prokopis_Pavlopoulos</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.E Dimitra Efxeinoupolis club is located in Greece. The capital of the country is Athens and the leader is Prokopis Pavlopoulos.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis is located in Greece whose leader is Prokopis Pavlopoulos and the capital is Athens.</lex>
+      <lex comment="good" lid="Id3">A.E Dimitra Efxeinoupolis is located in Greece. The country's capital is Athens and the leader is Prokopis Pavlopoulos.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id52" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leader | Alexis_Tsipras</otriple>
+        <otriple>Greece | capital | Athens</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | leader | Alexis_Tsipras</mtriple>
+        <mtriple>Greece | capital | Athens</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.E Dimitra Efxeinoupolis club is located in Greece where the leader is Alexis Tsipras and the capital city is Athens.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis is located in Greece, the capital of which is Athens and the country is headed by Alexis Tsipras.</lex>
+      <lex comment="good" lid="Id3">Athens is Greece's capital (led by Alexis Tsipras). Greece is the location of A.E. Dimitra Efxeinoupolis.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id53" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leader | Alexis_Tsipras</otriple>
+        <otriple>Greece | language | Greek_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | leader | Alexis_Tsipras</mtriple>
+        <mtriple>Greece | language | Greek_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.E Dimitra Efxeinoupolis club is located in Greece where they speak Greek. The leader of Greece is Alexis Tsipras.</lex>
+      <lex comment="good" lid="Id2">The A.E Dimitra Efxeinoupolis club is located in Greece where they speak Greek and the leader is Alexis Tsipras.</lex>
+      <lex comment="good" lid="Id3">The A.E Dimitra Efxeinoupolis club is located in Greece whose leader is Alexis Tsipras and spoken language is Greek.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id54" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leaderName | Alexis_Tsipras</otriple>
+        <otriple>Greece | leader | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leader | Alexis_Tsipras</otriple>
+        <otriple>Greece | leaderName | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | leader | Alexis_Tsipras</mtriple>
+        <mtriple>Greece | leader | Nikos_Voutsis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.E Dimitra Efxeinoupolis club is located in Greece where two of the leaders are Alexis Tsipras and Nikos Voutsis.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis is located in Greece where the leader is Nikos Voutsis and Alexis Tsipras is at the head.</lex>
+      <lex comment="good" lid="Id3">A.E Dimitra Efxeinoupolis is located in Greece, the leader of which is Alexis Tsipras and/or Nikos Voutsis.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id55" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leader | Alexis_Tsipras</otriple>
+        <otriple>Greece | leaderName | Prokopis_Pavlopoulos</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leaderName | Alexis_Tsipras</otriple>
+        <otriple>Greece | leader | Prokopis_Pavlopoulos</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | leader | Alexis_Tsipras</mtriple>
+        <mtriple>Greece | leader | Prokopis_Pavlopoulos</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.E Dimitra Efxeinoupolis club is located in Greece where two of the leaders are Alexis Tsipras and Prokopis Pavlopoulos.</lex>
+      <lex comment="good" lid="Id2">The A.E Dimitra Efxeinoupolis club is located in Greece, where the leader is Alexis Tsipras and/or Prokopis Pavlopoulos.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id56" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leader | Nikos_Voutsis</otriple>
+        <otriple>Greece | language | Greek_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | leader | Nikos_Voutsis</mtriple>
+        <mtriple>Greece | language | Greek_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The A.E Dimitra Efxeinoupolis club is located in Greece which is lead by Nikos Voutsis and uses the Greek language.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id57" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | location | Greece</otriple>
+        <otriple>Greece | leader | Prokopis_Pavlopoulos</otriple>
+        <otriple>Greece | language | Greek_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | location | Greece</mtriple>
+        <mtriple>Greece | leader | Prokopis_Pavlopoulos</mtriple>
+        <mtriple>Greece | language | Greek_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Prokopis Pavlopoulos is a leader in Greece where the Greek language is spoken. The country is the location of AE Dimitra Efxeinoupolis club.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis is located in Greece, which leader is Prokopis Pavloopoulos and the language is Greek.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id58" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | league | A_EPSTH_2nd_GROUP</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | 1500</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | league | A_EPSTH_2nd_GROUP</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | numberOfMembers | 1500</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | league | A_EPSTH_2nd_GROUP</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.E Dimitra Efxeinoupolis ground is in the town of Efxeinoupoli. It has 1500 members and plays in the A EPSTH 2nd GROUP.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis, which has 1500 members, is in the league EPSTH 2nd GROUP and their ground is located in the town of Efxeinoupoli.</lex>
+      <lex comment="good" lid="Id3">A.E Dimitra Efxeinoupolis is in the league, EPSTH 2nd GROUP, with 1500 members their ground is located in the town of Efxeinoupoli.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id59" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | 1500</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | season | 2014</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | season | 2014</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | numberOfMembers | 1500</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | season | 2014</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AE Dimitra Efxeinoupolis played in the 2014 season and has 1500 members. Their ground is located in the town of Efxeinoupoli.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis played in season 2014. They have 1500 members and their ground is located in the town of Efxeinoupoli.</lex>
+      <lex comment="good" lid="Id3">AE Dimitra Efxeinoupolis has 1500 members and their ground of A.E Dimitra Efxeinoupolis is located in the town of Efxeinoupoli. They were in the 2014 season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id60" size="3">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | 1500</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | season | 2014–15_A_EPSTH,_Greece</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</otriple>
+        <otriple>A.E_Dimitra_Efxeinoupolis | season | 2014–15_A_EPSTH,_Greece</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | numberOfMembers | 1500</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | ground | Efxeinoupoli</mtriple>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | season | 2014–15_A_EPSTH,_Greece</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ground of A.E Dimitra Efxeinoupolis is located in the town of Efxeinoupoli and has 1500 member. They were in the 2014–15 A EPSTH Greece season.</lex>
+      <lex comment="good" lid="Id2">The ground of A.E Dimitra Efxeinoupolis is located in the town of Efxeinoupoli. They have 1500 members and were in the 2014-15 A EPSTH, Greece.</lex>
+      <lex comment="good" lid="Id3">A.E Dimitra Efxeinoupolis have 1500 members and were in the 2014-15 A EPSTH, Greece. Their home ground is located in Efxeinoupoli.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id61" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | ground | "Jepson Way,"@en</otriple>
+        <otriple>A.F.C._Blackpool | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Blackpool | fullname | "Association Football Club Blackpool"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | ground | "Jepson Way,"@en</otriple>
+        <otriple>A.F.C._Blackpool | capacity | 1500</otriple>
+        <otriple>A.F.C._Blackpool | fullname | "Association Football Club Blackpool"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | ground | "Jepson Way,"</mtriple>
+        <mtriple>A.F.C._Blackpool | numberOfMembers | 1500</mtriple>
+        <mtriple>A.F.C._Blackpool | fullname | "Association Football Club Blackpool"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.F.C. Blackpool fullname is "Association Football Club Blackpool," they have 1500 members and their grounds are at Jespon Way.</lex>
+      <lex comment="good" lid="Id2">AFC Blackpool has the full name "Association Football Club Blackpool". They have 1500 members and their grounds are Jepson Way.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id62" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | ground | "The Mechanics,"@en</otriple>
+        <otriple>A.F.C._Blackpool | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Blackpool | fullname | "Association Football Club Blackpool"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | ground | "The Mechanics,"@en</otriple>
+        <otriple>A.F.C._Blackpool | capacity | 1500</otriple>
+        <otriple>A.F.C._Blackpool | fullname | "Association Football Club Blackpool"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | ground | "The Mechanics,"</mtriple>
+        <mtriple>A.F.C._Blackpool | numberOfMembers | 1500</mtriple>
+        <mtriple>A.F.C._Blackpool | fullname | "Association Football Club Blackpool"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.F.C. Blackpool fullname is "Association Football Club Blackpool". They have 1500 members and their ground is The Mechanics.</lex>
+      <lex comment="good" lid="Id2">The fullname of A.F.C. Blackpool is Association Football Club Blackpool. Their ground is The Mechanics. and they have 1500 members.</lex>
+      <lex comment="good" lid="Id3">AFC Blackpool, with 1500 members, has the full name "Association Football Club Blackpool", and its ground is called "The Mechanics".</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id63" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Bury_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | KV_Mechelen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Bury_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | KV_Mechelen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker, who used to play for Bury FC and has represented the club KV Mechelen.</lex>
+      <lex comment="good" lid="Id2">The manager of A.F.C. Blackpool is Stuart Parker (footballer) who played for Bury FC and currently for KV Mechelen.</lex>
+      <lex comment="good" lid="Id3">AFC Blackpool have had Stuart Parker as their manager who plays for Bury FC and has represented the club KV Mechelen.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id64" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Chesterfield_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Blackburn_Rovers_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Chesterfield_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Blackburn_Rovers_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer) who is attached to Chesterfield football club and plays for Blackburn Rovers F.C.</lex>
+      <lex comment="good" lid="Id2">Stuart Parker (footballer) plays for Blackburn Rovers F.C. Manages A.F.C. Blackpool and is a member of Chesterfield F.C.</lex>
+      <lex comment="good" lid="Id3">Footballer Stuart Parker was at Blackburn Rovers FC, he is a member of the Chesterfield F.C. and currently manages A.F.C. Blackpool.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id65" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Chesterfield_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Bury_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Chesterfield_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Bury_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer) who played for both Chesterfield FC and Bury FC.</lex>
+      <lex comment="good" lid="Id2">AFC Blackpool have had Stuart Parker as their manager, he was a footballer for Chesterfield FC. and Bury FC.</lex>
+      <lex comment="good" lid="Id3">Stuart Parker was a footballer for Chesterfield FC and now plays for Bury FC and is the manager at A.F.C. Blackpool.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id66" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Chesterfield_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Drogheda_United_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Chesterfield_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Drogheda_United_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Blackpool have had Stuart Parker as their manager. He is attached to Chesterfield football club and was at Drogheda United FC.</lex>
+      <lex comment="good" lid="Id2">Stuart Parker (footballer) was at Drogheda United F.C. is a member of the Chesterfield F.C. and now manages A.F.C. Blackpool.</lex>
+      <lex comment="good" lid="Id3">Stuart Parker was a footballer for Chesterfield FC and is a footballer with the Drogheda United F.C, he also had managed AFC Blackpool.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id67" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Chesterfield_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Stockport_County_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Chesterfield_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Stockport_County_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Stuart Parker is a member of the Chesterfield football club as well as a player for Stockport County F.C. and also managers the A.F.C. Blackpool organization.</lex>
+      <lex comment="good" lid="Id2">The manager of A.F.C. Blackpool is Stuart Parker (footballer). In the past he played for Chesterfield FC. and Stockport County FC.</lex>
+      <lex comment="good" lid="Id3">AFC Blackpool have had Stuart Parker as their manager. He is a member of the Chesterfield F.C and was previously at Stockport County F.C.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id68" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Irlam_Town_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Chesterfield_F.C.</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Irlam_Town_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Chesterfield_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Irlam_Town_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Chesterfield_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer). He is attached to Irlam Town Football Club and a member of the Chesterfield F.C.</lex>
+      <lex comment="good" lid="Id2">AFC Blackpool manager Stuary Parker is also attached to Irlam Town and Chesterfield football clubs.</lex>
+      <lex comment="good" lid="Id3">Stuart Parker was once a manager at AFC Blackpool and a footballer for Chesterfield FC but is now attached to Irlam Town Football Club.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id69" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | Irlam_Town_F.C.</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Runcorn_F.C._Halton</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Irlam_Town_F.C.</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker who plays for Runcorn F.C. Halton and is attached to Irlam Town Football Club.</lex>
+      <lex comment="good" lid="Id2">The manager of A.F.C. Blackpool is Stuart Parker who is a member of the Irlam Town F.C and was a player for Runcorn FC Halton.</lex>
+      <lex comment="good" lid="Id3">Stuart Parker once played for Runcorn FC Halton, is attached to Irlam Town Football Club and is now a manager of A.F.C. Blackpool.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id70" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | KV_Mechelen</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Drogheda_United_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | KV_Mechelen</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Drogheda_United_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer) who was at Drogheda United FC but is currently part of the KV Mechelen club.</lex>
+      <lex comment="good" lid="Id2">AFC Blackpool have had Stuart Parker as their manager, he is part of the KV Mechelen club and played with the Drogheda United F.C.</lex>
+      <lex comment="good" lid="Id3">Stuart Parker, who used to play at Drogheda United FC and now plays for KV Mechelen, is the manager of A.F.C. Blackpool.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id71" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | KV_Mechelen</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Runcorn_F.C._Halton</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | KV_Mechelen</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker (footballer) who has represented the club KV Mechelen and also played for Runcorn FC Halton.</lex>
+      <lex comment="good" lid="Id2">Stuart Parker has represented the club KV Mechelen and was manager for AFC Blackpool, He plays for Runcorn F.C. Halton.</lex>
+      <lex comment="good" lid="Id3">Stuart Parker the football player is part of the KV Mechelen club, plays for Runcorn F.C. Halton and has managed AFC Blackpool.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id72" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</otriple>
+        <otriple>Stuart_Parker_(footballer) | team | KV_Mechelen</otriple>
+        <otriple>Stuart_Parker_(footballer) | clubs | Stockport_County_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | KV_Mechelen</mtriple>
+        <mtriple>Stuart_Parker_(footballer) | club | Stockport_County_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of A.F.C. Blackpool is Stuart Parker who once played for Stockport County FC and currently plays for KV Mechelen.</lex>
+      <lex comment="good" lid="Id2">Stuart Parker is the manager of AFC Blackpool. He own club was Stockport County FC and he has represented KV Mechelen.</lex>
+      <lex comment="good" lid="Id3">AFC Blackpool have had Stuart Parker as their manager. He has also represented the club KV Mechelen and once played for Stockport County FC.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id73" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | "Kellamergh Park"@en</otriple>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | "Kellamergh Park"@en</otriple>
+        <otriple>A.F.C._Fylde | capacity | 3180</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | ground | "Kellamergh Park"</mtriple>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+        <mtriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.F.C.Fylde's ground is Kellamergh Park. They have 3180 members and the full name of "Association Football Club Fylde.".</lex>
+      <lex comment="good" lid="Id2">The full name of the A.F.C. Fylde is "Association Football Club Fylde," they have 3180 members and their ground is Kellamergh Park.</lex>
+      <lex comment="good" lid="Id3">AFC Fylde has the full name "Association Football Club Fylde", it's grounds are Kellamergh Park and it has 3180 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id74" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | "Warton, Fylde, Lancashire"@en</otriple>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | "Warton, Fylde, Lancashire"@en</otriple>
+        <otriple>A.F.C._Fylde | capacity | 3180</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | ground | "Warton, Fylde, Lancashire"</mtriple>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+        <mtriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of AFC Fylde, the 3180 member strong club, is Association Football Club Fylde.</lex>
+      <lex comment="good" lid="Id2">Association Football Club Fylde (abbreviated to A.F.C. Fylde) has 3180 members and are based at Warton, Fylde, Lancashire.</lex>
+      <lex comment="good" lid="Id3">A.F.C. Fylde (its full name is "Association Football Club Fylde"), which has 3180 members, is based at Warton, Fylde, Lancashire.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id75" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | The_Fylde</otriple>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | The_Fylde</otriple>
+        <otriple>A.F.C._Fylde | capacity | 3180</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | ground | The_Fylde</mtriple>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+        <mtriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Fylde has the full name "Association Football Club Fylde" and has 3180. Their home ground is called The Fylde.</lex>
+      <lex comment="good" lid="Id2">AFC Fylde, who play at The Fylde, has 3180 members and the full name Association Football Club Fylde.</lex>
+      <lex comment="good" lid="Id3">3180 member club, Association Football Club "AFC" Fylde plays at a ground called The Fylde.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id76" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | manager | Dave_Challinor</otriple>
+        <otriple>Dave_Challinor | team | Tranmere_Rovers_F.C.</otriple>
+        <otriple>Dave_Challinor | managerClub | Colwyn_Bay_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | manager | Dave_Challinor</mtriple>
+        <mtriple>Dave_Challinor | club | Tranmere_Rovers_F.C.</mtriple>
+        <mtriple>Dave_Challinor | club | Colwyn_Bay_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Fylde's manager is Dave Challinor who is affiliated with Tranmere Rovers F.C. and plays for Colwyn Bay F.C. club.</lex>
+      <lex comment="good" lid="Id2">Dave Challinor is at Colwyn Bay FC and manages A.F.C. Fylde. He is also affiliated with Tranmere Rovers F.C.</lex>
+      <lex comment="good" lid="Id3">Dave Challinor is affiliated with Tranmere Rovers F.C. , plays for Colwyn Bay F.C. and is manager of AFC Fylde.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id77" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+        <otriple>A.F.C._Fylde | ground | "Bryning Lane"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+        <mtriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"</mtriple>
+        <mtriple>A.F.C._Fylde | ground | "Bryning Lane"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of the A.F.C. Fylde is "Association Football Club Fylde" they are based at Bryning Lane and have 3180 members.</lex>
+      <lex comment="good" lid="Id2">AFC Fylde has the full name "Association Football Club Fylde," they have 3180 members and are based at Bryning Lane.</lex>
+      <lex comment="good" lid="Id3">AFC Fylde has the full name "Association Football Club Fylde", they are based at Bryning Lane and have 3180 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id78" size="3">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | Lancashire</otriple>
+        <otriple>A.F.C._Fylde | capacity | 3180</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | capacity | "3180"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.F.C._Fylde | ground | Lancashire</otriple>
+        <otriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | numberOfMembers | 3180</mtriple>
+        <mtriple>A.F.C._Fylde | ground | Lancashire</mtriple>
+        <mtriple>A.F.C._Fylde | fullname | "Association Football Club Fylde"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Association Football Club Fylde (abbreviated to AFC Fylde) has 3180 members and its ground is in Lancashire.</lex>
+      <lex comment="good" lid="Id2">AFC Fylde has the full name "Association Football Club Fylde", its ground can be found in the county of Lancashire and it has 3180 members.</lex>
+      <lex comment="good" lid="Id3">Association Football Club Fylde, abbreviated to A.F.C Fylde, has 3180 members and its ground is in Lancashire.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id79" size="3">
+      <originaltripleset>
+        <otriple>A.S._Gubbio_1910 | fullname | "Associazione Sportiva Gubbio 1910 Srl"@en</otriple>
+        <otriple>A.S._Gubbio_1910 | capacity | "5300"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.S._Gubbio_1910 | season | 2014–15_Lega_Pro</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Gubbio_1910 | fullname | "Associazione Sportiva Gubbio 1910 Srl"@en</otriple>
+        <otriple>A.S._Gubbio_1910 | season | 2014–15_Lega_Pro</otriple>
+        <otriple>A.S._Gubbio_1910 | capacity | 5300</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Gubbio_1910 | fullname | "Associazione Sportiva Gubbio 1910 Srl"</mtriple>
+        <mtriple>A.S._Gubbio_1910 | numberOfMembers | 5300</mtriple>
+        <mtriple>A.S._Gubbio_1910 | season | 2014–15_Lega_Pro</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of A.S. Gubbio 1910 is Associazione Sportiva Gubbio 1910 Srl. It was a part of the 2014–15 Lega Pro season and has 5300 members.</lex>
+      <lex comment="good" lid="Id2">A.S. Gubbio 1910 , which stands for Associazione Sportiva Gubbio 1910 Srl., has 5300 members. and was in the Lega Pro in the 2014-15 season.</lex>
+      <lex comment="good" lid="Id3">A.s Gubbio 1910 (Associazione Aportiva Gubbio 1910 Srl.), with 5300 members, participated in the 2014-15 Leg Pro season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id80" size="3">
+      <originaltripleset>
+        <otriple>A.S._Gubbio_1910 | fullname | "Associazione Sportiva Gubbio 1910 Srl"@en</otriple>
+        <otriple>A.S._Gubbio_1910 | season | 2014</otriple>
+        <otriple>A.S._Gubbio_1910 | capacity | "5300"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Gubbio_1910 | fullname | "Associazione Sportiva Gubbio 1910 Srl"@en</otriple>
+        <otriple>A.S._Gubbio_1910 | season | 2014</otriple>
+        <otriple>A.S._Gubbio_1910 | capacity | 5300</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Gubbio_1910 | fullname | "Associazione Sportiva Gubbio 1910 Srl"</mtriple>
+        <mtriple>A.S._Gubbio_1910 | season | 2014</mtriple>
+        <mtriple>A.S._Gubbio_1910 | numberOfMembers | 5300</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of AS Gubbio 1910 is "Associazione Sportiva Gubbio 1910 Srl", they have 5300 members and played in the 2014 season.</lex>
+      <lex comment="good" lid="Id2">Associazione Sportiva Gubbio Srl (abbreviated to A.S. Gubbio) has 5300 members and competed in the 2014 season.</lex>
+      <lex comment="good" lid="Id3">The full name of AS Gubbio 1910 is "Associazione Sportiva Gubbio 1910 Srl". It competed in the 2014 season and has 5300 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id81" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | "Livorno, Italy"@en</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | 19238</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | "Livorno, Italy"@en</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | "19238"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | ground | "Livorno, Italy"</mtriple>
+        <mtriple>A.S._Livorno_Calcio | numberOfMembers | 19238</mtriple>
+        <mtriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of A.S. Livorno Calcio is Associazione Sportiva, their ground is in Livorno Italy and they have 19,238 members.</lex>
+      <lex comment="good" lid="Id2">Livorno, Italy is the location of the ground of AS Livorno Calcio which has 19238 members and the full name of Associazione Sportiva.</lex>
+      <lex comment="good" lid="Id3">Associazione Sportiva Livorno Calcio is the fullname of A.S.Livorno Calcio. They have 19238 members and their ground is in Livorno, Italy.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id82" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Livorno</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | 19238</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | ground | Livorno</mtriple>
+        <mtriple>A.S._Livorno_Calcio | numberOfMembers | 19238</mtriple>
+        <mtriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Sportiva Livorno Calcio is the fullname of A.S.Livorno Calcio. They have 19238 members and their ground is in Livorno.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id83" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Livorno</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | "19238"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Livorno Calcio S.p.A."@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Livorno</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | 19238</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Livorno Calcio S.p.A."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | ground | Livorno</mtriple>
+        <mtriple>A.S._Livorno_Calcio | numberOfMembers | 19238</mtriple>
+        <mtriple>A.S._Livorno_Calcio | fullname | "Livorno Calcio S.p.A."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Livorno Calcio S.p.A. is abbreviated to A.S. Livorno Calcio. They have 19238 members and grounds in Livorno.</lex>
+      <lex comment="good" lid="Id2">The fullname of A.S. Livorno Calcio is Livorno Calcio S.p.A. Its ground is in Livorno and it has 19238 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id84" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | 19238</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | "19238"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</mtriple>
+        <mtriple>A.S._Livorno_Calcio | numberOfMembers | 19238</mtriple>
+        <mtriple>A.S._Livorno_Calcio | fullname | "Associazione Sportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Associazione Sportiva Calcio, better known as A.S Livorno Calcio, is a 19238 member club whose ground is the Stadio Armando Picchi.</lex>
+      <lex comment="good" lid="Id2">The home ground of A S Livorno Calcio (full name Associazione Sportiva), which has 19238 members, is the Stadio Armando Picchi.</lex>
+      <lex comment="good" lid="Id3">The A.S. Livorno Calcio (Associazione Sportiva), with 19238 members, has the Stadio Armando Picchi as its home ground.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id85" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | 19238</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Livorno Calcio S.p.A."@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</otriple>
+        <otriple>A.S._Livorno_Calcio | capacity | "19238"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.S._Livorno_Calcio | fullname | "Livorno Calcio S.p.A."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</mtriple>
+        <mtriple>A.S._Livorno_Calcio | numberOfMembers | 19238</mtriple>
+        <mtriple>A.S._Livorno_Calcio | fullname | "Livorno Calcio S.p.A."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AS Livorno Calcio has 19238 members and the full name of Livorno Calcio S.p.A. Their ground is known as Stadio Armando Picchi.</lex>
+      <lex comment="good" lid="Id2">Livorno Calcio S.p.A., abbreviated to A.S. Livorno Calcio, has 19238 members and has the ground Stadio Armando Picchi.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id86" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | clubs | A.S._Roma</otriple>
+        <otriple>Christian_Panucci | team | Genoa_C.F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | A.S._Roma</mtriple>
+        <mtriple>Christian_Panucci | club | Genoa_C.F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio are managed by Christian Panucci who plays for A.S. Roma and is attached to the club Genoa CFC.</lex>
+      <lex comment="good" lid="Id2">Christian Panucci played football for Genoa C.F.C. and now manages A.S. Livorno Calcio and plays at the A.S.Roma.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id87" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | clubs | A.S._Roma</otriple>
+        <otriple>Christian_Panucci | team | Italy_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | A.S._Roma</mtriple>
+        <mtriple>Christian_Panucci | club | Italy_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Christian Panucci was a former player for the Italy national football team, now plays for A.S. Roma as well as manages A.S, Livorno Calcio.</lex>
+      <lex comment="good" lid="Id2">A.S Livorno Calcio is managed by Christian Panucci who is in the A.S. Roma club and also plays for the Italian national football team.</lex>
+      <lex comment="good" lid="Id3">Christian Panucci is in the A.S. Roma club, plays for the Italian national football team and manages A.S. Livorno Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id88" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | team | A.S._Roma</otriple>
+        <otriple>Christian_Panucci | clubs | Real_Madrid_C.F.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | A.S._Roma</mtriple>
+        <mtriple>Christian_Panucci | club | Real_Madrid_C.F.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio are managed by Christian Panucci who plays for A.S. Roma and was attached to the Real Madrid CF club.</lex>
+      <lex comment="good" lid="Id2">Christian Panucci, who manages A.S. Livorno Calcio, used to play for both A.S. Roma and Real Madrid CF.</lex>
+      <lex comment="good" lid="Id3">A.S. Livorno Calcio are managed by Christian Panucci, who is in the A.S. Roma club, and was attached to the Real Madrid CF club.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id89" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | clubs | Genoa_C.F.C.</otriple>
+        <otriple>Christian_Panucci | team | Chelsea_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | Genoa_C.F.C.</mtriple>
+        <mtriple>Christian_Panucci | club | Chelsea_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio are managed by Christian Panucci who has played for Chelsea FC and is attached to the club Genoa CFC.</lex>
+      <lex comment="good" lid="Id2">Christian Panucci played football for Genoa F.C. and Chelsea F.C.. Today he manages A.S. Livorno Calcio.</lex>
+      <lex comment="good" lid="Id3">Christian Panucci has played for Chelsea FC and Genoa C.F.C. and now manages A.S. Livorno Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id90" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | team | Genoa_C.F.C.</otriple>
+        <otriple>Christian_Panucci | clubs | Inter_Milan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | Genoa_C.F.C.</mtriple>
+        <mtriple>Christian_Panucci | club | Inter_Milan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio are managed by Christian Panucci who plays for Inter Milan and previously for football for Genoa C.F.C.</lex>
+      <lex comment="good" lid="Id2">A.S. Livorno Calcio are managed by Christian Panucci who has played for Inter Milan and is attached to the club Genoa CFC.</lex>
+      <lex comment="good" lid="Id3">Christian Panucci played football for Genoa C.F.C. and Inter Milan, but now manages A.S. Livorno Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id91" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | clubs | Genoa_C.F.C.</otriple>
+        <otriple>Christian_Panucci | team | Italy_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | Genoa_C.F.C.</mtriple>
+        <mtriple>Christian_Panucci | club | Italy_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio are managed by Christian Panucci who played football for Genoa C.F.C. and the Italy national football team.</lex>
+      <lex comment="good" lid="Id2">Christian Panucci plays for Genoa C.F.C. and the Italian national team, he also manages A.S. Livorno.</lex>
+      <lex comment="good" lid="Id3">A.S. Livorno Calcio are managed by Christian Panucci who played for the Italy national football team and is attached to the club Genoa CFC.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id92" size="3">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | manager | Christian_Panucci</otriple>
+        <otriple>Christian_Panucci | team | Italy_national_football_team</otriple>
+        <otriple>Christian_Panucci | clubs | Inter_Milan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | manager | Christian_Panucci</mtriple>
+        <mtriple>Christian_Panucci | club | Italy_national_football_team</mtriple>
+        <mtriple>Christian_Panucci | club | Inter_Milan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Christian Panucci played for the Italy national football team and Inter Milan as well as managing A.S. Livorno Calcio.</lex>
+      <lex comment="good" lid="Id2">A.S. Livorno Calcio are managed by Christian Panucci who played for the Italy national football team and Inter Milan.</lex>
+      <lex comment="good" lid="Id3">A.S. Livorno Calcio are managed by Christian Panucci who plays for the Italy national football team and previously for Inter Milan.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id93" size="3">
+      <originaltripleset>
+        <otriple>A.S._Roma | capacity | 70634</otriple>
+        <otriple>A.S._Roma | fullname | "Associazione Sportiva Roma S.p.A."@en</otriple>
+        <otriple>A.S._Roma | ground | Rome</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Roma | fullname | "Associazione Sportiva Roma S.p.A."@en</otriple>
+        <otriple>A.S._Roma | capacity | "70634"^^xsd:nonNegativeInteger</otriple>
+        <otriple>A.S._Roma | ground | Rome</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Roma | numberOfMembers | 70634</mtriple>
+        <mtriple>A.S._Roma | fullname | "Associazione Sportiva Roma S.p.A."</mtriple>
+        <mtriple>A.S._Roma | ground | Rome</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Roma's fullname is Associazione Sportiva Roma S.p.A. They have 70634 members and their ground is located in Rome.</lex>
+      <lex comment="good" lid="Id2">AS Roma has 70634 members and has a ground in Rome. Their fullname is Associazione Sportiva Roma S.p.A.</lex>
+      <lex comment="good" lid="Id3">The full name of A.S. Roma is Associazione Sportiva Roma S.p.A. They have 70634 members and their ground is in Rome.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id94" size="3">
+      <originaltripleset>
+        <otriple>A.S._Roma | fullname | "Associazione Sportiva Roma S.p.A."@en</otriple>
+        <otriple>A.S._Roma | ground | Stadio_Olimpico</otriple>
+        <otriple>A.S._Roma | capacity | "70634"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A.S._Roma | capacity | 70634</otriple>
+        <otriple>A.S._Roma | fullname | "Associazione Sportiva Roma S.p.A."@en</otriple>
+        <otriple>A.S._Roma | ground | Stadio_Olimpico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Roma | numberOfMembers | 70634</mtriple>
+        <mtriple>A.S._Roma | fullname | "Associazione Sportiva Roma S.p.A."</mtriple>
+        <mtriple>A.S._Roma | ground | Stadio_Olimpico</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Roma play at the Stadio Olimpico, have 70634 members and their full name is Associazione Sportiva Roma S.p.A.</lex>
+      <lex comment="good" lid="Id2">Associazione Sportiva Roma S.p.A.(abbreviated to A.S.Roma) has 70634 members and its ground is Stadio Olimpico.</lex>
+      <lex comment="good" lid="Id3">Associazione Sportiva Roma S.p.A., or A.S Roma for short, has the Stadio Olimpico as its ground and 70634 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id95" size="3">
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | manager | Paulo_Sousa</otriple>
+        <otriple>Paulo_Sousa | team | Juventus_F.C.</otriple>
+        <otriple>Paulo_Sousa | managerClub | Maccabi_Tel_Aviv_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACF_Fiorentina | manager | Paulo_Sousa</mtriple>
+        <mtriple>Paulo_Sousa | club | Juventus_F.C.</mtriple>
+        <mtriple>Paulo_Sousa | club | Maccabi_Tel_Aviv_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paulo Sousa is the manager of the ACF Fiorentina but played for Maccabi Tel Aviv FC. His club is Juventus.</lex>
+      <lex comment="good" lid="Id2">Paul Sousa plays for Juventus F.C. and Maccabi Tel Aviv F.C. while also managing ACF Fiorentina.</lex>
+      <lex comment="good" lid="Id3">Paulo Sousa played for Juventus FC and now plays for Maccabi Tel Aviv F.C while managing ACF Fiorentina.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id96" size="3">
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | manager | Paulo_Sousa</otriple>
+        <otriple>Paulo_Sousa | managerClub | Maccabi_Tel_Aviv_F.C.</otriple>
+        <otriple>Paulo_Sousa | team | Portugal_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACF_Fiorentina | manager | Paulo_Sousa</mtriple>
+        <mtriple>Paulo_Sousa | club | Maccabi_Tel_Aviv_F.C.</mtriple>
+        <mtriple>Paulo_Sousa | club | Portugal_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paulo Sousa is the manager of the ACF Fiorentina. He plays for Maccabi Tel Aviv F.C. and is also a member of the Portugal National Football Team.</lex>
+      <lex comment="good" lid="Id2">The manager of ACF Fiorentina is Paulo Sousa who plays for Maccabi Tel Aviv F.C. and also the Portugal national football team.</lex>
+      <lex comment="good" lid="Id3">Paulo Sousa is the manager of the ACF Fiorentina. He has played for Maccabi Tel Aviv F.C and is a member of the Portugal National Football Team.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id97" size="3">
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | capacity | 47290</otriple>
+        <otriple>ACF_Fiorentina | fullname | "ACF Fiorentina S.p.A."@en</otriple>
+        <otriple>ACF_Fiorentina | season | 2014</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | fullname | "ACF Fiorentina S.p.A."@en</otriple>
+        <otriple>ACF_Fiorentina | season | 2014</otriple>
+        <otriple>ACF_Fiorentina | capacity | "47290"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACF_Fiorentina | numberOfMembers | 47290</mtriple>
+        <mtriple>ACF_Fiorentina | fullname | "ACF Fiorentina S.p.A."</mtriple>
+        <mtriple>ACF_Fiorentina | season | 2014</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">ACF Fiorentina (full name: ACF Fiorentina S.p.A.) competed in the 2014 season and their ground holds 47290 fans.</lex>
+      <lex comment="good" lid="Id2">ACF Fiorentina, who competed in the 2014 season has the fullname of ACF Fiorentina S.p.A. . They currently have 47290 members.</lex>
+      <lex comment="good" lid="Id3">ACF Fiorentina fullname is ACF Fiorentina S.p.A, they have 47290 members and competed in the 2014 season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id98" size="3">
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | capacity | 47290</otriple>
+        <otriple>ACF_Fiorentina | fullname | "ACF Fiorentina S.p.A."@en</otriple>
+        <otriple>ACF_Fiorentina | season | 2014–15_Serie_A</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACF_Fiorentina | fullname | "ACF Fiorentina S.p.A."@en</otriple>
+        <otriple>ACF_Fiorentina | capacity | "47290"^^xsd:nonNegativeInteger</otriple>
+        <otriple>ACF_Fiorentina | season | 2014–15_Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACF_Fiorentina | numberOfMembers | 47290</mtriple>
+        <mtriple>ACF_Fiorentina | fullname | "ACF Fiorentina S.p.A."</mtriple>
+        <mtriple>ACF_Fiorentina | season | 2014–15_Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of ACF Fiorentina is ACF Fiorentina S.p.A., they have 47290 members and played the 2014-15 season in Serie A.</lex>
+      <lex comment="good" lid="Id2">The full name of ACF Fiorentia is "ACF Fiorentina S.p.A," they played the 2014-15 season in Serie A and have 47290 members.</lex>
+      <lex comment="good" lid="Id3">ACF Fiorentina, or ACF Fiorentina S.p.A., has 47290 members and played in the 2014-15 Serie A season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id99" size="3">
+      <originaltripleset>
+        <otriple>AEK_Athens_F.C. | league | Superleague_Greece</otriple>
+        <otriple>Superleague_Greece | champions | Olympiacos_F.C.</otriple>
+        <otriple>AEK_Athens_F.C. | ground | Athens</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AEK_Athens_F.C. | league | Superleague_Greece</mtriple>
+        <mtriple>Superleague_Greece | champions | Olympiacos_F.C.</mtriple>
+        <mtriple>AEK_Athens_F.C. | ground | Athens</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AEK Athens FC who's grounds are in Athens compete in the Superleague Greece, the champion of which is Olympiacos F.C.</lex>
+      <lex comment="good" lid="Id2">AEK Athens F.C. who's grounds are in Athens, play in the Superleague Greece, the previous champions of which were Olympiacos FC.</lex>
+      <lex comment="good" lid="Id3">AEK Athens F.C., with their ground in Athens, play in the Superleague Greece in which Olympiacos F.C. were past champions.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id100" size="3">
+      <originaltripleset>
+        <otriple>AEK_Athens_F.C. | league | Superleague_Greece</otriple>
+        <otriple>Superleague_Greece | champions | Olympiacos_F.C.</otriple>
+        <otriple>AEK_Athens_F.C. | ground | Olympic_Stadium_(Athens)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AEK_Athens_F.C. | league | Superleague_Greece</mtriple>
+        <mtriple>Superleague_Greece | champions | Olympiacos_F.C.</mtriple>
+        <mtriple>AEK_Athens_F.C. | ground | Olympic_Stadium_(Athens)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AEK Athens F.C. is in the Superleague of Greece (previous champions: Olympiacos), and their home ground is The Olympic Stadium (Athens).</lex>
+      <lex comment="good" lid="Id2">The ground for AEK Athens FC is the Olympic Stadium (Athens) and they compete in the Superleague Greece. Previous champions of the superleague are Olympiacos FC.</lex>
+      <lex comment="toFix" lid="Id3">AEK Athens FC compete in the Superleague Greece are previous champions and home ground is The Olympic Stadium (Athens).</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id101" size="3">
+      <originaltripleset>
+        <otriple>AEK_Athens_F.C. | capacity | 69618</otriple>
+        <otriple>AEK_Athens_F.C. | ground | Greece</otriple>
+        <otriple>AEK_Athens_F.C. | league | Superleague_Greece</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AEK_Athens_F.C. | ground | Greece</otriple>
+        <otriple>AEK_Athens_F.C. | league | Superleague_Greece</otriple>
+        <otriple>AEK_Athens_F.C. | capacity | "69618"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AEK_Athens_F.C. | numberOfMembers | 69618</mtriple>
+        <mtriple>AEK_Athens_F.C. | ground | Greece</mtriple>
+        <mtriple>AEK_Athens_F.C. | league | Superleague_Greece</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AEK Athens FC, whose home ground is in Greece, has 69618 members and compete in the Superleague Greece.</lex>
+      <lex comment="good" lid="Id2">AEK Athens F.C has 69618 members, has its grounds in Greece and plays in the Superleague Greece.</lex>
+      <lex comment="good" lid="Id3">AEK Athens F.C., with 69618 members, play in the Superleague Greece. Their ground is in Athens.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id102" size="3">
+      <originaltripleset>
+        <otriple>AEK_Athens_F.C. | capacity | 69618</otriple>
+        <otriple>AEK_Athens_F.C. | ground | Olympic_Stadium_(Athens)</otriple>
+        <otriple>AEK_Athens_F.C. | league | Superleague_Greece</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AEK_Athens_F.C. | ground | Olympic_Stadium_(Athens)</otriple>
+        <otriple>AEK_Athens_F.C. | league | Superleague_Greece</otriple>
+        <otriple>AEK_Athens_F.C. | capacity | "69618"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AEK_Athens_F.C. | numberOfMembers | 69618</mtriple>
+        <mtriple>AEK_Athens_F.C. | ground | Olympic_Stadium_(Athens)</mtriple>
+        <mtriple>AEK_Athens_F.C. | league | Superleague_Greece</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Olympic Stadium (Athens) is the home ground of AEK Athens FC who compete in the Superleague Greece. The club has 69618 members.</lex>
+      <lex comment="good" lid="Id2">AEK Athens F.C. is in the Superleague of Greece and has 69618 members. Their ground is the Olympic Stadium in Athens.</lex>
+      <lex comment="good" lid="Id3">The Olympic Stadium (Athens), is the home ground of AEK Athens FC, have 69618 members and are in the Superleague of Greece.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id103" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax | season | 2014–15_Eredivisie</otriple>
+        <otriple>AFC_Ajax | capacity | 53502</otriple>
+        <otriple>AFC_Ajax | fullname | "Amsterdamsche Football Club Ajax"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax | capacity | "53502"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AFC_Ajax | season | 2014–15_Eredivisie</otriple>
+        <otriple>AFC_Ajax | fullname | "Amsterdamsche Football Club Ajax"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax | numberOfMembers | 53502</mtriple>
+        <mtriple>AFC_Ajax | season | 2014–15_Eredivisie</mtriple>
+        <mtriple>AFC_Ajax | fullname | "Amsterdamsche Football Club Ajax"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of AFC Ajax is Amsterdamsche Football Club Ajax. They have 53502 members and were in the Eredivisie for the season 2014-2015.</lex>
+      <lex comment="good" lid="Id2">The full name of AFC Ajax is Amsterdamsche Football Club Ajax, they played in the 2014-15 Eredivisie season and have 53502 members.</lex>
+      <lex comment="good" lid="Id3">The full name of AFC Ajax is "Amsterdamsche Football Club Ajax". It were in the Eredivisie for the season 2014-2015 and has 53502 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id104" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax | season | 2014</otriple>
+        <otriple>AFC_Ajax | capacity | "53502"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AFC_Ajax | fullname | "Amsterdamsche Football Club Ajax"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax | season | 2014</otriple>
+        <otriple>AFC_Ajax | capacity | 53502</otriple>
+        <otriple>AFC_Ajax | fullname | "Amsterdamsche Football Club Ajax"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax | season | 2014</mtriple>
+        <mtriple>AFC_Ajax | numberOfMembers | 53502</mtriple>
+        <mtriple>AFC_Ajax | fullname | "Amsterdamsche Football Club Ajax"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amsterdamsche Football Club Ajax (abbreviated to AFC Ajax) has 53502 members and played in season 2014.</lex>
+      <lex comment="good" lid="Id2">The full name of AFC Ajax is Amsterdamsche Football Club Ajax, they have 53502 members and played in season 2014.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id105" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</otriple>
+        <otriple>Sportpark_De_Toekomst | operator | AFC_Ajax</otriple>
+        <otriple>Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</mtriple>
+        <mtriple>Sportpark_De_Toekomst | operator | AFC_Ajax</mtriple>
+        <mtriple>Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst where Ajax Youth Academy also play.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst, tenanted by Ajax Youth Academy and operated by AFC Ajax.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id106" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</otriple>
+        <otriple>Sportpark_De_Toekomst | operator | AFC_Ajax</otriple>
+        <otriple>Sportpark_De_Toekomst | tenant | Jong_Ajax</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</mtriple>
+        <mtriple>Sportpark_De_Toekomst | operator | AFC_Ajax</mtriple>
+        <mtriple>Sportpark_De_Toekomst | tenant | Jong_Ajax</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst which is operated by AFC Ajax. The tenant of the ground is Jong Ajax.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst, operated by AFC Ajax. The tenant is Jong Ajax.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax and amateur's ground is Sportpark De Toekomst. Jon Ajax are the tenants of the De Toekomst Sportpark.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id107" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</otriple>
+        <otriple>Sportpark_De_Toekomst | owner | AFC_Ajax_N.V.</otriple>
+        <otriple>Sportpark_De_Toekomst | tenant | Jong_Ajax</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</otriple>
+        <otriple>Sportpark_De_Toekomst | owner | AFC_Ajax_N.V.</otriple>
+        <otriple>Sportpark_De_Toekomst | tenants | Jong_Ajax</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</mtriple>
+        <mtriple>Sportpark_De_Toekomst | owner | AFC_Ajax_N.V.</mtriple>
+        <mtriple>Sportpark_De_Toekomst | tenant | Jong_Ajax</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax N.V. own Sportpark De Toekomst where Jong Ajax is the tenant. It is the ground of AFC Ajaz (amateurs).</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateur) play as Sportpark De Toekomst, which is owned by AFC Ajax N.V, with Jong Ajax as the tenant.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id108" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</otriple>
+        <otriple>Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</otriple>
+        <otriple>Sportpark_De_Toekomst | owner | AFC_Ajax_N.V.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</mtriple>
+        <mtriple>Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</mtriple>
+        <mtriple>Sportpark_De_Toekomst | owner | AFC_Ajax_N.V.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ajax Youth Academy is a tenant of Sportpark De Toekomst which is owned by AFC Ajax NV and is the ground for AFC Ajax (amateurs).</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst, tenanted by Ajax Youth Academy and owned by AFC Ajax N.V.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax N.V. own Sportpark De Toekomst who in turn host both the Ajax Youth Academy and AFC Ajax (amateurs).</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id109" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</otriple>
+        <otriple>Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</otriple>
+        <otriple>Sportpark_De_Toekomst | tenants | Jong_Ajax</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</mtriple>
+        <mtriple>Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</mtriple>
+        <mtriple>Sportpark_De_Toekomst | tenant | Jong_Ajax</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst of which both Ajax Youth Academy and Jong Ajax are tenants.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst where the Ajax Youth Academy and Jon Ajax are also tenants of.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax (amateurs)'s ground is Sportpark De Toekomst, tenanted by Ajax Youth Academy (Jong Ajax).</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id110" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | capacity | "5000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AFC_Ajax_(amateurs) | season | 2014–15_Topklasse</otriple>
+        <otriple>AFC_Ajax_(amateurs) | fullname | "Amsterdamsche Football Club Ajax Amateurs"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | season | 2014–15_Topklasse</otriple>
+        <otriple>AFC_Ajax_(amateurs) | capacity | 5000</otriple>
+        <otriple>AFC_Ajax_(amateurs) | fullname | "Amsterdamsche Football Club Ajax Amateurs"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | numberOfMembers | 5000</mtriple>
+        <mtriple>AFC_Ajax_(amateurs) | season | 2014–15_Topklasse</mtriple>
+        <mtriple>AFC_Ajax_(amateurs) | fullname | "Amsterdamsche Football Club Ajax Amateurs"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Amsterdamsche Football Club Ajax Amateurs is now known as AFC Ajax and has 5000 members and has played in the 2014-15 Topklasse season.</lex>
+      <lex comment="good" lid="Id2">The AFC Ajax (amateurs) complete name is the "Amsterdamsche Football Club Ajax Amateurs. They play in the Topklasse in the 2014-2015 season and have 5000 memberrs.</lex>
+      <lex comment="good" lid="Id3">The full name of AFC Ajax (amateurs) is "Amsterdamsche Football Club Ajax Amateurs" they have 5000 members and played in the 2014-15 Topklasse season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id111" size="3">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | season | 2014</otriple>
+        <otriple>AFC_Ajax_(amateurs) | capacity | 5000</otriple>
+        <otriple>AFC_Ajax_(amateurs) | fullname | "Amsterdamsche Football Club Ajax Amateurs"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | season | 2014</otriple>
+        <otriple>AFC_Ajax_(amateurs) | capacity | "5000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AFC_Ajax_(amateurs) | fullname | "Amsterdamsche Football Club Ajax Amateurs"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | season | 2014</mtriple>
+        <mtriple>AFC_Ajax_(amateurs) | numberOfMembers | 5000</mtriple>
+        <mtriple>AFC_Ajax_(amateurs) | fullname | "Amsterdamsche Football Club Ajax Amateurs"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of AFC Ajax (amateurs) is "Amsterdamsche Football Club Ajax Amateurs", they have 5000 members and played in the 2014 season.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (Amateurs) competed in the 2014 season and has 5000 members. Their full name is Amsterdamsche Football Club Ajax Amateurs.</lex>
+      <lex comment="good" lid="Id3">Amsterdamsche Football Club Ajax Amateurs (abbreviated to AFC Ajax (amateurs), competed in the 2014 season and has 5000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id112" size="3">
+      <originaltripleset>
+        <otriple>AZAL_PFK | fullname | "AZAL Peşəkar Futbol Klubu"@en</otriple>
+        <otriple>AZAL_PFK | season | 2014</otriple>
+        <otriple>AZAL_PFK | capacity | "3500"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AZAL_PFK | fullname | "AZAL Peşəkar Futbol Klubu"@en</otriple>
+        <otriple>AZAL_PFK | season | 2014</otriple>
+        <otriple>AZAL_PFK | capacity | 3500</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZAL_PFK | fullname | "AZAL Peşəkar Futbol Klubu"</mtriple>
+        <mtriple>AZAL_PFK | season | 2014</mtriple>
+        <mtriple>AZAL_PFK | numberOfMembers | 3500</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The fullname of AZAL PFK is AZAL Pesokar Futbol Klubu, they have 3500 members and were in the 2014 season.</lex>
+      <lex comment="good" lid="Id2">The full name of AZAL PFK is AZAL Pesokar Futbol Klubu. They competed in the 2014 season and have 3500 members.</lex>
+      <lex comment="good" lid="Id3">AZAL PFK stands for "AZAL Peşəkar Futbol Klubu". They competed in the season 2014 and have 3500 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id113" size="3">
+      <originaltripleset>
+        <otriple>AZAL_PFK | fullname | "AZAL Peşəkar Futbol Klubu"@en</otriple>
+        <otriple>AZAL_PFK | season | 2014–15_Azerbaijan_Premier_League</otriple>
+        <otriple>AZAL_PFK | capacity | 3500</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AZAL_PFK | fullname | "AZAL Peşəkar Futbol Klubu"@en</otriple>
+        <otriple>AZAL_PFK | season | 2014–15_Azerbaijan_Premier_League</otriple>
+        <otriple>AZAL_PFK | capacity | "3500"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZAL_PFK | fullname | "AZAL Peşəkar Futbol Klubu"</mtriple>
+        <mtriple>AZAL_PFK | season | 2014–15_Azerbaijan_Premier_League</mtriple>
+        <mtriple>AZAL_PFK | numberOfMembers | 3500</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AZAL PFK stands for "AZAL Peşəkar Futbol Klubu" and they have 3500 members. AZAL PFK Bakou is playing in the Azerbaijan Premier League, 2014–15.</lex>
+      <lex comment="good" lid="Id2">AZAL PFK's full name is AZAL Peşəkar Futbol Klubu. They played in the Azerbaijan PremierLeague, 2014–15 and have 3500 members.</lex>
+      <lex comment="good" lid="Id3">The AZAL PFK (abbreviated from "AZAL Peşəkar Futbol Klubu"), with 3500 members, competed in The Azerbaijan Premier League in 2014-15.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id114" size="3">
+      <originaltripleset>
+        <otriple>AZAL_PFK | league | Azerbaijan_Premier_League</otriple>
+        <otriple>Azerbaijan_Premier_League | champions | Qarabağ_FK</otriple>
+        <otriple>AZAL_PFK | capacity | 3500</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZAL_PFK | league | Azerbaijan_Premier_League</mtriple>
+        <mtriple>Azerbaijan_Premier_League | champions | Qarabağ_FK</mtriple>
+        <mtriple>AZAL_PFK | numberOfMembers | 3500</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The AZAL PFK, with 3500 members, competes in The Azerbaijan Premier League, with championship team being Qarabag FK.</lex>
+      <lex comment="good" lid="Id2">Qarabag FK are champions of the Azerbaijan Premier League which AZAL PFK play in and they have 3500 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id115" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | fullname | "Alkmaar Zaanstreek"@en</otriple>
+        <otriple>AZ_Alkmaar | capacity | "17023"^^xsd:nonNegativeInteger</otriple>
+        <otriple>AZ_Alkmaar | season | 2014–15_Eredivisie</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | fullname | "Alkmaar Zaanstreek"@en</otriple>
+        <otriple>AZ_Alkmaar | season | 2014–15_Eredivisie</otriple>
+        <otriple>AZ_Alkmaar | capacity | 17023</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | fullname | "Alkmaar Zaanstreek"</mtriple>
+        <mtriple>AZ_Alkmaar | season | 2014–15_Eredivisie</mtriple>
+        <mtriple>AZ_Alkmaar | numberOfMembers | 17023</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AZ Alkmaar has 17023 members and played in the Eredivisie in the 2014-15 season. Their full name is Alkmaar Zaanstreek.</lex>
+      <lex comment="good" lid="Id2">Alkmaar "AZ" Zaanstreek, the 17023 member strong club, played in the Eredivisie in 2014-15.</lex>
+      <lex comment="good" lid="Id3">Alkmaar Zaanstreek (abbreviated to AZ Alkmaar) has 17023 members and played in the Eredivisie in 2014-15.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id116" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | managerClub | ADO_Den_Haag</otriple>
+        <otriple>John_van_den_Brom | team | De_Graafschap</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | ADO_Den_Haag</mtriple>
+        <mtriple>John_van_den_Brom | club | De_Graafschap</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom is the manager of AZ Alkmaar as well as a player for ADO Den Haag and De Graafschap.</lex>
+      <lex comment="good" lid="Id2">John van den Brom manages the AZ Alkmaair as well as playing for the ADO Den Haag and the De Graafschap.</lex>
+      <lex comment="good" lid="Id3">John van den Brom has been manager of AZ Alkmaar, he plays for both ADO Den Haag and De Graafschap.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id117" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | team | AFC_Ajax</otriple>
+        <otriple>John_van_den_Brom | managerClub | Jong_Ajax</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | AFC_Ajax</mtriple>
+        <mtriple>John_van_den_Brom | club | Jong_Ajax</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom was manager of AZ Alkmaar and now plays for AFC and Jong Ajax.</lex>
+      <lex comment="good" lid="Id2">John van den Brom manages for the AZ Alkmaair, plays for AFC Ajax and is in the Jong Ajax Club.</lex>
+      <lex comment="good" lid="Id3">John van den Brom is the manager of AZ Alkmaar and plays for AFC Ajax and Jong Ajax.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id118" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | team | AFC_Ajax</otriple>
+        <otriple>John_van_den_Brom | managerClub | R.S.C._Anderlecht</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | AFC_Ajax</mtriple>
+        <mtriple>John_van_den_Brom | club | R.S.C._Anderlecht</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom plays for AFC Ajax and R.S.C. Anderlecht. He is also the manager of AZ Alkmaar.</lex>
+      <lex comment="good" lid="Id2">John van den Brom has been manager of AZ Alkmaar and plays for AFC Ajax and R.S.C. Anderlecht.</lex>
+      <lex comment="good" lid="Id3">John van den Brom manages the AZ Alkmaair and plays for both R.S.C. Anderlecht and AFC Ajax.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id119" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | team | AFC_Ajax</otriple>
+        <otriple>John_van_den_Brom | managerClub | Vitesse_Arnhem</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | AFC_Ajax</mtriple>
+        <mtriple>John_van_den_Brom | club | Vitesse_Arnhem</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom has been manager of AZ Alkmaar, he is in Vitesse Arnhem and plays for AFC Ajax.</lex>
+      <lex comment="good" lid="Id2">John van den Brom has been manager of AZ Alkmaar and plays for both AFC Ajax and Vitesse Arnhem.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id120" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | managerClub | R.S.C._Anderlecht</otriple>
+        <otriple>John_van_den_Brom | team | De_Graafschap</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | R.S.C._Anderlecht</mtriple>
+        <mtriple>John_van_den_Brom | club | De_Graafschap</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom manages the AZ Alkmaair and plays for both R.S.C. Anderlecht and De Graafschap.</lex>
+      <lex comment="good" lid="Id2">The manager of AZ Alkmaar is john van den Brom who plays for tboh R.S.C. Anderlecht and De Graafschap.</lex>
+      <lex comment="good" lid="Id3">John van den Brom has been manager of AZ Alkmaar and plays for both R.S.C. Anderlecht and De Graafschap.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id121" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | managerClub | R.S.C._Anderlecht</otriple>
+        <otriple>John_van_den_Brom | team | Netherlands_national_football_team</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | R.S.C._Anderlecht</mtriple>
+        <mtriple>John_van_den_Brom | club | Netherlands_national_football_team</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom played for the Netherlands national football team. He now plays for RSC Anderlecht and is manager of AZ Alkmaar.</lex>
+      <lex comment="good" lid="Id2">John van den Brom plays for the Netherlands football team and RSC Anderlecht, and manages AZ Alkmaair.</lex>
+      <lex comment="good" lid="Id3">John van den Brom has been manager of AZ Alkmaar and plays for R.S.C. Anderlecht. He previously played for the Netherlands national football team.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id122" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | managerClub | R.S.C._Anderlecht</otriple>
+        <otriple>John_van_den_Brom | team | İstanbulspor_A.Ş.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | R.S.C._Anderlecht</mtriple>
+        <mtriple>John_van_den_Brom | club | İstanbulspor_A.Ş.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom is a player in İstanbulspor A.Ş but also manages the AZ Alkmaair and plays for R.S.C. Anderlecht.</lex>
+      <lex comment="good" lid="Id2">John van den Brom is a player in İstanbulspor A.Ş. and plays for R.S.C. Anderlecht as well as managing AZ Alkmaar.</lex>
+      <lex comment="good" lid="Id3">John van den Brom plays for R.S.C. Anderlecht and Istanbulspor A.S. He is also manager of AZ Alkmaar.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id123" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | team | Vitesse_Arnhem</otriple>
+        <otriple>John_van_den_Brom | managerClub | ADO_Den_Haag</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | Vitesse_Arnhem</mtriple>
+        <mtriple>John_van_den_Brom | club | ADO_Den_Haag</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom is the manager of AZ Alkmaar. He plays for Vitesse Arnhem and ADO Den Haag.</lex>
+      <lex comment="good" lid="Id2">John van den Brom manages the AZ Alkmaair and plays for both Vitesse Arnhem and ADO Den Haag.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id124" size="3">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | manager | John_van_den_Brom</otriple>
+        <otriple>John_van_den_Brom | team | Vitesse_Arnhem</otriple>
+        <otriple>John_van_den_Brom | managerClub | Jong_Ajax</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | manager | John_van_den_Brom</mtriple>
+        <mtriple>John_van_den_Brom | club | Vitesse_Arnhem</mtriple>
+        <mtriple>John_van_den_Brom | club | Jong_Ajax</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom plays for Vitesse Arnhem and in the Jong Ajax club. He is also the manager of AZ Alkmaar.</lex>
+      <lex comment="good" lid="Id2">John van den Brom plays for both Vitesse Arnham and Jong Ajax. He has also managed AZ Alkmaar.</lex>
+      <lex comment="good" lid="Id3">John van den Brom, who is a member of the Jong Ajax club and plays for Vitesse Arnhem, has been manager of AZ Alkmaar.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id125" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league in Brazil. Their full name is"Agremiação Sportiva Arapiraquense".</lex>
+      <lex comment="good" lid="Id2">Agremiação Sportiva Arapiraquense's full name is "Agremiação Sportiva Arapiraquense". They play in the Campeonato Brasileiro Série C league, Brazil.</lex>
+      <lex comment="good" lid="Id3">Agrremiacao Sportiva Arapiraquense (abbr. Agremiacao Sportiva Arapiraquense) play in the Campeonato Brasileiro Serie C League which is based in Brazil.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id126" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | manager | Vica</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | manager | Vica</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense are managed by Vica and play in the Campeonato Brasileiro Série C league in Brazil.</lex>
+      <lex comment="good" lid="Id2">Agremiação Sportiva Arapiraquense play in Brazil's Campeonato Brasileiro Série C league and are managed by Vica.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id127" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league in Brazil. Their stadium holds 17000 fans.</lex>
+      <lex comment="good" lid="Id2">Agremiação Sportiva Arapiraquense, who have 17000 members, play in the Campeonato Brasileiro Série C league based in Brazil.</lex>
+      <lex comment="good" lid="Id3">Agremiação Sportiva Arapiraquense has 17000 members and play in the Brazilian Campeonato Brasileiro Série C league.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id128" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league in Brazil in 2015.</lex>
+      <lex comment="good" lid="Id2">Agremiação Sportiva Arapiraquense play in Brazil's Campeonato Brasileiro Série C league and competed in the 2015 event.</lex>
+      <lex comment="good" lid="Id3">Agremiação Sportiva Arapiraquense play in the Brazilian-based Campeonato Brasileiro Série C league and they played in the 2015 season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id129" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league, which is based in Brazil and also competed in the 2015 Campeonato Brasileiro Serie C.</lex>
+      <lex comment="good" lid="Id2">Agremiacao Sportiva Arapiraquense play in the Campeonato Brasileiro Serie C League in Brazil, specifically in 2015.</lex>
+      <lex comment="good" lid="Id3">Agremiação Sportiva Arapiraquense play in Brazil's Campeonato Brasileiro Série C league and competed in the 2015 event.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id130" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | nickname | "''Alvinegro"@en</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | nickname | "''Alvinegro"@en</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | nickname | "''Alvinegro"</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The nickname of Agremiacao Sportiva Arapiraquense is "Alvinegro", they played in 2015 and they have 17,000 members.</lex>
+      <lex comment="good" lid="Id2">Alvinegro is the nickname of Agremiação Sportiva Arapiraquense. They have 17000 members and play in 2015.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id131" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | nickname | "''Alvinegro"@en</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | nickname | "''Alvinegro"@en</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | nickname | "''Alvinegro"</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense (nickname: Alvinegro) competed in the 2015 Campeonato Brasileiro Série C and their ground holds 17000 fans.</lex>
+      <lex comment="good" lid="Id2">The nickname of Agremiacao Sportiva Arapiraquense is "Alvinegro", they were in Campeonato Brasileiro Serie C in 2015 and have 17000 members.</lex>
+      <lex comment="good" lid="Id3">Agremiação Sportiva Arapiraquense, whose nickname is Alvinegro, has 17000 members and took part in Campeonato Brasileiro Serie C in 2015.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id132" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | nickname | "Asa Gigante ''"@en</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | nickname | "Asa Gigante ''"@en</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | nickname | "Asa Gigante ''"</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Agremiação Sportiva Arapiraquense is nicknamed Asa Gigante. They have 17000 members and played in the 2015 season.</lex>
+      <lex comment="good" lid="Id2">Agremiacao Sportiva Arapiraquense have the nickname Asa Gigante, they played in the 2015 season and have 17000 members.</lex>
+      <lex comment="good" lid="Id3">The Agremiação Sportiva Arapiraquense (nicknamed Asa Gigante) has 17000 members and play in 2015.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id133" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of Agremiação Sportiva Arapiraquense is "Agremiação Sportiva Arapiraquense". The club has 17000 members and competed in the 2015 Campeonato Brasileiro Série C.</lex>
+      <lex comment="toFix" lid="Id2">The Agremiação Sportiva Arapiraquense's full name is"Agremiação Sportiva Arapiraquense" has 17000 members and were in Campeonato Brasileiro Serie C in 2015.</lex>
+      <lex comment="good" lid="Id3">Agremiação Sportiva Arapiraquense's full name is "Agremiação Sportiva Arapiraquense". They competed in the 2015 Campeonato Brasileiro Série C and have 17000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id134" size="3">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | 17000</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | fullname | "Agremiação Sportiva Arapiraquense"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense, full name is"Agremiação Sportiva Arapiraquense". The club has 17000 members and played in the 2015 season.</lex>
+      <lex comment="good" lid="Id2">Agremiação Sportiva Arapiraquense (Agremiação Sportiva Arapiraquense) played in the 2015 season and has 17000 members.</lex>
+      <lex comment="good" lid="Id3">Agremiacao Sportiva Arapiraquense has 17000 members and played in 2015.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id135" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | Akron,_Ohio</otriple>
+        <otriple>Akron_Summit_Assault | league | Premier_Development_League</otriple>
+        <otriple>Premier_Development_League | champions | K-W_United_FC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | Akron,_Ohio</mtriple>
+        <mtriple>Akron_Summit_Assault | league | Premier_Development_League</mtriple>
+        <mtriple>Premier_Development_League | champions | K-W_United_FC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Akron Summit Assault team is based in Akron, Ohio and play in the Premier Development League where K-W United FC were previous champions.</lex>
+      <lex comment="good" lid="Id2">Akron Summit Assault (Akron, Ohio) played in the Premier Development League, which K-W United FC were champions.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id136" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>Akron,_Ohio | country | United_States</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>Akron,_Ohio | country | United_States</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault's ground is St. Vincent-St. Mary High School, Akron, Ohio, US.</lex>
+      <lex comment="good" lid="Id2">Akron Summit Assault play at the St. Vincent-St. Mary High School in the city of Akron, Ohio, USA.</lex>
+      <lex comment="good" lid="Id3">Akron Summit Assault's ground is St. Vincent-St. Mary High School which is located in the city of Akron, Ohio, U.S.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id137" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>Akron,_Ohio | isPartOf | Summit_County,_Ohio</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>Akron,_Ohio | isPartOf | Summit_County,_Ohio</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault's ground is St. Vincent-St. Mary High School, Akron, Ohio, which is part of Summit County, Ohio.</lex>
+      <lex comment="good" lid="Id2">Akron Summit Assault has its grounds at St. Vincent-St. Mary High School which is in Akron, Ohio, part of Summit County, Ohio.</lex>
+      <lex comment="good" lid="Id3">St. Vincent-St. Mary High School, located in Akron, Ohio; Summit County, is home to Akron Summit Assault.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id138" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>Akron,_Ohio | leaderName | Dan_Horrigan</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>Akron,_Ohio | leader | Dan_Horrigan</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dan Horrigan is the governor of Akron, Ohio which has St. Vincent-St. Mary High School located in it , and inside the high school is the Akron Summit Assault organization.</lex>
+      <lex comment="good" lid="Id2">Akron Summit Assault's ground is St. Vincent-St. Mary High School in Akron, Ohio where Dan Horrigan is the leader.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id139" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>Akron,_Ohio | subdivisionName | Summit_County,_Ohio</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>Akron,_Ohio | location | Summit_County,_Ohio</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">St. Vincent–St. Mary High School is in Akron, Ohio which is in Summit County and home to the ground of Akron Summit Assault.</lex>
+      <lex comment="good" lid="Id2">St. Vincent-St. Mary High School, Akron (a summit county in Ohio) - is home to the Akron Summit Assault's ground.</lex>
+      <lex comment="good" lid="Id3">St Vincent-St Mary High School is the ground of Akron Summit Assault, Akron Summit County Ohio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id140" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>Akron,_Ohio | subdivisionName | United_States</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>Akron,_Ohio | location | United_States</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault's ground is located at St Vincent-St Mary High School, Akron, Ohio, United States.</lex>
+      <lex comment="good" lid="Id2">St Vincent-St Mary High School (Akron, Ohio, US) is the ground of Akron Summit Assault.</lex>
+      <lex comment="good" lid="Id3">Akron Summit Assault's ground is St. Vincent-St. Mary High School, Akron Ohio, United States.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id141" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | country | United_States</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | country | United_States</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault's ground is St. Vincent-St. Mary High School in the city of Akron, Ohio, United States.</lex>
+      <lex comment="good" lid="Id2">In Akron, Ohio, the Akron Summit Assault organization is located inside the St. Vincent-St. Mary High School.</lex>
+      <lex comment="good" lid="Id3">St Vincent-St Mary High School (loc: Akron, Ohio, US) is the ground of Akron Summit Assault.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id142" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | state | Ohio</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | state | Ohio</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | city | Akron,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">St Vincent-St Mary High School in Akron, Ohio, is the ground of Akron Summit Assault.</lex>
+      <lex comment="good" lid="Id2">St Vincent-St Mary High School is the ground of Akron Summit Assault, Akron Ohio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id143" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | state | Ohio</otriple>
+        <otriple>St._Vincent–St._Mary_High_School | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | state | Ohio</mtriple>
+        <mtriple>St._Vincent–St._Mary_High_School | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault is located at the St. Vincent-St. Mary High school in Ohio.</lex>
+      <lex comment="good" lid="Id2">St. Vincent-St.Mary High School is in Ohio in the United States and is the ground of Akron Summit Assault.</lex>
+      <lex comment="good" lid="Id3">St Vincent-St Mary High School is the ground of Akron Summit Assault, in the state of Ohio in the United States of America.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id144" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | manager | "Denzil Antonio"@en</otriple>
+        <otriple>Akron_Summit_Assault | season | 2011</otriple>
+        <otriple>Akron_Summit_Assault | capacity | "3000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | manager | "Denzil Antonio"@en</otriple>
+        <otriple>Akron_Summit_Assault | season | 2011</otriple>
+        <otriple>Akron_Summit_Assault | capacity | 3000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | manager | Denzil_Antonio</mtriple>
+        <mtriple>Akron_Summit_Assault | season | 2011</mtriple>
+        <mtriple>Akron_Summit_Assault | numberOfMembers | 3000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Denzil Antonio is the manager of Akron Summit Assault who are in season 2011 and have 3000 members.</lex>
+      <lex comment="good" lid="Id2">Akron Summit Assault are in season 2011 and have 3000 members. Their manager is Denzil Antonio.</lex>
+      <lex comment="good" lid="Id3">Akron Summit Assault (managed by Denzil Antonio), has 3000 members and was in the 2011 season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id145" size="3">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | manager | "Denzil Antonio"@en</otriple>
+        <otriple>Akron_Summit_Assault | season | 2011_PDL_season</otriple>
+        <otriple>Akron_Summit_Assault | capacity | 3000</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | manager | "Denzil Antonio"@en</otriple>
+        <otriple>Akron_Summit_Assault | capacity | "3000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Akron_Summit_Assault | season | 2011_PDL_season</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | capacity | "3000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Akron_Summit_Assault | manager | Denzil_Antonio</otriple>
+        <otriple>Akron_Summit_Assault | season | 2011_PDL_season</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | numberOfMembers | 3000</mtriple>
+        <mtriple>Akron_Summit_Assault | manager | Denzil_Antonio</mtriple>
+        <mtriple>Akron_Summit_Assault | season | 2011_PDL_season</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Denzil Antonio is the manager of Akron Summit Assault which has 3000 members and played in the 2011 PDL season.</lex>
+      <lex comment="good" lid="Id2">Denzil Antonio is the manager of Akron Summit Assault which has 3000 members and plays in the 2011 PDL season.</lex>
+      <lex comment="good" lid="Id3">Akron Summit Assault , with 3000 members managed by Denzil Antonio, play in the 2011 PDL season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id146" size="3">
+      <originaltripleset>
+        <otriple>Italy | capital | Rome</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+        <otriple>Italy | language | Italian_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | capital | Rome</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+        <mtriple>Italy | language | Italian_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Italy they speak Italian and is the home to the ground of A.S. Gubbio 1910 as well as the capital city of Rome.</lex>
+      </entry>
+    <entry category="SportsTeam" eid="Id147" size="3">
+      <originaltripleset>
+        <otriple>Italy | capital | Rome</otriple>
+        <otriple>Italy | leader | Sergio_Mattarella</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | capital | Rome</mtriple>
+        <mtriple>Italy | leader | Sergio_Mattarella</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Italy the capital is Rome, the leader is Sergio Mattarella and the ground of A.S. Gubbio 1910 is located there.</lex>
+      <lex comment="good" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy. The capital of the country is Rome and it's leader is Sergio Mattarella.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id148" size="3">
+      <originaltripleset>
+        <otriple>Italy | demonym | Italians</otriple>
+        <otriple>Italy | capital | Rome</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | demonym | Italians</mtriple>
+        <mtriple>Italy | capital | Rome</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Italy is where Italian people live, Rome is the capital and the ground of A.S. Gubbio 1910 can be found there.</lex>
+      <lex comment="good" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy where the people are known as Italians and the capital city is Rome.</lex>
+      <lex comment="good" lid="Id3">The ground of A.S. Gubbio 1910 is located in Italy, the capital of which is Rome and it's people called Italians.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id149" size="3">
+      <originaltripleset>
+        <otriple>Italy | leader | Pietro_Grasso</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+        <otriple>Italy | language | Italian_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | leader | Pietro_Grasso</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+        <mtriple>Italy | language | Italian_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ground of A.S. Gubbio 1910 is located in Italy where they speak Italian. The leader of the country is Pietro Grasso.</lex>
+      <lex comment="good" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy, the country's leader is leader is Pietro Grasso and obviously they speak Italian there.</lex>
+      <lex comment="good" lid="Id3">The ground of A.S. Gubbio 1910 is located in Italy, where the leader is Piero Grasso and Italian is the spoken language.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id150" size="3">
+      <originaltripleset>
+        <otriple>Italy | leaderName | Pietro_Grasso</otriple>
+        <otriple>Italy | capital | Rome</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Italy | leader | Pietro_Grasso</otriple>
+        <otriple>Italy | capital | Rome</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | leader | Pietro_Grasso</mtriple>
+        <mtriple>Italy | capital | Rome</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ground of A.S. Gubbio 1910 is located in Italy where Pietro Grasso is the leader and the capital city is Rome.</lex>
+      <lex comment="toFix" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy. whose leader is Pietro Grasso and capital is Rome.</lex>
+      <lex comment="good" lid="Id3">The ground of A.S. Gubbio 1910 is located in Italy, the capital of which is Rome and it's leader is Pietro Grasso.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id151" size="3">
+      <originaltripleset>
+        <otriple>Italy | leader | Pietro_Grasso</otriple>
+        <otriple>Italy | demonym | Italians</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | leader | Pietro_Grasso</mtriple>
+        <mtriple>Italy | demonym | Italians</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ground of A.S. Gubbio 1910 is located in Italy where Pietro Grasso is the leader of the Italians.</lex>
+      <lex comment="good" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy, the country of Italians where the leader is Pietro Grasso.</lex>
+      <lex comment="good" lid="Id3">Italy (led by Pietro Grasso) is home to the Italian people and A.S. Gubbio 1910.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id152" size="3">
+      <originaltripleset>
+        <otriple>Italy | leaderName | Pietro_Grasso</otriple>
+        <otriple>Italy | leader | Sergio_Mattarella</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | leader | Pietro_Grasso</mtriple>
+        <mtriple>Italy | leader | Sergio_Mattarella</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Pietro Grasso and Sergio Mattarella are leaders in Italy where the ground of AS Gubbio 1910 is located.</lex>
+      <lex comment="good" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy. The leader of Italy is Pietro Grasso and/or Sergio Mattarella.</lex>
+      <lex comment="good" lid="Id3">The ground of A.S. Gubbio 1910 is located in Italy, where Sergio Mattarella and Pietro Grasso are leaders.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id153" size="3">
+      <originaltripleset>
+        <otriple>Italy | leader | Sergio_Mattarella</otriple>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+        <otriple>Italy | language | Italian_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | leader | Sergio_Mattarella</mtriple>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+        <mtriple>Italy | language | Italian_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ground of A.S. Gubbio 1910 is located in Italy where the leader is Sergio Mattarella and Italian is the spoken language.</lex>
+      <lex comment="good" lid="Id2">The ground of A.S. Gubbio 1910 is located in Italy, who's leader is Sergio Mattarella and where they speak Italian.</lex>
+      <lex comment="good" lid="Id3">The ground of A.S. Gubbio 1910 is located in Italy. The country's leader is Sergio Mattarella and there they speak Italian.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id154" size="3">
+      <originaltripleset>
+        <otriple>Luciano_Spalletti | managerClub | Empoli_F.C.</otriple>
+        <otriple>A.S._Roma | manager | Luciano_Spalletti</otriple>
+        <otriple>Luciano_Spalletti | team | Virtus_Entella</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Luciano_Spalletti | team | Empoli_F.C.</otriple>
+        <otriple>A.S._Roma | manager | Luciano_Spalletti</otriple>
+        <otriple>Luciano_Spalletti | clubs | Virtus_Entella</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Luciano_Spalletti | clubs | Empoli_F.C.</otriple>
+        <otriple>A.S._Roma | manager | Luciano_Spalletti</otriple>
+        <otriple>Luciano_Spalletti | team | Virtus_Entella</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Luciano_Spalletti | club | Empoli_F.C.</mtriple>
+        <mtriple>A.S._Roma | manager | Luciano_Spalletti</mtriple>
+        <mtriple>Luciano_Spalletti | club | Virtus_Entella</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Luciano Spalletti played for Empoli F.C. and Virtus Entella. He has also been manager of AS Roma.</lex>
+      <lex comment="good" lid="Id2">Luciano Spalletti is a manager for the AS Roma club and plays for Empoli F. C. as well as Virtus Entella.</lex>
+      <lex comment="good" lid="Id3">Luciano Spalletti plays for Empoli F.C. and Virtus Entella while managing A.S. Roma.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id155" size="3">
+      <originaltripleset>
+        <otriple>Luciano_Spalletti | managerClub | Udinese_Calcio</otriple>
+        <otriple>A.S._Roma | manager | Luciano_Spalletti</otriple>
+        <otriple>Luciano_Spalletti | team | Virtus_Entella</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Luciano_Spalletti | club | Udinese_Calcio</mtriple>
+        <mtriple>A.S._Roma | manager | Luciano_Spalletti</mtriple>
+        <mtriple>Luciano_Spalletti | club | Virtus_Entella</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of AS Roma, Luciano Spalletti, plays for Udinese Calcio and was at the club Virtus Entella.</lex>
+      <lex comment="good" lid="Id2">Luciano Spalletti manages AS Roma and also plays for Udinese Calcio and Virtus Entella.</lex>
+      <lex comment="good" lid="Id3">Luciano Spalletti played for Udinese Calcio. He now manages A.S. Roma and plays for Virtus Entella.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id156" size="3">
+      <originaltripleset>
+        <otriple>Massimo_Drago | clubs | S.S._Chieti_Calcio</otriple>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+        <otriple>Massimo_Drago | team | A.S.D._S.S._Nola_1925</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | S.S._Chieti_Calcio</mtriple>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+        <mtriple>Massimo_Drago | club | A.S.D._S.S._Nola_1925</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago has been the manager of A C Cesena whose club is the S.S. Chieti Calcio. and played for A.S.D. S.S. Nola 1925.</lex>
+      <lex comment="good" lid="Id2">Massimo Drago has been the manager of A C Cesena and plays for both S.S. Chieti Calcio and A.S.D. S.S. Nola 1925.</lex>
+      <lex comment="good" lid="Id3">Massimo Drago played for. A.S.D. S.S. Nola 1925, he now plays for S.S. Chieti Calcio and manages A.C. Cesana.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id157" size="3">
+      <originaltripleset>
+        <otriple>Massimo_Drago | team | U.S._Castrovillari_Calcio</otriple>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+        <otriple>Massimo_Drago | clubs | A.S.D._Licata_1931</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | U.S._Castrovillari_Calcio</mtriple>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+        <mtriple>Massimo_Drago | club | A.S.D._Licata_1931</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago has been the manager of A C Cesena and was at the club ASD Licita 1931 but he currently plays for U.S Castrovillari Calcio.</lex>
+      <lex comment="good" lid="Id2">Massimo Drago was once a player for US Castrovillari Calcio and has been the manager of A C Cesena. He was also at the club ASD Licita 1931.</lex>
+      <lex comment="good" lid="Id3">Massimo Drago was at the club ASD Licita 1931. He currently plays for U.S Castrovillari Calcio and manages A.C. Cesena.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id158" size="3">
+      <originaltripleset>
+        <otriple>Massimo_Drago | clubs | U.S._Castrovillari_Calcio</otriple>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+        <otriple>Massimo_Drago | team | Calcio_Catania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | U.S._Castrovillari_Calcio</mtriple>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+        <mtriple>Massimo_Drago | club | Calcio_Catania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago's club was Calcio Catania and he played for US Castrovillari Calcio. He is now the manager of A.C. Cesena.</lex>
+      <lex comment="good" lid="Id2">Massimo Drago once played for US Castrovillari Calcio, is in the club Calcio Catania and manages A.C. Cesena.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id159" size="3">
+      <originaltripleset>
+        <otriple>Massimo_Drago | clubs | U.S._Castrovillari_Calcio</otriple>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+        <otriple>Massimo_Drago | team | Delfino_Pescara_1936</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | U.S._Castrovillari_Calcio</mtriple>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+        <mtriple>Massimo_Drago | club | Delfino_Pescara_1936</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.C. Cesena's manager Massimo Drago was once a player for US Castrovillari Calcio and is now attached to the club Delfino Pescara 1936.</lex>
+      <lex comment="good" lid="Id2">Massimo Drago plays for U.S Castrovillari Calcio and manages A.C. Cesena. He is also attached to the club Delfino Pescara 1936.</lex>
+      <lex comment="good" lid="Id3">Massimo Drago plays for U.S Castrovillari Calcio; he has been the manager of A C Cesena and is attached to the club Delfino Pescara 1936.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id160" size="3">
+      <originaltripleset>
+        <otriple>Massimo_Drago | team | Vigor_Lamezia</otriple>
+        <otriple>A.C._Cesena | manager | Massimo_Drago</otriple>
+        <otriple>Massimo_Drago | clubs | S.S.D._Potenza_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | Vigor_Lamezia</mtriple>
+        <mtriple>A.C._Cesena | manager | Massimo_Drago</mtriple>
+        <mtriple>Massimo_Drago | club | S.S.D._Potenza_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago manages A.C. Cesena and is a former player of Vigor Lamezia and S.S.D. Potenza Calcio.</lex>
+      <lex comment="good" lid="Id2">Attached to the club Vigor Lamezia, Massimo Drago manages A.C. Cesena and once played for the club SSD Potenza Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id161" size="3">
+      <originaltripleset>
+        <otriple>Peter_Stöger | team | FC_Admira_Wacker_Mödling</otriple>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | managerClub | SC_Wiener_Neustadt</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Peter_Stöger | club | FC_Admira_Wacker_Mödling</mtriple>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | SC_Wiener_Neustadt</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Peter Stöger is affiliated with the SC Wiener Neustadt club and manages 1 FC Koln. He also plays for FC Admira Wacker Modling.</lex>
+      <lex comment="good" lid="Id2">Peter Stöger is a player in FC Admira Wacker Mödling. He is also the manager of FC Kolin and is affiliated with the SC Wiener Neustadt club.</lex>
+      <lex comment="good" lid="Id3">Peter Stöger is the manager of 1. FC Koln, his club is the FC Admira Wacker Mödling and he is affiliated with the SC Wiener Neustadt club.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id162" size="3">
+      <originaltripleset>
+        <otriple>Peter_Stöger | team | SK_Rapid_Wien</otriple>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | managerClub | SC_Wiener_Neustadt</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Peter_Stöger | club | SK_Rapid_Wien</mtriple>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | SC_Wiener_Neustadt</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">PeterStöger, manager of FC Kolin plays for both SK Rapid Wien and SC Wiener Neustadt.</lex>
+      <lex comment="good" lid="Id2">Peter Stöger, previously of SK Rapid Wien, is affiliated with the SC Wiener Neustadt club and manages 1. FC Koln.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id163" size="3">
+      <originaltripleset>
+        <otriple>Peter_Stöger | team | SK_Vorwärts_Steyr</otriple>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | managerClub | First_Vienna_FC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Peter_Stöger | club | SK_Vorwärts_Steyr</mtriple>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | First_Vienna_FC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of 1. FC Koln is Peter Stoger who played football for SK Vorwärts Steyr and is attached to the club First Vienna FC.</lex>
+      <lex comment="good" lid="Id2">Peter Stoger (football), First Vienna FC, now a manager of 1. FC Koln, played for SK Vorwarts Steyr.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id164" size="3">
+      <originaltripleset>
+        <otriple>Peter_Stöger | team | SK_Vorwärts_Steyr</otriple>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+        <otriple>Peter_Stöger | managerClub | SC_Wiener_Neustadt</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Peter_Stöger | club | SK_Vorwärts_Steyr</mtriple>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+        <mtriple>Peter_Stöger | club | SC_Wiener_Neustadt</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The manager of 1. FC Koln is Peter Stoger, he has played for SC Wiener Neustadt and is in the SK Vorwärts Steyr club.</lex>
+      <lex comment="good" lid="Id2">Peter Stöger is in the SK Vorwärts Steyr club, is manager of 1. FC Köln and is affiliated with the SC Wiener Neustadt club.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id165" size="3">
+      <originaltripleset>
+        <otriple>Serie_A | champions | Juventus_F.C.</otriple>
+        <otriple>A.C._Chievo_Verona | league | Serie_A</otriple>
+        <otriple>A.C._Chievo_Verona | ground | "Verona, Italy"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Serie_A | champions | Juventus_F.C.</mtriple>
+        <mtriple>A.C._Chievo_Verona | league | Serie_A</mtriple>
+        <mtriple>A.C._Chievo_Verona | ground | "Verona, Italy"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Verona, Italy is the home to A.C. Chievo Verona who played in Serie A where the champions were Juventus F.C.</lex>
+      <lex comment="good" lid="Id2">Verona, Italy is the home to A.C. Chievo Verona who is in the league, Juventus FC have been Serie A champions.</lex>
+      <lex comment="good" lid="Id3">Verona, Italy is home to A.C. Chievo Verona who play in Serie A. Juventus FC have previously been champions of Serie A.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id166" size="3">
+      <originaltripleset>
+        <otriple>Serie_A | champions | Juventus_F.C.</otriple>
+        <otriple>A.C._Chievo_Verona | league | Serie_A</otriple>
+        <otriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Serie_A | champions | Juventus_F.C.</mtriple>
+        <mtriple>A.C._Chievo_Verona | league | Serie_A</mtriple>
+        <mtriple>A.C._Chievo_Verona | ground | Stadio_Marc'Antonio_Bentegodi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AC Chievo Verona's home ground is Stadio Marc Antonio Bentegodi. They play in the Serie A league of which Juventus FC have been champions.</lex>
+      <lex comment="good" lid="Id2">The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi. They play in the Serie A league, which was won by Juventus F.C.</lex>
+      <lex comment="good" lid="Id3">The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi, they are in the Serie A league, of which Juventus FC have been champions.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id167" size="3">
+      <originaltripleset>
+        <otriple>Serie_A | champions | Juventus_F.C.</otriple>
+        <otriple>A.C._Chievo_Verona | league | Serie_A</otriple>
+        <otriple>A.C._Chievo_Verona | ground | Verona</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Serie_A | champions | Juventus_F.C.</mtriple>
+        <mtriple>A.C._Chievo_Verona | league | Serie_A</mtriple>
+        <mtriple>A.C._Chievo_Verona | ground | Verona</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">With grounds in Verona, AC Chievo Verona play in the Serie A league, of which Juventus FC have been champions.</lex>
+      <lex comment="good" lid="Id2">A.C. Chievo Verona's playing ground is at Verona and they play in Serie A, where Juventus FC have been champions.</lex>
+      <lex comment="good" lid="Id3">Juventus F.C. are former champions of Serie A. A.C. Chievo Verona is in that league now and play in Verona.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id168" size="3">
+      <originaltripleset>
+        <otriple>Serie_A | champions | Juventus_F.C.</otriple>
+        <otriple>A.S._Roma | ground | "Rome, Italy"@en</otriple>
+        <otriple>A.S._Roma | league | Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Serie_A | champions | Juventus_F.C.</mtriple>
+        <mtriple>A.S._Roma | ground | "Rome, Italy"</mtriple>
+        <mtriple>A.S._Roma | league | Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Roma plays in the Serie A league in Rome, Italy but the Serie A champions are Juventus F.C.</lex>
+      <lex comment="good" lid="Id2">A.S.Roma's ground is in Rome, Italy and they played in Serie A where the champions were Juventus F.C.</lex>
+      <lex comment="good" lid="Id3">Juventus F.C. are former champions of Serie A. AS Roma also play in the same league, their ground is in Rome, Italy.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id169" size="3">
+      <originaltripleset>
+        <otriple>Serie_A | champions | Juventus_F.C.</otriple>
+        <otriple>A.S._Roma | ground | Rome</otriple>
+        <otriple>A.S._Roma | league | Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Serie_A | champions | Juventus_F.C.</mtriple>
+        <mtriple>A.S._Roma | ground | Rome</mtriple>
+        <mtriple>A.S._Roma | league | Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AS Roma, who have a ground in Rome, play in Serie A alongside Juventus FC who are former champions.</lex>
+      <lex comment="good" lid="Id2">A.S.Roma play their home games in Serie A in Rome, the current champions are Juventus.</lex>
+      <lex comment="good" lid="Id3">With grounds in Rome, A.S. Roma play in Serie A. Juventus FC have been champions of that league.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id170" size="3">
+      <originaltripleset>
+        <otriple>Serie_A | champions | Juventus_F.C.</otriple>
+        <otriple>A.S._Roma | ground | Stadio_Olimpico</otriple>
+        <otriple>A.S._Roma | league | Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Serie_A | champions | Juventus_F.C.</mtriple>
+        <mtriple>A.S._Roma | ground | Stadio_Olimpico</mtriple>
+        <mtriple>A.S._Roma | league | Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AS Roma, whose ground is the Stadio Olimpico play in the Serie A League of which Juventus FC are former champions.</lex>
+      <lex comment="good" lid="Id2">Juventus FC have been Serie A champions. A.S. Roma, who's ground is Stadio Olimpico also play in the same league.</lex>
+      <lex comment="good" lid="Id3">The Serie A champions are Juventus F.C. A.S Roma also play in the same league and their ground is Stadio Olimpico.</lex>
+    </entry>
+  </entries>
+</benchmark>

@@ -1,0 +1,410 @@
+<benchmark>
+  <entries>
+    <entry category="Airport" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Aarhus | leaderName | Jacob_Bundsgaard</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aarhus | leaderName | Jacob_Bundsgaard</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Aarhus is Jacob Bundsgaard.</lex>
+    </entry>
+    <entry category="Airport" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_Airport | runwayLength | "2702.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aarhus_Airport | runwayLength | 2702.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aarhus Airport's runway length is 2702.0.</lex>
+      <lex comment="good" lid="Id2">The Aarhus Airport has a runway length of 2702.0.</lex>
+    </entry>
+    <entry category="Airport" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Adirondack_Regional_Airport | elevationM | 507</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adirondack_Regional_Airport | elevation | "507.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adirondack_Regional_Airport | elevationAboveTheSeaLevel_(in_metres) | 507</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adirondack Regional Airport is 507 metres above sea level.</lex>
+    </entry>
+    <entry category="Airport" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Adirondack_Regional_Airport | location | Harrietstown,_New_York</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adirondack_Regional_Airport | location | Harrietstown,_New_York</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adirondack Regional airport is located at Harrietstown, New York.</lex>
+      <lex comment="good" lid="Id2">Adirondack Regional Airport is located in Harrietstown, New York.</lex>
+    </entry>
+    <entry category="Airport" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adolfo Suárez Madrid–Barajas Airport is found in San Sebastián de los Reyes.</lex>
+      <lex comment="good" lid="Id2">Adolfo Suarez Madrid- Barajas airport is located at San Sebastian de los Reyes.</lex>
+      <lex comment="good" lid="Id3">The Adolfo Suárez Madrid–Barajas Airport is in San Sebastián de los Reyes.</lex>
+    </entry>
+    <entry category="Airport" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayDesignation | "14L/32R"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | "14L/32R"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adolfo Suárez Madrid-Barajas Airport runway name is 14L/32R.</lex>
+      <lex comment="good" lid="Id2">The Adolfo Suárez Madrid–Barajas Airport runway name is 14L/32R.</lex>
+      <lex comment="good" lid="Id3">14L/32R is the runway name of Adofo Suárez Madrid-Barajas Airport.</lex>
+    </entry>
+    <entry category="Airport" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayDesignation | "14R/32L"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | "14R/32L"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">14R/32L is the name of the runway for Adolfo Suárez Madrid–Barajas Airport.</lex>
+      <lex comment="good" lid="Id2">14R/32L is the runway name of Adolfo Suárez Madrid-Barajas Airport.</lex>
+    </entry>
+    <entry category="Airport" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Afonso_Pena_International_Airport | operator | Infraero</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Afonso_Pena_International_Airport | operatingOrganisation | Infraero</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The operating organization for Afonso Pena International Airport is Infraero.</lex>
+      <lex comment="good" lid="Id2">Afonso Pena International Airport is operated by Infraero.</lex>
+    </entry>
+    <entry category="Airport" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Agra_Airport | location | Agra</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agra_Airport | location | Agra</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agra Airport is in Agra.</lex>
+      <lex comment="good" lid="Id2">Agra airport is located in Agra.</lex>
+    </entry>
+    <entry category="Airport" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Al-Taqaddum_Air_Base | elevation | "83.82"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Al-Taqaddum_Air_Base | elevationAboveTheSeaLevel_(in_metres) | 84.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Al-Taqaddum Air Base is 84 metres above sea level.</lex>
+      <lex comment="good" lid="Id2">Al Taqaddum Air Base is 84 metres above sea level.</lex>
+      <lex comment="good" lid="Id3">The elevation above the sea level (in metres) of Al-Taqaddum Air Base is 84.0.</lex>
+    </entry>
+    <entry category="Airport" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Alderney_Airport | city | Alderney</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alderney_Airport | cityServed | Alderney</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alderney_Airport | cityServed | Alderney</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Alderney Airport serves Alderney.</lex>
+      <lex comment="good" lid="Id2">Alderney Airport serves the city of Alderney.</lex>
+    </entry>
+    <entry category="Airport" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Allama_Iqbal_International_Airport | runwayDesignation | "18R/36L"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Allama_Iqbal_International_Airport | runwayName | "18R/36L"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">18R/36L is the runway name at Allama Iqbal International airport.</lex>
+      <lex comment="good" lid="Id2">Allama Iqbal International Airport has a runway named 18R/36L.</lex>
+      <lex comment="good" lid="Id3">Allama Iqbal International Airport's runway name is "18R/36L".</lex>
+    </entry>
+    <entry category="Airport" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Alpena_County_Regional_Airport | runwayLength | "1532.53"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpena_County_Regional_Airport | runwayLength | 1533.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The runway length of Alpena County Regional Airport is 1,533.</lex>
+      <lex comment="good" lid="Id2">The runway length of Alpena County Regional airport is 1533.0.</lex>
+    </entry>
+    <entry category="Airport" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Alpena_County_Regional_Airport | runwayDesignation | "1/19"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpena_County_Regional_Airport | runwayName | "1/19"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpena Country Regional Airport runway name is 1/19/.</lex>
+      <lex comment="good" lid="Id2">1/19 is the runway name of Alpena County Regional Airport.</lex>
+      <lex comment="good" lid="Id3">The runway name of Alpena County Regional Airport is 1/19.</lex>
+    </entry>
+    <entry category="Airport" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Amsterdam_Airport_Schiphol | city | Amsterdam</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amsterdam_Airport_Schiphol | cityServed | Amsterdam</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amsterdam_Airport_Schiphol | cityServed | Amsterdam</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amsterdam Airport Schiphol serves the city of Amsterdam.</lex>
+      <lex comment="good" lid="Id2">Amsterdam airport, Schipol serves the city of Amsterdam.</lex>
+      <lex comment="good" lid="Id3">Amsterdam Airport Schuphol serves Amsterdam.</lex>
+    </entry>
+    <entry category="Airport" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County,_Texas | countySeat | Andrews,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County,_Texas | countySeat | Andrews,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Andrews County, Texas is country seat to Andrews, Texas.</lex>
+      <lex comment="good" lid="Id2">Andrews, Texas is the country seat of Andrews County, Texas.</lex>
+      <lex comment="good" lid="Id3">Andrews County, Texas has its county seat in Andrews, Texas.</lex>
+    </entry>
+    <entry category="Airport" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County_Airport | city | Andrews,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County_Airport | cityServed | Andrews,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Andrews Country Airport's city is served by Andrews, Texas.</lex>
+      <lex comment="good" lid="Id2">Andrews County Airport serves Andrews, Texas.</lex>
+      <lex comment="good" lid="Id3">Andrews County Airport serves the city of Andrews in Texas.</lex>
+    </entry>
+    <entry category="Airport" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County_Airport | runwayDesignation | "11/29"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County_Airport | runwayName | "11/29"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Andrews Country Airport runway name is 11/29.</lex>
+      <lex comment="good" lid="Id2">11/29 is the runway name of Andrews County Airport.</lex>
+      <lex comment="good" lid="Id3">The runway name of Andrews County Airport is 11/29.</lex>
+    </entry>
+    <entry category="Airport" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County_Airport | runwayDesignation | "Helipad"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County_Airport | runwayName | "Helipad"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The name of the runway at Andrews County Airport is Helipad.</lex>
+      <lex comment="good" lid="Id2">Helipad is the runway name of Andrews County Airport.</lex>
+      <lex comment="good" lid="Id3">The runway at Andrews County Airport is called Helipad.</lex>
+    </entry>
+    <entry category="Airport" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Angola_International_Airport | city | Luanda</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Angola_International_Airport | cityServed | Luanda</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola_International_Airport | cityServed | Luanda</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola International Airport city served is Luanda.</lex>
+      <lex comment="good" lid="Id2">Angola International Airport serves the city of Luanda.</lex>
+      <lex comment="good" lid="Id3">Angola International Airport serves Luanda.</lex>
+    </entry>
+    <entry category="Airport" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Ardmore_Airport_(New_Zealand) | location | Auckland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ardmore_Airport_(New_Zealand) | location | Auckland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Ardmore Airport, New Zealand is in Auckland.</lex>
+      <lex comment="good" lid="Id2">Ardmore Airport is located in Auckland, New Zealand.</lex>
+    </entry>
+    <entry category="Airport" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Athens | mayor | Giorgos_Kaminis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Athens | mayor | Giorgos_Kaminis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Athens mayor is Giorgos Kaminis.</lex>
+      <lex comment="good" lid="Id2">Giorgos Kaminis is the mayor of Athens.</lex>
+      <lex comment="good" lid="Id3">The mayor of Athens is Giorgos Kaminis.</lex>
+    </entry>
+    <entry category="Airport" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Athens_International_Airport | location | Spata</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Athens_International_Airport | location | Spata</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Athens International Airport is in Spata.</lex>
+      <lex comment="good" lid="Id2">Athens International Airport is located in Spata.</lex>
+    </entry>
+    <entry category="Airport" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Belgium | language | German_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Belgium | language | German_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Belgium language is German language.</lex>
+      <lex comment="good" lid="Id2">German is the language of Belgium.</lex>
+      <lex comment="good" lid="Id3">The language spoken is Belgium is German.</lex>
+    </entry>
+    <entry category="Airport" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Belgium | leaderName | Philippe_of_Belgium</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Belgium | leader | Philippe_of_Belgium</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Belgium | leaderName | Philippe_of_Belgium</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Philippe of Belgium is the leader of Belgium.</lex>
+      <lex comment="good" lid="Id2">The leader of Belgium is Philippe of Belgium.</lex>
+      <lex comment="good" lid="Id3">The leader of Belgium is Phillipe of Belgium.</lex>
+    </entry>
+    <entry category="Airport" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Denmark | capital | Copenhagen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | capital | Copenhagen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The capital of Denmark is Copenhagen.</lex>
+      <lex comment="good" lid="Id2">Copenhagen is the capital of Denmark.</lex>
+    </entry>
+    <entry category="Airport" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Denmark | leader | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Denmark | leaderName | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Denmark's leader name is Lars Løkke Rasmussen.</lex>
+      <lex comment="good" lid="Id2">Lars Løkke Rasmussen leads Denmark.</lex>
+      <lex comment="good" lid="Id3">Lars Løkke Rasmussen is the leader of Denmark.</lex>
+    </entry>
+    <entry category="Airport" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Flemish_Region | leaderName | Flemish_Government</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Flemish_Region | leaderName | Flemish_Government</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Flemish region is led by the Flemish government.</lex>
+      <lex comment="good" lid="Id2">The Flemish Government leads the Flemish Region.</lex>
+    </entry>
+    <entry category="Airport" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Greece | language | Greek_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Greece | language | Greek_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Greek is the language spoken in Greece.</lex>
+      <lex comment="good" lid="Id2">The language spoken in Greece is Greek.</lex>
+    </entry>
+    <entry category="Airport" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Greece | leader | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Greece | leaderName | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Greece | leaderName | Nikos_Voutsis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Greece is Nikos Voutsis.</lex>
+    </entry>
+    <entry category="Airport" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Harrietstown,_New_York | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Harrietstown,_New_York | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Harrietstown, New York is part of the United States.</lex>
+      <lex comment="good" lid="Id2">Harrietstown, N.Y. is part of the U.S.</lex>
+    </entry>
+    <entry category="Airport" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Pakistan | leader | Anwar_Zaheer_Jamali</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Pakistan | leaderName | Anwar_Zaheer_Jamali</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Pakistan | leaderName | Anwar_Zaheer_Jamali</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Pakistan is Anwar Zaheer Jamali.</lex>
+      <lex comment="good" lid="Id2">Pakistan has a leader called Anwar Zaheer Jamali.</lex>
+    </entry>
+    <entry category="Airport" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Paracuellos_de_Jarama | isPartOf | Community_of_Madrid</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Paracuellos_de_Jarama | isPartOf | Community_of_Madrid</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paracuellos de Jarama is part of the community of Madrid.</lex>
+    </entry>
+    <entry category="Airport" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>Port_Authority_of_New_York_and_New_Jersey | headquarter | Four_World_Trade_Center</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Port_Authority_of_New_York_and_New_Jersey | headquarter | Four_World_Trade_Center</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Port Authority of New York and New Jersey headquarter is Four World Trade Center.</lex>
+      <lex comment="good" lid="Id2">The Four World Trade Center is the headquarters of the Port Authority of New York and New Jersey.</lex>
+    </entry>
+    <entry category="Airport" eid="Id35" size="1">
+      <originaltripleset>
+        <otriple>San_Sebastián_de_los_Reyes | country | Spain</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>San_Sebastián_de_los_Reyes | country | Spain</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">San Sebastián de los Reyes is in Spain.</lex>
+      <lex comment="good" lid="Id2">San Sebastian de los Reyes is located in Spain.</lex>
+    </entry>
+    <entry category="Airport" eid="Id36" size="1">
+      <originaltripleset>
+        <otriple>Saranac_Lake,_New_York | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Saranac_Lake,_New_York | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Saranac Lake, New York is part of the United States.</lex>
+      <lex comment="good" lid="Id2">Saranac Lake, New York, is part of the United States.</lex>
+    </entry>
+    <entry category="Airport" eid="Id37" size="1">
+      <originaltripleset>
+        <otriple>South_Jersey_Transportation_Authority | chief1Name | Stephen_Dilts</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>South_Jersey_Transportation_Authority | chief | Stephen_Dilts</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">South Jersey Transportation Authority chief is Stephen Dilts.</lex>
+      <lex comment="good" lid="Id2">Stephen Dilts is the chief of the South Jersey Transportation Authority.</lex>
+      <lex comment="good" lid="Id3">Stephen Dilts is the chief of South Jersey Transportation Authority.</lex>
+    </entry>
+    </entries>
+</benchmark>

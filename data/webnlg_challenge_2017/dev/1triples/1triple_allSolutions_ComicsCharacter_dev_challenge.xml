@@ -1,0 +1,154 @@
+<benchmark>
+  <entries>
+    <entry category="ComicsCharacter" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Asterix_(character) | creator | René_Goscinny</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Asterix_(character) | creators | René_Goscinny</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asterix_(comicsCharacter) | creator | René_Goscinny</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asterix was created by Rene Goscinny.</lex>
+      <lex comment="good" lid="Id2">The creator of Asterix (comics character) is René Goscinny.</lex>
+      <lex comment="good" lid="Id3">The comic character Asterix, was created by René Goscinny.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Auron_(comics) | creators | "Marv Wolfman"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Auron_(comics) | creator | Marv_Wolfman</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auron_(comicsCharacter) | creator | Marv_Wolfman</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The comic character Auron was created by Marv Wolfman.</lex>
+      <lex comment="good" lid="Id2">Auron was created by Marv Wolfman.</lex>
+      <lex comment="good" lid="Id3">The comic book character Auron was created by Marv Wolfman.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Balder_(comics) | creators | Jack_Kirby</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Balder_(comicsCharacter) | creator | Jack_Kirby</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The comic character, Balder, was created by Jack Kirby.</lex>
+      <lex comment="good" lid="Id2">The comic character Balder was created by Jack Kirby.</lex>
+      <lex comment="good" lid="Id3">Jack Kirby created the comic character Balder.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Bananaman | network | "STV"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bananaman | broadcastedBy | "STV"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bananaman is broadcast by STV.</lex>
+      <lex comment="good" lid="Id2">Bananaman is broadcasted by "STV".</lex>
+      <lex comment="good" lid="Id3">Bananaman was broadcasted by STV.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Bananaman | firstAired | "1983-10-03"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bananaman | firstAired | "1983-10-03"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bananaman first aired on 3rd October 1983.</lex>
+      <lex comment="good" lid="Id2">Bananaman first aired on the 3rd of October, 1983.</lex>
+      <lex comment="good" lid="Id3">Bananaman was first aired on 10/03/1983.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Bananaman | starring | Bill_Oddie</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bananaman | starring | Bill_Oddie</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bill Oddie stars in Bananaman.</lex>
+      <lex comment="good" lid="Id2">Bananaman starred Bill Oddie.</lex>
+      <lex comment="good" lid="Id3">Bill Oddie starred in Bananaman.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Baymax | series | Big_Hero_6_(film)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baymax | series | Big_Hero_6_(film)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baymax is a character in Big Hero 6.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Bill_Everett | award | Eisner_Award</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bill_Everett | award | Eisner_Award</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bill Everett has won the Eisner Award.</lex>
+      <lex comment="good" lid="Id2">Bill Everett has been awarded the Eisner award.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Bill_Oddie | children | Kate_Hardie</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Bill_Oddie | child | Kate_Hardie</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bill_Oddie | child | Kate_Hardie</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bill Oddie's daughter is Kate Hardie.</lex>
+      <lex comment="good" lid="Id2">Kate Hardie is Bill Oddie's child.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Bolt_(DC_Comics) | creators | Dan_Mishkin</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Bolt_(DC_Comics) | creator | Dan_Mishkin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bolt_(comicsCharacter) | creator | Dan_Mishkin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dan Mishkin is one of the creators of the comic character, Bolt.</lex>
+      <lex comment="good" lid="Id2">The comic book character Bolt was created by Dan Mishkin.</lex>
+      <lex comment="good" lid="Id3">The comic character Bolt was created by Dan Mishkin.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Bozo_the_Iron_Man | fullName | "Hugh Hazzard"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bozo_the_Iron_Man | fullName | "Hugh Hazzard"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bozo the Iron Man’s full name is Hugh Hazzard.</lex>
+      <lex comment="good" lid="Id2">The full name of Bozo the Iron Man is "Hugh Hazzard".</lex>
+      <lex comment="good" lid="Id3">The comic book character Bozo the Iron Man's alter ego is Hugh Hazzard.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>John_Buscema | award | Eagle_Award_(comics)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>John_Buscema | award | Eagle_Award_(comics)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John Buscema has won the comic book award, Eagle Award.</lex>
+      <lex comment="good" lid="Id2">John Buscema received the Eagle Award for his work in comics.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Marv_Wolfman | award | Eagle_Award_(comics)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Marv_Wolfman | award | Eagle_Award_(comics)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Marv Wolfman is a recipient of the Eagle Award.</lex>
+      <lex comment="good" lid="Id2">Marv Wolfman won the Eagle Award for comics.</lex>
+      <lex comment="good" lid="Id3">Marv Wolfman has received the Eagle Award for comics.</lex>
+    </entry>
+    </entries>
+</benchmark>

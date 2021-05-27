@@ -1,0 +1,762 @@
+<benchmark>
+  <entries>
+    <entry category="Monument" eid="Id1" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry monument was completed in 2000 and categorised as a contributing property. It is located in the municipality of Gettysburg, Adams County, Pennsylvania, United States.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument was erected in 2000 in Gettysburg, Adams County, Pennsylvania, USA. It falls under the category of Contributing Property.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument was established in 2000 and categorised as contributing property. It is located in Gettysburg, Adams County, Pennsylvania, United States.</lex>
+    </entry>
+    <entry category="Monument" eid="Id2" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | range | Seminary_Ridge</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Seminary_Ridge</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is placed in the municipality of Gettysburg, Pennsylvania, USA at Seminary Ridge in Adams County and is categorized as a contributing property.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is located in the Seminary Ridge, Gettysburg, Adams County, Pennsylvania, USA. It is categorised as a contributing property.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monumenet falls under the category of contributing property. It is located at Seminary Ridge in the municipality of Gettysburg, Adams County, Pennsylvania, United States.</lex>
+    </entry>
+    <entry category="Monument" eid="Id3" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | range | Seminary_Ridge</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Seminary_Ridge</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument, which was completed in 2000, is located at the Seminary Ridge, Gettysburg, Adams County, Pennsylvania, United States.</lex>
+      <lex comment="good" lid="Id2">Established in 2000, the 11th Mississippi Infantry Monument is located at Seminary Ridge in Gettysburg, Adams County, Pennsylvania, USA.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument, which was founded in the year 2000, is located in the Seminary Ridge, Gettysburg, Adams County, Pennsylvania, United States.</lex>
+    </entry>
+    <entry category="Monument" eid="Id4" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | range | Seminary_Ridge</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Seminary_Ridge</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located at Seminary Ridge in Pennsylvania, USA; the monument was established in 2000 and is categorized as a contributing property and is in the municipality of Gettysburg Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry monument was established in 2000 and is categorised as a contributing property. It is located at Seminary Ridge, Gettysburg, Pennsylvania, United States.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is located in the Seminary Ridge in the municipality of Gettysburg Pennsylvania, United States. The monument was established in the year 2000 and is categorized as a Contributing Property.</lex>
+    </entry>
+    <entry category="Monument" eid="Id5" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument which was erected in 2000 and is categorised as a contributing property is found in the Adams County, Pennsylvania, United States. To the north of Adams County lies Cumberland County also of Pennsylvania and to the southeast of Adams County lies Carroll County, Maryland.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument (location Adams County, Pennsylvania, United States) was completed in the year 2000 and falls under the category of Contributing property. To the north of Adams County lies Cumberland County, also Pennsylvania and to the southeast lies Carroll County, Maryland.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument, established in 2000, is located in Adams County, Pennsylvania, United States and falls under the category of Contributing property. Pennsylvania's Cumberland County is to the north of Adams County and to the southeast of Adams County lies Carrol County, Maryland.</lex>
+    </entry>
+    <entry category="Monument" eid="Id6" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>Adams_County,_Pennsylvania | west | Franklin_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southwest | Frederick_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located in Adams County, Pennsylvania, United States. Adams County has to its west Franklin County and to its north Cumberland County, both also of Pennsylvania. To the southwest of Adams County lies Frederick County and to the southeast Carroll County, both of Maryland.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry monument is located in Adams County, Maryland, US. West of the County is Franklin County, Pennsylvania and Cumberland County lies to the north. Carrol County in Maryland lies to the southeast.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is found in the Adams County, Pennsylvania, United States. To the west of Adams County lies Franklin County and to the north Cumberland County is located - all of these counties are in the state of Pennsylvania. Adams County has Carrol County to its southeast and Frederick County to its southwest - both these counties are in Maryland.</lex>
+    </entry>
+    <entry category="Monument" eid="Id7" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located in the municipality of Gettysburg, Adams County, Pennsylvania. It was established in 2000 and it falls under the category of contributing property.To the north of Adams County is Cumberland County.</lex>
+      <lex comment="good" lid="Id2">South of Cumberland County, Pennsylvania lies Adams County. The location of the 11th Mississippi Infantry Monument in the municipality of Gettysburg. It was established in 2000 and is categorised as a contributing property.</lex>
+      <lex comment="good" lid="Id3">Cumberland County, Pennsylvania is found north of Adams County which is the location of the 11th Mississippi Infantry Monument established in 2000 in Gettysburg. The monument falls under the category of contributing property.</lex>
+    </entry>
+    <entry category="Monument" eid="Id8" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | range | Seminary_Ridge</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Seminary_Ridge</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located at Seminary Ridge, Gettysburg, Adams County, Pennsylvania. The monument was competed in 2000 and is categorised as a contributing property.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is located in the Seminary Ridge, Gettysburg, Adams County, Pennsylvania. It was established in 2000 and it is categorised as a contributing property.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry monument is located at Seminary Ridge, the municipality of Gettysburg, Adams County, Pennsylvania. The monument was established in 2000 and is categorised as contributing property.</lex>
+    </entry>
+    <entry category="Monument" eid="Id9" size="6">
+      <originaltripleset>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"^^xsd:date</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</otriple>
+        <otriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</mtriple>
+        <mtriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 14th New Jersey Volunteer Infantry Monument is located in the Monocacy National Battlefield, Frederick, Maryland. The monument, which is owned by the National Park Service, was established on 11th July 1907 and belongs to the category of Historic districts in the United States.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument (established 1907-07-11) is a United States historic district. It is located in the Monocacy National Battlefield district and owned by the National Park Service. The closest city to the battlefield is Frederick, Maryland.</lex>
+      <lex comment="good" lid="Id3">The 14th New Jersey Volunteer Infantry Monument was established on 11 July 1907 in the district of the Monocacy National Battlefield, Frederick, Maryland. It is owned by the National Park Service and belongs to the category of historic districts in the US.</lex>
+    </entry>
+    <entry category="Monument" eid="Id10" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"@en</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | state | "Pennsylvania"</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Southeast of Carrol County, Maryland is Adams County Pennsylvania. This county is the location of the 11th Mississippi Infantry Monument erected in 2000 in Gettysburg and which is categorised as a contributing property.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is located in Gettysburg, Adams County, Pennsylvania. It is categorised as a contributing property and it was established in 2000. Carrol County, Maryland is southeast of Adams County.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi INfantry Monument is located in the municipality of Gettysburg, Adams County, Pa. It is categorized as a Contributing Property and was established in 2000. Carrol County, Maryland is southeast of Adams County, Pennsylvania.</lex>
+    </entry>
+    <entry category="Monument" eid="Id11" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located in Gettysburg, Adams County, Pennsylvania. It was established in 2000 and it is categorised as a contributing property. Cumberland County, Pa is to the north of Adams County and Carrol County, Maryland is southeast of Adams County.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument which was established in the year 2000 is in the municipality of Gettysburg , Adams County, Pennsylvania. Adams County has Carrol County, Maryland to its southeast and to its north, Cumberland County, Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument is located within the municipality of Gettysburg, in Adams County, Pennsylvania. It was established in 2000 and is categorized as a Contributing property. Located to the southeast of Adams County is Maryland's Carrol County. To the north is Pennsylvania's Cumberland County.</lex>
+    </entry>
+    <entry category="Monument" eid="Id12" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southwest | Frederick_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Monument is located in Adams County, Pennsylvania. It was established in 2000 and it is categorized as a Contributing Property. Adams County has Cumberland County (Pa) to its north; Maryland's Frederick County to its north east and Carroll County, Maryland to its southeast.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry monument was established in 2000 in Adams County, Pennsylvania and is categorised as a contributing property. The location of Adams County is northwest of Carrol County, Maryland, south of Cumberland County and northeast of Frederick County, both of Maryland.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry Monument (established in 2000) is located in Adams County, Pennsylvania and is categorized as a Contributing Property. Cumberland County (also of Pennsylvania) lies to the north of Adams County. Carrol County (to the southeast) and Frederick County (to the southwest) and both of Maryland are near neighbours to Adams County.</lex>
+    </entry>
+    <entry category="Monument" eid="Id13" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | west | Franklin_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississipi Infantry Monument was established in 2000 and it is located in Adams County, Pa. The Monument is categorised as a contributing property. To the north of Adams County is Cumberland County (Pa), to its west is Franklin County (Pa) and to its southeast is Carrol County (Maryland).</lex>
+      <lex comment="good" lid="Id2">Adams County Pennsylvania is East of Franklin County, Pennsylvania and has Carrol County, Maryland to its southeast and Cumberland County, Pennsylvania to its north. The 11th Mississippi Infantry Monument is located in Adams County and falls under the category of Contributing property. The 11th Mississippi Infantry Monument was established in 2000.</lex>
+      <lex comment="good" lid="Id3">Cumberland County in Pennsylvania is situated north of Adams County which is the location of the 11th Mississippi Infantry Monument which was erected in 2000 and categorised as a contributing property. Franklin County can be found to the west and Carroll County Maryland is to the southeast.</lex>
+    </entry>
+    <entry category="Monument" eid="Id14" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | west | Franklin_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southwest | Frederick_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Carrol County Maryland is southeast of Adams County, Pennsylvania. With Franklin County to the west, Cumberland County to the north and Frederick County to the southwest, Adams County is the location of the 11th Mississippi Infantry monument which was established in 2000.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is found in Adams County, Pennsylvania and has been established since the year 2000. To the west of Adams County lies Franklin County and to the north is Cumberland County - both also of Pennsylvania. To the southeast of Adams County lies Carroll County and to the southwest lies Frederick County , both of Maryland.</lex>
+      <lex comment="good" lid="Id3">Adams County is located to the south of Cumberland County and east of Franklin County. Carroll County Maryland lies to the south east and Frederick County to the southwest. The 11th Mississippi Infantry monument was established in the County in 2000.</lex>
+    </entry>
+    <entry category="Monument" eid="Id15" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | west | Franklin_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located in Gettsysburg, Adams County, Pennsylvania. It is categorized as a contributing property. Adams County, Pennsylvania has Cumberland County (Pa) to its south; Carrol County (Maryland) to its southeast and Franklin County (Pa) to its west.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is located in Gettysburg, Adams County, Pennsylvania. It is categorized as a contributing property. Cumberland County, Pa is located in the north of Adams County, Pa and Franklin County is found to the west of Adams County. Adams County has Carrol County, Maryland to its Southeast.</lex>
+      <lex comment="good" lid="Id3">The 11th Mississippi Infantry monument is located in Gettysburg, Adams County, Pennsylvania and is categorised as a contributing property. Adams County is situated to the east of Franklin County and south of Cumberland County, Pennsylvania. Carrol County in Maryland lies to the northwest.</lex>
+    </entry>
+    <entry category="Monument" eid="Id16" size="6">
+      <originaltripleset>
+        <otriple>Adams_County,_Pennsylvania | west | Franklin_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southeast | Carroll_County,_Maryland</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>Adams_County,_Pennsylvania | southwest | Frederick_County,_Maryland</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 11th Mississippi Infantry Monument is located in Gettysburg, Adams County, Pennsylvania. Franklin County in the state is found to the west, and Cumberland County to the north. Carrol County in Maryland lies to the southeast of Adams County.</lex>
+      <lex comment="good" lid="Id2">The 11th Mississippi Infantry Monument is located in Gettysburg, Adams County, Pennsylvania. Adams County (Pa) has Fredericks County (Maryland) to its north east; Cumberland County to its north; Carrol County, Maryland to its southeast and Franklin County (Pa) to its west.</lex>
+      <lex comment="good" lid="Id3">Pennsylvania's Franklin Country is west of Adams County which has Carrol County Maryland to its southeast. To the North of Adams County is Cumberland County with Frederick County to the southeast. The municipality for the 11th Mississippi Infantry Monument is Gettysburg which is located in Adams County.</lex>
+    </entry>
+    <entry category="Monument" eid="Id17" size="6">
+      <originaltripleset>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">July 27, 1932 is an important date for Turkey, where the largest city is Istanbul and currency is the Turkish lira; because on this date the Ataturk Monument, made of bronze and designed by Pietro Canonica was inaugurated.</lex>
+      <lex comment="good" lid="Id2">The Ataturk Monument, made of bronze, was designed by Pietro Canonica and is located in Izmir, Turkey where the currency is the Turkish Lira and the largest City is Istanbul; the monument was inaugurated on July 27, 1932.</lex>
+      <lex comment="good" lid="Id3">Pietro Canonica designed the Ataturk Monument(Izmir) in bronze and it was inaugurated on 27 July 1932 in Turkey. The country's largest city is Istanbul and the local currency is the Turkish lira.</lex>
+    </entry>
+    <entry category="Monument" eid="Id18" size="6">
+      <originaltripleset>
+        <otriple>Azerbaijan | capital | Baku</otriple>
+        <otriple>Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</otriple>
+        <otriple>Azerbaijan | leaderName | Artur_Rasizade</otriple>
+        <otriple>Azerbaijan | legislature | National_Assembly_(Azerbaijan)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | capital | Baku</mtriple>
+        <mtriple>Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</mtriple>
+        <mtriple>Azerbaijan | leaderName | Artur_Rasizade</mtriple>
+        <mtriple>Azerbaijan | legislature | National_Assembly_(Azerbaijan)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Baku Turkish Maryrs' Memorial is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku. It is located in Azerbaijan. The capital of Azeribaijan is Baku and its leader is Prime Minister Artur Rasizade. Azerbaijan has legislature of National Assembly.</lex>
+      <lex comment="good" lid="Id2">Baku is the capital city of Azerbaijan which is led by Prime Minister Artur Rasizade with a National Assembly dictating the legislature. The country is the location of the Baku Turkish Martyrs memorial dedicated to the soldiers of the Ottoman army who died in the Battle of Baku.</lex>
+      <lex comment="good" lid="Id3">The capital of Azerbaijan is Baku and its president - or official leader - is called Artur Rasizade. The legislature of Azerbaijan is known as the National Assembly. The country is the location for the Baku Turkish Martyrs' Memorial, which is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku.</lex>
+    </entry>
+    <entry category="Monument" eid="Id19" size="6">
+      <originaltripleset>
+        <otriple>Azerbaijan | capital | Baku</otriple>
+        <otriple>Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</otriple>
+        <otriple>Azerbaijan | leaderName | Artur_Rasizade</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | capital | Baku</mtriple>
+        <mtriple>Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</mtriple>
+        <mtriple>Azerbaijan | leaderName | Artur_Rasizade</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Huseyin Butuner and Hilmi Guner were the designers of the Baku Turkish Martyrs Memorial in Azerbaijan, dedicated to the soldiers of the Ottoman army who died in the Battle of Baku. The Prime Minister, Artur Rasizade is the leader of Azerbaijan where Baku is the capital city.</lex>
+      <lex comment="good" lid="Id2">Baku Turkish Martyrs' Memorial is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku. It was designed by Huseyin Butuner and Hilmi Guner and it is located in Azerbaijan. The capital of Azerbaijan is Baku and its leader is Prime Minister Artur Rasizade.</lex>
+      <lex comment="good" lid="Id3">Artur Rasizade is the leader of Azerbaijan where the Baku Turkish Martyrs memorial designed by Huseyin Butuner and Hilmi Guner is located. The memorial is dedicated to the soldiers of the Ottoman army who were killed at the Battle of Baku, the capital city.</lex>
+    </entry>
+    <entry category="Monument" eid="Id20" size="6">
+      <originaltripleset>
+        <otriple>Azerbaijan | capital | Baku</otriple>
+        <otriple>Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | nativeName | "Türk Şehitleri Anıtı"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | capital | Baku</mtriple>
+        <mtriple>Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | nativeName | "Türk Şehitleri Anıtı"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Baku Turkish Martyrs' Memorial is located in Azerbaijan whose capital is Baku. The memorial is dedicated to Ottoman Army soldiers killed in the Battle of Baku and is called Turk Sehitleri Aniti. It was designed by Hüseyin Bütüner and Hilmi Güner. Azerbaijan is led by the Prime Minister.</lex>
+      <lex comment="good" lid="Id2">Huseyin Butuner and Hilmi Guner designed the Baku Turkish Martyrs memorial, also known as the Turk Sehitleri Aniti. The memorial is dedicated to the Ottoman army soldiers who were killed in the Battle of Baku. It is located in Azerbaijan where the Prime Minister leads the country and the capital city is Baku.</lex>
+      <lex comment="good" lid="Id3">Azerbaijan, where the leader is the Prime Minister and the capital if Baku, is the location of the Baku Turkish Martyrs Memorial which is dedicated to the soldiers of the Ottoman army who were killed in the battle of Baku. The local name for the memorial is Turk Sehitleri Aniti and it was designed by Huseyin Butuner and Hilmi Guner.</lex>
+    </entry>
+    <entry category="Monument" eid="Id21" size="6">
+      <originaltripleset>
+        <otriple>Azerbaijan | capital | Baku</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | material | "Red granite and white marble"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | nativeName | "Türk Şehitleri Anıtı"@en</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | capital | Baku</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | material | "Red granite and white marble"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | dedicatedTo | "Ottoman Army soldiers killed in the Battle of Baku"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | nativeName | "Türk Şehitleri Anıtı"</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | designer | "Hüseyin Bütüner and Hilmi Güner"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baku Turkish Martyrs' Memorial, made of red granite and white marble, is dedicated to the Ottoman Army soldiers killed in the Battle of Baku. The memorial, called Turk Sehitleri Aniti, was designed by Hüseyin Bütüner and Hilmi Güner and is located in Azerbaijan, the capital of which is Baku.</lex>
+      <lex comment="good" lid="Id2">The Baku Turkish Martyrs' Memorial, also known by the native name Turk Sehitleri Aniti, is located in Azerbaijan. The memorial was designed by Huseyin Butuner and Hilmi Guner, and is constructed from red granite and white marble. It is dedicated to the Ottoman Army soldiers killed in the Battle of Baku, the capital of Azerbaijan.</lex>
+      <lex comment="good" lid="Id3">Baku is the capital of Azerbaijan. The Baku Turkish Martyrs' Memorial is created in red granite and white marble and is dedicated to the Ottoman Army soldiers killed in the Battle of Baku. The Native name of theMemorial is "Türk Sehitleri Aniti". Its designers are Huseyin Butuner and Hilmi Guner.</lex>
+    </entry>
+    <entry category="Monument" eid="Id22" size="6">
+      <originaltripleset>
+        <otriple>Dead_Man's_Plack | location | England</otriple>
+        <otriple>England | capital | London</otriple>
+        <otriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</otriple>
+        <otriple>England | languages | Cornish_language</otriple>
+        <otriple>England | religion | Church_of_England</otriple>
+        <otriple>Dead_Man's_Plack | material | Rock_(geology)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dead_Man's_Plack | location | England</mtriple>
+        <mtriple>England | capital | London</mtriple>
+        <mtriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</mtriple>
+        <mtriple>England | languages | Cornish_language</mtriple>
+        <mtriple>England | religion | Church_of_England</mtriple>
+        <mtriple>Dead_Man's_Plack | material | Rock_(geology)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Dead Man's Plack is located in England's capital - London It is dedicated to AEthwald, Ealdorman of East Anglia and it is made of rock. England's main religion in the Church of England. One of the languages spoken in England is the Cornish language.</lex>
+      </entry>
+    <entry category="Monument" eid="Id23" size="6">
+      <originaltripleset>
+        <otriple>Dead_Man's_Plack | location | England</otriple>
+        <otriple>England | ethnicGroups | British_Arabs</otriple>
+        <otriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</otriple>
+        <otriple>England | languages | Cornish_language</otriple>
+        <otriple>England | religion | Church_of_England</otriple>
+        <otriple>Dead_Man's_Plack | material | Rock_(geology)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dead_Man's_Plack | location | England</mtriple>
+        <mtriple>England | ethnicGroups | British_Arabs</mtriple>
+        <mtriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</mtriple>
+        <mtriple>England | languages | Cornish_language</mtriple>
+        <mtriple>England | religion | Church_of_England</mtriple>
+        <mtriple>Dead_Man's_Plack | material | Rock_(geology)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">England is the home of the Cornish language, many ethnic groups including the British Arabs and the established religion of The Church of England. It is also the location of Dead Mans Plack, a stone formation dedicated to Aethelwald, Ealdorman of East Anglia.</lex>
+      <lex comment="good" lid="Id2">Dead Man's Plack is a stone monument in England that is dedicated to Æthelwald, Ealdorman of East Anglia. The state religion of England is the Church of England. English ethnic group include British Arabs. In England's Cornwall region, the Cornish language is spoken.</lex>
+      <lex comment="good" lid="Id3">The Dead Man's Plack (located in England) is made from rock. It is dedicated to AEthelwald, Ealdorman of East Anglia. England's religion is the Church of England and Cornish is spoken in the Cornwall region of England. British Arabs are an English ethnic group.</lex>
+    </entry>
+    <entry category="Monument" eid="Id24" size="6">
+      <originaltripleset>
+        <otriple>Dead_Man's_Plack | location | England</otriple>
+        <otriple>England | ethnicGroups | British_Arabs</otriple>
+        <otriple>England | capital | London</otriple>
+        <otriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</otriple>
+        <otriple>England | languages | Cornish_language</otriple>
+        <otriple>Dead_Man's_Plack | material | Rock_(geology)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dead_Man's_Plack | location | England</mtriple>
+        <mtriple>England | ethnicGroups | British_Arabs</mtriple>
+        <mtriple>England | capital | London</mtriple>
+        <mtriple>Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</mtriple>
+        <mtriple>England | languages | Cornish_language</mtriple>
+        <mtriple>Dead_Man's_Plack | material | Rock_(geology)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Dead Man's Plack which is made of rock and is dedicated to Æthelwald, Ealdorman of East Anglia is located in England . The capital of England is London and Cornish is a language spoken in the Cornwall region.</lex>
+      <lex comment="good" lid="Id2">The Dead Man's Plack is found in England and made from rock. It is dedicated to Æthelwald, Ealdorman of East Anglia. London is the capital of England and Arabs are an ethnic group. The Cornish language is spoken Cornwall.</lex>
+      <lex comment="good" lid="Id3">Dead Man's Plack, which is made of rock, is dedicated to Æthelwald, Ealdorman of East Anglia. It is found in England, the capital of which is London. Cornish is one of the languages spoken in England and one of the ethnic groups found in the country is the British Arabs.</lex>
+    </entry>
+    <entry category="Monument" eid="Id25" size="6">
+      <originaltripleset>
+        <otriple>Monocacy_National_Battlefield | location | Frederick_County,_Maryland</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"^^xsd:date</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</otriple>
+        <otriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monocacy_National_Battlefield | location | Frederick_County,_Maryland</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</mtriple>
+        <mtriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Frederick, Maryland is the nearest city to the Monocacy National Battlefield of Frederick County, Maryland. It is the location of the 14th New Jersey Volunteer Infantry Monument which was established on 11 July 1907 which is categorised as belonging to the historic districts of the United States.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Volunteer Infantry Monument is located in the district of the Monocacy National Battlefield, Frederick, Maryland. The monument was established in 1907-07-11 and is categorised as an historic district in the United States.</lex>
+    </entry>
+    <entry category="Monument" eid="Id26" size="6">
+      <originaltripleset>
+        <otriple>Monocacy_National_Battlefield | location | Frederick_County,_Maryland</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"^^xsd:date</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"@en</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</otriple>
+        <otriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</otriple>
+        <otriple>14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monocacy_National_Battlefield | location | Frederick_County,_Maryland</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | established | "1907-07-11"</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | country | "United States"</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</mtriple>
+        <mtriple>Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</mtriple>
+        <mtriple>14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The location of the 14th New Jersey Volunteer Infantry Monument is the Monocacy National Battlefield in Frederick County, Maryland, United States. The monument was established on 11 July 1907 and is owned by the National Park Service.</lex>
+      <lex comment="good" lid="Id2">The 14th New Jersey Voluntary Infantry Monument (located in the Monocacy National Battlefield, Frederick County, Maryland, USA) was established on the 11th July, 1907. The nearest city is Frederick, Maryland. The Monument was provided by the National Park Service.</lex>
+      <lex comment="good" lid="Id3">The 14th New Jersey Volunteer Infantry Monument was established on 11 July 1907 and is located in the district of the Monocacy National Battlefield in Frederick County, Maryland, US. The monument is owned by the National Park Service. The nearest city to the battlefield is Frederick, Maryland.</lex>
+    </entry>
+    <entry category="Monument" eid="Id27" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leader | Ahmet_Davutoğlu</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leader | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Turkish lira is the official currency of the country where Ahmet Davutoglu is leader. The country is the location of the memorial designed in bronze by Pietro Canonica and inaugurated on 27 July 1932.</lex>
+      <lex comment="good" lid="Id2">The currency of Turkey is the Turkish lira and the leader of the country is Ahmet Davutoglu. The country is the location of the Ataturk Monument (Izmir) designed in bronze by Pietro Canonica and inaugurated on 27 July 1932.</lex>
+      <lex comment="good" lid="Id3">Ahmet_Davutoglu is Turkey's leader where the currency is Turkish Lira, and where Pietro Canonica designed the Ataturk Monument in Izmir from bronze, the monument was inagurated on July 27, 1932.</lex>
+    </entry>
+    <entry category="Monument" eid="Id28" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leader | Ahmet_Davutoğlu</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leader | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Turkey, where the currency is the Turkish lira, is Ahmet Davutoglu. While the capital city is Ankara, the largest city in the country is Istanbul. Turkey is the location of the Ataturk Monument (Izmir) which was inaugurated on 27 July 1932.</lex>
+      <lex comment="good" lid="Id2">Ahmet Davutoglu is the leader of Turkey, where the capital is Ankara, but the largest city is Istanbul; the currency of Turkey is Turkish Lira and in Izmir, Turkey the Ataturk Monument stands, inaugurated on July 27, 1932.</lex>
+      <lex comment="good" lid="Id3">Turkey's capital is Ankara and the country's leader is Ahmet Davutoglu. The currency of Turkey is the Turkish lira and Istanbul is it's largest city. The Atatürk Monument is located in Izmi and was inaugurated on the 27th of July, 1932.</lex>
+    </entry>
+    <entry category="Monument" eid="Id29" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderName | Ahmet_Davutoğlu</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderName | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ahmet Davutoglu is the leader of Turkey where Ankara is the capital, although the largest city is Istanbul. The country is the location of the bronze Ataturk Monument (Izmir) which was inaugurated on 27 July 1932.</lex>
+      <lex comment="good" lid="Id2">Izmir, Turkey is the location of the bronze Ataturk Monument which was inaugurated on 27 July 1932. Ahmet Davutoglu is the Turkish leader and the largest city is Istanbul although the capital is Ankara.</lex>
+      <lex comment="good" lid="Id3">Although Istanbul is the largest city, Ankara is the capital of Turkey where Ahmet Davutoglu is the leader. Turkey is the location of the bronze Ataturk Monument (Izmir) which was inaugurated on 27 July 1932.</lex>
+    </entry>
+    <entry category="Monument" eid="Id30" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Turkey's leader is the President, the currency is the Turkish lira and the capital city is Ankara. It is the location of the Ataturk monument which was designed by Pietro Canonica and inaugurated in Izmir on 27 July 1932.</lex>
+      <lex comment="good" lid="Id2">The Ataturk Monument, which was designed by Pietro Canonica, was inaugurated on 27th July, 1932. Turkey's leader is the President, its currency is the Turkish Lira and the capital city is Ankara.</lex>
+      <lex comment="good" lid="Id3">Pietro Canonica designed the Ataturk Monument (Izmir) which was inaugurated on 27 July 1932 in Turkey. The Turkish leader is known as the President of Turkey, the currency is the Turkish lira and the capital city is Ankara.</lex>
+    </entry>
+    <entry category="Monument" eid="Id31" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+        <otriple>Turkey | leaderName | Ahmet_Davutoğlu</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+        <mtriple>Turkey | leaderName | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">President Ahmet Davutoglu is the leader of Turkey, the home of the Ataturk monument (Izmir). The monument was designed in bronze by Pietro Canonica and inaugurated on 27 July 1932 in Izmir.</lex>
+      </entry>
+    <entry category="Monument" eid="Id32" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+        <otriple>Turkey | leaderName | Ahmet_Davutoğlu</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+        <mtriple>Turkey | leaderName | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">President Ahmet Davutoglu is the leader of Turkey. The capital city is Ankara, but it is in Izmir that the Ataturk monument designed by Pietro Canonica and inaugurated on 27 July 1932 is located.</lex>
+      <lex comment="good" lid="Id2">Ankara is the capital of Turkey, The country's leader is President Ahmet Davutoglu and it is the location of the Ataturk monument designed by Pietro Canonica which was inaugurated on 27 July 1932.</lex>
+    </entry>
+    <entry category="Monument" eid="Id33" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Turkey | leader | Ahmet_Davutoğlu</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Turkey | leader | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Ataturk Monument (located in Izmir, Turkey) is made of Bronze. It was inaugurated on the 27th July, 1932 and it was designed by Pietro Canonica. Turkey's leader is President Ahmet Davutoglu.</lex>
+      <lex comment="good" lid="Id2">President Ahmet Davutoglu is the leader of Turkey which is the location of the Ataturk monument (Izmir) designed by Pietro Canonica. The monument is made of bronze and was inaugurated on 27 July 1932.</lex>
+      <lex comment="good" lid="Id3">Ahmet Davutoglu is the Turkish leader and is officially titled President of Turkey where the Ataturk Monument is located in Izmir made of bronze and designed by Pietro Canonica, inaugurated on July 27, 1932.</lex>
+    </entry>
+    <entry category="Monument" eid="Id34" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Turkey | leader | Ahmet_Davutoğlu</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Turkey | leader | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Ataturk Monument is located in Izmir, Turkey and it is made of bronze. Turkeys leader is President Ahmet Davutogly and its capital is Ankara. Turkey's currency is the Turkish lira.</lex>
+      <lex comment="good" lid="Id2">The Atatürk Monument (İzmir), which is made of bronze, is found in Turkey, whose capital is Ankara and whose currency is the Turkish Lira. President of Turkey is the official title of the Turkish leader - his name is Ahmet Davutoglu.</lex>
+      <lex comment="good" lid="Id3">President Ahmet Davutoglu is the Turkish leader. The local currency is the Turkish lira and the capital city is Ankara, but it is in Izmir that the bronze Ataturk monument is located.</lex>
+    </entry>
+    <entry category="Monument" eid="Id35" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Turkey | leaderName | Ahmet_Davutoğlu</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | open | "1932-07-27"^^xsd:date</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Turkey | leaderName | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | inaugurationDate | "1932-07-27"</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ahmet Davutoglu is President of Turkey whose capital is Ankara. The bronze Ataturk Monument found in Turkey was inaugurated on July 27th 1932.</lex>
+      <lex comment="good" lid="Id2">The President of Turkey is Ahmet Davutoglu. The capital is Ankara, but it is in Izmir that the bronze Ataturk monument is located and was inaugurated on 27 July 1932. .</lex>
+      <lex comment="good" lid="Id3">President Ahmet Davutoglu is the leader of Turkey which has the capital city of Ankara. The country is the location of the bronze Ataturk monument inaugurated on 27 July 1932 in Izmir.</lex>
+    </entry>
+    <entry category="Monument" eid="Id36" size="6">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President_of_Turkey</otriple>
+        <otriple>Turkey | leaderName | Ahmet_Davutoğlu</otriple>
+        <otriple>Turkey | capital | Ankara</otriple>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+        <otriple>Atatürk_Monument_(İzmir) | location | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President_of_Turkey</mtriple>
+        <mtriple>Turkey | leaderName | Ahmet_Davutoğlu</mtriple>
+        <mtriple>Turkey | capital | Ankara</mtriple>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+        <mtriple>Atatürk_Monument_(İzmir) | location | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">President Ahmet Davutoglu is the leader of Turkey, The local currency is the Turkish lira and the capital city is Ankara, although Istanbul is the largest. Izmir, Turkey is the location of the Ataturk monument.</lex>
+      <lex comment="good" lid="Id2">The President of Turkey is Ahmet Davutoglu and it's capital city is Ankara. The largest city in Turkey is Istanbul. The turkish currency is the Turkish lira. The Atatürk Monument is located in İzmir.</lex>
+      <lex comment="good" lid="Id3">President and leader of Turkey, where the currency is the Turkish lira is Ahmet Davutoglu. The capital city is Ankara and the largest city is Istanbul although it is in Izmir that the Ataturk Monument is located.</lex>
+    </entry>
+  </entries>
+</benchmark>

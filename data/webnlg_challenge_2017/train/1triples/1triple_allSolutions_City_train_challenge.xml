@@ -1,0 +1,2671 @@
+<benchmark>
+  <entries>
+    <entry category="City" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | areaWater | 1.42e+07</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | areaOfWater | 14.2 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 14.2 square kilometers of water in Abilene, Texas.</lex>
+      <lex comment="good" lid="Id2">Abilene, Texas has a water area of 14.2 square kilometres.</lex>
+      <lex comment="good" lid="Id3">Abilene, Texas has an area of water that is 14.2 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | areaTotal | "286.4526850031616"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | areaTotal | 286.5 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene (Texas) has a total area of 286.5 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Abilene in Texas has a total area of 286.5 SqK.</lex>
+      <lex comment="good" lid="Id3">Abilene, Texas has a total area of 286.5 sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albilene is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">Abilene, Texas is located in the United States.</lex>
+      <lex comment="good" lid="Id3">Abilene, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | elevation | "523.951"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | elevationAboveTheSeaLevel | 524.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene Texas is 524m above sea level.</lex>
+      <lex comment="good" lid="Id2">Abilene, Texas is 524.0 above sea level.</lex>
+      <lex comment="good" lid="Id3">Abilene, Texas is situated at 524.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | isPartOf | Jones_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | isPartOf | Jones_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene is part of Jones County in Texas.</lex>
+      <lex comment="good" lid="Id2">Abilene is part of Jones County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | isPartOf | Taylor_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | isPartOf | Taylor_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene is part of Taylor County in Texas.</lex>
+      <lex comment="good" lid="Id2">Abilene, Texas is located in Taylor County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | populationDensity | "429.9"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | populationDensity | 429.9 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total population density of Abilene, Texas is 429.9 inhabitants per sq km.</lex>
+      <lex comment="good" lid="Id2">Albilene, Texas has a population density of 429.9 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id3">Abilene, Texas, has a population density of 429.9 (inhabitants per square kilometre).</lex>
+    </entry>
+    <entry category="City" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Adams_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adams_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adams Township is in Madison County, in Indiana, in the United States.</lex>
+      <lex comment="good" lid="Id2">Adams Township, Madison County, Indiana is in the United States.</lex>
+      <lex comment="good" lid="Id3">Adams Township, Madison County, Indiana is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | areaCode | "234, 330"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | areaCode | 234, 330</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area codes in Akron, Ohio are 234 and 330.</lex>
+    </entry>
+    <entry category="City" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | areaWater | "880000.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | areaOfWater | 0.88 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron in Ohio has .88 square kilometres of water.</lex>
+      <lex comment="good" lid="Id2">The area of water with Akron, Ohio, is .88 sq. km.</lex>
+      <lex comment="good" lid="Id3">There is 0.88 square km of water in Akron, Ohio.</lex>
+    </entry>
+    <entry category="City" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | areaTotal | "161.53755844165633"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | areaTotal | 161.54 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron, Ohio has a total area of 161.54 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Akron Ohio is 161.54 Sq Km.</lex>
+      <lex comment="good" lid="Id3">The total area of Akron, Ohio is 161.54 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron, Ohio is located in the U.S.</lex>
+      <lex comment="good" lid="Id2">Akron, Ohio is located within the United States.</lex>
+      <lex comment="good" lid="Id3">The country of Akron, Ohio, is United States.</lex>
+    </entry>
+    <entry category="City" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | elevation | "306.019"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | elevationAboveTheSeaLevel | 306.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron, Ohio is at a height of 306.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | subdivisionName | Summit_County,_Ohio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | isPartOf | Summit_County,_Ohio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron is in Summit County, Ohio.</lex>
+      <lex comment="good" lid="Id2">Akron is a part of Summit County, Ohio.</lex>
+      <lex comment="good" lid="Id3">Akron is located within Summit County, Ohio.</lex>
+    </entry>
+    <entry category="City" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Ohio is part of the U.S.</lex>
+      <lex comment="good" lid="Id2">Akron, Ohio is part of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mayor is the title of the leader of Akron, Ohio.</lex>
+      <lex comment="good" lid="Id2">The leader of Akron, Ohio is the Mayor.</lex>
+      <lex comment="good" lid="Id3">The leader in Akron, Ohio is the Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Akron,_Ohio | populationDensity | "1239.35"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron,_Ohio | populationDensity | 1239.3 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The population density, of Akron (Ohio), is 1239.3 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">The population density of Akron, Ohio is 1239.3 inhabitants per square km.</lex>
+    </entry>
+    <entry category="City" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Alabama | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alabama | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alabama is in the United States.</lex>
+      <lex comment="good" lid="Id2">Alabama is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | areaTotal | "144.7"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | areaTotal | 144.7 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area, of Albany (Georgia), is 144.7 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Albany, Georgia has a total area of 144.7 SqKm.</lex>
+      <lex comment="good" lid="Id3">The total area of Albany, Georgia is 144.7 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Georgia is in the United States.</lex>
+      <lex comment="good" lid="Id2">Albany is in Georgia in the United States.</lex>
+      <lex comment="good" lid="Id3">Albany, Georgia, is within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | elevation | "61.8744"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | elevationAboveTheSeaLevel | 62.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Georgia is located at 62.0 above sea level.</lex>
+      <lex comment="good" lid="Id2">The elevation above the sea level in Albany, Georgia, is 62.0.</lex>
+    </entry>
+    <entry category="City" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | isPartOf | Dougherty_County,_Georgia</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albany,_Georgia | subdivisionName | Dougherty_County,_Georgia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | isPartOf | Dougherty_County,_Georgia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany is a city in Dougherty County, Georgia.</lex>
+      <lex comment="good" lid="Id2">Albany is part of Dougherty County in Georgia.</lex>
+      <lex comment="good" lid="Id3">Albany is located in Dougherty County, Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | isPartOf | Georgia_(U.S._state)</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albany,_Georgia | subdivisionName | Georgia_(U.S._state)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | isPartOf | Georgia_(U.S._state)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany is part of the U.S. State of Georgia.</lex>
+      <lex comment="good" lid="Id2">Albany is located in the US state of Georgia.</lex>
+      <lex comment="good" lid="Id3">Albany is part of the state of Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Georgia is in the United States.</lex>
+      <lex comment="good" lid="Id2">Albany is in Georgia which is a part of the United States.</lex>
+      <lex comment="good" lid="Id3">Albany, Georgia, is in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | populationDensity | "535.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | populationDensity | 535.0 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany in Georgia, has a population density of 535.0 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">Albany in Georgia has a population density of 535 people per square kilometer.</lex>
+      <lex comment="good" lid="Id3">The population density of Albany, Georgia is 535.0 inhabitants per square kilometre.</lex>
+    </entry>
+    <entry category="City" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | areaCode | 541458</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | areaCode | 541, 458</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Oregon has area codes 541 and 458.</lex>
+      <lex comment="good" lid="Id2">The area codes for Albany, Oregon are 541 and 458.</lex>
+    </entry>
+    <entry category="City" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | areaWater | "540000.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | areaOfWater | 0.54 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There is .54 square kilometers of water in Albany, Oregon.</lex>
+      <lex comment="good" lid="Id2">Albany, Oregon has a water area of 0,54 square kilometres.</lex>
+      <lex comment="good" lid="Id3">The area of water in Albany, Oregon, is 0.54 (square kilometres).</lex>
+    </entry>
+    <entry category="City" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | elevation | "64.008"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | elevationAboveTheSeaLevel | 64.008</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Oregon is 64,008 above sea level.</lex>
+      <lex comment="good" lid="Id2">Albany, Oregon is located at 64.008 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | isPartOf | Benton_County,_Oregon</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albany,_Oregon | subdivisionName | Benton_County,_Oregon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | isPartOf | Benton_County,_Oregon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany is part of Benton County in Oregon.</lex>
+      <lex comment="good" lid="Id2">The city of Albany is part of Benton County, Oregon.</lex>
+    </entry>
+    <entry category="City" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | isPartOf | Linn_County,_Oregon</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albany,_Oregon | subdivisionName | Linn_County,_Oregon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | isPartOf | Linn_County,_Oregon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany is a city in Linn County, Oregon.</lex>
+      <lex comment="good" lid="Id2">Albany, Oregon falls under Linn County Oregon.</lex>
+      <lex comment="good" lid="Id3">Albany is part of Linn County, Oregon.</lex>
+    </entry>
+    <entry category="City" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | subdivisionName | Oregon</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albany,_Oregon | isPartOf | Oregon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | isPartOf | Oregon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany is a city in Oregon.</lex>
+      <lex comment="good" lid="Id2">Albany is part of Oregon.</lex>
+    </entry>
+    <entry category="City" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | populationDensity | "1104.1"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | populationDensity | 1104.1 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The population density of Albany, in Oregon, is 1104.1 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">Albany is located in Oregon, where the population density is 1104.1 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id3">The population density for Albany, Oregon is 1104.1 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | areaCode | "505, 575"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | areaCode | 505, 575</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque, New Mexico has area codes 505 and 575.</lex>
+      <lex comment="good" lid="Id2">The area codes in Albuquerque, New Mexico are 505 and 575.</lex>
+    </entry>
+    <entry category="City" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | areaLand | 4.862e+08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | areaOfLand | 486.2 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The land area, of Albuquerque (New Mexico), is 486.2 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Albuquerque, N.M. has an area of land of 486.2 square kilometers.</lex>
+    </entry>
+    <entry category="City" eid="Id35" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | areaTotal | "490.9"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | areaTotal | 490.9 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque, in New Mexico, has a total are of 490.9 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Albuquerque, New Mexico is 490.9 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id36" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque is in New Mexico, in the United States.</lex>
+      <lex comment="good" lid="Id2">Albuquerque, New Mexico is in the United States.</lex>
+      <lex comment="good" lid="Id3">Albuquerque, New Mexico, is within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id37" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | subdivisionName | Bernalillo_County,_New_Mexico</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | isPartOf | Bernalillo_County,_New_Mexico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | isPartOf | Bernalillo_County,_New_Mexico</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque, New Mexico is part of Bernalillo County, New Mexico.</lex>
+      <lex comment="good" lid="Id2">Albuquerque is part of Bernalillo County, New Mexico.</lex>
+      <lex comment="good" lid="Id3">Albuquerque, New Mexico, is part of Bernalillo County.</lex>
+    </entry>
+    <entry category="City" eid="Id38" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | isPartOf | New_Mexico</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | subdivisionName | "New Mexico"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | isPartOf | New_Mexico</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque is in New Mexico.</lex>
+      <lex comment="good" lid="Id2">Albuquerque is part of New Mexico.</lex>
+    </entry>
+    <entry category="City" eid="Id39" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderName | "Richard J. Berry"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leader | Richard_J._Berry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader, of Albuquerque (New Mexico), is Richard J. Berry.</lex>
+      <lex comment="good" lid="Id2">Richard J. Berry is the leader of Albuquerque, New Mexico.</lex>
+      <lex comment="good" lid="Id3">The leader of Albuquerque in New Mexico is Richard J Berry.</lex>
+    </entry>
+    <entry category="City" eid="Id40" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderTitle | Mayor_of_Albuquerque</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leaderTitle | Mayor_of_Albuquerque</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Albuquerque (New Mexico) is called the Mayor of Albuquerque.</lex>
+      <lex comment="good" lid="Id2">The leader of Albuquerque, New Mexico has the title of Mayor of Albuquerque.</lex>
+      <lex comment="good" lid="Id3">Albuquerque in New Mexico is led by the Mayor of Albuquerque.</lex>
+    </entry>
+    <entry category="City" eid="Id41" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderTitle | United_States_House_of_Representatives</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leaderTitle | United_States_House_of_Representatives</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Albuquerque (New Mexico), the leader is called, the United States House of Representatives.</lex>
+      <lex comment="good" lid="Id2">The leader for Albuquerque in New Mexico is the United States House of Representatives.</lex>
+      <lex comment="good" lid="Id3">The leader of Albuquerque, New Mexico is the United States House of Representatives.</lex>
+    </entry>
+    <entry category="City" eid="Id42" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | populationDensity | "1142.3"^^&lt;http://dbpedia.org/datatype/inhabitantsPerSquareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | populationDensity | 1142.3 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque, in New Mexico, has a population density of 1142,3 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">There are 1142.3 people per square kilometers in Albuquerque, N.M.</lex>
+      <lex comment="good" lid="Id3">The population density of Albuquerque in New Mexico is 1142.3 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id43" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque_City_Council | leader | Richard_J._Berry</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque_City_Council | leader | Richard_J._Berry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque City Council is led by Richard J. Berry.</lex>
+      <lex comment="good" lid="Id2">The leader of the Albuquerque City Council is Richard J. Berry.</lex>
+      <lex comment="good" lid="Id3">Richard J Berry is the leader of Albuquerque City Council.</lex>
+    </entry>
+    <entry category="City" eid="Id44" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | areaCode | 765</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | areaCode | 765</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code for Alexandria, Indiana is 765.</lex>
+      <lex comment="good" lid="Id2">The area code of Alexandria, Indiana is 765.</lex>
+    </entry>
+    <entry category="City" eid="Id45" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | areaTotal | 6.81e+06</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | areaTotal | 6.81 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alexandria, in Indiana, has a total area of 6,81 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Alexandria in Indiana occupies 6.81 square kilometers.</lex>
+      <lex comment="good" lid="Id3">The total area of Alexandria, Indiana is 6.81 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id46" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | elevation | "265.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | elevationAboveTheSeaLevel | 265.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alexandria, Indiana is 265m above sea level.</lex>
+      <lex comment="good" lid="Id2">Alexandria, Indiana is located at 265.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id47" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | isPartOf | Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | subdivisionName | Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | isPartOf | Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alexandria is part of Indiana.</lex>
+      <lex comment="good" lid="Id2">Alexandria is located in Indiana.</lex>
+      <lex comment="good" lid="Id3">Alexandria is part of the state of Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id48" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | isPartOf | Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | subdivisionName | Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | isPartOf | Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alexandria is part of Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Alexandria, Indiana, is part of Madison County.</lex>
+      <lex comment="good" lid="Id3">Alexandria, Indiana is part of Madison County Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id49" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | subdivisionName | Monroe_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | isPartOf | Monroe_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | isPartOf | Monroe_Township,_Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alexandria is part of the Monroe Township which is in Madison County, in Indiana.</lex>
+      <lex comment="good" lid="Id2">Alexandria, Indiana is part of Monroe Township, in Madison County.</lex>
+      <lex comment="good" lid="Id3">Alexandria is part of Monroe township, Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id50" size="1">
+      <originaltripleset>
+        <otriple>Alexandria,_Indiana | populationDensity | "755.3"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alexandria,_Indiana | populationDensity | 755.3 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alexandria, Indiana has a population density of 755.3 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">The population density of Alexandria, Indiana is 755.3 inhabitants per sq km.</lex>
+      <lex comment="good" lid="Id3">The population density of Alexandria, Indiana, is 755.3 (inhabitants per square kilometer).</lex>
+    </entry>
+    <entry category="City" eid="Id51" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | areaCode | 770404678</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | areaCode | 770, 404, 678</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpharetta, Georgia has area codes 770, 404, and 678.</lex>
+      <lex comment="good" lid="Id2">The area codes for Alpharetta, Georgia are 770, 404 and 678.</lex>
+    </entry>
+    <entry category="City" eid="Id52" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | areaWater | "100000.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | areaOfWater | 1.0 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpharetta, Georgia has an area of water 1.0 sq km.</lex>
+      <lex comment="good" lid="Id2">Alpharetta, Georgia has a total area of water of 1.0 sq km.</lex>
+      <lex comment="good" lid="Id3">The area of water in Alpharetta, Georgia, is 1.0 (square kilometres).</lex>
+    </entry>
+    <entry category="City" eid="Id53" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | areaTotal | 5.54e+07</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | areaTotal | 55.4 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of Alpharetta, Georgia is 55.4 SqKm.</lex>
+      <lex comment="good" lid="Id2">The area of Alpharetta, Georgia is 55.4 square kilometres.</lex>
+      <lex comment="good" lid="Id3">Alpharetta in Georgia has a total area of 55.4 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id54" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpharetta, is in Georgia, in the United States.</lex>
+      <lex comment="good" lid="Id2">Alpharetta, Georgia is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id55" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | elevation | "345.948"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | elevationAboveTheSeaLevel | 346.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpharetta, Georgia is elevated 346.0 above sea level.</lex>
+      <lex comment="good" lid="Id2">Alpharetta, Georgia is located at 346.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id56" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | isPartOf | Fulton_County,_Georgia</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | subdivisionName | Fulton_County,_Georgia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | isPartOf | Fulton_County,_Georgia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpharetta, is part of Fulton County, in Georgia.</lex>
+      <lex comment="good" lid="Id2">Fulton County is the location of Alpharetta,Georgia.</lex>
+      <lex comment="good" lid="Id3">Alpharetta is part of Fulton County in Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id57" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | subdivisionName | Georgia_(U.S._state)</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | isPartOf | Georgia_(U.S._state)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | isPartOf | Georgia_(U.S._state)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpharetta is part of the U.S. state, Georgia.</lex>
+      <lex comment="good" lid="Id2">Alpharetta is part of the state of Georgia in the United States.</lex>
+      <lex comment="good" lid="Id3">Alpharetta is part of Georgia (U.S state).</lex>
+    </entry>
+    <entry category="City" eid="Id58" size="1">
+      <originaltripleset>
+        <otriple>Alpharetta,_Georgia | populationDensity | "992.6"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpharetta,_Georgia | populationDensity | 992.6 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 992.6 people per square kilometres in Alpharetta, Georgia.</lex>
+      <lex comment="good" lid="Id2">Alpharetta, Georgia has a population density of 992.6 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id3">The population density in Alpharetta, Georgia is 992.6 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id59" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | areaCode | "806"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | areaCode | 806</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code for Amarillo, Texas is 806.</lex>
+      <lex comment="good" lid="Id2">806 is the area code for Amarillo, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id60" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | elevation | "1099.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | elevationAboveTheSeaLevel | 1099.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo Texas is elevated 1099.0 above sea level.</lex>
+      <lex comment="good" lid="Id2">Amarillo, Texas is 1099 metres above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id61" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | isPartOf | Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | subdivisionName | "Texas"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | isPartOf | Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is a city in Texas.</lex>
+      <lex comment="good" lid="Id2">Amarillo is part of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id62" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | populationDensity | "746.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | populationDensity | 746.0 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo, Texas has a population density of 746 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">746 people per square kilometre inhabit Amarillo, Texas.</lex>
+      <lex comment="good" lid="Id3">Amarillo Texas has a population density of 746.0 inhabitants per square kilometre.</lex>
+    </entry>
+    <entry category="City" eid="Id63" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | utcOffset | "&amp;minus;7"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | UTCOffset | "-7"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, California has a UTC offset of - 7.</lex>
+      <lex comment="good" lid="Id2">Anaheim, CA has a UTC offset of minus 7.</lex>
+      <lex comment="good" lid="Id3">Anaheim, California has an UTC offset of -7.</lex>
+    </entry>
+    <entry category="City" eid="Id64" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | utcOffset | "&amp;minus;8"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | UTCOffset | "-8"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, in California, has a UTC offset of -8.</lex>
+      <lex comment="good" lid="Id2">The UTC offset for Anaheim, California is -8.</lex>
+    </entry>
+    <entry category="City" eid="Id65" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | areaCode | "657/714"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | areaCode | 657, 714</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">657 and 714 are area codes for Anaheim, CA.</lex>
+      <lex comment="good" lid="Id2">Anaheim in California has the area code: 657, 714.</lex>
+    </entry>
+    <entry category="City" eid="Id66" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | areaWater | 2.52783e+06</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | areaOfWater | 25.2 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area of water, in Anaheim (California), is 25.2 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Anaheim, CA has 25.2 square kilometres of water.</lex>
+      <lex comment="good" lid="Id3">The total area of water in Anaheim, California is 25.2 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id67" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | areaTotal | "131.5998858742825"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | areaTotal | 131.6 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, California has a total area of 131.6 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Anaheim California is 131.6 sq km.</lex>
+      <lex comment="good" lid="Id3">The total area for Anaheim California is 131.6 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id68" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, California is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Anaheim is in California in the U.S.</lex>
+      <lex comment="good" lid="Id3">Anaheim, California is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id69" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | elevation | "47.8536"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | elevationAboveTheSeaLevel | 48.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim in California has an elevation of 48.0m above sea level.</lex>
+      <lex comment="good" lid="Id2">Anaheim, California elevation is 48.0 above the sea level.</lex>
+      <lex comment="good" lid="Id3">Anaheim, California is situated at 48.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id70" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | isPartOf | California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | isPartOf | California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim is part of California.</lex>
+    </entry>
+    <entry category="City" eid="Id71" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | isPartOf | Orange_County,_California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | isPartOf | Orange_County,_California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim is a city in Orange County which is part of California.</lex>
+      <lex comment="good" lid="Id2">Anaheim is in Orange County, CA.</lex>
+      <lex comment="good" lid="Id3">Anaheim, California is part of Orange County, California.</lex>
+    </entry>
+    <entry category="City" eid="Id72" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | leaderName | Tom_Tait</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | leader | Tom_Tait</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Tom Tait is a leader in Anaheim, California.</lex>
+      <lex comment="good" lid="Id2">Tom Tait is the leader of Anaheim, California.</lex>
+      <lex comment="good" lid="Id3">The leader of Anaheim, California, is Tom Tait.</lex>
+    </entry>
+    <entry category="City" eid="Id73" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | leaderTitle | California_State_Assembly</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | leaderTitle | California_State_Assembly</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, California is led by the California State Assembly.</lex>
+    </entry>
+    <entry category="City" eid="Id74" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | leaderTitle | California_State_Senate</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | leaderTitle | California_State_Senate</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The California State Senate leads Anaheim, California.</lex>
+    </entry>
+    <entry category="City" eid="Id75" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | leaderTitle | United_States_House_of_Representatives</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | leaderTitle | United_States_House_of_Representatives</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States House of Representatives leads Anaheim, California.</lex>
+    </entry>
+    <entry category="City" eid="Id76" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | populationTotal | "336265"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | populationTotal | 336265</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, CA has 336265 people inhabiting it.</lex>
+      <lex comment="good" lid="Id2">The total population of Anaheim California is 336265.</lex>
+      <lex comment="good" lid="Id3">Anaheim, California has a population of 336265.</lex>
+    </entry>
+    <entry category="City" eid="Id77" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | areaCode | "765"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | areaCode | 765</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code of Anderson, in Indiana, is 765.</lex>
+      <lex comment="good" lid="Id2">The area code of Anderson, Indiana is 765.</lex>
+      <lex comment="good" lid="Id3">The area code of Anderson, Indiana , is 765.</lex>
+    </entry>
+    <entry category="City" eid="Id78" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | areaTotal | 1.07433e+08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | areaTotal | 107.43 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana has an area of 107.43 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Anderson is located in Indiana , whose total area is 107.43 square kilometres.</lex>
+      <lex comment="good" lid="Id3">The total area of Anderson, Indiana is 107.43 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id79" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | elevation | "268.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | elevationAboveTheSeaLevel | 268.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson Indiana has an elevation of 268.0 above sea level.</lex>
+      <lex comment="good" lid="Id2">Anderson, Indiana is located at 268.0 above sea level.</lex>
+      <lex comment="good" lid="Id3">The elevation above the sea level for Anderson, Indiana, is 268.0.</lex>
+    </entry>
+    <entry category="City" eid="Id80" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Adams_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Adams_Township,_Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson is part of Adams Township, Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson is located within Adams Township, Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id81" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | subdivisionName | Anderson_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Anderson_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Anderson_Township,_Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is part of Anderson Township, Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson is part of Anderson Township, Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id3">Anderson, Indiana, is part of the Anderson Township, Madison County in Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id82" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Fall_Creek_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Fall_Creek_Township,_Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is part of Fall Creek Township, Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson, Indiana, is part of Fall Creek Township, Madison County Indiana.</lex>
+      <lex comment="good" lid="Id3">Anderson, Indiana, is part of Fall Creek Township, Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id83" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | subdivisionName | Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson is a city in Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson is part of Indiana.</lex>
+      <lex comment="good" lid="Id3">The city of Anderson is part of Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id84" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Lafayette_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Lafayette_Township,_Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is part of Lafayette Township, Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson is part of Lafayette Township, Madison County,Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id85" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | subdivisionName | Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson in Madison County is in Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson is located in Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id3">Anderson is part of Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id86" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | isPartOf | Union_Township,_Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | Union_Township,_Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is part of the Union Township, Madison County.</lex>
+      <lex comment="good" lid="Id2">Anderson is part of Union Township, Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id87" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | leaderName | Democratic_Party_(United_States)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | leader | Democratic_Party_(United_States)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is led by the Democratic Party of the US.</lex>
+    </entry>
+    <entry category="City" eid="Id88" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | populationDensity | "523.9"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | populationDensity | 523.9 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana has 523.9 people per square kilometer.</lex>
+      <lex comment="good" lid="Id2">The population density of Anderson, Indiana is 523.9 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id3">The population density of Anderson, Indiana, is 523.9 (inhabitants per square kilometre).</lex>
+    </entry>
+    <entry category="City" eid="Id89" size="1">
+      <originaltripleset>
+        <otriple>Anderson_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Township of Madison County, Indiana is in the Country of United States.</lex>
+      <lex comment="good" lid="Id2">Anderson Township, Madison County, Indiana is located within the United States.</lex>
+      <lex comment="good" lid="Id3">The country of Anderson Township, Madison County, Indiana, is United States.</lex>
+    </entry>
+    <entry category="City" eid="Id90" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | areaTotal | "16.55"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | areaTotal | 16.55 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola, in Indiana, has a total area of 16.55 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Angola, Indiana, is 16.55 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id91" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola, Indiana is in the United States.</lex>
+      <lex comment="good" lid="Id2">Angola, Indiana is in the U.S.</lex>
+      <lex comment="good" lid="Id3">Angola, Indiana is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id92" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | subdivisionName | Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Angola,_Indiana | isPartOf | Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | isPartOf | Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola is a city in Indiana.</lex>
+      <lex comment="good" lid="Id2">Angola is part of the state of Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id93" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | subdivisionName | Steuben_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Angola,_Indiana | isPartOf | Steuben_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | isPartOf | Steuben_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola, Indiana is part of Steuben County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Angola, Indiana, is part of Steuben County.</lex>
+      <lex comment="good" lid="Id3">Angola, Indiana is in Steuben County.</lex>
+    </entry>
+    <entry category="City" eid="Id94" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola is part of Indiana which is in the United States.</lex>
+      <lex comment="good" lid="Id2">Angola, Indiana is part of the U.S.</lex>
+      <lex comment="good" lid="Id3">Angola in Indiana is part of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id95" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | populationDensity | "524.5"^^&lt;http://dbpedia.org/datatype/inhabitantsPerSquareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | populationDensity | 524.5 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The population density of Angola Indians is 524.5 (inhabitants per square kilometre).</lex>
+      <lex comment="good" lid="Id2">The population density of Angola, Indiana is 524.5 inhabitants per sq km.</lex>
+      <lex comment="good" lid="Id3">The population density in Angola, Indiana, is 524.5 (inhabitants per square kilometre).</lex>
+    </entry>
+    <entry category="City" eid="Id96" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | areaCode | "734"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | areaCode | 734</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code for Ann Arbor Michigan is 734.</lex>
+      <lex comment="good" lid="Id2">734 is the area code for Ann Arbor, Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id97" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | areaTotal | "74.3326587666432"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | areaTotal | 74.33 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ann Arbor, Michigan has a total area of 74.33 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Ann Arbor (Michigan), has a total area of 74.33 square kilometres.</lex>
+      <lex comment="good" lid="Id3">Ann Arbor in Michigan has a total area of 74.33 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id98" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | isPartOf | Michigan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | subdivisionName | Michigan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | isPartOf | Michigan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ann Arbor is in Michigan.</lex>
+      <lex comment="good" lid="Id2">Ann Arbor is part of Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id99" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | subdivisionName | Washtenaw_County,_Michigan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | isPartOf | Washtenaw_County,_Michigan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | isPartOf | Washtenaw_County,_Michigan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ann Arbor is part of Washtenaw County in Michigan.</lex>
+      <lex comment="good" lid="Id2">Ann Arbor, Michigan is part of Washtenaw County.</lex>
+    </entry>
+    <entry category="City" eid="Id100" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | leaderName | Christopher_Taylor_(politician)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | leader | Christopher_Taylor_(politician)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Christopher Taylor, politician, leads Ann Arbor, Michigan.</lex>
+      <lex comment="good" lid="Id2">Ann Arbor, Michigan is led by the politician Christopher Taylor.</lex>
+    </entry>
+    <entry category="City" eid="Id101" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | leaderTitle | City_manager</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | leaderTitle | City_Manager</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The city manager is the leader of Ann Arbor, Michigan.</lex>
+      <lex comment="good" lid="Id2">The title of the leader of Ann Arbor in Michigan is the City Manager.</lex>
+      <lex comment="good" lid="Id3">City Manager is the leader title in Ann Arbor, Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id102" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | utcOffset | "&amp;minus;7"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | UTCOffset | "-7"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Antioch, California has a UTC offset of - 7.</lex>
+      <lex comment="good" lid="Id2">Antioch, California time zone offset is -7.</lex>
+      <lex comment="good" lid="Id3">The UTC offset for Antioch California is -7.</lex>
+    </entry>
+    <entry category="City" eid="Id103" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | utcOffset | "&amp;minus;8"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | UTCOffset | "-8"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Antioch in California has a UTC offset of -8.</lex>
+      <lex comment="good" lid="Id2">The UTC offset for Antioch, California is -8.</lex>
+      <lex comment="good" lid="Id3">The UTC offset in Antioch, California, is -8.</lex>
+    </entry>
+    <entry category="City" eid="Id104" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | areaTotal | "75.324"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | areaTotal | 75.324 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of Antioch, California is 75.324 square km.</lex>
+      <lex comment="good" lid="Id2">Antioch, California has a total area of 75.324 square km.</lex>
+      <lex comment="good" lid="Id3">The total area in Antioch, California is 75.324 (square kilometres).</lex>
+    </entry>
+    <entry category="City" eid="Id105" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | settlementType | California</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Antioch,_California | isPartOf | California</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Antioch,_California | subdivisionName | California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | isPartOf | California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Antioch is part of California.</lex>
+      <lex comment="good" lid="Id2">The city of Antioch is located within California.</lex>
+    </entry>
+    <entry category="City" eid="Id106" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The mayor is the leader of Antioch, California.</lex>
+      <lex comment="good" lid="Id2">Mayor, is the title for the leader of Antioch, in California.</lex>
+      <lex comment="good" lid="Id3">The Mayor leads Antioch, California.</lex>
+    </entry>
+    <entry category="City" eid="Id107" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | leaderTitle | "United States representatives"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | leaderTitle | United_States_House_of_Representatives</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States House of Representatives is the leader of Antioch, California.</lex>
+      <lex comment="good" lid="Id2">Antioch, California is led by the United States House of Representatives.</lex>
+      <lex comment="good" lid="Id3">The leader title of Antioch, California, is United States House of Representatives.</lex>
+    </entry>
+    <entry category="City" eid="Id108" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | populationTotal | 102372</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | populationTotal | 102372</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The population of Antioch California is 102372.</lex>
+      <lex comment="good" lid="Id2">The total population of Antioch, California is 102372.</lex>
+      <lex comment="good" lid="Id3">The population of Antioch, California is 102372.</lex>
+    </entry>
+    <entry category="City" eid="Id109" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | postalCode | "9450994531"^^xsd:decimal</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | postalCode | 94509, 94531</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Antioch, California has postal codes 94509 and 94531.</lex>
+      <lex comment="good" lid="Id2">Antioch California has the postal codes 94509 and 94531.</lex>
+      <lex comment="good" lid="Id3">94509 and 94531 are postal codes for Antioch, CA.</lex>
+    </entry>
+    <entry category="City" eid="Id110" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | areaCode | "682, 817,214, 469, 972"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | areaCode | 682, 817, 214, 469, 972</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Area codes for Arlington, Texas are: 682, 817, 214, 469 and 972.</lex>
+      <lex comment="good" lid="Id2">The area codes for Arlington, Texas are 682, 817, 214, 469 and 972.</lex>
+      <lex comment="good" lid="Id3">The area codes for Arlington, Texas are 682, 817, 214, 469, 972.</lex>
+    </entry>
+    <entry category="City" eid="Id111" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | areaWater | 8.3e+06</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | areaOfWater | 82.8 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arlington, Texas has a water area of 82.8 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The area of water within Arlington Texas is 82.8 sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id112" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | areaTotal | 2.58222e+08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | areaTotal | 258.2 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of Arlington (Texas) is 258.3 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Arlington Texas has an area of 258.2 SqK.</lex>
+      <lex comment="good" lid="Id3">The total area of Arlington in Texas is 258.2 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id113" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | subdivisionName | Tarrant_County,_Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Arlington,_Texas | isPartOf | Tarrant_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | isPartOf | Tarrant_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arlington is part of Tarrant County in Texas.</lex>
+      <lex comment="good" lid="Id2">Arlington, Tarrant County, is in Texas.</lex>
+      <lex comment="good" lid="Id3">Arlington is part of Tarrant County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id114" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | isPartOf | Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | isPartOf | Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arlington is part of Texas.</lex>
+      <lex comment="good" lid="Id2">Arlington is part of the state of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id115" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | areaCode | 404</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | areaCode | 404</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta has the area code of 404.</lex>
+      <lex comment="good" lid="Id2">Atlanta has an area code of 404.</lex>
+      <lex comment="good" lid="Id3">The area code for Atlanta is 404.</lex>
+    </entry>
+    <entry category="City" eid="Id116" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | areaCode | "404/678/470"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | areaCode | 404, 678, 470</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area codes in Atlanta are 404, 678, and 470.</lex>
+      <lex comment="good" lid="Id2">The area codes for Atlanta are 404, 678 and 470.</lex>
+      <lex comment="good" lid="Id3">Atlanta has the area codes 404, 678, and 470.</lex>
+    </entry>
+    <entry category="City" eid="Id117" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | areaLand | 3.449e+08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | areaOfLand | 344.9 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta covers 344.9 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Atlanta covers an area of 344.9 (square kilometres).</lex>
+    </entry>
+    <entry category="City" eid="Id118" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | areaTotal | "347.1"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | areaTotal | 347.1 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of Atlanta is 347.1 SqKm.</lex>
+      <lex comment="good" lid="Id2">The total area of Atlanta is 347.1 square kilometres.</lex>
+      <lex comment="good" lid="Id3">The total area of Atlanta is 347.1 (square kilometres).</lex>
+    </entry>
+    <entry category="City" eid="Id119" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta is in the United States.</lex>
+      <lex comment="good" lid="Id2">Atlanta is in the U.S.</lex>
+    </entry>
+    <entry category="City" eid="Id120" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | subdivisionName | "Georgia"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | isPartOf | "Georgia"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta is part of Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id121" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | isPartOf | DeKalb_County,_Georgia</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Atlanta | subdivisionName | DeKalb_County,_Georgia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | isPartOf | DeKalb_County,_Georgia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Most of Atlanta is part of DeKalb County in Georgia.</lex>
+      <lex comment="good" lid="Id2">Atlanta is part of DeKalb County in Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id122" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | isPartOf | Fulton_County,_Georgia</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Atlanta | subdivisionName | Fulton_County,_Georgia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | isPartOf | Fulton_County,_Georgia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta is a part of Fulton County in Georgia.</lex>
+      <lex comment="good" lid="Id2">Atlanta is part of Fulton County in Georgia.</lex>
+      <lex comment="good" lid="Id3">Atlanta is part of Fulton County, Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id123" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | isPartOf | Georgia_(U.S._state)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | isPartOf | Georgia_(U.S._state)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta, is a part of the U.S. state, Georgia.</lex>
+      <lex comment="good" lid="Id2">Atlanta is part of Georgia in the U.S.</lex>
+      <lex comment="good" lid="Id3">Atlanta is located within the US state of Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id124" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | leaderName | Atlanta_City_Council</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | leader | Atlanta_City_Council</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Atlanta is the Atlanta City Council.</lex>
+      <lex comment="good" lid="Id2">Atlanta is led by Atlanta City Council.</lex>
+    </entry>
+    <entry category="City" eid="Id125" size="1">
+      <originaltripleset>
+        <otriple>Atlanta | populationDensity | "1299.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlanta | populationDensity | 1299.0 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta has a population density of 1299 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">The population density of Atlanta is 1299.0 inhabitants per square kilometre.</lex>
+    </entry>
+    <entry category="City" eid="Id126" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | areaCode | "609"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | areaCode | 609</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code in Atlantic City (New Jersey) is 609.</lex>
+      <lex comment="good" lid="Id2">609 is the area code of Atlantic City, N.J.</lex>
+      <lex comment="good" lid="Id3">The area code of Atlantic City, New Jersey, is 609.</lex>
+    </entry>
+    <entry category="City" eid="Id127" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlantic City, New Jersey is in the United States.</lex>
+      <lex comment="good" lid="Id2">Atlantic City is in new Jersey, in the United States.</lex>
+      <lex comment="good" lid="Id3">Atlantic City, New Jersey, is within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id128" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | isPartOf | Atlantic_County,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | isPartOf | Atlantic_County,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlantic City is part of Atlantic County, New Jersey.</lex>
+      <lex comment="good" lid="Id2">Atlantic City, New Jersey is in Atlantic County, New Jersey.</lex>
+    </entry>
+    <entry category="City" eid="Id129" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | leaderName | Don_Guardian</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | leader | Don_Guardian</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Don Guardian is the leader of Atlantic City (New Jersey).</lex>
+      <lex comment="good" lid="Id2">The leader of Atlantic City, New Jersey is Don Guardian.</lex>
+      <lex comment="good" lid="Id3">The leader in Atlantic City, New Jersey is Don Guardian.</lex>
+    </entry>
+    <entry category="City" eid="Id130" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | leaderTitle | "Clerk"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | leaderTitle | Clerk_(municipal_official)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader's title in Atlantic City (New Jersey) is Clerk, which is a municipal official.</lex>
+      <lex comment="good" lid="Id2">A Clerk (municipal official) is the leader of Atlantic City, N.J.</lex>
+      <lex comment="good" lid="Id3">The municipal official titled the Clerk leads Atlantic City, New Jersey.</lex>
+    </entry>
+    <entry category="City" eid="Id131" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | leaderTitle | Mayors_of_Atlantic_City,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | leaderTitle | Mayors_of_Atlantic_City,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">"Mayor" is the title of the leader in Atlantic City, New Jersey.</lex>
+      <lex comment="good" lid="Id2">The municipal leader of Atlantic City, New Jersey is known as the Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id132" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_City,_New_Jersey | populationDensity | "1421.2"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_City,_New_Jersey | populationDensity | 1421.2 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlantic City, in New Jersey, has a population density of 1421.2 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">Atlantic City, New Jersey, has a population of 1421.2 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id3">The population density of Atlantic City, New Jersey is 1421.2 inhabitants per square kilometre.</lex>
+    </entry>
+    <entry category="City" eid="Id133" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | areaTotal | 4.14e+06</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | areaTotal | 4.14 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica in Indiana, has a total area of 4.14 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The area of Attica Indiana is 4.14 SqKm.</lex>
+      <lex comment="good" lid="Id3">Attica, Indiana has a total area of 4.14 sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id134" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica, Indiana is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Attica, Indiana, is part of the United States.</lex>
+      <lex comment="good" lid="Id3">Attica, Indiana is in the United Sates.</lex>
+    </entry>
+    <entry category="City" eid="Id135" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | isPartOf | Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Attica,_Indiana | subdivisionName | Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | isPartOf | Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica is part of Indiana.</lex>
+      <lex comment="good" lid="Id2">Attica is part of the state of Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id136" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | isPartOf | Logan_Township,_Fountain_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Attica,_Indiana | subdivisionName | Logan_Township,_Fountain_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | isPartOf | Logan_Township,_Fountain_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica, Indiana is part of Logan Township, Fountain County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Attica is a city in Logan Township which is a part of Fountain County in Indiana.</lex>
+      <lex comment="good" lid="Id3">Attica is part of Logan Township, Fountain County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id137" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica, Indiana is part of the U.S.</lex>
+      <lex comment="good" lid="Id2">Attica,Indiana is part of the United States.</lex>
+      <lex comment="good" lid="Id3">Attica, Indiana is part of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id138" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | populationDensity | "783.1"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | populationDensity | 783.1 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The population density, of Attica (Indiana), is 783.1 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">The population density of Attica, Indiana, is 783.1 inhabitants per sq km.</lex>
+      <lex comment="good" lid="Id3">The population density of Attica Indiana is 783.1 (inhabitants per square kilometre).</lex>
+    </entry>
+    <entry category="City" eid="Id139" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | areaCode | 334</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | areaCode | 334</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn, Alabama, has the area code, 334.</lex>
+      <lex comment="good" lid="Id2">The area code for Auburn, Alabama is 334.</lex>
+    </entry>
+    <entry category="City" eid="Id140" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | areaWater | 1.7e+06</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | areaOfWater | 1.7 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1.7 square kilometres is the area of water in Auburn, Alabama.</lex>
+      <lex comment="good" lid="Id2">Auburn, Alabama has an area of water that is 1.7 km.</lex>
+      <lex comment="good" lid="Id3">There is a total area of 1.7 square kilometres of water in Auburn, Alabama.</lex>
+    </entry>
+    <entry category="City" eid="Id141" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | areaTotal | "140.8"^^&lt;http://dbpedia.org/datatype/squareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | areaTotal | 140.8 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of the city Auburn, in Alabama, is 140.8 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Auburn, Alabama is 140.8 Sq Km.</lex>
+      <lex comment="good" lid="Id3">The total area of Auburn, Alabama is 140.8 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id142" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn, Alabama is in the United States.</lex>
+      <lex comment="good" lid="Id2">Auburn Alabama is in the United States.</lex>
+      <lex comment="good" lid="Id3">Auburn, Alabama is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id143" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | elevation | "214.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | elevationAboveTheSeaLevel | 214.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn Alabama has an elevation above sea level of 214.</lex>
+      <lex comment="good" lid="Id2">Auburn, Alabama is located at 214.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id144" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | populationDensity | "368.65"^^&lt;http://dbpedia.org/datatype/inhabitantsPerSquareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | populationDensity | 368.65 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Population density in Auburn,Alabama is 368.65 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">Auburn, Alabama has a population density of 368.65 inhabitants per sq km.</lex>
+      <lex comment="good" lid="Id3">The population density of the city, Auburn in Alabama is 368.65 (inhabitants per square kilometre).</lex>
+    </entry>
+    <entry category="City" eid="Id145" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn, Washington is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Auburn, Washington is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id146" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | isPartOf | King_County,_Washington</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Auburn,_Washington | subdivisionName | King_County,_Washington</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | isPartOf | King_County,_Washington</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">King County is the location of Auburn, Washington.</lex>
+      <lex comment="good" lid="Id2">Auburn is part of King County in Washington.</lex>
+      <lex comment="good" lid="Id3">Auburn is part of King County, Washington.</lex>
+    </entry>
+    <entry category="City" eid="Id147" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | subdivisionName | Pierce_County,_Washington</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Auburn,_Washington | isPartOf | Pierce_County,_Washington</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | isPartOf | Pierce_County,_Washington</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn is in Pierce County, Washington.</lex>
+      <lex comment="good" lid="Id2">Auburn forms part of Pierce County, Washington.</lex>
+      <lex comment="good" lid="Id3">Auburn is part of Pierce County, Washington.</lex>
+    </entry>
+    <entry category="City" eid="Id148" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn, Washington is part of the U.S.</lex>
+      <lex comment="good" lid="Id2">Auburn, Washington is part of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id149" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | subdivisionName | Washington_(state)</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Auburn,_Washington | isPartOf | Washington_(state)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | isPartOf | Washington_(state)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn is part of Washington state.</lex>
+      <lex comment="good" lid="Id2">Auburn is located within the state of Washington.</lex>
+      <lex comment="good" lid="Id3">Auburn is part of Washington (state).</lex>
+    </entry>
+    <entry category="City" eid="Id150" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mayor is the title of the leader of Auburn, in Washington.</lex>
+      <lex comment="good" lid="Id2">The Mayor is the leader in Auburn, Washington.</lex>
+      <lex comment="good" lid="Id3">The title of the leader in Auburn, Washington is the Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id151" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Washington | populationDensity | "914.8"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Washington | populationDensity | 914.8 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn, Washington has a population density of 914.8 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">The population density, of Auburn (Washington), is 914.8 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id3">The population density of Auburn, Washington, is 914.8 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id152" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | areaCode | 512</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | areaCode | 512</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code of Austin (Texas), is 512.</lex>
+      <lex comment="good" lid="Id2">The area code for Austin, Texas is 512.</lex>
+      <lex comment="good" lid="Id3">The area code of Austin, Texas, is 512.</lex>
+    </entry>
+    <entry category="City" eid="Id153" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | areaCode | "512 &amp; 737"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | areaCode | 512, 737</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ares codes of Austin (Texas) are 512 and 737.</lex>
+    </entry>
+    <entry category="City" eid="Id154" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | areaLand | 6.86088e+08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | areaOfLand | 686.0 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin, Texas has a land area of 686 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Austin, Texas has a area of land that measures 686.0 (square kilometers).</lex>
+      <lex comment="good" lid="Id3">Austin, Texas covers 686.0 square kilometres of land.</lex>
+    </entry>
+    <entry category="City" eid="Id155" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | areaTotal | 7.03959e+08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | areaTotal | 703.95 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area of Austin, Texas is 703.95 (square kilometres).</lex>
+      <lex comment="good" lid="Id2">Austin, Texas has a total area of 703.95 square kilometres.</lex>
+    </entry>
+    <entry category="City" eid="Id156" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin, Texas is in the United States.</lex>
+      <lex comment="good" lid="Id2">Austin, Texas is located within the country of the United States.</lex>
+      <lex comment="good" lid="Id3">The country of Austin, Texas, is United States.</lex>
+    </entry>
+    <entry category="City" eid="Id157" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | subdivisionName | Hays_County,_Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Austin,_Texas | isPartOf | Hays_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | isPartOf | Hays_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin is in Hays County, Texas.</lex>
+      <lex comment="good" lid="Id2">Austin is a part of Hays County in Texas.</lex>
+      <lex comment="good" lid="Id3">Austin, Texas, is part of Hays County Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id158" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | subdivisionName | Travis_County,_Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Austin,_Texas | isPartOf | Travis_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | isPartOf | Travis_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin is part of Travis County, in Texas.</lex>
+      <lex comment="good" lid="Id2">Austin is located in Travis County, Texas.</lex>
+      <lex comment="good" lid="Id3">Austin is part of Travis County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id159" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | subdivisionName | Williamson_County,_Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Austin,_Texas | isPartOf | Williamson_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | isPartOf | Williamson_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin is part of Williamson County, in Texas.</lex>
+      <lex comment="good" lid="Id2">Austin Texas is part of Williamson County.</lex>
+      <lex comment="good" lid="Id3">Austin is part of Williamson County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id160" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | leaderTitle | "City Manager"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | leaderTitle | City_Manager</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The city manager is the leader of Austin, Texas.</lex>
+      <lex comment="good" lid="Id2">The City Manager leads Austin, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id161" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader in Austin Texas is the Mayor.</lex>
+      <lex comment="good" lid="Id2">The leader of Austin, Texas is called the Mayor.</lex>
+      <lex comment="good" lid="Id3">Austin Texas is led by a Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id162" size="1">
+      <originaltripleset>
+        <otriple>Austin,_Texas | populationDensity | "1296.654601076267"^^&lt;http://dbpedia.org/datatype/inhabitantsPerSquareKilometre&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Austin,_Texas | populationDensity | 1296.65 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The population density, of Austin (Texas), is 1296.65 inhabitants per square kilometre.</lex>
+      <lex comment="good" lid="Id2">Austin in Texas has a population of 1296.65 people per square kilometer.</lex>
+      <lex comment="good" lid="Id3">The population density of Austin, Texas, is 1296.65 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id163" size="1">
+      <originaltripleset>
+        <otriple>Benton_County,_Oregon | largestCity | Corvallis,_Oregon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Benton_County,_Oregon | largestCity | Corvallis,_Oregon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Corvallis is the largest city in Benton County, Oregon.</lex>
+      <lex comment="good" lid="Id2">The largest city in Benton County, Oregon, is Corvallis, Oregon.</lex>
+      <lex comment="good" lid="Id3">The largest city in Benton County Oregon is Corvallis.</lex>
+    </entry>
+    <entry category="City" eid="Id164" size="1">
+      <originaltripleset>
+        <otriple>California | language | Chinese_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | language | Chinese_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinese is one of the languages spoken in California.</lex>
+      <lex comment="good" lid="Id2">Some parts of California speak Chinese.</lex>
+      <lex comment="good" lid="Id3">The Chinese language is spoken in California.</lex>
+    </entry>
+    <entry category="City" eid="Id165" size="1">
+      <originaltripleset>
+        <otriple>California | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The English language is spoken in California.</lex>
+      <lex comment="good" lid="Id2">English is spoken in California.</lex>
+    </entry>
+    <entry category="City" eid="Id166" size="1">
+      <originaltripleset>
+        <otriple>California | language | Vietnamese_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | language | Vietnamese_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vietnamese is a language spoken in California.</lex>
+      <lex comment="good" lid="Id2">One of the languages spoken in California is Vietnamese.</lex>
+      <lex comment="good" lid="Id3">Vietnamese is one of the languages being spoken in California.</lex>
+    </entry>
+    <entry category="City" eid="Id167" size="1">
+      <originaltripleset>
+        <otriple>California_State_Assembly | isPartOf | California_State_Legislature</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California_State_Assembly | isPartOf | California_State_Legislature</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The California State Assembly is part of the California State Legislature.</lex>
+    </entry>
+    <entry category="City" eid="Id168" size="1">
+      <originaltripleset>
+        <otriple>California_State_Assembly | location | California_State_Capitol</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California_State_Assembly | location | California_State_Capitol</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The California State Assembly is located in the California State Capitol.</lex>
+      <lex comment="good" lid="Id2">The California State Assembly is in the California State Capitol.</lex>
+      <lex comment="good" lid="Id3">The California State Assembly is located at the California State Capitol.</lex>
+    </entry>
+    <entry category="City" eid="Id169" size="1">
+      <originaltripleset>
+        <otriple>California_State_Senate | isPartOf | California_State_Legislature</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California_State_Senate | isPartOf | California_State_Legislature</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The California State Senate is part of the California State Legislature.</lex>
+      <lex comment="good" lid="Id2">The senate in California is part of the California State Legislature.</lex>
+    </entry>
+    <entry category="City" eid="Id170" size="1">
+      <originaltripleset>
+        <otriple>California_State_Senate | location | California_State_Capitol</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California_State_Senate | location | California_State_Capitol</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The California State Senate is located at the California State Capitol.</lex>
+      <lex comment="good" lid="Id2">The California State Senate is located in the California State Capitol.</lex>
+    </entry>
+    <entry category="City" eid="Id171" size="1">
+      <originaltripleset>
+        <otriple>Contra_Costa_County,_California | subdivisionName | San_Francisco_Bay_Area</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Contra_Costa_County,_California | isPartOf | San_Francisco_Bay_Area</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Contra_Costa_County,_California | isPartOf | San_Francisco_Bay_Area</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Contra Costa County is part of the San Francisco Bay area, in California.</lex>
+      <lex comment="good" lid="Id2">Contra Costa County in California is part of the San Francisco Bay Area.</lex>
+    </entry>
+    <entry category="City" eid="Id172" size="1">
+      <originaltripleset>
+        <otriple>DeKalb_County,_Georgia | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>DeKalb_County,_Georgia | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">DeKalb County, Georgia, is located in the United States.</lex>
+      <lex comment="good" lid="Id2">DeKalb County, Georgia is located within the United States.</lex>
+      <lex comment="good" lid="Id3">DeKalb County, Georgia is in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id173" size="1">
+      <originaltripleset>
+        <otriple>Democratic_Party_(United_States) | chairperson | Debbie_Wasserman_Schultz</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Democratic_Party_(United_States) | chairperson | Debbie_Wasserman_Schultz</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The chair of the Democratic Party in the United States is Debbie Wasserman Schultz.</lex>
+    </entry>
+    <entry category="City" eid="Id174" size="1">
+      <originaltripleset>
+        <otriple>Democratic_Party_(United_States) | headquarter | South_Capitol_Street</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Democratic_Party_(United_States) | headquarters | South_Capitol_Street</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Democratic_Party_(United_States) | headquarter | South_Capitol_Street</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Democratic Party of the U.S. headquarters on South Capitol Street.</lex>
+      <lex comment="good" lid="Id2">The headquarters of the Democratic Party (United States) is at South Capitol Street.</lex>
+    </entry>
+    <entry category="City" eid="Id175" size="1">
+      <originaltripleset>
+        <otriple>Democratic_Party_(United_States) | headquarter | Washington,_D.C.</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Democratic_Party_(United_States) | headquarters | Washington,_D.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Democratic_Party_(United_States) | headquarter | Washington,_D.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Democratic Party headquarters are in Washington, D.C..</lex>
+      <lex comment="good" lid="Id2">The Democratic Party (U.S.) is headquartered in Washington, D.C.</lex>
+    </entry>
+    <entry category="City" eid="Id176" size="1">
+      <originaltripleset>
+        <otriple>Fall_Creek_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Fall_Creek_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Fall Creek Township, Madison County, Indiana is located in the U.S.</lex>
+      <lex comment="good" lid="Id2">Fall Creek Township, Madison County, Indiana is within the United States.</lex>
+      <lex comment="good" lid="Id3">Fall Creek Township, Madison County, Indiana is in the country United States.</lex>
+    </entry>
+    <entry category="City" eid="Id177" size="1">
+      <originaltripleset>
+        <otriple>Fountain_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Fountain_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Fountain County is in Indiana, in the United States.</lex>
+      <lex comment="good" lid="Id2">Fountain County is in Indiana in the U.S.</lex>
+      <lex comment="good" lid="Id3">Fountain County, Indiana is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id178" size="1">
+      <originaltripleset>
+        <otriple>Fountain_County,_Indiana | countySeat | Covington,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Fountain_County,_Indiana | countySeat | Covington,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Covington is the County seat of Fountain County, in Indiana.</lex>
+      <lex comment="good" lid="Id2">Covington is the county seat of Fountain County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id179" size="1">
+      <originaltripleset>
+        <otriple>Fulton_County,_Georgia | countySeat | Atlanta</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Fulton_County,_Georgia | countySeat | Atlanta</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta is the county seat of Fulton County, Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id180" size="1">
+      <originaltripleset>
+        <otriple>Georgia_(U.S._state) | capital | Atlanta</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Georgia_(U.S._state) | capital | Atlanta</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The capital of Georgia is Atlanta.</lex>
+      <lex comment="good" lid="Id2">Atlanta is the capital of the U.S. state of Georgia.</lex>
+      <lex comment="good" lid="Id3">Atlanta is the capital of Georgia, United States.</lex>
+    </entry>
+    <entry category="City" eid="Id181" size="1">
+      <originaltripleset>
+        <otriple>Hays_County,_Texas | countySeat | San_Marcos,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hays_County,_Texas | countySeat | San_Marcos,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">San Marcos is the county seat of Hays County, Texas.</lex>
+      <lex comment="good" lid="Id2">Hays County Texas county seat is San Marcos Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id182" size="1">
+      <originaltripleset>
+        <otriple>Hays_County,_Texas | largestCity | San_Marcos,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hays_County,_Texas | largestCity | San_Marcos,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The largest city in Hays County, Texas is San Marcos.</lex>
+      <lex comment="good" lid="Id2">San Marcos is the largest city in Hays County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id183" size="1">
+      <originaltripleset>
+        <otriple>Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Indiana is the United States.</lex>
+      <lex comment="good" lid="Id2">Indiana is in the U.S.</lex>
+      <lex comment="good" lid="Id3">Indiana is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id184" size="1">
+      <originaltripleset>
+        <otriple>Indiana | language | English_Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Indiana | language | English_Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Indiana, the language spoken is American English.</lex>
+      <lex comment="good" lid="Id2">The language in Indiana is American English.</lex>
+    </entry>
+    <entry category="City" eid="Id185" size="1">
+      <originaltripleset>
+        <otriple>Jones_County,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Jones_County,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jones County, Texas is in the United States.</lex>
+      <lex comment="good" lid="Id2">Jones County, Texas is within the United States.</lex>
+      <lex comment="good" lid="Id3">Jones County, Texas is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id186" size="1">
+      <originaltripleset>
+        <otriple>King_County,_Washington | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>King_County,_Washington | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">King County Washington is in the U.S.</lex>
+      <lex comment="good" lid="Id2">King County ,Washington is located in the United States.</lex>
+      <lex comment="good" lid="Id3">King County, Washington is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id187" size="1">
+      <originaltripleset>
+        <otriple>King_County,_Washington | largestCity | Seattle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>King_County,_Washington | largestCity | Seattle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Seattle is the largest city in King County, in Washington.</lex>
+      <lex comment="good" lid="Id2">Seattle is the largest city in King County Washington.</lex>
+      <lex comment="good" lid="Id3">Seattle is the largest city in King County, Washington.</lex>
+    </entry>
+    <entry category="City" eid="Id188" size="1">
+      <originaltripleset>
+        <otriple>Lafayette_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lafayette_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lafayette Township, Madison County, Indiana is part of the United States.</lex>
+      <lex comment="good" lid="Id2">Lafayette Township, Madison County, Indiana is situated within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id189" size="1">
+      <originaltripleset>
+        <otriple>Lee_County,_Alabama | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lee_County,_Alabama | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lee County in Alabama is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Lee County, Alabama, is within the United States.</lex>
+      <lex comment="good" lid="Id3">Lee County in Alabama is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id190" size="1">
+      <originaltripleset>
+        <otriple>Lee_County,_Alabama | countySeat | Opelika,_Alabama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lee_County,_Alabama | countySeat | Opelika,_Alabama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Opelika is the county seat of Lee County, Alabama.</lex>
+    </entry>
+    <entry category="City" eid="Id191" size="1">
+      <originaltripleset>
+        <otriple>Linn_County,_Oregon | largestCity | Albany,_Oregon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Linn_County,_Oregon | largestCity | Albany,_Oregon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany is the largest city in Linn County, Oregon.</lex>
+      <lex comment="good" lid="Id2">Albany is the largest city in Linn county which is in Oregon.</lex>
+      <lex comment="good" lid="Id3">The largest city in Linn County, Oregon, is Albany.</lex>
+    </entry>
+    <entry category="City" eid="Id192" size="1">
+      <originaltripleset>
+        <otriple>Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Madison County is in Indiana, which is in the United States,.</lex>
+      <lex comment="good" lid="Id2">Madison County, Indiana is in the country of the United States.</lex>
+      <lex comment="good" lid="Id3">Madison County, Indiana, is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id193" size="1">
+      <originaltripleset>
+        <otriple>Madison_County,_Indiana | largestCity | Anderson,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Madison_County,_Indiana | largestCity | Anderson,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson is the largest city in Madison County, Indiana.</lex>
+      <lex comment="good" lid="Id2">Anderson is the largest city of Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id194" size="1">
+      <originaltripleset>
+        <otriple>Michigan | capital | Lansing,_Michigan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Michigan | capital | Lansing,_Michigan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lansing is the capital of Michigan.</lex>
+      <lex comment="good" lid="Id2">The capital of Michigan is Lansing.</lex>
+    </entry>
+    <entry category="City" eid="Id195" size="1">
+      <originaltripleset>
+        <otriple>Michigan | language | Arabic</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Michigan | language | Arabic</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arabic is a language found in Michigan.</lex>
+      <lex comment="good" lid="Id2">Arabic is spoken in Michigan.</lex>
+      <lex comment="good" lid="Id3">The language used in Michigan is Arabic.</lex>
+    </entry>
+    <entry category="City" eid="Id196" size="1">
+      <originaltripleset>
+        <otriple>Michigan | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Michigan | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The English language is spoken in Michigan.</lex>
+      <lex comment="good" lid="Id2">English is the language spoken in Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id197" size="1">
+      <originaltripleset>
+        <otriple>Michigan | language | Spanish_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Michigan | language | Spanish_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Spanish is one of the languages spoken in Michigan.</lex>
+      <lex comment="good" lid="Id2">Spanish is a language spoken in Michigan.</lex>
+      <lex comment="good" lid="Id3">The Spanish language is spoken in Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id198" size="1">
+      <originaltripleset>
+        <otriple>Monroe_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monroe_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Monroe Township, Madison County, Indiana is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Monroe Township, Madison County, Indiana is situated within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id199" size="1">
+      <originaltripleset>
+        <otriple>Monroe_Township,_Madison_County,_Indiana | isPartOf | Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monroe_Township,_Madison_County,_Indiana | isPartOf | Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Monroe Township is in Madison County which is a part of Indiana.</lex>
+      <lex comment="good" lid="Id2">Monroe Township, Madison County is in Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id200" size="1">
+      <originaltripleset>
+        <otriple>Monroe_Township,_Madison_County,_Indiana | subdivisionName | Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Monroe_Township,_Madison_County,_Indiana | isPartOf | Madison_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Monroe_Township,_Madison_County,_Indiana | isPartOf | Madison_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Monroe Township is part of Madison County in Indiana.</lex>
+      <lex comment="good" lid="Id2">Monroe Township is a part of Madison County in Indiana.</lex>
+      <lex comment="good" lid="Id3">Monroe Township is part of Madison County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id201" size="1">
+      <originaltripleset>
+        <otriple>New_Jersey | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Jersey | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">New Jersey is in the United States.</lex>
+      <lex comment="good" lid="Id2">New Jersey is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id202" size="1">
+      <originaltripleset>
+        <otriple>New_Jersey | largestCity | Newark,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Jersey | largestCity | Newark,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Newark is the largest city of New Jersey.</lex>
+      <lex comment="good" lid="Id2">The largest city in New Jersey is Newark.</lex>
+    </entry>
+    <entry category="City" eid="Id203" size="1">
+      <originaltripleset>
+        <otriple>New_Mexico | language | Navajo_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Mexico | language | Navajo_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Navajo language, is one of the languages spoken in New Mexico.</lex>
+      <lex comment="good" lid="Id2">The Navajo language is spoken in New Mexico.</lex>
+      <lex comment="good" lid="Id3">Navajo is a language in New Mexico.</lex>
+    </entry>
+    <entry category="City" eid="Id204" size="1">
+      <originaltripleset>
+        <otriple>New_Mexico_House_of_Representatives | leader | Don_Tripp</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Mexico_House_of_Representatives | leader | Don_Tripp</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of New Mexico's House of Representatives is Don Tripp.</lex>
+      <lex comment="good" lid="Id2">Don Tripp leads the New Mexico House of representatives.</lex>
+    </entry>
+    <entry category="City" eid="Id205" size="1">
+      <originaltripleset>
+        <otriple>New_Mexico_Senate | leader | John_Sánchez</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Mexico_Senate | leader | John_Sánchez</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John Sánchez, is one of the leaders, in the New Mexico Senate.</lex>
+      <lex comment="good" lid="Id2">John Sanchez is the Senate leader of New Mexico.</lex>
+    </entry>
+    <entry category="City" eid="Id206" size="1">
+      <originaltripleset>
+        <otriple>Orange_County,_California | subdivisionName | Greater_Los_Angeles_Area</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Orange_County,_California | isPartOf | Greater_Los_Angeles_Area</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Orange County, California is part of the Greater Los Angeles area.</lex>
+      <lex comment="good" lid="Id2">Orange County, is part of the greater Los Angeles area, in California.</lex>
+      <lex comment="good" lid="Id3">Orange County in California is part of the Greater Los Angeles area.</lex>
+    </entry>
+    <entry category="City" eid="Id207" size="1">
+      <originaltripleset>
+        <otriple>Oregon | capital | Salem,_Oregon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Oregon | capital | Salem,_Oregon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Salem is the capital of Oregon.</lex>
+    </entry>
+    <entry category="City" eid="Id208" size="1">
+      <originaltripleset>
+        <otriple>Pierce_County,_Washington | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Pierce_County,_Washington | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Pierce County, Washington is in the United States.</lex>
+      <lex comment="good" lid="Id2">Pierce County, Washington is located within the United States.</lex>
+      <lex comment="good" lid="Id3">The country of Pierce Country, Washington, is United States.</lex>
+    </entry>
+    <entry category="City" eid="Id209" size="1">
+      <originaltripleset>
+        <otriple>Pierce_County,_Washington | largestCity | Tacoma,_Washington</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Pierce_County,_Washington | largestCity | Tacoma,_Washington</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Pierce County is the largest city in Tacoma, Washington.</lex>
+      <lex comment="good" lid="Id2">Tacoma, Washington, is the largest city in Pierce County.</lex>
+    </entry>
+    <entry category="City" eid="Id210" size="1">
+      <originaltripleset>
+        <otriple>Potter_County,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Potter_County,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Potter County is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">Potter County, Texas is in the US.</lex>
+      <lex comment="good" lid="Id3">Potter County, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id211" size="1">
+      <originaltripleset>
+        <otriple>Potter_County,_Texas | countySeat | Amarillo,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Potter_County,_Texas | countySeat | Amarillo,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is the county seat of Potter County which is in Texas.</lex>
+      <lex comment="good" lid="Id2">Amarillo is the county seat for Potter County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id212" size="1">
+      <originaltripleset>
+        <otriple>Randall_County,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Randall_County,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Randall County is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">Randall County is located in Texas,United States.</lex>
+      <lex comment="good" lid="Id3">Randall County in Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id213" size="1">
+      <originaltripleset>
+        <otriple>Randall_County,_Texas | countySeat | Canyon,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Randall_County,_Texas | countySeat | Canyon,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Canyon, is the county seat of Randall County, which is in Texas.</lex>
+      <lex comment="good" lid="Id2">Randall County is a county located in Texas with the county seat being Canyon.</lex>
+    </entry>
+    <entry category="City" eid="Id214" size="1">
+      <originaltripleset>
+        <otriple>Richland_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Richland_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Richland Township is in Madison County, Indiana, U.S.</lex>
+      <lex comment="good" lid="Id2">Richland Township, in Madison County, Indiana is in the United States.</lex>
+      <lex comment="good" lid="Id3">Richland Township, Madison County, Indiana is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id215" size="1">
+      <originaltripleset>
+        <otriple>Tarrant_County,_Texas | countySeat | Fort_Worth,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Tarrant_County,_Texas | countySeat | Fort_Worth,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The county seat of Tarrant County in Texas is Fort Worth.</lex>
+      <lex comment="good" lid="Id2">The county seat of Tarrant County is Fort Worth in Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id216" size="1">
+      <originaltripleset>
+        <otriple>Taylor_County,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Taylor_County,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Taylor County is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">Taylor County, Texas is in the US.</lex>
+      <lex comment="good" lid="Id3">Taylor County, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id217" size="1">
+      <originaltripleset>
+        <otriple>Taylor_County,_Texas | largestCity | Abilene,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Taylor_County,_Texas | largestCity | Abilene,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene is the largest city, in Taylor County, Texas.</lex>
+      <lex comment="good" lid="Id2">Abilene is the largest city in Taylor County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id218" size="1">
+      <originaltripleset>
+        <otriple>Texas | capital | Austin,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Texas | capital | Austin,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin is the capital city of Texas.</lex>
+      <lex comment="good" lid="Id2">Austin is the capital of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id219" size="1">
+      <originaltripleset>
+        <otriple>Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Texas is in the United States.</lex>
+      <lex comment="good" lid="Id2">Texas is in the U.S.</lex>
+      <lex comment="good" lid="Id3">Texas is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id220" size="1">
+      <originaltripleset>
+        <otriple>Texas | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Texas | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">English is a language spoken in Texas.</lex>
+      <lex comment="good" lid="Id2">English is spoken in Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id221" size="1">
+      <originaltripleset>
+        <otriple>Texas | language | Spanish_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Texas | language | Spanish_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Spanish is a language spoken in Texas.</lex>
+      <lex comment="good" lid="Id2">One of the languages spoken in Texas is Spanish.</lex>
+      <lex comment="good" lid="Id3">Spanish is spoken in Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id222" size="1">
+      <originaltripleset>
+        <otriple>Texas | largestCity | Houston</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Texas | largestcity | Houston</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Texas | largestCity | Houston</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Houston is the largest city in Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id223" size="1">
+      <originaltripleset>
+        <otriple>Travis_County,_Texas | countySeat | Austin,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Travis_County,_Texas | countySeat | Austin,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin is the county seat of Travis County, in Texas.</lex>
+      <lex comment="good" lid="Id2">The County Seat for Travis County is in Austin, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id224" size="1">
+      <originaltripleset>
+        <otriple>Travis_County,_Texas | largestCity | Austin,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Travis_County,_Texas | largestCity | Austin,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Austin is the largest city in Travis County, Texas.</lex>
+      <lex comment="good" lid="Id2">Austin, Texas is the largest city in Travis County, Texas.</lex>
+      <lex comment="good" lid="Id3">The largest city in Travis County, Texas, is Austin.</lex>
+    </entry>
+    <entry category="City" eid="Id225" size="1">
+      <originaltripleset>
+        <otriple>Union_Township,_Madison_County,_Indiana | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Union_Township,_Madison_County,_Indiana | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Union Township is in Madison County, which is in Indiana, in the United States.</lex>
+      <lex comment="good" lid="Id2">Union Township, Madison County, Indiana is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id226" size="1">
+      <originaltripleset>
+        <otriple>United_States | capital | Washington,_D.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | capital | Washington,_D.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The capital of the U.S. is Washington, D.C.</lex>
+      <lex comment="good" lid="Id2">Washington, D.C. is the capital of the U.S.</lex>
+      <lex comment="good" lid="Id3">The capital of the United States is Washington DC.</lex>
+    </entry>
+    <entry category="City" eid="Id227" size="1">
+      <originaltripleset>
+        <otriple>United_States | demonym | Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | demonym | Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Americans live in the U.S.</lex>
+      <lex comment="good" lid="Id2">Americans are the people occupying the U.S.</lex>
+      <lex comment="good" lid="Id3">The inhabitants of the United States are known as Americans.</lex>
+    </entry>
+    <entry category="City" eid="Id228" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | African_Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | African_Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">African Americans are an ethnic group in the United States.</lex>
+      <lex comment="good" lid="Id2">African Americans are an ethnic group within the United States.</lex>
+      <lex comment="good" lid="Id3">One of the ethnic groups in the United States are the African Americans.</lex>
+    </entry>
+    <entry category="City" eid="Id229" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Asian_Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Asian_Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">One of the ethnic groups in the United States, is Asian Americans.</lex>
+      <lex comment="good" lid="Id2">Asian Americans are an ethnic group in the U.S.</lex>
+      <lex comment="good" lid="Id3">The Asian Americans are an ethnic group of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id230" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Native Americans are one of the ethnic groups in the United States of America.</lex>
+      <lex comment="good" lid="Id2">The Native Americans are an ethnic group within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id231" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | White_Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | White_Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">White Americans are an ethnic group in the United States.</lex>
+      <lex comment="good" lid="Id2">White Americans are an ethnic group within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id232" size="1">
+      <originaltripleset>
+        <otriple>United_States | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">English is the language spoken in the United States.</lex>
+      <lex comment="good" lid="Id2">English is the language of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id233" size="1">
+      <originaltripleset>
+        <otriple>United_States | largestCity | New_York_City</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | largestCity | New_York_City</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The biggest city in the U.S. is New York City.</lex>
+      <lex comment="good" lid="Id2">New York City is the largest city of the United States.</lex>
+      <lex comment="good" lid="Id3">The largest city in United States is New York City.</lex>
+    </entry>
+    <entry category="City" eid="Id234" size="1">
+      <originaltripleset>
+        <otriple>United_States | leaderTitle | President_of_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderTitle | President_of_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The president is the leader of the United States.</lex>
+      <lex comment="good" lid="Id2">The leader of the United States is called the President of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id235" size="1">
+      <originaltripleset>
+        <otriple>United_States_House_of_Representatives | isPartOf | United_States_Congress</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States_House_of_Representatives | isPartOf | United_States_Congress</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States House of Representatives is part of the United States Congress.</lex>
+      <lex comment="good" lid="Id2">The House of Representatives forms part of the United States Congress.</lex>
+      <lex comment="good" lid="Id3">United States House of Representatives is part of United States Congress.</lex>
+    </entry>
+    <entry category="City" eid="Id236" size="1">
+      <originaltripleset>
+        <otriple>United_States_House_of_Representatives | location | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States_House_of_Representatives | location | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States house of Representatives is in the Unites States.</lex>
+      <lex comment="good" lid="Id2">The United States House of Representatives is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id237" size="1">
+      <originaltripleset>
+        <otriple>United_States_House_of_Representatives | location | Washington,_D.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States_House_of_Representatives | location | Washington,_D.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The U.S. House of Reps is located in Washington, D.C.</lex>
+      <lex comment="good" lid="Id2">The United States House of Representatives is located in Washington D.C.</lex>
+      <lex comment="good" lid="Id3">United States House of Representatives is located in Washington DC.</lex>
+    </entry>
+    <entry category="City" eid="Id238" size="1">
+      <originaltripleset>
+        <otriple>Washington_(state) | capital | Olympia,_Washington</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Washington_(state) | capital | Olympia,_Washington</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Olympia is the capital of Washington.</lex>
+      <lex comment="good" lid="Id2">The Washington state capital is Olympia.</lex>
+      <lex comment="good" lid="Id3">Olympia is the capital of Washington (state).</lex>
+    </entry>
+    <entry category="City" eid="Id239" size="1">
+      <originaltripleset>
+        <otriple>Washington_(state) | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Washington_(state) | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Washington state is located within the United States.</lex>
+      <lex comment="good" lid="Id2">Washington is a state is United States.</lex>
+    </entry>
+    <entry category="City" eid="Id240" size="1">
+      <originaltripleset>
+        <otriple>Washington_(state) | largestCity | Seattle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Washington_(state) | largestCity | Seattle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Seattle is the largest city in Washington State.</lex>
+      <lex comment="good" lid="Id2">The largest city of Washington state is Seattle.</lex>
+    </entry>
+    <entry category="City" eid="Id241" size="1">
+      <originaltripleset>
+        <otriple>Washtenaw_County,_Michigan | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Washtenaw_County,_Michigan | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Washtenaw County, Michigan is in the United States.</lex>
+      <lex comment="good" lid="Id2">Washtenaw County in Michigan is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id242" size="1">
+      <originaltripleset>
+        <otriple>Williamson_County,_Texas | countySeat | Georgetown,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Williamson_County,_Texas | countySeat | Georgetown,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Georgetown is the county seat of Williamson County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id243" size="1">
+      <originaltripleset>
+        <otriple>Williamson_County,_Texas | largestCity | Round_Rock,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Williamson_County,_Texas | largestCity | Round_Rock,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Round Rock is the largest city in Williamson County, Texas.</lex>
+      <lex comment="good" lid="Id2">The largest city of Williamson County, Texas is Round Rock.</lex>
+    </entry>
+  </entries>
+</benchmark>

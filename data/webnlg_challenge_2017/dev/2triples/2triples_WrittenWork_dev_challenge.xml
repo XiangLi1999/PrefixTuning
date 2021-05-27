@@ -1,0 +1,383 @@
+<benchmark>
+  <entries>
+    <entry category="WrittenWork" eid="Id1" size="2">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | previousWork | Grantville_Gazette_III</otriple>
+        <otriple>1634:_The_Bavarian_Crisis | author | "Virginia DeMarce and"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | precededBy | Grantville_Gazette_III</mtriple>
+        <mtriple>1634:_The_Bavarian_Crisis | author | "Virginia DeMarce and Eric Flint"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Bavarian Crisis is written by Virginia DeMarce and Eric Flint and was preceded by Grantville Gazette III.</lex>
+      <lex comment="good" lid="Id2">1634: the Bavarian Crisis, authored by Virginia DeMarce and Eric Flint, was preceded by Grantville Gazette III.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id2" size="2">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | author | Eric_Flint</otriple>
+        <otriple>1634:_The_Ram_Rebellion | mediaType | E-book</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | author | Eric_Flint</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | mediaType | E-book</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Eric Flint is the author of '1634: The Ram Rebellion' which can be found as an E book.</lex>
+      <lex comment="good" lid="Id2">1634: The Ram Rebellion available as an E-Book is written by Eric Flint.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id3" size="2">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | author | Eric_Flint</otriple>
+        <otriple>1634:_The_Ram_Rebellion | mediaType | Hardcover</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | author | Eric_Flint</mtriple>
+        <mtriple>1634:_The_Ram_Rebellion | mediaType | Hardcover</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Ram Rebellion was written by Eric Flint and can be found in hardcover.</lex>
+      <lex comment="good" lid="Id2">The book titled 1634: The Ram Rebellion is a hardcover book by Eric Flint.</lex>
+      <lex comment="good" lid="Id3">1634: The Ram Rebellion, available in hardcover was written by Eric Flint.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id4" size="2">
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."@en</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | coden | "ATISET"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."@en</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | coden | "ATISET"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | coden | "ATISET"@en</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>ACM_Transactions_on_Information_Systems | coden | "ATISET"</otriple>
+        <otriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>ACM_Transactions_on_Information_Systems | abbreviation | "ACM Trans. Inf. Syst."</mtriple>
+        <mtriple>ACM_Transactions_on_Information_Systems | CODEN_code | "ATISET"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">ACM Transactions on Information Systems with the CODEN ATISET is abbreviated as ACM Trans. Inf. Syst.</lex>
+      <lex comment="good" lid="Id2">ACM Transactions on Information Systems (abbreviated to ACM Trans. Inf. Syst.) has the CODEN code "ATISET".</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id5" size="2">
+      <originaltripleset>
+        <otriple>AIDS_(journal) | country | United_Kingdom</otriple>
+        <otriple>United_Kingdom | leader | Elizabeth_II</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AIDS_(journal) | country | United_Kingdom</mtriple>
+        <mtriple>United_Kingdom | leaderName | Elizabeth_II</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AIDS journal is from the United Kingdom whose leader is Elizabeth II.</lex>
+      <lex comment="good" lid="Id2">The AIDS journal was published in the United Kingdom whose leader is Elizabeth II.</lex>
+      <lex comment="good" lid="Id3">The AIDS journal was published in the United Kingdom, where the leader is Elizabeth II.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id6" size="2">
+      <originaltripleset>
+        <otriple>A_Fortress_of_Grey_Ice | author | J._V._Jones</otriple>
+        <otriple>A_Fortress_of_Grey_Ice | isbn | "0-7653-0633-6"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Fortress_of_Grey_Ice | author | J._V._Jones</mtriple>
+        <mtriple>A_Fortress_of_Grey_Ice | ISBN_number | "0-7653-0633-6"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Fortress of Grey Ice was written by J. V. Jones and has the ISBN number 0-7653-0633-6.</lex>
+      <lex comment="good" lid="Id2">J.V. Jones authored A Fortress of Grey Ice, which has the ISBN number 0-7653-0633-6.</lex>
+      <lex comment="good" lid="Id3">J. V. Jones is the author of "A Fortress of Grey Ice," ISBN number 0-7653-0633-6.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id7" size="2">
+      <originaltripleset>
+        <otriple>A_Glastonbury_Romance | mediaType | "Print"@en</otriple>
+        <otriple>A_Glastonbury_Romance | isbn | "0-7156-3648-0"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Glastonbury_Romance | mediaType | "Print"</mtriple>
+        <mtriple>A_Glastonbury_Romance | ISBN_number | "0-7156-3648-0"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Glastonbury Romance has the ISBN number 0-7156-3648-0 and is in print.</lex>
+      <lex comment="good" lid="Id2">A Glastonbury Romance with ISBN 0-7156-3648-0 is available in print.</lex>
+      <lex comment="good" lid="Id3">The ISBN number of the currently in print book, "A Glastonbury Romance," is 0-7156-3648-0.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id8" size="2">
+      <originaltripleset>
+        <otriple>A_Glastonbury_Romance | mediaType | Hardcover</otriple>
+        <otriple>A_Glastonbury_Romance | isbn | "0-7156-3648-0"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Glastonbury_Romance | mediaType | Hardcover</mtriple>
+        <mtriple>A_Glastonbury_Romance | ISBN_number | "0-7156-3648-0"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Glastonbury Romance identified by ISBN 0-7156-3648-0 was published in hardcover.</lex>
+      <lex comment="good" lid="Id2">"A Glastonbury Romance " can be found in hardcover with the ISBN number 0-7156-3648-0.</lex>
+      <lex comment="good" lid="Id3">A hardcover copy of A Glastonbury Romance is available with the ISBN number 0-7156-3648-0.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id9" size="2">
+      <originaltripleset>
+        <otriple>A_Glastonbury_Romance | numberOfPages | "1174"^^xsd:positiveInteger</otriple>
+        <otriple>A_Glastonbury_Romance | mediaType | "Print"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Glastonbury_Romance | numberOfPages | "1174"</mtriple>
+        <mtriple>A_Glastonbury_Romance | mediaType | "Print"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Glastonbury Romance has 1174 pages and is available in print.</lex>
+      <lex comment="good" lid="Id2">A Glastonbury Romance, currently in print, has 1174 pages.</lex>
+      <lex comment="good" lid="Id3">A Glastonbury Romance, 1174 pages, is available in print.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id10" size="2">
+      <originaltripleset>
+        <otriple>A_Long_Long_Way | oclc | 57392246</otriple>
+        <otriple>A_Long_Long_Way | isbn | "0-670-03380-4"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A_Long_Long_Way | oclc | "57392246"</otriple>
+        <otriple>A_Long_Long_Way | isbn | "0-670-03380-4"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Long_Long_Way | OCLC_number | 57392246</mtriple>
+        <mtriple>A_Long_Long_Way | ISBN_number | "0-670-03380-4"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ISBN number of A Long Long Way is 0-670-03380-4, and its OCLC number is 57392246.</lex>
+      <lex comment="good" lid="Id2">The OCLC number of A Long Long Way is 57392246 and the The ISBN number is 0-670-03380-4.</lex>
+      <lex comment="good" lid="Id3">The ISBN number of A Long Long Way is 0-670-03380-4; the OCLC number is 57392246.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id11" size="2">
+      <originaltripleset>
+        <otriple>A_Loyal_Character_Dancer | country | United_States</otriple>
+        <otriple>United_States | ethnicGroup | Asian_Americans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Loyal_Character_Dancer | country | United_States</mtriple>
+        <mtriple>United_States | ethnicGroup | Asian_Americans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Loyal Character Dancer is published in the United States where the Asian Americans are one of the ethnic groups.</lex>
+      <lex comment="good" lid="Id2">A Loyal Character Dancer is published in the United States, which includes among its ethnic groups Asian Americans.</lex>
+      <lex comment="good" lid="Id3">A Loyal Character Dancer is published in the United States, where many Asian Americans live,.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id12" size="2">
+      <originaltripleset>
+        <otriple>A_Loyal_Character_Dancer | publisher | Soho_Press</otriple>
+        <otriple>Soho_Press | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Loyal_Character_Dancer | publisher | Soho_Press</mtriple>
+        <mtriple>Soho_Press | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Loyal Character Dancer is published by Soho Press which is located in the United States.</lex>
+      <lex comment="good" lid="Id2">A Loyal Character Dancer was published by Soho Press, based in the United States.</lex>
+      <lex comment="good" lid="Id3">A Loyal Character Dancer was published by Soho Press in the United States.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id13" size="2">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | author | Diane_Duane</otriple>
+        <otriple>A_Wizard_of_Mars | oclc | 318875313</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | oclc | "318875313"</otriple>
+        <otriple>A_Wizard_of_Mars | author | Diane_Duane</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | author | Diane_Duane</mtriple>
+        <mtriple>A_Wizard_of_Mars | OCLC_number | 318875313</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Wizard of Mars was written by Diane Duane with on OCLC number 318875313.</lex>
+      <lex comment="good" lid="Id2">Diane Duane wrote A Wizard of Mars which has the OCLC number of 318875313.</lex>
+      </entry>
+    <entry category="WrittenWork" eid="Id14" size="2">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | mediaType | Hardcover</otriple>
+        <otriple>A_Wizard_of_Mars | isbn | "978-0-15-204770-2"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | mediaType | Hardcover</mtriple>
+        <mtriple>A_Wizard_of_Mars | ISBN_number | "978-0-15-204770-2"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Wizard of Mars is published in Hardcover and has the ISBN number 978-0-15-204770-2.</lex>
+      <lex comment="good" lid="Id2">A Wizard of Mars was published in hardback and has the ISBN number 978-0-15-204770-2.</lex>
+      <lex comment="good" lid="Id3">A Wizard of Mars has the ISBN number 978-0-15-204770-2 and was published in hardback.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id15" size="2">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | numberOfPages | "560"^^xsd:positiveInteger</otriple>
+        <otriple>A_Wizard_of_Mars | isbn | "978-0-15-204770-2"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | numberOfPages | "560"</mtriple>
+        <mtriple>A_Wizard_of_Mars | ISBN_number | "978-0-15-204770-2"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Wizard of Mars is 560 pages long and has the ISBN number 978-0-15-204770-2.</lex>
+      <lex comment="good" lid="Id2">A Wizard of Mars has 560 pages and the ISBN number 978-0-15-204770-2.</lex>
+      <lex comment="good" lid="Id3">A Wizard of Mars with ISBN number "978-0-15-204770-2 contains 560 pages.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id16" size="2">
+      <originaltripleset>
+        <otriple>Above_the_Veil | country | Australians</otriple>
+        <otriple>Above_the_Veil | precededBy | Aenir</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Above_the_Veil | country | Australians</otriple>
+        <otriple>Above_the_Veil | previousWork | Aenir</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Above_the_Veil | country | Australians</mtriple>
+        <mtriple>Above_the_Veil | precededBy | Aenir</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aenir and it's sequel Above the Veil are examples of Austrlian literature.</lex>
+      <lex comment="good" lid="Id2">Above the Veil, preceded by Aenir, is from the country of Australia.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id17" size="2">
+      <originaltripleset>
+        <otriple>Above_the_Veil | language | English_language</otriple>
+        <otriple>Aenir | followedBy | Above_the_Veil</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aenir | subsequentWork | Above_the_Veil</otriple>
+        <otriple>Above_the_Veil | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Above_the_Veil | language | English_language</mtriple>
+        <mtriple>Aenir | followedBy | Above_the_Veil</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Above the Veil followed the book Aenir and is written in English.</lex>
+      <lex comment="good" lid="Id2">The book Aenir was followed up by Above the Veil, which is written in English.</lex>
+      <lex comment="good" lid="Id3">The novel Aenir was followed by Above the Veil written in English.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id18" size="2">
+      <originaltripleset>
+        <otriple>Above_the_Veil | previousWork | Aenir</otriple>
+        <otriple>Aenir | precededBy | Castle_(novel)</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Above_the_Veil | precededBy | Aenir</otriple>
+        <otriple>Aenir | previousWork | Castle_(novel)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Above_the_Veil | precededBy | Aenir</mtriple>
+        <mtriple>Aenir | precededBy | Castle_(novel)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Above the Veil is the sequel to Aenir, which was written after Castle.</lex>
+      <lex comment="good" lid="Id2">Above the Veil is the sequel to Aenir, which was preceded by the novel Castle.</lex>
+      <lex comment="good" lid="Id3">Above the Veil was preceded by Aenir which was preceded by the novel Castle.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id19" size="2">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | publisher | Springer_Science+Business_Media</otriple>
+        <otriple>Springer_Science+Business_Media | founder | Julius_Springer</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | publisher | Springer_Science+Business_Media</mtriple>
+        <mtriple>Springer_Science+Business_Media | founder | Julius_Springer</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Mathematica Hungarica is the publisher of Springer Science+Business Media, founded by Julius Springer.</lex>
+      <lex comment="good" lid="Id2">Springer Science and Business Media, founded by Julius Springer, publishes Acta Mathematica Hungarica.</lex>
+      <lex comment="good" lid="Id3">Springer Science+Business Media founded by Julius Springer is the publisher of Acta Mathematica Hungarica.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id20" size="2">
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."@en</otriple>
+        <otriple>Administrative_Science_Quarterly | coden | "ASCQAG"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | coden | "ASCQAG"@en</otriple>
+        <otriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."</otriple>
+        <otriple>Administrative_Science_Quarterly | coden | "ASCQAG"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."@en</otriple>
+        <otriple>Administrative_Science_Quarterly | coden | "ASCQAG"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Administrative_Science_Quarterly | CODEN_code | "ASCQAG"</mtriple>
+        <mtriple>Administrative_Science_Quarterly | abbreviation | "Admin. Sci. Q."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Administrative Science Quarterly has a Coden code of "ASCQAG" and the abbreviation of Admin.Sci.Q.</lex>
+      <lex comment="good" lid="Id2">Administrative Science Quarterly, abbreviated Admin. Sci. Q, has a Coden code of "ASCQAG".</lex>
+      <lex comment="good" lid="Id3">The code for Administrative Science Quarterly (abbreviated as Admin. Sci. Q) is ASCQAG.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id21" size="2">
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | publisher | Cornell_University</otriple>
+        <otriple>Cornell_University | affiliations | Association_of_Public_and_Land-grant_Universities</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | publisher | Cornell_University</otriple>
+        <otriple>Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Administrative_Science_Quarterly | publisher | Cornell_University</mtriple>
+        <mtriple>Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cornell University is affiliated with the Association of Public and Land grant Universities and published Administrative Science Quarterly.</lex>
+      <lex comment="good" lid="Id2">Cornell University, affiliated with the Association of Public and Land grant Universities, is publisher of Administrative Science Quarterly.</lex>
+      <lex comment="good" lid="Id3">Cornell University, affiliated with the Association of Public and Land grant Universities, is the publisher of the Administrative Science Quarterly.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id22" size="2">
+      <originaltripleset>
+        <otriple>Aenir | author | Garth_Nix</otriple>
+        <otriple>Aenir | isbn | "0-439-17684-0"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aenir | author | Garth_Nix</mtriple>
+        <mtriple>Aenir | ISBN_number | "0-439-17684-0"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Written by Garth Nix, Aenir, has the ISBN number of "0-439-17684-0.</lex>
+      <lex comment="good" lid="Id2">Aenir was written by Garth Nix and has the ISBN number of 0-439-17684-0.</lex>
+      <lex comment="good" lid="Id3">Aenir was written by Garth Nix and has the ISBN number 0-439-17684-0.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id23" size="2">
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | mediaType | Hardcover</otriple>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | isbn | "0-439-92550-9"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | mediaType | Hardcover</mtriple>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | ISBN_number | "0-439-92550-9"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alcatraz Versus the Evil Librarians is published in Hardcover and has the ISBN number 0-439-92550-9.</lex>
+      <lex comment="good" lid="Id2">The hardcover edition of, "Alcatraz Versus the Evil Librarians", has ISBN number 0-439-92550-9.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id24" size="2">
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | numberOfPages | "320"^^xsd:positiveInteger</otriple>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | isbn | "0-439-92550-9"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | numberOfPages | "320"</mtriple>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | ISBN_number | "0-439-92550-9"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alcatraz Versus the Evil Librarian, which is identified by ISBN 0-439-92550-9, has 320 pages.</lex>
+      <lex comment="good" lid="Id2">Alcatraz Versus the Evil Librarians has the ISBN number 0-439-92550-9 and is 320 pages long.</lex>
+      <lex comment="good" lid="Id3">The ISBN number of the 320-page long Alcatraz Versus the Evil Librarians is 0-439-92550-9.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id25" size="2">
+      <originaltripleset>
+        <otriple>HIV | family | Orthoretrovirinae</otriple>
+        <otriple>AIDS_(journal) | academicDiscipline | HIV</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>HIV | family | Orthoretrovirinae</mtriple>
+        <mtriple>AIDS_(journal) | academicDiscipline | HIV</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AIDS (journal) comes under the academic discipline HIV which belongs to the family Orthoretrovirinae.</lex>
+      <lex comment="good" lid="Id2">The AIDS(journal) is the academic discipline of HIV, a disease part of the Orthoretrovirinae family.</lex>
+      <lex comment="good" lid="Id3">AIDS (journal) comes under the academic discipline HIV which is part of the family of orthoretrovirinae.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id26" size="2">
+      <originaltripleset>
+        <otriple>United_States | language | English_language</otriple>
+        <otriple>A_Fortress_of_Grey_Ice | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | language | English_language</mtriple>
+        <mtriple>A_Fortress_of_Grey_Ice | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Fortress of Grey Ice is from the United States where the language is English.</lex>
+      <lex comment="good" lid="Id2">A Fortress of Grey Ice is from the United States, which has English as one of its languages.</lex>
+    </entry>
+    </entries>
+</benchmark>

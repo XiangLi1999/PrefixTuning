@@ -1,0 +1,870 @@
+<benchmark>
+  <entries>
+    <entry category="Astronaut" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | almaMater | "UT Austin, B.S. 1955"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | almaMater | "UT Austin, B.S. 1955"</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">The Alma Mater of Alan Bean is UT Austin, B.S. 1955.</lex>
+      <lex comment="good" lid="Id2">Alan Bean graduated in 1955 from UT Austin with a B.S.</lex>
+      <lex comment="good" lid="Id3">Alan Bean graduated from UT Austin in 1955 with a B.S.</lex>
+      <lex comment="good" lid="Id4">Alan Bean graduated from UT Austin in 1955 with a Bachelor of Science degree.</lex>
+      <lex comment="good" lid="Id5">Alan Bean received a Bachelor of Science degree at the University of Texas at Austin in 1955.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | birthDate | "1932-03-15"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | birthDate | "1932-03-15"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean was born on the 15th of March 1932.</lex>
+      <lex comment="good" lid="Id2">Alan Bean was born on Mar 15, 1932.</lex>
+      <lex comment="good" lid="Id3">Alan Bean was born on March 15, 1932.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | birthName | "Alan LaVern Bean"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | birthName | "Alan LaVern Bean"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean's full name was "Alan LaVern Bean".</lex>
+      <lex comment="good" lid="Id2">Alan Bean was born Alan LaVern Bean.</lex>
+      <lex comment="good" lid="Id3">Alan Bean's birth name was Alan LaVern Bean.</lex>
+      <lex comment="good" lid="Id4">Alan Bean's birth name is Alan LaVern Bean.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | birthPlace | Wheeler,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | birthPlace | Wheeler,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean was born in Wheeler, Texas.</lex>
+      <lex comment="toFix" lid="Id2">Alan Bean's birthplace is Wheeler,, Texas.</lex>
+      <lex comment="good" lid="Id3">Alan Bean's birth place is Wheeler, Texas.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | dateOfRet | "June 1981"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | dateOfRetirement | "June 1981"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean retired on June 1981.</lex>
+      <lex comment="good" lid="Id2">Alan Bean retired in June of 1981.</lex>
+      <lex comment="good" lid="Id3">Alan Bean retired in June 1981.</lex>
+      <lex comment="good" lid="Id4">Alan Bean's retirement was in June 1981.</lex>
+      <lex comment="good" lid="Id5">Alan Bean retired in June, 1981.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | occupation | Test_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | occupation | Test_pilot</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean was a test pilot.</lex>
+      <lex comment="good" lid="Id2">Alan Bean served as a test pilot.</lex>
+      <lex comment="good" lid="Id3">Alan Bean performed as a test pilot.</lex>
+      <lex comment="good" lid="Id4">Alan Bean performs as a test pilot.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | status | "Retired"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | status | "Retired"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean is retired.</lex>
+      <lex comment="good" lid="Id2">Alan Bean has retired.</lex>
+      <lex comment="good" lid="Id3">Alan Bean is now retired.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | timeInSpace | "100305.0"^^&lt;http://dbpedia.org/datatype/minute&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | timeInSpace | "100305.0"(minutes)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean spent 100305.0 minutes in Space.</lex>
+      <lex comment="good" lid="Id2">Alan Bean spent 100305 minutes in space.</lex>
+      <lex comment="good" lid="Id3">100305.0 minutes is the time Alan Bean spent in Space.</lex>
+      <lex comment="good" lid="Id4">Alan Bean was in space 100305 minutes.</lex>
+      <lex comment="good" lid="Id5">Alan Bean spent over 69 days in space, 100305 minutes to be exact!</lex>
+      <lex comment="good" lid="Id6">Alan Bean's time in space was 100305.0 minutes.</lex>
+      <lex comment="good" lid="Id7">Alan Bean spend a total of 100305 minutes in space.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | mission | Apollo_12</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | was a crew member of | Apollo_12</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean was a part of the crew of Apollo 12.</lex>
+      <lex comment="good" lid="Id2">Alan Bean served as a crew member of Apollo 12.</lex>
+      <lex comment="good" lid="Id3">Alan Bean was a member of the Apollo 12 crew.</lex>
+      <lex comment="good" lid="Id4">Alan Bean was a crew member aboard Apollo 12.</lex>
+      <lex comment="good" lid="Id5">Alan Bean was on the crew of Apollo 12.</lex>
+      <lex comment="good" lid="Id6">Alan Bean was a crew member of Apollo 12.</lex>
+      <lex comment="good" lid="Id7">Alan Bean was a crew member on the Apollo 12 flight mission.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Alan_Bean | selection | 1963</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Bean | was selected by NASA | 1963</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Bean was selected by Nasa in 1963.</lex>
+      <lex comment="good" lid="Id2">Alan Bean was chosen by NASA in 1963.</lex>
+      <lex comment="good" lid="Id3">Alan Bean was hired by NASA in 1963.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | almaMater | "NWC, M.A. 1957"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | almaMater | "NWC, M.A. 1957"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard graduated from NWC with a M.A. in 1957.</lex>
+      <lex comment="toFix" lid="Id2">Alan Shepard graduated from NWC in 1957 with a M.A.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard went to school at NWC and graduated with an MA in 1957.</lex>
+      <lex comment="toFix" lid="Id4">Alan Shepard graduated from NWC, M.A. in 1957.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | birthDate | "1923-11-18"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | birthDate | "1923-11-18"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard was born November 18th, 1923.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard was born on November 18, 1923.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard was born on Nov 18, 1923.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard was born on 1923-11-18.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard was born on the 18th of November 1923.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | birthPlace | New_Hampshire</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | birthPlace | New_Hampshire</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard's birth place was New Hampshire.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard was born in New Hampshire.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | dateOfRet | "1974-08-01"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | dateOfRetirement | "1974-08-01"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard retired on 1974-08-01.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard retired August 1st, 1974.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard retired 1st of August 1974.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard retired on August 1, 1974.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard retired on Aug 1, 1974.</lex>
+      <lex comment="good" lid="Id6">Alan Shepard retired 1974-08-01.</lex>
+      <lex comment="good" lid="Id7">Alan Separd retired on 1st August 1974.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | deathDate | "1998-07-21"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | deathDate | "1998-07-21"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard died on the 21st of July, 1998.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard died July 21st, 1998.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard died on July 21, 1998.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard died on 1998-07-21.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard died 1998-07-21.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | nationality | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | nationality | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The nationality of Alan Shepard is United States.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard's nationality is the United States.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard is an American.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard is from the United States.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard was from the United States.</lex>
+      <lex comment="good" lid="Id6">Alan Shepard was American.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | occupation | Test_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | occupation | Test_pilot</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard's occupation was a test pilot.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard served as a Test pilot.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard was a test pilot.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | years | 1963</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | served as Chief of the Astronaut Office in | 1963</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard was the Chief of the Astronaut Office in 1963.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard served as Chief of the Astronaut Office in 1963.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | status | "Deceased"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | status | "Deceased"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard is dead.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard is deceased.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | timeInSpace | "13017.0"^^&lt;http://dbpedia.org/datatype/minute&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | timeInSpace | "13017.0"(minutes)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard's time in space amounted to 13017.0 minutes.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard spent 13017 minutes in space.</lex>
+      <lex comment="good" lid="Id3">13017,0 minutes is the time Alan Shepard spent in space.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard spent 130017 minutes in space.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard spent just over 9 days in space.</lex>
+      <lex comment="good" lid="Id6">Alan Shepard's time in space is 13017 minutes.</lex>
+      <lex comment="good" lid="Id7">Alan Shepard spent 13017.0 minutes in space.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | title | Chief_of_the_Astronaut_Office</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | title | Chief_of_the_Astronaut_Office</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard was the Chief of the Astronaut Office.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard served as the Chief of the Astronaut Office.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard performed as the Chief of the Astronaut Office.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | mission | Apollo_14</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | was a crew member of | Apollo_14</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard was a crew member of Apollo 14.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard served as a crew member of Apollo 14.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard was a member of the Apollo 14 crew.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard was a crew member aboard Apollo 14.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard was on the crew of Apollo 14.</lex>
+      <lex comment="good" lid="Id6">Alan Shepard was a member of the crew of Apollo 14.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | ribbon | "American Defense Service ribbon.svg"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | was awarded | "American Defense Service ribbon.svg"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard was awarded the american defence service ribbon.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard was awarded American Defense Service ribbon.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard was awarded the American Defense Service Ribbon.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard won the American Defense Service ribbon.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard was awarded with the American Defense Service ribbon.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | selection | 1959</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | was selected by NASA | 1959</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">NASA selected Alan Shepard in 1959.</lex>
+      <lex comment="good" lid="Id2">In 1959, Alan Shepard was selected by NASA.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard was selected by NASA in 1959.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard was chosen by NASA in 1959.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard was hired by NASA in 1959.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Apollo_11 | operator | NASA</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_11 | operator | NASA</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Apollo 11 was operated by NASA.</lex>
+      <lex comment="good" lid="Id2">The Apollo 11 program was organized by NASA.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Apollo_12 | crew2Up | Alfred_Worden</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_12 | backup pilot | Alfred_Worden</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alfred Worden was a backup pilot of Apollo 12.</lex>
+      <lex comment="good" lid="Id2">Apollo 12's backup pilot was Alfred Worden.</lex>
+      <lex comment="good" lid="Id3">Alfred Worden was the backup pilot of Apollo 12.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Apollo_12 | crew1Up | David_Scott</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_12 | commander | David_Scott</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Apollo 12 was commanded by David Scott.</lex>
+      <lex comment="good" lid="Id2">David Scott was the commander of Apollo 12.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Apollo_12 | operator | NASA</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_12 | operator | NASA</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The operator of Apollo 12 was NASA.</lex>
+      <lex comment="good" lid="Id2">The Apollo 12 operator is NASA.</lex>
+      <lex comment="good" lid="Id3">NASA operated Apollo 12.</lex>
+      <lex comment="good" lid="Id4">The Apollo 12 mission was operated by NASA.</lex>
+      <lex comment="good" lid="Id5">Apollo 12 is operated by NASA.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Apollo_8 | crew1Up | Frank_Borman</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_8 | commander | Frank_Borman</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Frank Borman was an Apollo 8 Commander.</lex>
+      <lex comment="good" lid="Id2">Frank Borman was the Apollo 8 commander.</lex>
+      <lex comment="good" lid="Id3">The Apollo 8 commander was Frank Borman.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Apollo_8 | crewMembers | Frank_Borman</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_8 | crewMembers | Frank_Borman</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Frank Borman was a member of the crew on Apollo 8.</lex>
+      <lex comment="good" lid="Id2">Frank Borman was a crew member of Apollo 8.</lex>
+      <lex comment="good" lid="Id3">Apollo 8 crew members included Frank Borman.</lex>
+      <lex comment="good" lid="Id4">Frank Borman was a crewman aboard Apollo 8.</lex>
+      <lex comment="good" lid="Id5">Frank Borman was a crew member on Apollo 8.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>British_Hong_Kong | representative | Chris_Patten</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>British_Hong_Kong | representative | Chris_Patten</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chris Patten served as a representative of British Hong Kong.</lex>
+      <lex comment="good" lid="Id2">Chris Patten represented British Hong Kong.</lex>
+      <lex comment="good" lid="Id3">Chris Patten is a representative of British Hong Kong.</lex>
+      <lex comment="good" lid="Id4">The British Hong Kong representative is Chris Patten.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | alternativeNames | "Edwin E. Aldrin, Jr."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | alternativeNames | "Edwin E. Aldrin, Jr."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Edwin E. Aldrin, Jr. was commonly known as Buzz Aldrin.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin's real name was Edwin E. Aldrin, Jr.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin is also called Edwin E. Aldrin Jr.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | awards | 20</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | awards | 20</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The number of Buzz Aldrin's awards are 20.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin won 20 awards.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin received 20 awards.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin has won 20 awards.</lex>
+      <lex comment="good" lid="Id5">Buzz Aldrin had 20 awards.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | birthDate | "1930-01-20"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | birthDate | "1930-01-20"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin's birth date was 1930 01 20.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin was born January 20, 1930.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin was born on 1930-01-20.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin's birth date is January 20, 1930.</lex>
+      <lex comment="good" lid="Id5">Buzz Aldrin was born on January 20th, 1930.</lex>
+      <lex comment="good" lid="Id6">Buzz Aldrin was born on the 20th of January 1930.</lex>
+      <lex comment="good" lid="Id7">Buzz Aldrin was born on January 20,1930.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id35" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | birthName | "Edwin Eugene Aldrin Jr."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | birthName | "Edwin Eugene Aldrin Jr."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin's birth name is Edwin Eugene Aldrin Jr.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin was born as Edwin Eugene Aldrin Jr.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin was born Edwin Eugene Aldrin Jr.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin's birth name was Edwin Eugene Aldrin Jr.</lex>
+      <lex comment="good" lid="Id5">Buzz Aldrin was born with the name Edwin Eugene Aldrin Jr.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id36" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin was born in Glen Ridge, New Jersey.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin was born in Glen Ridge New Jersey.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin's birth place was Glen Ridge, New Jersey.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id37" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | dateOfRet | "1971-07-01"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | dateOfRetirement | "1971-07-01"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin retired on the 7th of January 1971.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin date of retirement was 1971/07/01.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin's retirement date is "1971-07-01".</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin retired on July 1st, 1971.</lex>
+      <lex comment="good" lid="Id5">Buzz Aldrin retired on July 1, 1971.</lex>
+      <lex comment="good" lid="Id6">Buzz Aldrin retired on the 1st of July 1971.</lex>
+      <lex comment="good" lid="Id7">Buzz Aldrin retired on 1971-07-01.</lex>
+      <lex comment="good" lid="Id8">Buzz Aldrin retired on Jul 1, 1971.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id38" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | occupation | Fighter_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | occupation | Fighter_pilot</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin was a fighter pilot.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin served as a Fighter pilot.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin's occupation was a fighter pilot.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin performed as a fighter pilot.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id39" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | status | "Retired"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | status | "Retired"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin is retired.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin is now retired.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin has retired.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id40" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | timeInSpace | "52.0"^^&lt;http://dbpedia.org/datatype/minute&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | timeInSpace | "52.0"(minutes)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin was in space for 52 minutes.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin spent a total of 52.0 minutes in space.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin spent 52.0 minutes in Space.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin spent 52 minutes in space.</lex>
+      <lex comment="good" lid="Id5">Buzz Aldrin walked in space 52.0 minutes.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id41" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | ribbon | "Legion of Merit ribbon.svg"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | was awarded | "Legion of Merit ribbon.svg"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin was awarded the Legion of Merit ribbon.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin was awarded with Legion of Merit ribbon.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin won the Legion of Merit ribbon.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin was awarded the "Legion of Merit" ribbon.</lex>
+      <lex comment="good" lid="Id5">Buzz Aldrin was awarded the 'Legion of Merit' ribbon.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id42" size="1">
+      <originaltripleset>
+        <otriple>California | fossil | Smilodon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | fossil | Smilodon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Smilodon is a fossil from California.</lex>
+      <lex comment="good" lid="Id2">California have fossils of the Smilodon.</lex>
+      <lex comment="good" lid="Id3">A Smilodon is a fossil from California.</lex>
+      <lex comment="good" lid="Id4">The Smilodon fossil was found in California.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id43" size="1">
+      <originaltripleset>
+        <otriple>California | senators | Dianne_Feinstein</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | senators | Dianne_Feinstein</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Senator representing California was Dianne Feinstein.</lex>
+      <lex comment="good" lid="Id2">One of California's senators is Dianne Feinstein.</lex>
+      <lex comment="good" lid="Id3">Dianne Feinstein is a senator in California.</lex>
+      <lex comment="good" lid="Id4">Dianne Feinstein is a senator in the State of California.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id44" size="1">
+      <originaltripleset>
+        <otriple>Dallas | part | Collin_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dallas | part | Collin_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dallas is in Collin County, Texas.</lex>
+      <lex comment="good" lid="Id2">Dallas is located in the Collin County in Texas.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id45" size="1">
+      <originaltripleset>
+        <otriple>Dallas | partsType | List_of_counties_in_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dallas | partsType | List_of_counties_in_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dallas is a county in Texas.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id46" size="1">
+      <originaltripleset>
+        <otriple>Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">the Distinguished service medal from the Navy is higher than the department of commerce gold medal.</lex>
+      <lex comment="good" lid="Id2">The Distinguished Service Medal of the United States Navy is higher than the Department of Commerce Gold Medal.</lex>
+      <lex comment="good" lid="Id3">Distinguished Service Medal from United States Navy ranks higher than Department of Commerce Gold Medal.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id47" size="1">
+      <originaltripleset>
+        <otriple>Elliot_See | almaMater | University_of_Texas_at_Austin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Elliot_See | almaMater | University_of_Texas_at_Austin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Elliot See was a student at University of Texas at Austin.</lex>
+      <lex comment="good" lid="Id2">Elliot See attended the University of Texas at Austin.</lex>
+      <lex comment="good" lid="Id3">Elliot See graduated from the University of Texas at Austin.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id48" size="1">
+      <originaltripleset>
+        <otriple>Elliot_See | birthDate | "1927-07-23"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Elliot_See | birthDate | "1927-07-23"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Elliot was born on the 23rd of July 1927.</lex>
+      <lex comment="good" lid="Id2">Elliot See was born on July 23, 1927.</lex>
+      <lex comment="good" lid="Id3">Elliot See was born on July 23rd, 1927.</lex>
+      <lex comment="good" lid="Id4">Elliot See was born on 23rd July 1927.</lex>
+      <lex comment="good" lid="Id5">Elliot See was born on 07/23/1927.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id49" size="1">
+      <originaltripleset>
+        <otriple>Elliot_See | birthPlace | Dallas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Elliot_See | birthPlace | Dallas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Elliot See was born in Dallas.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id50" size="1">
+      <originaltripleset>
+        <otriple>Elliot_See | nationality | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Elliot_See | nationality | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The nationality of Elliot See is United States.</lex>
+      <lex comment="good" lid="Id2">Elliot See had a nationality that was of the United States.</lex>
+      <lex comment="good" lid="Id3">Elliot See is from the United States.</lex>
+      <lex comment="good" lid="Id4">Elliot See is a United States national.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id51" size="1">
+      <originaltripleset>
+        <otriple>Elliot_See | selection | 1962</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Elliot_See | was selected by NASA | 1962</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">NASA selected Elliot See in 1962.</lex>
+      <lex comment="good" lid="Id2">Elliot See joined NASA in 1962.</lex>
+      <lex comment="good" lid="Id3">Elliot See was selected by NASA in 1962.</lex>
+      <lex comment="toFix" lid="Id4">Elliot See worked for NASA beginning in 1962,.</lex>
+      <lex comment="good" lid="Id5">Elliot See was chosen by NASA in 1962.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id52" size="1">
+      <originaltripleset>
+        <otriple>Glen_Ridge,_New_Jersey | isPartOf | Essex_County,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Glen_Ridge,_New_Jersey | isPartOf | Essex_County,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Glen Ridge is in the Essex County in New Jersey.</lex>
+      <lex comment="good" lid="Id2">Glen Ridge is located in the Essex County in New Jersey.</lex>
+      <lex comment="good" lid="Id3">Glen Ridge, New Jersey is situated in the Essex County.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id53" size="1">
+      <originaltripleset>
+        <otriple>New_Hampshire | bird | Purple_finch</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Hampshire | bird | Purple_finch</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The purple finch is a native bird to New Hampshire.</lex>
+      <lex comment="good" lid="Id2">The Purple finch is a bird found in New Hampshire.</lex>
+      <lex comment="good" lid="Id3">The Purple Finch is a New Hampshire bird.</lex>
+      <lex comment="good" lid="Id4">The Purple Finch is a bird living in New Hampshire.</lex>
+      <lex comment="good" lid="Id5">The New Hampshire state bird is the purple finch.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id54" size="1">
+      <originaltripleset>
+        <otriple>St._Louis | isPartOf | Kingdom_of_France</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>St._Louis | isPartOf | Kingdom_of_France</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">St. Louis was situated in the Kingdom of France.</lex>
+      <lex comment="good" lid="Id2">St. Louis was part of the Kingdom of France.</lex>
+      <lex comment="good" lid="Id3">St. Louis is part of the Kingdom of France.</lex>
+      <lex comment="good" lid="Id4">St. Louis was a part of the kingdom of France.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id55" size="1">
+      <originaltripleset>
+        <otriple>St._Louis | leaderName | Francis_G._Slay</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>St._Louis | leaderName | Francis_G._Slay</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The name of St Louis' leader is Francis G. Slay.</lex>
+      <lex comment="good" lid="Id2">Francis G Slay is the Mayor of St Louis.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id56" size="1">
+      <originaltripleset>
+        <otriple>United_States | leader | Joe_Biden</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leader | Joe_Biden</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Joe Biden is the United States leader.</lex>
+      <lex comment="good" lid="Id2">Joe Biden is a United States leader.</lex>
+      <lex comment="good" lid="Id3">Joe Biden was a representative of the United States.</lex>
+      <lex comment="good" lid="Id4">Joe Biden is a leader of the United States.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id57" size="1">
+      <originaltripleset>
+        <otriple>United_States | leaderName | Joe_Biden</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderName | Joe_Biden</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States leader was called Joe Biden.</lex>
+      <lex comment="good" lid="Id2">Joe Biden served as United State's vice president.</lex>
+      <lex comment="good" lid="Id3">Joe Biden is a United States leader.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id58" size="1">
+      <originaltripleset>
+        <otriple>University_of_Texas_at_Austin | affiliation | University_of_Texas_System</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>University_of_Texas_at_Austin | affiliation | University_of_Texas_System</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">University of Texas at Austin is affiliated with University of Texas System.</lex>
+      <lex comment="good" lid="Id2">The University of Texas, Austin, is affiliated with the University of Texas System.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id59" size="1">
+      <originaltripleset>
+        <otriple>University_of_Texas_at_Austin | athletics | Big_12_Conference</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>University_of_Texas_at_Austin | compete in | Big_12_Conference</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The University of Texas at Austin is competing in the Big 12 Conference.</lex>
+      <lex comment="good" lid="Id2">The University of Texas, Austin, will compete in the Big 12 Conference.</lex>
+      <lex comment="good" lid="Id3">The University of Texas competed in the Big 12 Conference in Austin.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id60" size="1">
+      <originaltripleset>
+        <otriple>University_of_Texas_at_Austin | president | Gregory_L._Fenves</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>University_of_Texas_at_Austin | president | Gregory_L._Fenves</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Gregory L. Fenves is the President of University of Texas at Austin.</lex>
+      <lex comment="good" lid="Id2">Gregory L. Fenves is the appointed president of the University of Texas at Austin.</lex>
+      <lex comment="good" lid="Id3">Gregory L. Fenves was appointed as the president of the University of Texas at Ausitin.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id61" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | almaMater | "AFIT, M.S. 1962"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | almaMater | "AFIT, M.S. 1962"</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">In 1962, William Anders received a M.S. from his alma Mater, AFIT.</lex>
+      <lex comment="good" lid="Id2">William Anders graduated, with an M.S., from AFIT in 1962.</lex>
+      <lex comment="good" lid="Id3">William Anders graduated from AFIT in 1962 with an M.S.</lex>
+      <lex comment="good" lid="Id4">William Anders graduated from AFIT, M.S. in 1962.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id62" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | birthDate | "1933-10-17"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | birthDate | "1933-10-17"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders was born on October 17th, 1933.</lex>
+      <lex comment="good" lid="Id2">William Anders was born October 17th 1933.</lex>
+      <lex comment="good" lid="Id3">William Anders was born on October 17, 1933.</lex>
+      <lex comment="good" lid="Id4">William Anders was born 1933-10-17.</lex>
+      <lex comment="good" lid="Id5">William Anders was born on the 17th of October 1933.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id63" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | birthPlace | British_Hong_Kong</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | birthPlace | British_Hong_Kong</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders was born in British Hong Kong.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id64" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | dateOfRet | "1969-09-01"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | dateOfRetirement | "1969-09-01"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders retired on September 1st, 1969.</lex>
+      <lex comment="good" lid="Id2">William Anders retired Sept 1st 1969.</lex>
+      <lex comment="good" lid="Id3">William Anders retired on September 1, 1969.</lex>
+      <lex comment="good" lid="Id4">William Anders retired in 1969-09-01.</lex>
+      <lex comment="good" lid="Id5">William Anders retired 1969-09-01.</lex>
+      <lex comment="good" lid="Id6">William Anders retired on the 1st of September 1969.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id65" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | nationality | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | nationality | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Willian Anders has a nationality that is of the United States.</lex>
+      <lex comment="good" lid="Id2">William Anders is an American.</lex>
+      <lex comment="good" lid="Id3">The nationality of William Anders is United States.</lex>
+      <lex comment="good" lid="Id4">William Anders is from the United States.</lex>
+      <lex comment="good" lid="Id5">William Anders was from the United STates.</lex>
+      <lex comment="good" lid="Id6">William Anders is a US national.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id66" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | occupation | Fighter_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | occupation | Fighter_pilot</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders was a Fighter pilot.</lex>
+      <lex comment="good" lid="Id2">William Anders served as a Fighter pilot.</lex>
+      <lex comment="good" lid="Id3">William Anders is a fighter pilot.</lex>
+      <lex comment="good" lid="Id4">William Anders is a test pilot.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id67" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | years | 1976</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | served as Chief of the Astronaut Office in | 1976</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders served as Chief of the Astronaut Office in 1976.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id68" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | status | "Retired"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | status | "Retired"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders is retired.</lex>
+      <lex comment="good" lid="Id2">William Anders is now retired.</lex>
+      <lex comment="good" lid="Id3">William Anders has retired.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id69" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | timeInSpace | "8820.0"^^&lt;http://dbpedia.org/datatype/minute&gt;</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | timeInSpace | "8820.0"(minutes)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William anders spent 8820 minutes in space.</lex>
+      <lex comment="good" lid="Id2">William Anders spent 8820.0 minutes in space.</lex>
+      <lex comment="good" lid="Id3">William Anders time in space has been 8820.0 minutes.</lex>
+      <lex comment="good" lid="Id4">William Anders walked in space 8820.0 minutes.</lex>
+      <lex comment="good" lid="Id5">William Anders time in space is 8820.0 minutes.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id70" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | title | United_States_Ambassador_to_Norway</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | title | United_States_Ambassador_to_Norway</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders serves as Ambassador to Norway in the United States.</lex>
+      <lex comment="good" lid="Id2">William Anders official title is the United States Ambassador to Norway.</lex>
+      <lex comment="good" lid="Id3">United States's Ambassador to Norway is William Anders.</lex>
+      <lex comment="good" lid="Id4">William Anders is the US Ambassador to Norway.</lex>
+      <lex comment="good" lid="Id5">William Anders' title is the US Ambassador to Norway.</lex>
+      <lex comment="good" lid="Id6">William Anders title is the United States Ambassador to Norway.</lex>
+      <lex comment="good" lid="Id7">William Anders is the United States Ambassador to Norway.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id71" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | mission | Apollo_8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | was a crew member of | Apollo_8</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders served as a crew member on Apollo 8.</lex>
+      <lex comment="good" lid="Id2">William Anders served as a crew member of Apollo 8.</lex>
+      <lex comment="good" lid="Id3">William Anders crewed Apollo 8.</lex>
+      <lex comment="good" lid="Id4">William Anders was a crew member on Apollo 8.</lex>
+      <lex comment="good" lid="Id5">William Anders was a member of the Apollo 8 crew.</lex>
+      <lex comment="good" lid="Id6">William Anders was a member of Apollo 8's crew.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id72" size="1">
+      <originaltripleset>
+        <otriple>William_Anders | selection | 1963</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>William_Anders | was selected by NASA | 1963</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders was selected by NASA in 1963.</lex>
+      <lex comment="good" lid="Id2">William Anders joined NASA in 1963.</lex>
+      <lex comment="good" lid="Id3">William Anders was chosen by NASA in 1963.</lex>
+    </entry>
+  </entries>
+</benchmark>

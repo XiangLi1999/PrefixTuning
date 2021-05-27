@@ -1,0 +1,466 @@
+<benchmark>
+  <entries>
+    <entry category="Building" eid="Id1" size="3">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | capital | Cape_Town</otriple>
+        <otriple>South_Africa | leaderName | Cyril_Ramaphosa</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | location | South_Africa</mtriple>
+        <mtriple>South_Africa | capital | Cape_Town</mtriple>
+        <mtriple>South_Africa | leaderName | Cyril_Ramaphosa</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11 Diagonal Street is located in South Africa (Cyril Ramaphosa is one of the leaders), the capital of which is Cape Town.</lex>
+      <lex comment="good" lid="Id2">South Africa is the location of 11 Diagonal Street. The capital is Cape Town and the leader is Cyril Ramaphosa.</lex>
+      <lex comment="good" lid="Id3">Cyril Ramaphosa leads South Africa, whose capital, Cape Town, houses 11 Diagonal Street.</lex>
+    </entry>
+    <entry category="Building" eid="Id2" size="3">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | leaderName | Jacob_Zuma</otriple>
+        <otriple>South_Africa | ethnicGroup | Coloured</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | location | South_Africa</mtriple>
+        <mtriple>South_Africa | leaderName | Jacob_Zuma</mtriple>
+        <mtriple>South_Africa | ethnicGroup | Coloured</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11 Diagonal Street is located in South Africa, a country in which coloureds are one of the ethnic groups and Jacob Zuma is the leader.</lex>
+      <lex comment="good" lid="Id2">11 Diagonal Street is located in South Africa, populated by Coloured people and led by Jacob Zuma.</lex>
+      <lex comment="good" lid="Id3">The address, 11 Diagonal Street is located in South Africa where Jacob Zuma is a leader and some coloured people live.</lex>
+    </entry>
+    <entry category="Building" eid="Id3" size="3">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | leaderName | Jacob_Zuma</otriple>
+        <otriple>South_Africa | ethnicGroup | White_South_African</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | location | South_Africa</mtriple>
+        <mtriple>South_Africa | leaderName | Jacob_Zuma</mtriple>
+        <mtriple>South_Africa | ethnicGroup | White_South_African</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11 Diagonal Street is in South Africa where the leader is Jacob Zuma. An ethnic group found there are white South Africans.</lex>
+      <lex comment="good" lid="Id2">The white South Africans are an ethnic group of the country where Jacob Zuma is leader and where 11 Diagonal Street is located.</lex>
+    </entry>
+    <entry category="Building" eid="Id4" size="3">
+      <originaltripleset>
+        <otriple>200_Public_Square | location | Cleveland</otriple>
+        <otriple>Cleveland | leaderName | Frank_G._Jackson</otriple>
+        <otriple>Cleveland | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>200_Public_Square | location | Cleveland</mtriple>
+        <mtriple>Cleveland | leaderName | Frank_G._Jackson</mtriple>
+        <mtriple>Cleveland | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Frank G Jackson is the leader of Cleveland, United States where 200 Public Square is located.</lex>
+      <lex comment="good" lid="Id2">200 Public Square is located in Cleveland, United States, where one of the leaders is Frank G Jackson.</lex>
+    </entry>
+    <entry category="Building" eid="Id5" size="3">
+      <originaltripleset>
+        <otriple>250_Delaware_Avenue | location | Buffalo,_New_York</otriple>
+        <otriple>Buffalo,_New_York | subdivisionName | Erie_County,_New_York</otriple>
+        <otriple>Buffalo,_New_York | isPartOf | New_York</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>250_Delaware_Avenue | location | Buffalo,_New_York</mtriple>
+        <mtriple>Buffalo,_New_York | isPartOf | Erie_County,_New_York</mtriple>
+        <mtriple>Buffalo,_New_York | isPartOf | New_York</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">250 Delaware Avenue is located in Buffalo, Erie County, New York.</lex>
+      <lex comment="good" lid="Id2">250 Delaware avenue is in Buffalo, Erie County, New York.</lex>
+    </entry>
+    <entry category="Building" eid="Id6" size="3">
+      <originaltripleset>
+        <otriple>300_North_LaSalle | location | Chicago</otriple>
+        <otriple>Chicago | leaderName | Rahm_Emanuel</otriple>
+        <otriple>Chicago | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>300_North_LaSalle | location | Chicago</mtriple>
+        <mtriple>Chicago | leaderName | Rahm_Emanuel</mtriple>
+        <mtriple>Chicago | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">300 North LaSalle is located in Chicago (the leader of which is Rahm Emanuel), United States.</lex>
+      <lex comment="good" lid="Id2">Rahm Emanuel is a leader in Chicago, US where 300 North LaSalle is located.</lex>
+      <lex comment="good" lid="Id3">300 North Lasalle is in Chicago, U.S. Rahm Emanuel leads Chicago.</lex>
+    </entry>
+    <entry category="Building" eid="Id7" size="3">
+      <originaltripleset>
+        <otriple>3Arena | location | Dublin</otriple>
+        <otriple>3Arena | buildingEndDate | "December 2008"</otriple>
+        <otriple>3Arena | architect | "HOK SVE"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>3Arena | location | Dublin</otriple>
+        <otriple>3Arena | architect | "HOK SVE"@en</otriple>
+        <otriple>3Arena | completionDate | "December 2008"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | location | Dublin</mtriple>
+        <mtriple>3Arena | architect | "HOK SVE"</mtriple>
+        <mtriple>3Arena | completionDate | "December 2008"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Located in Dublin, the 3Arena whose architect was HOK SVE) was completed in December 2008.</lex>
+      <lex comment="good" lid="Id2">The architects of the 3Arena in Dublin was HOK SVE and it was completed in December 2008.</lex>
+      <lex comment="good" lid="Id3">3Arena, located in Dublin, was designed by HOK SVE and completed December 2008.</lex>
+    </entry>
+    <entry category="Building" eid="Id8" size="3">
+      <originaltripleset>
+        <otriple>3Arena | location | Dublin</otriple>
+        <otriple>3Arena | architect | Populous_(company)</otriple>
+        <otriple>3Arena | buildingEndDate | "December 2008"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>3Arena | location | Dublin</otriple>
+        <otriple>3Arena | architect | Populous_(company)</otriple>
+        <otriple>3Arena | completionDate | "December 2008"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | location | Dublin</mtriple>
+        <mtriple>3Arena | architect | Populous_(company)</mtriple>
+        <mtriple>3Arena | completionDate | "December 2008"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Populous was the architect of 3Arena in Dublin which was completed in December 2008.</lex>
+      <lex comment="good" lid="Id2">The company Populous were the architects who designed the 3Arena in Dublin which was completed in December 2008.</lex>
+      <lex comment="good" lid="Id3">The 3Arena in Dublin was designed by architects from the Populous company and completed in December 2008.</lex>
+    </entry>
+    <entry category="Building" eid="Id9" size="3">
+      <originaltripleset>
+        <otriple>3Arena | owner | Live_Nation_Entertainment</otriple>
+        <otriple>Dublin | country | Republic_of_Ireland</otriple>
+        <otriple>3Arena | location | Dublin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | owner | Live_Nation_Entertainment</mtriple>
+        <mtriple>Dublin | country | Republic_of_Ireland</mtriple>
+        <mtriple>3Arena | location | Dublin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The owner of 3Arena is Live Nation Entertainment which is located in Dublin, Ireland.</lex>
+      <lex comment="good" lid="Id2">3Arena is owned by Live Nation Entertainment, and is located in Dublin, Republic of Ireland.</lex>
+      <lex comment="good" lid="Id3">3Arena in Dublin, Republic of Ireland is owned by Live Nation Entertainment.</lex>
+    </entry>
+    <entry category="Building" eid="Id10" size="3">
+      <originaltripleset>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | operator | Marriott_International</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Marriott International is the tenant of the AC Hotel Bella Sky Copenhagen, Denmark, which was designed by the architects of the 3XN firm.</lex>
+      <lex comment="good" lid="Id2">AC Hotel Bella Sky is in Copenhagen, Denmark, Marriott International Hotel because 3XN was the architect.</lex>
+      </entry>
+    <entry category="Building" eid="Id11" size="3">
+      <originaltripleset>
+        <otriple>Adare_Manor | completionDate | 1862</otriple>
+        <otriple>Adare_Manor | architect | James_Pain</otriple>
+        <otriple>Adare_Manor | owner | J._P._McManus</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adare_Manor | completionDate | 1862</mtriple>
+        <mtriple>Adare_Manor | architect | James_Pain</mtriple>
+        <mtriple>Adare_Manor | owner | J._P._McManus</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">James Pain was the architect of Adare Manor which was completed in 1862 and is owned by J P McManus.</lex>
+      <lex comment="good" lid="Id2">James Pain was the architect of Adare Manor which was completed in 1862 and owed by J P McManus.</lex>
+      <lex comment="good" lid="Id3">James Pain designed Adare Manor that was completed in 1862. The owner is J.P. McManus.</lex>
+    </entry>
+    <entry category="Building" eid="Id12" size="3">
+      <originaltripleset>
+        <otriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | floorArea | "140000.0"^^xsd:double</otriple>
+        <otriple>Addis_Ababa_City_Hall | height | "42.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | height | "42 m"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | floorArea | "140000.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | height | "42 m"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | floorArea | "140000.0"^^&lt;http://dbpedia.org/datatype/squareMetre&gt;</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"@en</otriple>
+        <otriple>Addis_Ababa_City_Hall | floorArea | "140000.0"^^&lt;http://dbpedia.org/datatype/squareMetre&gt;</otriple>
+        <otriple>Addis_Ababa_City_Hall | height | "42.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addis_Ababa_City_Hall | currentTenants | "Government of Addis Ababa"</mtriple>
+        <mtriple>Addis_Ababa_City_Hall | floorArea | 140000.0 (square metres)</mtriple>
+        <mtriple>Addis_Ababa_City_Hall | height | "42 m"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Government of Addis Ababa is the current tenant of the Addis Ababa City Hall which is 42 metres high and has a floor area of 140000.0 (square metres).</lex>
+      <lex comment="good" lid="Id2">The Government of Addis Ababa is the current tenants of the Addis Ababa city hall. which has a floor area of 140000.0 square metres. It is 42 m high.</lex>
+      <lex comment="good" lid="Id3">Addis Ababa City Hall, which houses the Government of Addis Ababa, is 42 m high and has a floor area of140000.0 square metres.</lex>
+    </entry>
+    <entry category="Building" eid="Id13" size="3">
+      <originaltripleset>
+        <otriple>Adisham_Hall | location | Sri_Lanka</otriple>
+        <otriple>Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</otriple>
+        <otriple>Adisham_Hall | buildingEndDate | "1931"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adisham_Hall | location | Sri_Lanka</mtriple>
+        <mtriple>Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</mtriple>
+        <mtriple>Adisham_Hall | completionDate | 1931</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Adisham hall, which is located in Sri Lanka, was completed in 1931 and architectural style is Tudor Revival.</lex>
+      <lex comment="good" lid="Id2">Aidsham Hall, completed in 1931 and located in Sri Lanka, is in the Tudor Revival architecture style.</lex>
+      <lex comment="good" lid="Id3">Adisham Hall, with its Tudor Revival style of architecture, was built in 1931 in Sri Lanka.</lex>
+    </entry>
+    <entry category="Building" eid="Id14" size="3">
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | floorCount | "3"^^xsd:positiveInteger</otriple>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+        <otriple>Akita_Museum_of_Art | floorArea | "3746.66"^^&lt;http://dbpedia.org/datatype/squareMetre&gt;</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+        <otriple>Akita_Museum_of_Art | floorCount | 3</otriple>
+        <otriple>Akita_Museum_of_Art | Building/floorArea | "3746.66"^^&lt;http://dbpedia.org/datatype/squareMetre&gt;</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+        <otriple>Akita_Museum_of_Art | floorCount | 3</otriple>
+        <otriple>Akita_Museum_of_Art | floorArea | "3746.66"^^xsd:double</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | floorCount | "3"^^xsd:positiveInteger</otriple>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+        <otriple>Akita_Museum_of_Art | Building/floorArea | "3746.66"^^&lt;http://dbpedia.org/datatype/squareMetre&gt;</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+        <otriple>Akita_Museum_of_Art | floorCount | 3</otriple>
+        <otriple>Akita_Museum_of_Art | floorArea | "3746.66"^^&lt;http://dbpedia.org/datatype/squareMetre&gt;</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | floorCount | "3"^^xsd:positiveInteger</otriple>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+        <otriple>Akita_Museum_of_Art | floorArea | "3746.66"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akita_Museum_of_Art | floorCount | 3</mtriple>
+        <mtriple>Akita_Museum_of_Art | inaugurationDate | "2013-09-28"</mtriple>
+        <mtriple>Akita_Museum_of_Art | floorArea | 3746.66 (square metres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Akita Museum of Art has a floor area of 3746.66 square metres over 3 floors and was inaugurated on 28 September 2013.</lex>
+      <lex comment="good" lid="Id2">The Akita Museum of Art, inaugurated September 28, 2013 has 3 floors and a floor area of 3746.66 square metres.</lex>
+    </entry>
+    <entry category="Building" eid="Id15" size="3">
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | locationTown | Akita,_Akita</otriple>
+        <otriple>Akita_Museum_of_Art | location | Akita_Prefecture</otriple>
+        <otriple>Akita,_Akita | country | Japan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | locationTown | Akita_Prefecture</otriple>
+        <otriple>Akita,_Akita | country | Japan</otriple>
+        <otriple>Akita_Museum_of_Art | location | Akita,_Akita</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akita_Museum_of_Art | location | Akita,_Akita</mtriple>
+        <mtriple>Akita_Museum_of_Art | location | Akita_Prefecture</mtriple>
+        <mtriple>Akita,_Akita | country | Japan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Akita Museum or art is located in Akita, within the Akita Prefecture, Japan.</lex>
+    </entry>
+    <entry category="Building" eid="Id16" size="3">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</otriple>
+        <otriple>Alan_B._Miller_Hall | buildingStartDate | "30 March 2007"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</mtriple>
+        <mtriple>Alan_B._Miller_Hall | buildingStartDate | "30 March 2007"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The College of William and Mary is the owner of the Alan B. Miller Hall in Virginia. The building was begun on 30 March 2007.</lex>
+      <lex comment="good" lid="Id2">The College of William and Mary is the owner of the Alan B. Miller Hall in Virginia which began construction on 30 March, 2007.</lex>
+      <lex comment="good" lid="Id3">The College of William and Mary is the owner of the Alan B. Miller Hall, located in Virginia, and the start date of building was in 30th March 2007.</lex>
+    </entry>
+    <entry category="Building" eid="Id17" size="3">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</otriple>
+        <otriple>College_of_William_&amp;_Mary | chancellor | Robert_Gates</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</mtriple>
+        <mtriple>College_of_William_&amp;_Mary | chancellor | Robert_Gates</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Robert Gates is the chancellor of The College of William and Mary which is owned by Alan B Miller Hall and is located in Virginia.</lex>
+      <lex comment="good" lid="Id2">Alan B. Miller Hall, located in Virginia, is owned by The College of William and Mary; whose chancellor is Robert Gates.</lex>
+      </entry>
+    <entry category="Building" eid="Id18" size="3">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Mason_School_of_Business | country | United_States</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Mason_School_of_Business | country | United_States</mtriple>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Mason School of Business in the US are the current tenants of Alan B Miller Hall in Virginia.</lex>
+      <lex comment="good" lid="Id2">Alan B Miller Hall is in Virginia, U.S. and houses The Mason School of Business .</lex>
+    </entry>
+    <entry category="Building" eid="Id19" size="3">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</otriple>
+        <otriple>Alan_B._Miller_Hall | location | Williamsburg,_Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | buildingStartDate | "30 March 2007"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</mtriple>
+        <mtriple>Alan_B._Miller_Hall | location | Williamsburg,_Virginia</mtriple>
+        <mtriple>Alan_B._Miller_Hall | buildingStartDate | "30 March 2007"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan B. Miller Hall, the building of which began 30 March, 2007, is located in Williamsburg, Virginia and owned by the College of William and Mary.</lex>
+      <lex comment="good" lid="Id2">Alan B. Miller Hall's building, started on 30th March 2007, is located in Williamsburg, Virginia, and owned by the College of William and Mary.</lex>
+      <lex comment="good" lid="Id3">The Alan B. Miller Hall, owned by The College of William and Mary, is in Williamsburg, Virginia and was opened on the 30th March 2007.</lex>
+    </entry>
+    <entry category="Building" eid="Id20" size="3">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | region | Ampara_District</otriple>
+        <otriple>Ampara_Hospital | bedCount | "476"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Ampara_Hospital | country | "Sri Lanka"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+        <otriple>Ampara_Hospital | region | Ampara_District</otriple>
+        <otriple>Ampara_Hospital | bedCount | "476"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+        <otriple>Ampara_Hospital | region | Ampara_District</otriple>
+        <otriple>Ampara_Hospital | beds | 476</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Ampara_Hospital | region | Ampara_District</otriple>
+        <otriple>Ampara_Hospital | beds | 476</otriple>
+        <otriple>Ampara_Hospital | country | "Sri Lanka"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+        <mtriple>Ampara_Hospital | region | Ampara_District</mtriple>
+        <mtriple>Ampara_Hospital | bedCount | 476</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 476 bed Ampara Hospital is located in Ampara District, Sri Lanka.</lex>
+      <lex comment="good" lid="Id2">Ampara Hospital, which has 476 beds, is located in the Ampara District of Sri Lanka.</lex>
+    </entry>
+    <entry category="Building" eid="Id21" size="3">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+        <otriple>Sri_Lanka | leaderName | Ranil_Wickremesinghe</otriple>
+        <otriple>Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+        <mtriple>Sri_Lanka | leaderName | Ranil_Wickremesinghe</mtriple>
+        <mtriple>Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ampara Hospital is in Eastern Province, Sri Lanka. Ranil Wickremesinghe is a leader there.</lex>
+      <lex comment="good" lid="Id2">Sri Lanka, led by Ranil Wickremesinghe, is home to Ampara Hospital in the Eastern Province state.</lex>
+    </entry>
+    <entry category="Building" eid="Id22" size="3">
+      <originaltripleset>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | location | U.S._Route_83</otriple>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | added | "1988-11-22"^^xsd:date</otriple>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | yearOfConstruction | "1911"^^xsd:gYear</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | location | U.S._Route_83</otriple>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | built | 1911</otriple>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | added | "1988-11-22"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | location | U.S._Route_83</mtriple>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | added to the National Register of Historic Places | "1988-11-22"</mtriple>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | yearOfConstruction | 1911</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asher and Mary Isabelle Richardson House located on US Route 83 and built in 1911 was added to the National Register of Historic Places, on 22nd November 1988.</lex>
+      <lex comment="good" lid="Id2">The Asher and Mary Isabelle Robinson House on U.S. Route 83 was constructed in 1911 and added to the National Register of Historic Places on 22 November 1988.</lex>
+      <lex comment="good" lid="Id3">The Asher and Mary Isabelle Richardson House on U.S. Route 83 was constructed in 1911 and added to the National Register of Historic Places on 22 November 1988.</lex>
+    </entry>
+    <entry category="Building" eid="Id23" size="3">
+      <originaltripleset>
+        <otriple>Asilomar_Conference_Grounds | location | Pacific_Grove,_California</otriple>
+        <otriple>Asilomar_Conference_Grounds | added | "1987-02-27"^^xsd:date</otriple>
+        <otriple>Asilomar_Conference_Grounds | nrhpReferenceNumber | "87000823"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asilomar_Conference_Grounds | location | Pacific_Grove,_California</mtriple>
+        <mtriple>Asilomar_Conference_Grounds | added to the National Register of Historic Places | "1987-02-27"</mtriple>
+        <mtriple>Asilomar_Conference_Grounds | ReferenceNumber in the National Register of Historic Places | "87000823"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asilomar Conference Grounds are located in Pacific Grove, California and was added to the National Register of Historic Places on February the 27nd 1987. Its reference number in the National Register of Historic Places is 87000823,.</lex>
+      <lex comment="good" lid="Id2">The Asilomar Conference Grounds of Pacific Grove in California was added to the National Register of Historic Places on 27th of February in 1987, where the reference number for the National register was 87000823.</lex>
+      <lex comment="good" lid="Id3">Asilomar Conference Grounds, Pacific Grove, California, was added to the National Register of Historic Places on February the 27nd 1987 with a reference number of 87000823.</lex>
+    </entry>
+    <entry category="Building" eid="Id24" size="3">
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | location | "Asser Levy Place and East 23rd Street"@en</otriple>
+        <otriple>Asser_Levy_Public_Baths | nrhpReferenceNumber | "80002709"</otriple>
+        <otriple>Asser_Levy_Public_Baths | added | "1980-04-23"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asser_Levy_Public_Baths | location | "Asser Levy Place and East 23rd Street"</mtriple>
+        <mtriple>Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | "80002709"</mtriple>
+        <mtriple>Asser_Levy_Public_Baths | added to the National Register of Historic Places | "1980-04-23"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asser Levy Public Baths are located in Asser Levy Place , East 23rd Street and were added to the National Register of Historic Places on 1980-04-23, with the number 80002709.</lex>
+      <lex comment="good" lid="Id2">The Asser Levy Public Baths are located in Asser Levy Place , East 23rd Street and were added to the National Register of Historic Places on 23rd April 1980 with the reference number 80002709 .</lex>
+    </entry>
+    <entry category="Building" eid="Id25" size="3">
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | location | New_York_City</otriple>
+        <otriple>New_York_City | country | United_States</otriple>
+        <otriple>New_York_City | subdivisionName | Manhattan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | location | New_York_City</otriple>
+        <otriple>New_York_City | country | United_States</otriple>
+        <otriple>New_York_City | isPartOf | Manhattan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asser_Levy_Public_Baths | location | New_York_City</mtriple>
+        <mtriple>New_York_City | country | United_States</mtriple>
+        <mtriple>New_York_City | isPartOf | Manhattan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asser Levy Public Baths are located in New York City, U.S. Manhattan is a borough in New York City.</lex>
+      <lex comment="good" lid="Id2">Asser Levy Public Baths are located in Manhattan, New York City, United States.</lex>
+      <lex comment="good" lid="Id3">The location of Asser Levy Public Baths is New York City, Manhattan in the U.S.</lex>
+    </entry>
+    <entry category="Building" eid="Id26" size="3">
+      <originaltripleset>
+        <otriple>India | leader | T._S._Thakur</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+        <otriple>India | leaderName | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>India | leaderName | T._S._Thakur</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+        <otriple>India | leader | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | leaderName | T._S._Thakur</mtriple>
+        <mtriple>Amdavad_ni_Gufa | country | India</mtriple>
+        <mtriple>India | leaderName | Sumitra_Mahajan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">T S Thakur and Sumitra Mahajan are leaders in India where Amdavad ni Gufa is located.</lex>
+      <lex comment="good" lid="Id2">Amdavad ni Gufa is located in India where T S Thakur and Sumitra Mahajan are leaders.</lex>
+      </entry>
+    </entries>
+</benchmark>

@@ -1,0 +1,312 @@
+<benchmark>
+  <entries>
+    <entry category="WrittenWork" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | author | Eric_Flint</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | author | Eric_Flint</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Eric Flint is the author of 1634: The Bavarian Crisis.</lex>
+      <lex comment="good" lid="Id2">1634: The Bavarian Crisis was written by Eric Flint.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | previousWork | The_Grantville_Gazettes</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Bavarian crisis is the sequel to The Grantville Gazettes.</lex>
+      <lex comment="good" lid="Id2">1634: The Bavarian Crisis is preceded by The Grantville Gazettes.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | subsequentWork | 1635:_The_Cannon_Law</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | followedBy | 1635:_The_Cannon_Law</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Ram Rebellion was followed by 1635: The Cannon Law.</lex>
+      <lex comment="good" lid="Id2">1634: The Ram Rebellion is followed by 1635: The Cannon Law.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>AIP_Advances | eissn | 2158</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AIP_Advances | EISSN_number | 2158</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AIP Advances had the EISSNnumber 2158.</lex>
+      <lex comment="good" lid="Id2">The EISSN number of AIP Advances is 2158.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>A_Fortress_of_Grey_Ice | mediaType | Hardcover</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Fortress_of_Grey_Ice | mediaType | Hardcover</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Fortress of Grey Ice is a hardcover book.</lex>
+      <lex comment="good" lid="Id2">A Fortress of Grey Ice was made in hardcover.</lex>
+      <lex comment="good" lid="Id3">A Fortress of Grey Ice was produced in Hardcover.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>A_Long_Long_Way | isbn | "0-670-03380-4"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Long_Long_Way | ISBN_number | "0-670-03380-4"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ISBN number of A Long Long Way is 0-670-03380-4.</lex>
+      <lex comment="good" lid="Id2">The ISBN number to A Long Long Way is 0-670-03380-4.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>A_Loyal_Character_Dancer | isbn | "1-56947-301-3"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Loyal_Character_Dancer | ISBN_number | "1-56947-301-3"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The book, A Loyal Character Dancer, has the ISBN number of 1-56947-301-3.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>A_Severed_Wasp | author | Madeleine_L'Engle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Severed_Wasp | author | Madeleine_L'Engle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Madeleine L'Engle wrote "A Severed Wasp".</lex>
+      <lex comment="good" lid="Id2">Madeleine L'Engle is the author of A Severed Wasp.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Wizard of Mars is published in English.</lex>
+      <lex comment="good" lid="Id2">A Wizard of Mars is written in English.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg | lccn | "32024459"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg | LCCN_number | 32024459</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg has the LCCN number 32024459.</lex>
+      <lex comment="good" lid="Id2">The Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg has an LCCN number of 32024459.</lex>
+      <lex comment="good" lid="Id3">The LCCN number of Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg is 32024459.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Above_the_Veil | mediaType | Hardcover</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Above_the_Veil | mediaType | Hardcover</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Above the Veil is available in hardcover.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Mathematica Hungarica is also known as Acta Math. Hungar.</lex>
+      <lex comment="good" lid="Id2">Acta Mathematica Hungarica has the abbreviation of "Acta Math. Hungar.".</lex>
+      <lex comment="good" lid="Id3">The abbreviation of Acta Mathematica Hungarica is Acta Math. Hungar.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | discipline | Mathematics</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | academicDiscipline | Mathematics</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acta Mathematica Hungarica covers the academic discipline of Mathematics.</lex>
+      <lex comment="good" lid="Id2">The Acta Mathematica Hungarica discipline is Math.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Acta_Palaeontologica_Polonica | coden | "APGPAC"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Palaeontologica_Polonica | CODEN_code | "APGPAC"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Palaeontologica Polonica has the CODEN code APGPAC.</lex>
+      <lex comment="good" lid="Id2">The Acta Palaeontologica Polonica CODEN code is "APGPAC".</lex>
+      <lex comment="good" lid="Id3">The CODEN code for the Acta Palaeontologica Polonica is APGPAC.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Addiction_(journal) | oclc | "27367194"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addiction_(journal) | OCLC_number | 27367194</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The OCLC number of Addiction (journal) is 27367194.</lex>
+      <lex comment="good" lid="Id2">The OCLC number for Addiction journal is 27367194.</lex>
+      <lex comment="good" lid="Id3">Addiction (journal) has an OCLC number 27367194.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Addiction_(journal) | publisher | Wiley-Blackwell</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addiction_(journal) | publisher | Wiley-Blackwell</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Wiley-Blackwell is the publisher of the journal Addiction.</lex>
+      <lex comment="good" lid="Id2">Wiley-Blackwell is the publisher of Addiction (journal).</lex>
+      <lex comment="good" lid="Id3">Addiction journal is published by Wiley-Blackwell.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | lccn | 57059226</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Administrative_Science_Quarterly | LCCN_number | 57059226</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The LCCN number of the Administrative Science Quarterly is 57059226.</lex>
+      <lex comment="good" lid="Id2">Administrative Science Quarterly's LLCN number is 57059226.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Aenir | oclc | "45644811"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aenir | OCLC_number | 45644811</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">OCLC number 45644811 is Aenir.</lex>
+      <lex comment="good" lid="Id2">OCLC number 45644811 is for Aenir.</lex>
+      <lex comment="good" lid="Id3">The OCLC number of Aenir is 45644811.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | oclc | "78771100"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | OCLC_number | 78771100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alcatraz Versus The Evil Librarian OCLC number is 78771100.</lex>
+      <lex comment="good" lid="Id2">Alcatraz Versus the Evil Librarians has the OCLC number of 7877110.</lex>
+      <lex comment="good" lid="Id3">Alcatraz Versus the Evil Librarians has an OCLC number of 78771100.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | followedBy | Alcatraz_Versus_the_Scrivener's_Bones</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | subsequentWork | Alcatraz_Versus_the_Scrivener's_Bones</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | followedBy | Alcatraz_Versus_the_Scrivener's_Bones</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The book Alcatraz Versus the Evil Librarians is followed by the book Alcatraz Versus the Scrivener's Bones.</lex>
+      <lex comment="good" lid="Id2">Alcatraz Versus the Evil Librarians was followed by Alcatraz Versus the Scrivener's Bones.</lex>
+      <lex comment="good" lid="Id3">Alcatraz versus the Evil Librarians is followed by Alcatraz Versus the Scrivener's Bones.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | impact | "1.337"^^xsd:double</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | impactFactor | "1.337"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>American_Journal_of_Mathematics | impactFactor | "1.337"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The impact factor of the American Journal of Mathematics is 1.337.</lex>
+      <lex comment="good" lid="Id2">The American Journal of Mathematics has an impact Factor of 1.337.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Castle_(novel) | subsequentWork | Aenir</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Castle_(novel) | followedBy | Aenir</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Castle_(novel) | followedBy | Aenir</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The novel Castle is followed by Aenir.</lex>
+      <lex comment="good" lid="Id2">Aenir followed the novel Castle.</lex>
+      <lex comment="good" lid="Id3">Castle is followed by Aenir.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Cornell_University | nickname | Cornell_Big_Red</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Cornell_University | nickname | Cornell_Big_Red</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cornwell University is nicknamed Cornell Big Red.</lex>
+      <lex comment="good" lid="Id2">Cornell Big Red is the nickname of Cornell University.</lex>
+      <lex comment="good" lid="Id3">Cornell Big Red is the nickname for Cornell University.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>HIV | genus | Lentivirus</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>HIV | genus | Lentivirus</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The HIV virus is from the genus Lentivirus.</lex>
+      <lex comment="good" lid="Id2">HIV is genus Lentivirus.</lex>
+      <lex comment="good" lid="Id3">HIV genus is categorised as Lentivirus.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>John_Cowper_Powys | notableWork | Wolf_Solent</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>John_Cowper_Powys | notableWork | Wolf_Solent</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Wolf Solent is a notable work by John Cowper Powys.</lex>
+      <lex comment="good" lid="Id2">Wolf Solent is one of John Cowper Powys notable works.</lex>
+      <lex comment="good" lid="Id3">Wolf Solent is a notable work of author John Cowper Powys.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>United_Kingdom | leaderName | Elizabeth_II</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>United_Kingdom | leader | Elizabeth_II</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_Kingdom | leaderName | Elizabeth_II</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Elizabeth II is a leader in the United Kingdom.</lex>
+      <lex comment="good" lid="Id2">The leader of the United Kingdom is Elizabeth II.</lex>
+      <lex comment="good" lid="Id3">Elizabeth II is the leader in the UK.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>United_States | leader | Joe_Biden</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderName | Joe_Biden</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Joe Biden is a United States leader.</lex>
+      <lex comment="good" lid="Id2">Joe Biden is a leader in the U.S.</lex>
+      <lex comment="good" lid="Id3">A leader in the United States is Joe Biden.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Wolf_Solent | author | John_Cowper_Powys</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Wolf_Solent | author | John_Cowper_Powys</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John Cowper Powys is the author of Wolf Solent.</lex>
+      <lex comment="good" lid="Id2">John Cowper Powys is the author of "Wolf Solent".</lex>
+    </entry>
+    </entries>
+</benchmark>

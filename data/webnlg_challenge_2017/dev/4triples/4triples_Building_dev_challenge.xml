@@ -1,0 +1,491 @@
+<benchmark>
+  <entries>
+    <entry category="Building" eid="Id1" size="4">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | capital | Cape_Town</otriple>
+        <otriple>South_Africa | leaderName | Cyril_Ramaphosa</otriple>
+        <otriple>South_Africa | ethnicGroup | Asian_South_Africans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | location | South_Africa</mtriple>
+        <mtriple>South_Africa | capital | Cape_Town</mtriple>
+        <mtriple>South_Africa | leaderName | Cyril_Ramaphosa</mtriple>
+        <mtriple>South_Africa | ethnicGroup | Asian_South_Africans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cyril Ramaphosa is one of the leaders of South Africa, which capital is Cape Town. The address, 11 Diagonal Street is located in that country and one of the the ethnic groups is Asian South Africans.</lex>
+      <lex comment="good" lid="Id2">Lead by Cyril Ramaphosa, South Africa is location of 11 Diagonal Street, has the capital of Cape Town and has an ethnic group of Asian South Africans.</lex>
+      <lex comment="good" lid="Id3">With the capital of Cape Town, South Africa is the location of 11 Diagonal Street, has the ethnic group of Asian South African and one of its leaders is Cyril Ramaphosa.</lex>
+    </entry>
+    <entry category="Building" eid="Id2" size="4">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | ethnicGroups | Asian_South_Africans</otriple>
+        <otriple>South_Africa | capital | Cape_Town</otriple>
+        <otriple>South_Africa | ethnicGroup | White_South_African</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | location | South_Africa</otriple>
+        <otriple>South_Africa | capital | Cape_Town</otriple>
+        <otriple>South_Africa | ethnicGroups | White_South_African</otriple>
+        <otriple>South_Africa | ethnicGroup | Asian_South_Africans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | location | South_Africa</mtriple>
+        <mtriple>South_Africa | ethnicGroup | Asian_South_Africans</mtriple>
+        <mtriple>South_Africa | capital | Cape_Town</mtriple>
+        <mtriple>South_Africa | ethnicGroup | White_South_African</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">With the capital of Cape Town, South Africa is the location of 11 Diagonal Street and has the ethnic groups of Asian South Africans and white South Africans.</lex>
+      <lex comment="good" lid="Id2">11 Diagonal Street is located in South Africa, of which Cape Town is the capital. Two ethnic groups within South Africa are the Asian South Africans, and white South Africans.</lex>
+      <lex comment="good" lid="Id3">11 Diagonal Street is located in South Africa, where the capital is Cape Town. White South Africans and Asian South Africans are ethnic groups in South Africa.</lex>
+    </entry>
+    <entry category="Building" eid="Id3" size="4">
+      <originaltripleset>
+        <otriple>200_Public_Square | location | Cleveland</otriple>
+        <otriple>Cleveland | subdivisionName | Cuyahoga_County,_Ohio</otriple>
+        <otriple>Cleveland | isPartOf | Ohio</otriple>
+        <otriple>Cleveland | governingBody | Cleveland_City_Council</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>200_Public_Square | location | Cleveland</mtriple>
+        <mtriple>Cleveland | isPartOf | Cuyahoga_County,_Ohio</mtriple>
+        <mtriple>Cleveland | isPartOf | Ohio</mtriple>
+        <mtriple>Cleveland | governingBody | Cleveland_City_Council</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">200 Public Square is located in Cleveland, Cuyahoga County, Ohio which is governed by Cleveland City Council.</lex>
+      <lex comment="good" lid="Id2">200 Public Square is located in Cleveland, Cuyahoga County, Ohio which is governed by the Cleveland City Council.</lex>
+      <lex comment="good" lid="Id3">200 Public Square is located in Cleveland, Cuyahoga County, Ohio, and is governed by Cleveland City Council.</lex>
+    </entry>
+    <entry category="Building" eid="Id4" size="4">
+      <originaltripleset>
+        <otriple>250_Delaware_Avenue | architecturalStyle | Postmodern_architecture</otriple>
+        <otriple>250_Delaware_Avenue | buildingStartDate | "January, 2014"</otriple>
+        <otriple>250_Delaware_Avenue | floorArea | "30843.8"^^xsd:double</otriple>
+        <otriple>250_Delaware_Avenue | floorCount | "12"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>250_Delaware_Avenue | architecturalStyle | Postmodern_architecture</otriple>
+        <otriple>250_Delaware_Avenue | buildingStartDate | "January, 2014"</otriple>
+        <otriple>250_Delaware_Avenue | floorArea | "30843.8"^^xsd:double</otriple>
+        <otriple>250_Delaware_Avenue | floorCount | 12</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>250_Delaware_Avenue | architecturalStyle | Postmodern_architecture</mtriple>
+        <mtriple>250_Delaware_Avenue | buildingStartDate | "January, 2014"</mtriple>
+        <mtriple>250_Delaware_Avenue | floorArea | 30843.8 (square metres)</mtriple>
+        <mtriple>250_Delaware_Avenue | floorCount | 12</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Construction beginning in January 2014, Postmodern art 250 Delaware Avenue has 12 floors with a total area of 30843.8 square meters.</lex>
+      <lex comment="good" lid="Id2">Construction of the 12 floor Postmodern style building , 250 Delaware Avenue, which has a floor area of 30843.8 square metres began in January 2014.</lex>
+      <lex comment="good" lid="Id3">First begun to be built in January 2014, the postmodernist art 250 Delaware Avenue has 12 floors and a total floor area of 30843.8 square metres.</lex>
+    </entry>
+    <entry category="Building" eid="Id5" size="4">
+      <originaltripleset>
+        <otriple>300_North_LaSalle | location | Chicago</otriple>
+        <otriple>Chicago | isPartOf | DuPage_County,_Illinois</otriple>
+        <otriple>Chicago | country | United_States</otriple>
+        <otriple>Chicago | leaderName | Susana_Mendoza</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>300_North_LaSalle | location | Chicago</mtriple>
+        <mtriple>Chicago | isPartOf | DuPage_County,_Illinois</mtriple>
+        <mtriple>Chicago | country | United_States</mtriple>
+        <mtriple>Chicago | leaderName | Susana_Mendoza</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">300 North LaSalle is located in Chicago, Du Page County, Illinois, United States where the leader is Susana Mendoza.</lex>
+      <lex comment="good" lid="Id2">300 North Lasalle is located in Chicago, DuPage County, Illinois. The leader or Chicago is Susana Mendoza.</lex>
+      <lex comment="good" lid="Id3">300 North LaSalle is situated in Chicago which is part of the Dupage County in Illinois located in the U.S. Susana Mendoza is currently the leader of Chicago.</lex>
+    </entry>
+    <entry category="Building" eid="Id6" size="4">
+      <originaltripleset>
+        <otriple>3Arena | owner | Live_Nation_Entertainment</otriple>
+        <otriple>Dublin | leaderName | Críona_Ní_Dhálaigh</otriple>
+        <otriple>Dublin | country | Republic_of_Ireland</otriple>
+        <otriple>3Arena | location | Dublin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | owner | Live_Nation_Entertainment</mtriple>
+        <mtriple>Dublin | leaderName | Críona_Ní_Dhálaigh</mtriple>
+        <mtriple>Dublin | country | Republic_of_Ireland</mtriple>
+        <mtriple>3Arena | location | Dublin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">3 Arena is located in Dublin, the Republic of Ireland, where Críona Ní Dhálaigh was Lord Mayor. The owner of 3Arena is Live Nation Entertainment.</lex>
+      <lex comment="good" lid="Id2">The Lord Mayor of Dublin (Republic of Ireland) is Criona Ni Dhalaigh. Based in Dublin is 3Arena which is owned by Live Nation Entretainment.</lex>
+      <lex comment="good" lid="Id3">the 3Arena, Dublin, Republic of Ireland is owned by Live Nation Entertainment. Críona Ní Dhálaigh was Lord Mayor of Dublin.</lex>
+    </entry>
+    <entry category="Building" eid="Id7" size="4">
+      <originaltripleset>
+        <otriple>3Arena | owner | Live_Nation_Entertainment</otriple>
+        <otriple>Dublin | leaderName | Críona_Ní_Dhálaigh</otriple>
+        <otriple>Dublin | subdivisionName | Republic_of_Ireland</otriple>
+        <otriple>3Arena | location | Dublin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | owner | Live_Nation_Entertainment</mtriple>
+        <mtriple>Dublin | leaderName | Críona_Ní_Dhálaigh</mtriple>
+        <mtriple>Dublin | isPartOf | Republic_of_Ireland</mtriple>
+        <mtriple>3Arena | location | Dublin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Live Nation Entertainment owns 3Arena, located in Dublin, Republic of Ireland. The Lord Mayor of Dublin is Críona Ní Dhálaigh.</lex>
+      <lex comment="good" lid="Id2">Owned by Live Nation Entertainment, 3Arena can be found in Dublin in the Republic of Ireland, a Republic run by Lord Mayor Críona Ní Dhálaigh.</lex>
+      </entry>
+    <entry category="Building" eid="Id8" size="4">
+      <originaltripleset>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | operator | Marriott_International</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | "23"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | "23"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | 23</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AC Hotel Bella Sky is located in Copenhagen, Denmark and the tenant from the hotel is Marriott International. It is own by Bella Center and there is 23 floors in that hotel.</lex>
+      <lex comment="good" lid="Id2">There are 23 floors in the AC Hotel Bella Sky Copenhagen, Denmark. The tenant is the Marriott International Hotel and the owner is Bella Center.</lex>
+      <lex comment="good" lid="Id3">Located in Denmark and with tenant Marriott International, AC Hotel Bella Sky Copenhagen is owned by Bella Center and has 23 floors.</lex>
+    </entry>
+    <entry category="Building" eid="Id9" size="4">
+      <originaltripleset>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</otriple>
+        <otriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | "23"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</mtriple>
+        <mtriple>AC_Hotel_Bella_Sky_Copenhagen | floorCount | 23</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The tenant of the AC Hotel Bella Sky Copenhagen is Marriott International. The hotel has 23 floors, was designed by the company 3XN and is owned by the Bella Center.</lex>
+      <lex comment="good" lid="Id2">3XN was the architect of the AC Hotel Bella Sky Copenhagen which has 23 floors and is owned by the Bella Center and currently tenanted by Marriott International.</lex>
+      <lex comment="good" lid="Id3">Bella Center owns AC Hotel Bella Sky Copenhagen and Marriott International is a tenant. The hotel has 23 floors and was designed by 3XN.</lex>
+    </entry>
+    <entry category="Building" eid="Id10" size="4">
+      <originaltripleset>
+        <otriple>Adisham_Hall | architecturalStyle | "Tudor and Jacabian"@en</otriple>
+        <otriple>Adisham_Hall | completionDate | 1931</otriple>
+        <otriple>Adisham_Hall | location | Sri_Lanka</otriple>
+        <otriple>Adisham_Hall | buildingStartDate | "1927"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adisham_Hall | architecturalStyle | "Tudor and Jacabian"@en</otriple>
+        <otriple>Adisham_Hall | location | Sri_Lanka</otriple>
+        <otriple>Adisham_Hall | buildingEndDate | "1931"</otriple>
+        <otriple>Adisham_Hall | buildingStartDate | "1927"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adisham_Hall | architecturalStyle | "Tudor and Jacabian"</mtriple>
+        <mtriple>Adisham_Hall | location | Sri_Lanka</mtriple>
+        <mtriple>Adisham_Hall | completionDate | 1931</mtriple>
+        <mtriple>Adisham_Hall | buildingStartDate | "1927"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Construction began in 1927 and finished in 1931 of Adisham Hall in Sri Lanka and was in the Tudor and Jacobean style.</lex>
+      <lex comment="good" lid="Id2">The Tudor and Jacobean styled Adisham Hall was built in Sri Lanka between 1927 and 1931.</lex>
+      <lex comment="good" lid="Id3">Adisham Hall began in 1927 and completed in 1931. It has a Tudor and Jacabian style and is located in Sri Lanka.</lex>
+    </entry>
+    <entry category="Building" eid="Id11" size="4">
+      <originaltripleset>
+        <otriple>Adisham_Hall | locationCountry | Sri_Lanka</otriple>
+        <otriple>Adisham_Hall | location | "Haputale, Sri Lanka"@en</otriple>
+        <otriple>Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</otriple>
+        <otriple>Sri_Lanka | language | Tamil_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adisham_Hall | country | Sri_Lanka</mtriple>
+        <mtriple>Adisham_Hall | location | "Haputale, Sri Lanka"</mtriple>
+        <mtriple>Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</mtriple>
+        <mtriple>Sri_Lanka | language | Tamil_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adisham Hall is located in Haputale, Sri Lanka which has the capital city of Sri Jayawardenepura Kotte . Tamil is the language of the country.</lex>
+      <lex comment="good" lid="Id2">Adisham Hall can be found in Haputale, Sri Lanka, a country with the capital Sri Jayawardenepura Kotte and language of the Tamil language.</lex>
+      <lex comment="good" lid="Id3">Adisham Hall can be found in Haputale, Sri Lanka, where Sri Lanka's capital is Sri Jayawardenepura Kotte and the language is the Tamil Language.</lex>
+    </entry>
+    <entry category="Building" eid="Id12" size="4">
+      <originaltripleset>
+        <otriple>Adisham_Hall | location | Sri_Lanka</otriple>
+        <otriple>Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</otriple>
+        <otriple>Adisham_Hall | buildingEndDate | "1931"</otriple>
+        <otriple>Adisham_Hall | buildingStartDate | "1927"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adisham_Hall | completionDate | 1931</otriple>
+        <otriple>Adisham_Hall | location | Sri_Lanka</otriple>
+        <otriple>Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</otriple>
+        <otriple>Adisham_Hall | buildingStartDate | "1927"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adisham_Hall | location | Sri_Lanka</mtriple>
+        <mtriple>Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</mtriple>
+        <mtriple>Adisham_Hall | completionDate | 1931</mtriple>
+        <mtriple>Adisham_Hall | buildingStartDate | "1927"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Construction of Adisham Hall in Sri Lanka began in 1927 and ended in 1931. It was built in the Tudor Revival architectural style.</lex>
+      <lex comment="good" lid="Id2">Adisham Hall , Sri Lanka, was started in 1927 and completed in 1931. It has the Tudor Revival style.</lex>
+      <lex comment="good" lid="Id3">The architectural styled "Tudor Revival" Adisham Hall is located in Sri Lanka and was built in 1927 and completed in 1931.</lex>
+    </entry>
+    <entry category="Building" eid="Id13" size="4">
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | locationTown | Akita,_Akita</otriple>
+        <otriple>Akita,_Akita | subdivisionName | Akita_Prefecture</otriple>
+        <otriple>Japan | ethnicGroup | Filipinos_in_Japan</otriple>
+        <otriple>Akita_Prefecture | country | Japan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akita_Museum_of_Art | location | Akita,_Akita</mtriple>
+        <mtriple>Akita,_Akita | isPartOf | Akita_Prefecture</mtriple>
+        <mtriple>Japan | ethnicGroup | Filipinos_in_Japan</mtriple>
+        <mtriple>Akita_Prefecture | country | Japan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Akita Museum of Art is located in Akita Prefecture, Akita, Japan. One of the ethnic groups of Japan is the Filipinos.</lex>
+      <lex comment="good" lid="Id2">Akita Museum of Art is located in Akita, Akita, Akita Prefecture, Japan, where one of the ethnic groups is the Filipinos.</lex>
+      <lex comment="good" lid="Id3">The Akita Prefecture, where the Akita Museum of Art is located, is part of the country of Japan a country where one of the ethnic groups is Filipinos.</lex>
+    </entry>
+    <entry category="Building" eid="Id14" size="4">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | architect | Robert_A._M._Stern</otriple>
+        <otriple>Mason_School_of_Business | country | United_States</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Alan_B._Miller_Hall | architect | Robert_A._M._Stern</mtriple>
+        <mtriple>Mason_School_of_Business | country | United_States</mtriple>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Mason School of Business is located in the US and they are the current tenants of Alan B Miller Hall. Robert A.M. Stern is the architect for Alan B. Miller Hall, which is situated in Virginia.</lex>
+      <lex comment="good" lid="Id2">The US based Mason School of Business are the current tenants of Alan B Miller Hall in Virginia which was designed by the architect Robert A M Stern.</lex>
+      <lex comment="good" lid="Id3">The Mason School of Business are the current tenants of Alan B Miller Hall, which is located in Virginia, United States and was designed by the architect Robert A M Stern.</lex>
+    </entry>
+    <entry category="Building" eid="Id15" size="4">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | completionDate | "2009-06-01"^^xsd:date</otriple>
+        <otriple>Mason_School_of_Business | country | United_States</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | buildingEndDate | "1 June 2009"</otriple>
+        <otriple>Mason_School_of_Business | country | United_States</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Alan_B._Miller_Hall | completionDate | "1 June 2009"</mtriple>
+        <mtriple>Mason_School_of_Business | country | United_States</mtriple>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Situated in Virginia, United States,, Alan B. Miller Hall was completed on 1st June 2009. The current tenants are the Mason School of Business.</lex>
+      <lex comment="good" lid="Id2">Located in Virginia, United States and with the current tenants of the Mason School of Business, the Alan B. Miller Hall was completed in June 1st, 2009.</lex>
+      </entry>
+    <entry category="Building" eid="Id16" size="4">
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | locationTown | Ahmedabad</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+        <otriple>India | leaderName | Narendra_Modi</otriple>
+        <otriple>India | leader | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amdavad_ni_Gufa | location | Ahmedabad</mtriple>
+        <mtriple>Amdavad_ni_Gufa | country | India</mtriple>
+        <mtriple>India | leaderName | Narendra_Modi</mtriple>
+        <mtriple>India | leaderName | Sumitra_Mahajan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Narendra Modi and Sumitra Mahajan are leaders in India where Amdavad ni Gufa is located in Ahmedabad.</lex>
+      <lex comment="good" lid="Id2">Amdavad ni Gufa is located in Ahmedabad, India. Narendra Modi is the Prime Minister of India whilst Sumitra Mahajan is another leader of India.</lex>
+      <lex comment="good" lid="Id3">Amdavad ni Gufa can be found in Ahmedabad, India, a country lead by Narendra Modi and Sumitra Mahajan.</lex>
+    </entry>
+    <entry category="Building" eid="Id17" size="4">
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | location | Gujarat</otriple>
+        <otriple>Amdavad_ni_Gufa | address | "Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road"@en</otriple>
+        <otriple>Amdavad_ni_Gufa | locationTown | Ahmedabad</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | locationTown | Gujarat</otriple>
+        <otriple>Amdavad_ni_Gufa | address | "Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road"@en</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+        <otriple>Amdavad_ni_Gufa | location | Ahmedabad</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | location | Gujarat</otriple>
+        <otriple>Amdavad_ni_Gufa | locationTown | Ahmedabad</otriple>
+        <otriple>Amdavad_ni_Gufa | address | "Lalbhai Dalpatbhai Campus, nearCEPT University, opp.Gujarat University, University Road"@en</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | locationTown | Gujarat</otriple>
+        <otriple>Amdavad_ni_Gufa | address | "Lalbhai Dalpatbhai Campus, nearCEPT University, opp.Gujarat University, University Road"@en</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+        <otriple>Amdavad_ni_Gufa | location | Ahmedabad</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amdavad_ni_Gufa | location | Gujarat</mtriple>
+        <mtriple>Amdavad_ni_Gufa | address | "Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road"</mtriple>
+        <mtriple>Amdavad_ni_Gufa | country | India</mtriple>
+        <mtriple>Amdavad_ni_Gufa | location | Ahmedabad</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The address for Amdavad ni Gufa is Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road, Gujarat, Ahmedabad, India.</lex>
+      <lex comment="good" lid="Id2">The address of Amdavad ni Gufa is Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road, Ahmedabad, Gujarat, India.</lex>
+    </entry>
+    <entry category="Building" eid="Id18" size="4">
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | location | Gujarat</otriple>
+        <otriple>India | leaderName | T._S._Thakur</otriple>
+        <otriple>Amdavad_ni_Gufa | locationTown | Ahmedabad</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>India | leaderName | T._S._Thakur</otriple>
+        <otriple>Amdavad_ni_Gufa | location | Ahmedabad</otriple>
+        <otriple>Amdavad_ni_Gufa | locationTown | Gujarat</otriple>
+        <otriple>Amdavad_ni_Gufa | locationCountry | India</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amdavad_ni_Gufa | location | Gujarat</mtriple>
+        <mtriple>India | leaderName | T._S._Thakur</mtriple>
+        <mtriple>Amdavad_ni_Gufa | location | Ahmedabad</mtriple>
+        <mtriple>Amdavad_ni_Gufa | country | India</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amdavad ni Gufa is located in Ahmedabad, Gujarat, India. T S Thakur was an Indian leader.</lex>
+      <lex comment="good" lid="Id2">Amdavad ni Gufa is located in Ahmedabad, Gujurat, India. T S Thakur is a leader in India.</lex>
+      <lex comment="good" lid="Id3">Amdavad ni Gufa is located in Gujarat, Ahmedabad, India, where the leader was T. S. Thakur.</lex>
+    </entry>
+    <entry category="Building" eid="Id19" size="4">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+        <otriple>Sri_Lanka | leaderName | Ranil_Wickremesinghe</otriple>
+        <otriple>Sri_Lanka | currency | Sri_Lankan_rupee</otriple>
+        <otriple>Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+        <mtriple>Sri_Lanka | leaderName | Ranil_Wickremesinghe</mtriple>
+        <mtriple>Sri_Lanka | currency | Sri_Lankan_rupee</mtriple>
+        <mtriple>Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ampara Hospital is located in the Eastern Province of Sri Lanka, where the currency is the Ski Lankan rupee. One of the leaders of Sri Lanka is Ranil Wickremesinghe.</lex>
+      <lex comment="good" lid="Id2">Ampara Hospital is located in Eastern Province, Sri Lanka. The currency of Sri Lanka is the Sri Lankan rupee and the leader of the country is Ranil Wickremesinghe.</lex>
+      <lex comment="good" lid="Id3">Ampara Hospital is in the Eastern Province, Sri Lanka. The leader of Sri Lanka is Ranil Wickremesinghe and its currency is the Sri Lankan rupee.</lex>
+    </entry>
+    <entry category="Building" eid="Id20" size="4">
+      <originaltripleset>
+        <otriple>Asilomar_Conference_Grounds | architect | Julia_Morgan</otriple>
+        <otriple>Julia_Morgan | birthPlace | San_Francisco</otriple>
+        <otriple>Julia_Morgan | significantBuilding | Los_Angeles_Herald-Examiner</otriple>
+        <otriple>Julia_Morgan | significantBuildings | Asilomar_State_Beach</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asilomar_Conference_Grounds | architect | Julia_Morgan</mtriple>
+        <mtriple>Julia_Morgan | birthPlace | San_Francisco</mtriple>
+        <mtriple>Julia_Morgan | significantBuilding | Los_Angeles_Herald-Examiner</mtriple>
+        <mtriple>Julia_Morgan | significantBuilding | Asilomar_State_Beach</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">San Francisco born architect Julia Morgan designed many significant buildings including the Asilomar Conference Grounds, the Los Angeles Herald Examiner Building and the Asilomar State Beach.</lex>
+      <lex comment="good" lid="Id2">Julia Morgan, born in San Francisco and designer of many significant buildings, including the Los Angeles Herald Examiner building and the Asilomar State Beach, was also the architect of the grounds of Asilomar Conference.</lex>
+      <lex comment="good" lid="Id3">Julia Morgan was born in San Fransisco. She designed the Asilomar Conference Grounds, the Asilomar State Beach and the Los Angeles Herald examiner, a landmark in California.</lex>
+    </entry>
+    <entry category="Building" eid="Id21" size="4">
+      <originaltripleset>
+        <otriple>Asilomar_Conference_Grounds | architect | Julia_Morgan</otriple>
+        <otriple>Julia_Morgan | significantBuilding | Los_Angeles_Herald-Examiner</otriple>
+        <otriple>Julia_Morgan | significantBuildings | Riverside_Art_Museum</otriple>
+        <otriple>Julia_Morgan | birthPlace | California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asilomar_Conference_Grounds | architect | Julia_Morgan</mtriple>
+        <mtriple>Julia_Morgan | significantBuilding | Los_Angeles_Herald-Examiner</mtriple>
+        <mtriple>Julia_Morgan | significantBuilding | Riverside_Art_Museum</mtriple>
+        <mtriple>Julia_Morgan | birthPlace | California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Born in California, Julia Morgan has designed buildings such as Los Angeles Herald Examiner building and The Riverside Art Museum, and was also the architect of the grounds of Asilomar Conference.</lex>
+      <lex comment="good" lid="Id2">Julia Morgan from California, designed many important buildings including the Los Angeles Herald building and the Asilomer Conference Grounds.</lex>
+    </entry>
+    <entry category="Building" eid="Id22" size="4">
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | location | New_York_City</otriple>
+        <otriple>New_York_City | country | United_States</otriple>
+        <otriple>New_York_City | subdivisionName | Manhattan</otriple>
+        <otriple>New_York_City | isPartOf | New_Netherland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asser_Levy_Public_Baths | location | New_York_City</mtriple>
+        <mtriple>New_York_City | country | United_States</mtriple>
+        <mtriple>New_York_City | isPartOf | Manhattan</mtriple>
+        <mtriple>New_York_City | isPartOf | New_Netherland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asser Levy Public Baths are in New York City, U.S. which is part of Manhattan. New York City was part of New Netherland.</lex>
+      <lex comment="good" lid="Id2">Asser Levy Public Baths are located in New York City, Manhattan, New Netherland in the United States.</lex>
+      <lex comment="good" lid="Id3">Asser Levy Public Baths is located in New York City, on Manhattan Island, New York, in the United States. New York City was part of what was New Netherland.</lex>
+    </entry>
+    <entry category="Building" eid="Id23" size="4">
+      <originaltripleset>
+        <otriple>Birmingham | postalCode | B_postcode_area</otriple>
+        <otriple>103_Colmore_Row | architect | John_Madin</otriple>
+        <otriple>John_Madin | hometown | Birmingham</otriple>
+        <otriple>Birmingham | leaderName | John_Clancy_(Labour_politician)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Birmingham | postalCode | B_postcode_area</mtriple>
+        <mtriple>103_Colmore_Row | architect | John_Madin</mtriple>
+        <mtriple>John_Madin | hometown | Birmingham</mtriple>
+        <mtriple>Birmingham | leaderName | John_Clancy_(Labour_politician)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The architect John Madin was the designer of 103 Colmore Row, which is located in his home city of Birmingham. Labour politician, John Clancy is the leader of Birmingham and the city has the postal code 'B'.</lex>
+      <lex comment="good" lid="Id2">103 Colmore Row was designed by the architect, John Madin, Birmingham native. Birmingham has the postcode area 'B' and is lead by Labour politician, John Clancy.</lex>
+      <lex comment="good" lid="Id3">Labour politician, John Clancy is the leader of Birmingham which has the postcode area 'B' and is home town of John Madin the architect who designed 103 Colmore Row.</lex>
+    </entry>
+    <entry category="Building" eid="Id24" size="4">
+      <originaltripleset>
+        <otriple>Ethiopia | leader | Mulatu_Teshome</otriple>
+        <otriple>Addis_Ababa | isPartOf | Addis_Ababa_Stadium</otriple>
+        <otriple>Addis_Ababa_City_Hall | country | Ethiopia</otriple>
+        <otriple>Addis_Ababa_City_Hall | location | Addis_Ababa</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Addis_Ababa | isPartOf | Addis_Ababa_Stadium</otriple>
+        <otriple>Addis_Ababa_City_Hall | country | Ethiopia</otriple>
+        <otriple>Ethiopia | leaderName | Mulatu_Teshome</otriple>
+        <otriple>Addis_Ababa_City_Hall | location | Addis_Ababa</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ethiopia | leaderName | Mulatu_Teshome</mtriple>
+        <mtriple>Addis_Ababa | isPartOf | Addis_Ababa_Stadium</mtriple>
+        <mtriple>Addis_Ababa_City_Hall | country | Ethiopia</mtriple>
+        <mtriple>Addis_Ababa_City_Hall | location | Addis_Ababa</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Addis Ababa, Ethiopia is home to Addis Ababa Stadium and the Addis Ababa City Hall. The name of the leader in Ethiopia is Malatu Teshome.</lex>
+      <lex comment="good" lid="Id2">Mulatu Teshome is a leader in Ethiopia, a country where Addis Ababa is located and within which is Addis Ababa City Hall and Addis Ababa Stadium.</lex>
+      <lex comment="good" lid="Id3">Mulata Teshome is an Ethiopian leader. Addis Ababa City Hall is located in Addis Ababa, Ethopia. Addis Ababa Stadium is part of Addid Ababa.</lex>
+    </entry>
+    <entry category="Building" eid="Id25" size="4">
+      <originaltripleset>
+        <otriple>United_States | capital | Washington,_D.C.</otriple>
+        <otriple>United_States | leaderTitle | President_of_the_United_States</otriple>
+        <otriple>United_States | leaderName | Paul_Ryan</otriple>
+        <otriple>250_Delaware_Avenue | location | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | capital | Washington,_D.C.</mtriple>
+        <mtriple>United_States | leaderTitle | President_of_the_United_States</mtriple>
+        <mtriple>United_States | leaderName | Paul_Ryan</mtriple>
+        <mtriple>250_Delaware_Avenue | location | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of the US is known as the President and the capital city is Washington DC. One of the country's leaders if Paul Ryan and it is the location of 250 Delaware Avenue.</lex>
+      <lex comment="good" lid="Id2">Paul Ryan is president of the United States and both 250 Delaware Avenue and Washington DC (the capital) are located there.</lex>
+      <lex comment="good" lid="Id3">Paul Ryan is the leader, or President of the United States, of which Washington D.C. is the capital. 250 Delaware Avenue is part of the United States.</lex>
+    </entry>
+    </entries>
+</benchmark>
