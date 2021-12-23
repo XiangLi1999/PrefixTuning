@@ -29,7 +29,7 @@ they are set to default of good hyperparameters, and can be used to tune hyperpa
 -----------------------------------------------------
 ## Setup:
 
-``cd transformer; pip install -e .``
+``cd transformers; pip install -e .``
 
 -----------------------------------------------------
 ## Train via prefix-tuning:
