@@ -9,7 +9,7 @@ if not sys.warnoptions:
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description='data2text E2E training args.')
+    parser = argparse.ArgumentParser(description='nct E2E training args.')
     parser.add_argument('--mode', type=str, default='data2text', help='')
     parser.add_argument('--tuning_mode', type=str, default='prefixtune', help='')
     parser.add_argument('--optim_prefix', type=str, default='yes', help='')
@@ -41,7 +41,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=101, help='') # old is 42
     parser.add_argument('--bsz', type=int, default=10, help='')
     parser.add_argument('--use_big', type=str, default='no', help='')
-    parser.add_argument('--epoch', type=int, default=5, help='')
+    parser.add_argument('--epoch', type=int, default=10, help='')
     parser.add_argument('--max_steps', type=int, default=400, help='')
     parser.add_argument('--eval_steps', type=int, default=50, help='')
     parser.add_argument('--warmup_steps', type=int, default=100, help='')
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     parser.add_argument('--learning_rate', type=float, default=5e-05, help='')
     parser.add_argument('--weight_decay', type=float, default=0.0, help='')
     parser.add_argument('--dropout', type=float, default=0.0, help='')
-    parser.add_argument('--mid_dim', type=int, default=512, help='')
+    parser.add_argument('--mid_dim', type=int, default=512, help='model hidden size')
     parser.add_argument('--init_random', type=str, default='no', help='')
 
     parser.add_argument('--prefix_model_path', type=str, default=None, help='')
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     parser.add_argument('--matching_objective', type=str, default='kl', help='kl or logits')
 
     # Added by MX
-    parser.add_argument('--cache_dir', type=str, default='/u/scr/xlisali/contrast_LM/transformers/examples/control', help='cache dir')
+    parser.add_argument('--cache_dir', type=str, default='/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/prompt', help='cache dir')
     parser.add_argument('--use_custom_teacher_dropout', type=str, default='no', help='')
 
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     assert args.optim_prefix in ['yes', 'no']
     if args.optim_prefix == 'yes':
         assert args.preseqlen is not None
-    assert args.prefix_mode in ['embedding', 'activation']
+    assert args.prefix_mode in ['embedding', 'activation'] #
     assert args.format_mode in ['cat', 'infix', 'peek', 'nopeek']
     assert args.tuning_mode in ['prefixtune', 'finetune', 'finetune-top', 'bothtune', 'adaptertune']
     if args.prefix_model_path is not None:
@@ -82,8 +82,8 @@ if __name__ == '__main__':
     else:
         load_prefix_model = False
 
-    assert  args.mode in ['data2text', 'triples', 'webnlg', 'writingPrompts', 'cnndm', 'xsum', 'sentiment', 'topic',
-                          'classify-sentiment', 'classify-topic']
+    assert  args.mode in ['data2text', 'triples', 'webnlg', 'nct', 'writingPrompts', 'cnndm', 'xsum', 'sentiment', 'topic',
+                          'classify-sentiment', 'classify-topic'] # dataset mode
 
     assert args.objective_mode in [0, 1, 2, 3, 4]
     # 0 means the regular token level objective, which is sum / output_len
@@ -106,14 +106,12 @@ if __name__ == '__main__':
         else:
             args.notes = args.notes + '_l={}'.format(args.top_layers)
 
-    # added by MX
     if args.tuning_mode == 'finetune':
         key = f'uctd={args.use_custom_teacher_dropout}'
         if args.notes is None:
             args.notes = key
         else:
             args.notes = args.notes + f'_{key}'
-
 
     if args.mode == 'data2text':
 
@@ -125,7 +123,7 @@ if __name__ == '__main__':
             folder_name = 'ablation_e2e_emb_models/'
 
             if args.notes is None:
-                args.notes = args.parametrize_emb
+                args.notes = args.parametrize_emb #default MLP
             else:
                 args.notes = args.notes + '_p={}'.format(args.parametrize_emb)
 
@@ -156,14 +154,11 @@ if __name__ == '__main__':
         if args.notes is not None and 'datalevels' in args.notes:
             # for example, notes = 'datalevels-1-10
             _, temp_seed, temp_size = args.notes.split('_')
-            TRAIN_FILE = "/juice/u/xlisali/e2e_datalevels/datalevels_{}_{}_train.txt".format(temp_seed, temp_size)
-            TEST_FILE = "/juice/u/xlisali/e2e_datalevels/datalevels_{}_{}_valid.txt".format(temp_seed, temp_size)
+            TRAIN_FILE = "../data/e2e_datalevels/datalevels_{}_{}_train.txt".format(temp_seed, temp_size)
+            TEST_FILE = "../data/e2e_datalevels/datalevels_{}_{}_valid.txt".format(temp_seed, temp_size)
             # folder_name = 'e2e_lowdata_models_new/' #100
             # folder_name = 'e2e_lowdata_models_finetune/'
             folder_name = 'e2e_datalevels_models/' # 50, 200
-
-
-
 
             app_special_levels = ' --eval_steps {} --save_steps -1 ' \
                           '--evaluate_during_training --per_device_eval_batch_size 32 ' \
@@ -176,17 +171,15 @@ if __name__ == '__main__':
                                                                       args.warmup_steps, args.lowdata_token,
                                                                       args.use_lowdata_token)
 
-
     elif args.mode == 'triples':
-        TRAIN_FILE = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-train.json"
-        TEST_FILE = "/u/scr/xlisali/DART/dart/data/v1.1.1/dart-v1.1.1-full-dev.json"
+        TRAIN_FILE = "../data/dart/dart-v1.1.1-full-train.json"
+        TEST_FILE = "../data/dart/dart-v1.1.1-full-dev.json"
         folder_name = "triples_models/"
-
 
     elif args.mode == 'webnlg':
         # 2017 Challeng Version.
-        TRAIN_FILE = "/u/scr/xlisali/WebNLG/webnlg-dataset/webnlg_challenge_2017/train.json"
-        TEST_FILE = "/u/scr/xlisali/WebNLG/webnlg-dataset/webnlg_challenge_2017/dev.json"
+        TRAIN_FILE = "../data/webnlg_challenge_2017/train.json"
+        TEST_FILE = "../data/webnlg_challenge_2017/dev.json"
 
         # v2
         # TRAIN_FILE = "/u/scr/xlisali/WebNLG/webnlg-dataset/release_v2/json/webnlg_release_v2_train.json"
@@ -194,13 +187,13 @@ if __name__ == '__main__':
         folder_name = "webnlg_models/"
 
     elif args.mode == 'writingPrompts':
-        TRAIN_FILE = "/juice/u/xlisali/WritingPrompts/writingPrompts/train_small.txt"
-        TEST_FILE = "/juice/u/xlisali/WritingPrompts/writingPrompts/valid_small.txt"
+        TRAIN_FILE = "../data/writingPrompts/train_small.txt"
+        TEST_FILE = "../data/writingPrompts/valid_small.txt"
         folder_name = "wp_models/"
 
     elif args.mode == 'cnndm':
-        TRAIN_FILE = '/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/cnn_dm/train.source'
-        TEST_FILE = '/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/cnn_dm/val.source'
+        TRAIN_FILE = '../data/cnn_dm/train.source'
+        TEST_FILE = '../data/cnn_dm/val.source'
 
         max_source_length = 512
         max_target_length = 56
@@ -215,8 +208,8 @@ if __name__ == '__main__':
         assert args.optim_prefix == 'yes'
 
     elif args.mode == 'xsum':
-        TRAIN_FILE = "/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/xsum/train.source"
-        TEST_FILE = "/u/scr/xlisali/contrast_LM/transformers/examples/seq2seq/xsum/val.source"
+        TRAIN_FILE = "../data/xsum/train.source"
+        TEST_FILE = "../data/xsum/val.source"
 
         max_source_length = 512
         max_target_length = 60
@@ -229,11 +222,31 @@ if __name__ == '__main__':
 
         folder_name = "xsum_models/"
         assert args.optim_prefix == 'yes'
+    
+    elif args.mode == 'nct':
+        # 2017 Challeng Version.
+        # TRAIN_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/data/ctorig/train_en--de.en"
+        #TRAIN_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/train_en-de_context-3.en"
+        # TRAIN_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/train_en-de_src-tgt_context-3.en"
+        # TRAIN_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/train_en-de_context-2.en"
+        # TRAIN_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/train_de-en_context-2_with-tgt.en"
+        TRAIN_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/train_de-en.en"
+        TEST_FILE = "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/data/ctorig/validate_en-de.en"
+
+        max_source_length = 256
+        max_target_length = 256
+        val_max_target_length = 256
+        test_max_target_length = 256
+
+        nct_app = ' --max_source_length {} --train_max_target_length {} ' \
+                   '--val_max_target_length {} --dataloader_num_workers 4 '.format(max_source_length, max_target_length,
+                                                         val_max_target_length, )
+
+        folder_name = "nct_models/"
+        assert args.optim_prefix == 'yes'
 
     if not os.path.isdir(folder_name):
         os.mkdir(folder_name)
-
-
 
     batch_size = args.gradient_accumulation_steps * args.bsz
 
@@ -247,7 +260,6 @@ if __name__ == '__main__':
         args.notes = args.notes + '_o={}'.format(args.objective_mode)
     else:
         args.notes = 'o={}'.format(args.objective_mode)
-
 
     if args.distill == 'yes':
         if args.notes is not None:
@@ -277,7 +289,8 @@ if __name__ == '__main__':
 
     logging_dir = os.path.join(folder_name, 'runs', Model_FILE)
     Model_FILE = '{}{}'.format(folder_name, Model_FILE)
-    print(Model_FILE)
+    print("[Model File and Settings]  ",Model_FILE)
+
 
 
     if args.notes is not None and 'large' in args.notes:
@@ -318,6 +331,9 @@ if __name__ == '__main__':
 
     if args.mode == 'xsum':
         app += xsum_app
+    
+    if args.mode == 'nct':
+        app += nct_app
 
     if args.mode == 'cnndm':
         app += cnndm_app
@@ -335,7 +351,9 @@ if __name__ == '__main__':
 
     controlprefix = ('yes' if args.tuning_mode == 'prefixtune' else 'no')
 
-    COMMANDLINE="python run_language_modeling.py \
+    model_path = '/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/gpt2-medium'
+
+    COMMANDLINE="python /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py \
         --output_dir={} \
         --model_type=gpt2 \
         --model_name_or_path={} \
@@ -353,41 +371,23 @@ if __name__ == '__main__':
         --task_mode {} \
         --eval_data_file={}  \
         --tuning_mode {} --logging_dir {} \
-        --train_embs no ".format(Model_FILE, OLD_MODEL, OLD_MODEL, args.bsz, args.bsz, args.epoch, TRAIN_FILE, args.mode, TEST_FILE,
+        --train_embs no \\".format(Model_FILE, model_path, model_path, args.bsz, args.bsz, args.epoch, TRAIN_FILE, args.mode, TEST_FILE,
                                  args.tuning_mode, logging_dir)
 
-    COMMANDLINE += app
+    COMMANDLINE += app.replace(" -","         -")
 
     if load_prefix_model:
         LOAD_TRAIN_PREFIX = '/u/scr/xlisali/contrast_LM/transformers/examples/control/med_topic_gen'
         COMMANDLINE += '--prefixModel_name_or_path {} '.format(LOAD_TRAIN_PREFIX)
 
 
-
-
-
-
     with open(Model_FILE + '.sh', 'w') as f:
-        print(COMMANDLINE, file=f)
+        for line in COMMANDLINE.split("         "):
+            f.write(line + " \\" + "\n")
+        f.close()
 
 
-    print(COMMANDLINE)
-    if args.submit == 'no':
-        os.system(COMMANDLINE) # textattack/roberta-base-ag-news # textattack/roberta-base-imdb
-    # #
-    elif args.submit == 'yes':
-        if args.use_big == 'no':
-            full_command = "nlprun -a lisa-base-torch -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8,jagupard28,jagupard29,jagupard11,jagupard12,jagupard10 \'{}\'".format(Model_FILE, COMMANDLINE)
-            if args.mode == 'cnndm':
-                full_command ="nlprun -a lisa-base-torch -r 20GB -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8 \'{}\'".format(Model_FILE, COMMANDLINE)
-        elif True:
-            full_command = "nlprun -p high -a lisa-base-torch -g 1 -n {} -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8," \
-                           "jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard16,jagupard17,jagupard18," \
-                           "jagupard19,jagupard20,jagupard21,jagupard22,jagupard23," \
-                           "jagupard24,jagupard25 \'{}\'".format(Model_FILE, COMMANDLINE)
-        else:
-            full_command = "nlprun -a lisa-base-torch -m jagupard26 -p high -g 1 -n {} \'{}\'".format(Model_FILE, COMMANDLINE)
-        print(full_command)
-        os.system(full_command)
+    print("[COMMANDLINE is saved in {}]".format(folder_name))
+    
 
 
