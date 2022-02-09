@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py", line 25, in <module>
+    import os, transformers, torch
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/__init__.py", line 22, in <module>
+    from .integrations import (  # isort:skip
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/integrations.py", line 42, in <module>
+    from .trainer_utils import PREFIX_CHECKPOINT_DIR, BestRun  # isort:skip
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/trainer_utils.py", line 7, in <module>
+    from .tokenization_utils_base import ExplicitEnum
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/tokenization_utils_base.py", line 31, in <module>
+    from tokenizers import AddedToken
+ModuleNotFoundError: No module named 'tokenizers'

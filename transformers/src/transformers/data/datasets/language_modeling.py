@@ -558,6 +558,7 @@ class LineByLineSumTextDataset(Dataset):
 
     def __init__(self, tokenizer: PreTrainedTokenizer, file_path: str, block_size: int, bos_tok:str, eos_tok:str,
                  max_source_length:int, max_target_length:int, ):
+        print("\n\ntransformers/src/transformers/data/datasets/language_modeling.py:553\n\n")
         assert os.path.isfile(file_path), f"Input file path {file_path} not found"
         # Here, we do not cache the features, operating under the assumption
         # that we will soon use fast multithreaded tokenizers from the
@@ -565,9 +566,12 @@ class LineByLineSumTextDataset(Dataset):
         logger.info("Creating features from dataset file at %s", file_path)
 
         self.src_file = file_path
-        self.tgt_file = file_path[:-6] + 'target'
+        # self.tgt_file = file_path[:-6] + 'target'
+        self.tgt_file = file_path[:-2] + 'de'
         self.max_source_length = max_source_length
         self.max_target_length = max_target_length
+        print("self.src_file=", self.src_file)
+        print("self.tgt_file=", self.tgt_file)
 
         separator = tokenizer(bos_tok, add_special_tokens=False)['input_ids'][0]
         eos_idx = tokenizer(eos_tok, add_special_tokens=False)['input_ids'][0]
@@ -611,6 +615,7 @@ class LineByLineSumTextDataset(Dataset):
         edited_sents = []
         for src, tgt in zip(src_encoding, tgt_encoding):
             sent = src + [separator] + tgt + [eos_idx]
+            print('sent=', sent)
             # sent = ' {} {} '.format(src, bos_tok) + tgt + ' {}'.format(eos_tok)
             edited_sents.append(sent)
 
@@ -1186,7 +1191,6 @@ class LineByLineClassificationTopicTextDataset(Dataset):
     This will be superseded by a framework-agnostic approach
     soon.
     """
-
     def __init__(self, tokenizer: PreTrainedTokenizer, file_path: str, block_size: int, num_layer:int=1,
                  prefix_ctrl:bool=True, bos_tok='[BOS]', eos_tok='[EOS]'):
         assert os.path.isfile(file_path), f"Input file path {file_path} not found"
@@ -1198,34 +1202,32 @@ class LineByLineClassificationTopicTextDataset(Dataset):
         with open(file_path, encoding="utf-8") as f:
             lines = [line.split('||') for line in f.read().splitlines() if (len(line) > 0 and not line.isspace()
                                                                              and len(line.split('||')) ==2 )]
-        word_lst, sents = list(zip(*lines))
+        word_lst, sents = list(zip(*lines)) #sentence||sent-label
         sents = list(sents)
         word_lst = list(word_lst)
 
         edited_sents = []
         new_wordlst = []
         for sent, word_temp in zip(sents, word_lst):
+            #sent = sent-label [BOS] sentence [EOS] 
             sent = ' {} {} '.format(sent, bos_tok) + word_temp + '{}'.format(eos_tok)
             edited_sents.append(sent)
             new_wordlst.append([word_temp.strip()])
 
         batch_encoding = tokenizer(edited_sents, add_special_tokens=True, truncation=True, max_length=block_size,
                                    is_split_into_words=False)
-        self.examples = batch_encoding["input_ids"]
+        self.examples = batch_encoding["input_ids"] #转换为num后的sample type:list
 
-
-
-
-        separator = tokenizer(bos_tok, add_special_tokens=False)['input_ids'][0]
+        separator = tokenizer(bos_tok, add_special_tokens=False)['input_ids'][0] #找[BOS] id
         self.labels = copy.deepcopy(self.examples)
         for i, elem in enumerate(self.labels):
-            sep_idx = elem.index(separator) + 1
+            sep_idx = elem.index(separator) + 1 # 定位[BOS]在sample中的位置
             self.labels[i][:sep_idx] = [-100] * sep_idx
 
 
-        print(self.labels[0])
-        print(self.examples[0])
-        print(edited_sents[0])
+        print(self.labels[0]) # 感觉像是定位label加分隔符位置
+        print(self.examples[0]) # 完整sample
+        print(edited_sents[0]) # 原始sentence
 
 
 

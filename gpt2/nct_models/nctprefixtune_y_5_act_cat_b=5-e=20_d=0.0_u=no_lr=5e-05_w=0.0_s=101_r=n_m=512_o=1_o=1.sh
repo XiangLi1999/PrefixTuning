@@ -1,0 +1,39 @@
+python /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/PrefixTuning/gpt2/new_run_language_modeling_light.py \
+--output_dir=nct_models/nctprefixtune_y_5_act_cat_b=5-e=20_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1 \
+--model_type=gpt2 \
+--model_name_or_path=/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/gpt2-medium \
+--tokenizer_name=/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/gpt2-medium \
+--per_device_train_batch_size 5 \
+--per_device_eval_batch_size 5 \
+--save_steps 500000 \
+--num_train_epochs 20 \
+--do_train \
+--train_data_file=/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/train_de-en.en \
+--do_eval \
+--line_by_line \
+--save_total_limit 1 \
+--overwrite_output_dir \
+--task_mode nct \
+--eval_data_file=/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/data/ctorig/validate_en-de.en \
+ --tuning_mode prefixtune --logging_dir nct_models/runs/nctprefixtune_y_5_act_cat_b=5-e=20_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1 \
+--train_embs no \--optim_prefix yes \
+--preseqlen 5 \
+--prefix_mode activation \
+--format_mode cat \
+--gradient_accumulation_steps 1 \
+--learning_rate 5e-05 \
+--weight_decay 0.0 \
+--seed 101 \
+--disable_tqdm \
+--mid_dim 512 \
+--init_random no \
+--use_dropout no \
+--prefix_dropout 0.0 \
+--objective_mode 1 \
+--evaluate_during_training \
+--eval_steps 5000 \
+ --cache_dir /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/prompt/gpt2-medium-s3 \
+ --max_source_length 256 \
+--train_max_target_length 256 \
+--val_max_target_length 256 \
+--dataloader_num_workers 4  \

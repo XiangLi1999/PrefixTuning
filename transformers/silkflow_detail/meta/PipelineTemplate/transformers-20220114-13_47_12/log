@@ -1,0 +1,102 @@
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/training_args.py:297: FutureWarning: The `evaluate_during_training` argument is deprecated in favor of `evaluation_strategy` (which has more options)
+  warnings.warn(
+01/14/2022 05:47:35 - INFO - __main__ -   Process rank: -1, device: cuda:0, n_gpu: 2, distributed training: False, 16-bits training: False
+01/14/2022 05:47:35 - INFO - __main__ -   Training/evaluation parameters TrainingArguments(output_dir='nct_models/nctprefixtune_y_5_act_cat_b=5-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1', overwrite_output_dir=True, do_train=True, do_eval=True, do_predict=False, evaluate_during_training=True, evaluation_strategy=<EvaluationStrategy.STEPS: 'steps'>, prediction_loss_only=False, per_device_train_batch_size=5, per_device_eval_batch_size=5, per_gpu_train_batch_size=None, per_gpu_eval_batch_size=None, gradient_accumulation_steps=1, learning_rate=5e-05, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, adam_epsilon=1e-08, max_grad_norm=1.0, num_train_epochs=5.0, max_steps=-1, warmup_steps=0, logging_dir='nct_models/runs/nctprefixtune_y_5_act_cat_b=5-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1', logging_first_step=False, logging_steps=500, save_steps=500000, save_total_limit=1, no_cuda=False, seed=101, fp16=False, fp16_opt_level='O1', local_rank=-1, tpu_num_cores=None, tpu_metrics_debug=False, debug=False, dataloader_drop_last=False, eval_steps=5000, dataloader_num_workers=4, past_index=-1, run_name=None, disable_tqdm=True, remove_unused_columns=True, label_names=None)
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/tokenization_utils_base.py:1322: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  warnings.warn(
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/trainer_prefix.py:308: FutureWarning: Passing `prediction_loss_only` as a keyword argument is deprecated and won't be possible in a future version. Use `args.prediction_loss_only` instead.
+  warnings.warn(
+01/14/2022 05:48:23 - WARNING - trainer_prefix -   You are instantiating a Trainer but Tensorboard is not installed. You should consider installing it.
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/trainer_prefix.py:1298: FutureWarning: This method is deprecated, use `Trainer.is_world_process_zero()` instead.
+  warnings.warn("This method is deprecated, use `Trainer.is_world_process_zero()` instead.", FutureWarning)
+01/14/2022 05:48:23 - INFO - trainer_prefix -   ***** Running training *****
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Num examples = 13845
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Num Epochs = 5
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Instantaneous batch size per device = 5
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Total train batch size (w. parallel, distributed & accumulation) = 10
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Gradient Accumulation steps = 1
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Total optimization steps = 6925
+01/14/2022 05:48:23 - INFO - trainer_prefix -     Starting fine-tuning.
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/__init__.py
+[The training objective is 1]
+[Return a ModelOutput instead of a plain tuple? False]
+[Tuning mode is prefixtune]
+[Adapting the size of the model embedding to include [PAD]]
+[Vocabulary size is 50257]
+[New Vocabulary size is 50258]
+<|endoftext|> 50256
+<|endoftext|> 50256
+[Loading the prefix model from None]
+[Training the prefix model from scratch. ]
+under the PrefixTuning model
+PrefixTuning
+preseqlen is 5, optimizing the prefix directly
+[Full prefix-tuning Setting :) ]
+torch.Size([5, 1024])
+torch.Size([512, 1024])
+torch.Size([512])
+torch.Size([49152, 512])
+torch.Size([49152])
+total param is 25744896
+nct
+nct
+FORMAT MODE IS  cat
+
+
+---------------------------
+
+
+model_args.model_name_or_path= gpt2-medium
+model_args.model_name_or_path= gpt2-medium
+before trainer.train(), model_path= gpt2-medium-s3
+def get_train_dataloader(self) -> DataLoader:
+def get_train_dataloader(self) -> DataLoader:
+self.get_train_dataloader()= <torch.utils.data.dataloader.DataLoader object at 0x7f8faac5de50>
+{'state': {}, 'param_groups': [{'weight_decay': 0.0, 'lr': 5e-05, 'betas': (0.9, 0.999), 'eps': 1e-08, 'correct_bias': True, 'params': [0, 1, 2]}, {'weight_decay': 0.0, 'lr': 5e-05, 'betas': (0.9, 0.999), 'eps': 1e-08, 'correct_bias': True, 'params': [3, 4]}]}
+epoch_iterator = train_dataloader
+epoch_iterator= <torch.utils.data.dataloader.DataLoader object at 0x7f8faac5d700>
+Traceback (most recent call last):
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py", line 980, in <module>
+    main()
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py", line 825, in main
+    trainer.train(model_path=model_path)
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/trainer_prefix.py", line 817, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/trainer_prefix.py", line 1183, in training_step
+    loss = self.compute_loss(model, inputs, gpt2_model=self.gpt2)
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/trainer_prefix.py", line 1220, in compute_loss
+    outputs = model(**inputs, gpt2_model=gpt2_model)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 167, in forward
+    outputs = self.parallel_apply(replicas, inputs, kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 177, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/parallel_apply.py", line 86, in parallel_apply
+    output.reraise()
+  File "/opt/conda/lib/python3.8/site-packages/torch/_utils.py", line 429, in reraise
+    raise self.exc_type(msg)
+RuntimeError: Caught RuntimeError in replica 1 on device 1.
+Original Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/parallel_apply.py", line 61, in _worker
+    output = module(*input, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/train_control.py", line 322, in forward
+    output = gpt2_model(input_ids=input_ids, control_code=None, weights=weights, emb_match=emb_match,
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/modeling_gpt2.py", line 942, in forward
+    transformer_outputs = self.transformer(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/modeling_gpt2.py", line 623, in forward
+    inputs_embeds = self.wte(input_ids)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/sparse.py", line 156, in forward
+    return F.embedding(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py", line 1916, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Input, output and indices must be on the current device
+

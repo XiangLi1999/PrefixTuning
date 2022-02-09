@@ -1,0 +1,5 @@
+> name: PipelineTemplate/transformers-20220114-13_47_12
+> commandline:
+cd /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers;bash /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/nct_models/nctprefixtune_y_5_act_cat_b\=5-e\=5_d\=0.0_u\=no_lr\=5e-05_w\=0.0_s\=101_r\=n_m\=512_o\=1_o\=1.sh
+> dependencies:
+

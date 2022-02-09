@@ -1,0 +1,42 @@
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/training_args.py:297: FutureWarning: The `evaluate_during_training` argument is deprecated in favor of `evaluation_strategy` (which has more options)
+  warnings.warn(
+01/14/2022 05:41:56 - INFO - __main__ -   Process rank: -1, device: cuda:0, n_gpu: 2, distributed training: False, 16-bits training: False
+01/14/2022 05:41:56 - INFO - __main__ -   Training/evaluation parameters TrainingArguments(output_dir='nct_models/nctprefixtune_y_5_act_cat_b=5-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1', overwrite_output_dir=True, do_train=True, do_eval=True, do_predict=False, evaluate_during_training=True, evaluation_strategy=<EvaluationStrategy.STEPS: 'steps'>, prediction_loss_only=False, per_device_train_batch_size=5, per_device_eval_batch_size=5, per_gpu_train_batch_size=None, per_gpu_eval_batch_size=None, gradient_accumulation_steps=1, learning_rate=5e-05, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, adam_epsilon=1e-08, max_grad_norm=1.0, num_train_epochs=5.0, max_steps=-1, warmup_steps=0, logging_dir='nct_models/runs/nctprefixtune_y_5_act_cat_b=5-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1', logging_first_step=False, logging_steps=500, save_steps=500000, save_total_limit=1, no_cuda=False, seed=101, fp16=False, fp16_opt_level='O1', local_rank=-1, tpu_num_cores=None, tpu_metrics_debug=False, debug=False, dataloader_drop_last=False, eval_steps=5000, dataloader_num_workers=4, past_index=-1, run_name=None, disable_tqdm=True, remove_unused_columns=True, label_names=None)
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/tokenization_utils_base.py:1322: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  warnings.warn(
+/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/__init__.py
+[The training objective is 1]
+[Return a ModelOutput instead of a plain tuple? False]
+[Tuning mode is prefixtune]
+[Adapting the size of the model embedding to include [PAD]]
+[Vocabulary size is 50257]
+[New Vocabulary size is 50258]
+<|endoftext|> 50256
+<|endoftext|> 50256
+[Loading the prefix model from None]
+[Training the prefix model from scratch. ]
+under the PrefixTuning model
+PrefixTuning
+preseqlen is 5, optimizing the prefix directly
+[Full prefix-tuning Setting :) ]
+torch.Size([5, 1024])
+torch.Size([512, 1024])
+torch.Size([512])
+torch.Size([49152, 512])
+torch.Size([49152])
+total param is 25744896
+nct
+Traceback (most recent call last):
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py", line 980, in <module>
+    main()
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py", line 702, in main
+    get_dataset(data_args, tokenizer=tokenizer, cache_dir=model_args.cache_dir, training_args=training_args,
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py", line 427, in get_dataset
+    dataset = LineByLineSumTextDataset(tokenizer=tokenizer, file_path=file_path,
+  File "/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/src/transformers/data/datasets/language_modeling.py", line 578, in __init__
+    self.length = [len(x) for x in Path(self.tgt_file).open().readlines()]
+  File "/opt/conda/lib/python3.8/pathlib.py", line 1221, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/opt/conda/lib/python3.8/pathlib.py", line 1077, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/data/ctorig/train_en-target'

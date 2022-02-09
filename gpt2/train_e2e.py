@@ -353,7 +353,7 @@ if __name__ == '__main__':
 
     model_path = '/mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/gpt2-medium'
 
-    COMMANDLINE="python /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/gpt2/run_language_modeling_light.py \
+    COMMANDLINE="python /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/PrefixTuning/gpt2/new_run_language_modeling_light.py \
         --output_dir={} \
         --model_type=gpt2 \
         --model_name_or_path={} \

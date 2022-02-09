@@ -218,6 +218,7 @@ class Attention(nn.Module):
         use_cache=False,
         output_attentions=False,
     ):
+        #print("modeling_gpt2.py::class attention::def forward")
         if encoder_hidden_states is not None:
             assert hasattr(
                 self, "q_attn"
@@ -231,10 +232,13 @@ class Attention(nn.Module):
         query = self.split_heads(query)
         key = self.split_heads(key, k=True)
         value = self.split_heads(value)
+        #print("query.shape=",query.shape)
+        #print("key.shape=",key.shape)
+        #print("value.shape=",value.shape)
         if layer_past is not None:
             past_key, past_value = layer_past[0].transpose(-2, -1), layer_past[1]  # transpose back cf below
-            # print(past_key.shape, key.shape)
-            # print(past_value.shape, value.shape)
+            #print("past_key.shape, key.shape=", past_key.shape, key.shape)
+            #print("past_value.shape, value.shape=",past_value.shape, value.shape)
             key = torch.cat((past_key, key), dim=-1)
             value = torch.cat((past_value, value), dim=-2)
 

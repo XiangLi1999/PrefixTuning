@@ -66,7 +66,6 @@ def default_data_collator(features: List[InputDataClass]) -> Dict[str, torch.Ten
 
     return batch
 
-
 @dataclass
 class DataCollatorWithPadding:
     """
@@ -114,7 +113,6 @@ class DataCollatorWithPadding:
             batch["labels"] = batch["label_ids"]
             del batch["label_ids"]
         return batch
-
 
 @dataclass
 class DataCollatorForLanguageModeling:
@@ -248,7 +246,6 @@ class DataCollatorForWeightedLanguageModeling:
                 )
             return pad_sequence(examples, batch_first=True, padding_value=self.tokenizer.pad_token_id)
 
-
 @dataclass
 class DataCollatorForWeightedLanguageModeling_Old:
     """
@@ -334,7 +331,6 @@ class DataCollatorForWeightedLanguageModeling_Old:
 
         # The rest of the time (10% of the time) we keep the masked input tokens unchanged
         return inputs, labels
-
 
 @dataclass
 class DataCollatorForEmbMatchLanguageModeling:
@@ -641,7 +637,6 @@ class DataCollatorForData2TextLanguageModeling:
         # The rest of the time (10% of the time) we keep the masked input tokens unchanged
         return inputs, labels
 
-
 @dataclass
 class DataCollatorForSumLanguageModeling:
     """
@@ -716,7 +711,6 @@ class DataCollatorForSumLanguageModeling:
                     f" ({self.tokenizer.__class__.__name__}) does not have one."
                 )
             return pad_sequence(examples, batch_first=True, padding_value=self.tokenizer.pad_token_id)
-
 
 @dataclass
 class DataCollatorForSumBatchGenLanguageModeling:
@@ -958,7 +952,6 @@ class DataCollatorForTopicLanguageModeling:
         # The rest of the time (10% of the time) we keep the masked input tokens unchanged
         return inputs, labels
 
-
 @dataclass
 class DataCollatorForLengthLanguageModeling:
     """
@@ -1044,7 +1037,6 @@ class DataCollatorForLengthLanguageModeling:
         # The rest of the time (10% of the time) we keep the masked input tokens unchanged
         return inputs, labels
 
-
 @dataclass
 class DataCollatorForClassificationSentimentLanguageModeling:
     """
@@ -1090,8 +1082,6 @@ class DataCollatorForClassificationSentimentLanguageModeling:
                     f" ({self.tokenizer.__class__.__name__}) does not have one."
                 )
             return pad_sequence(examples, batch_first=True, padding_value=self.tokenizer.pad_token_id)
-
-
 
 @dataclass
 class DataCollatorForKeywordLanguageModeling:
@@ -1243,7 +1233,6 @@ class DataCollatorForSOP(DataCollatorForLanguageModeling):
         # The rest of the time (10% of the time) we keep the masked input tokens unchanged
         return inputs, labels, attention_mask
 
-
 @dataclass
 class DataCollatorForPermutationLanguageModeling:
     """
@@ -1374,7 +1363,6 @@ class DataCollatorForPermutationLanguageModeling:
             ) & masked_indices[i]
 
         return inputs, perm_mask, target_mapping, labels
-
 
 @dataclass
 class DataCollatorForNextSentencePrediction:

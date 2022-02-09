@@ -1,0 +1,95 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  annotations:
+    pipelines.kubeflow.org/kfp_sdk_version: 1.4.0
+    pipelines.kubeflow.org/pipeline_compilation_time: '2022-01-14T13:47:10.088922'
+    pipelines.kubeflow.org/pipeline_spec: '{"description": "The transformers pipeline
+      is generated automatically by silkflow.", "name": "transformers"}'
+  generateName: transformers-
+  labels:
+    NB_USER: jieyixin.jyx
+    pipelines.kubeflow.org/kfp_sdk_version: 1.4.0
+spec:
+  arguments:
+    parameters: []
+  dnsPolicy: ClusterFirstWithHostNet
+  entrypoint: transformers
+  hostNetwork: true
+  podPriorityClassName: normal-priority
+  serviceAccountName: pipeline-runner
+  templates:
+  - affinity:
+      nodeAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          nodeSelectorTerms:
+          - matchExpressions:
+            - key: resource-group.bach.io/silkflow
+              operator: Exists
+    container:
+      args:
+      - -c
+      - 'echo "run PipelineTemplate/transformers-20220114-13_47_12 ...
+
+        " && echo ''{{workflow.name}}'' > /step-name.txt && chmod +x /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/silkflow_detail/meta/PipelineTemplate/transformers-20220114-13_47_12/run.sh
+        && /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/silkflow_detail/meta/PipelineTemplate/transformers-20220114-13_47_12/run.sh'
+      command:
+      - sh
+      env:
+      - name: NB_UID
+        value: '1371220'
+      - name: NB_USER
+        value: jieyixin.jyx
+      - name: SF_PROXY_USER
+        value: jieyixin.jyx
+      - name: SF_TASK_PATH
+        value: /mnt/nas/users/jieyixin.jyx/workspace/gitlab.alibaba-inc.com/jieyixin.jyx/runGPT2/Kexin/PrefixTuning/transformers/silkflow_detail/meta/PipelineTemplate/transformers-20220114-13_47_12
+      - name: SF_POD_NAME
+        valueFrom:
+          fieldRef:
+            fieldPath: metadata.name
+      image: reg.docker.alibaba-inc.com/silkflow/pytorch:1.8.1-cuda11.1-cudnn8-devel
+      resources:
+        limits:
+          cpu: '4'
+          memory: 16G
+          nvidia.com/gpu: '2'
+        requests:
+          cpu: '4'
+          memory: 16G
+      volumeMounts:
+      - mountPath: /mnt/nas
+        name: nsformers-20220114-13-47-12-2061
+      - mountPath: /etc/pod-info
+        name: pod-info
+        readOnly: true
+    metadata:
+      labels:
+        NB_USER: jieyixin.jyx
+        NUM_GPU: '2'
+    name: nsformers-20220114-13-47-12-2061
+    tolerations:
+    - effect: NoSchedule
+      key: sigma.ali/resource-pool
+      value: mit_bach
+    - effect: NoSchedule
+      key: sigma.ali/is-ecs
+      operator: Exists
+    volumes:
+    - name: nsformers-20220114-13-47-12-2061
+      persistentVolumeClaim:
+        claimName: silkflow-pvc
+    - downwardAPI:
+        items:
+        - fieldRef:
+            fieldPath: metadata.labels
+          path: labels
+        - fieldRef:
+            fieldPath: metadata.annotations
+          path: annotations
+      name: pod-info
+  - dag:
+      tasks:
+      - name: nsformers-20220114-13-47-12-2061
+        template: nsformers-20220114-13-47-12-2061
+    name: transformers
